@@ -1,2 +1,0 @@
-\section{Tablas Biométricas}
-Los resultados se exhibieron en la sección \ref{anx:sec_met_tabla_biometricas}

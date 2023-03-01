@@ -1,2 +1,0 @@
-\section{Base de Datos}
-La Valuación Actuarial del Seguro Social Campesino con fecha de corte al 31 de diciembre de 2020 incluye un archivo físico (CD) con la información de los archivos y bases de datos utilizados en la elaboración del presente estudio, mismos que fueron entregados por la Dirección Actuarial, de Investigación y Estadística del Instituto Ecuatoriano de Seguridad Social en formato .txt.
