@@ -1,0 +1,145 @@
+%---------------------------------------------------------------------------------------------------
+\chapter[Proyecciones demográficas]{Proyecciones demográficas}
+\label{chp_proy_demog_finan}
+%--------------------------------------------------------------------------------------------------
+
+\section{Supuestos demográficos}
+
+Se propone incrementar la tasa de cobertura de manera progresiva desde el año 2021 a 2060, hasta alcanzar un máximo de \Sexpr{REP$max_tasa_cob}\% respecto de la PEA en el año 2060. Con este supuesto sobre la tasa de cobertura se obtiene un crecimiento del \Sexpr{REP$media_crecimiento_afi_act}\% del número de afiliados de ambos sexos al Seguro General Obligatorio en el horizonte de proyección.
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Supuesto: tasa de cobertura sobre la fuerza laboral (PEA), ambos sexos, 2020 en adelante}
+\label{fig:iess_tcv}
+\includegraphics[ scale = 0.8 ]{graficos/iess_tcv.png}
+\caption*{\scriptsize {\bf Fuente:} Elaborada con datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+%--------------------------------------------------------------------------------------------------
+\section{Proyecciones demográficas}
+
+La carga pensional se proyecta de \Sexpr{REP$cap_2021} en el año 2021 y baja paulatinamente durante el período de proyección, ubicándose en \Sexpr{REP$cap_2060} para el año 2060. Los resultados se pueden observar en la figura \ref{fig:iess_carga_pen}.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución de la carga pensional}
+\label{fig:iess_carga_pen}
+\includegraphics[ scale = 0.9 ]{graficos/iess_carga_pen.png}
+\caption*{\scriptsize {\bf Fuente:} Elaborada con datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+\vspace*{-0.5cm}
+
+En las figuras \ref{fig:iess_act_inac_f}, \ref{fig:iess_act_inac_m} y \ref{fig:iess_fuerzat_m_f} se muestra las proyecciones de los afiliados activos e inactivos, por sexo, para el período 2021 a 2060. Se observa que el número de activos de sexo femenino es superior a los afiliados inactivos; para el sexo masculino, en los primeros años de proyección es mayor el número de afiliados inactivos. En el año 2020, la proporción de afiliados activos fue de \Sexpr{REP$pcjact_2020}\% y la de inactivos, fue de \Sexpr{REP$pcjinact_2020}\%. Para el año 2060 se proyecta una proporción de \Sexpr{REP$pcjact_2060} para activos y \Sexpr{REP$pcjinact_2060} para inactivos.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Número proyectado de cotizantes activos e inactivos, por año, sexo femenino, en millones de personas}
+\label{fig:iess_act_inac_f}
+\includegraphics[ scale = 0.85 ]{graficos/iess_act_inac_f.png}
+\caption*{\scriptsize {\bf Fuente:} Proyecciones. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+\vspace*{-0.7cm}
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Número proyectado de cotizantes activos e inactivos, por año, sexo masculino, en millones de personas}
+\label{fig:iess_act_inac_m}
+\includegraphics[ scale = 0.85 ]{graficos/iess_act_inac_m.png}
+\caption*{\scriptsize {\bf Fuente:} Proyecciones. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+La evolución, en el período de análisis, de la fuerza de trabajo y el total de afiliados activos para ambos sexos se muestra en la figura \ref{fig:iess_fuerzat_m_f}; se puede observar un crecimiento constante de las proyecciones. La fuerza de trabajo en el año 2020 fue de \Sexpr{REP$FL_2020}, mientras que el total de cotizantes activos fueron \Sexpr{REP$AFI_2020}, que representa el \Sexpr{REP$FL_AFI_2020}\%; en el año 2060 se estima \Sexpr{REP$FL_2060}
+personas en la fuerza de trabajo y \Sexpr{REP$AFI_2060} cotizantes activos, los cuales representan el \Sexpr{REP$FL_AFI_2060}\%.
+
+\begin{figure}[H] 
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección de la fuerza de trabajo y del total de cotizantes activos por año, ambos sexos, en millones de personas}
+\label{fig:iess_fuerzat_m_f}
+\includegraphics[ scale = 0.80 ]{graficos/iess_fuerzat_m_f.png}
+\caption*{\scriptsize {\bf Fuente:} Proyecciones. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+\vspace*{-0.5cm}
+En la figura \ref{fig:iess_pen_jv} se observa la proyección del número de pensionistas de vejez, de ambos sexos, para el período 2021 a 2060; se observa un incremento gradual en el horizonte de proyección. El número de mujeres pensionistas de vejez, proyectadas para el periodo 2021 es de \Sexpr{REP$jv_f}, y el número de hombres es de \Sexpr{REP$jv_m}; el número de mujeres aumenta a \Sexpr{REP$jv_f_2060} en el año 2060 y el de hombres a \Sexpr{REP$jv_m_2060}. 
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección: evolución del número de pensionistas de vejez, por año, ambos sexos, en miles de personas}
+\label{fig:iess_pen_jv}
+\includegraphics[ scale = 0.7 ]{graficos/iess_pen_jv.png}
+\caption*{\scriptsize {\bf Fuente:} Proyecciones. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+\vspace{-.7cm}
+
+¿En la gráfica \ref{fig:iess_pen_inv} se muestra la evolución (2012-2060) del número de pensionistas por invalidez-discapacidad (ambos sexos, incluidas las proyecciones), y se percibe un aumento constante desde 2012 hasta el 2020; asimismo, se observa que el número de pensiones de los hombres supera al de las mujeres en 2020. Para las mujeres, fueron registradas \Sexpr{REP$dis_f_2010} pensiones en 2010, \Sexpr{REP$dis_f_2020} en 2020 y \Sexpr{REP$dis_f_2060} en 2060. Para los hombres, \Sexpr{REP$dis_m_2010} en 2010, \Sexpr{REP$dis_m_2020} en 2020 y \Sexpr{REP$dis_m_2060} en 2060.
+\vspace{-0.5cm}
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección: evolución del número de pensionistas de invalidez, por año, ambos sexos, en miles de personas}
+\label{fig:iess_pen_inv}
+\includegraphics[ scale = 0.7 ]{graficos/iess_pob_dis.png}
+\caption*{\scriptsize {\bf Fuente:} Proyecciones. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+\vspace*{-0.7cm}
+En el caso de las pensiones de viudez, el número de mujeres (\Sexpr{REP$viu_f_2012} en 2012; \Sexpr{REP$viu_f_2020} en 2020 y \Sexpr{REP$viu_f_2060} en 2060) sigue siendo bastante más alto que el correspondiente a los hombres (\Sexpr{REP$viu_m_2012} en 2012, \Sexpr{REP$viu_m_2020} en 2020 y \Sexpr{REP$viu_m_2060} en 2060) durante todo el período de proyección, como muestra la gráfica \ref{fig:iess_pob_viu}.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección: evolución del número de pensionistas de viudez, por año, ambos sexos, en miles de personas}
+\label{fig:iess_pob_viu}
+\includegraphics[ scale = 0.8 ]{graficos/iess_pob_viu.png}
+\caption*{\scriptsize {\bf Fuente:} Proyecciones. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+La gráfica \ref{fig:iess_pob_orf} muestra la evolución del número de pensiones de orfandad. El número de pensionistas en 2012 fue \Sexpr{REP$orf_m_2012} hombres y \Sexpr{REP$orf_f_2012} mujeres; y en 2020, \Sexpr{REP$orf_m_2020} hombres y \Sexpr{REP$orf_f_2020} mujeres. Ese número tiende a converger hacia el final del período de proyección (2060), año para el cual se prevén \Sexpr{REP$orf_m_2060} hombres y \Sexpr{REP$orf_f_2060} mujeres.
+
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección: evolución del número de pensionistas de orfandad, por año, ambos sexos, en miles de personas}
+\label{fig:iess_pob_orf}
+\includegraphics[ scale = 0.8 ]{graficos/iess_pob_orf.png}
+\caption*{\scriptsize {\bf Fuente:} Proyecciones. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+\vspace*{-0.7cm}
+En la gráfica \ref{fig:iess_nuevos_pensi} se muestra la evolución del número de nuevos pensionistas por tipo. Se observa que las pensiones de vejez representan alrededor del 61\% al inicio del período, porcentaje que crece hasta 85\% al final de la proyección.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección: nuevos pensionistas por tipo, ambos sexos, miles de personas}
+\label{fig:iess_nuevos_pensi}
+\includegraphics[ scale = 0.8 ]{graficos/iess_nuevos_pensi.png}
+\caption*{\scriptsize {\bf Fuente:} Proyecciones. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+En el período de proyección, el número de hombres pensionistas como proporción de la población total de 60 años o más supera ligeramente a las mujeres (gráfica \ref{fig:iess_pob_cob}).
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección: pensiones de vejez:tasa de cobertura (60 años o más), por año, ambos sexos}
+\label{fig:iess_pob_cob}
+\includegraphics[ scale = 0.8 ]{graficos/iess_pob_cob.png}
+\caption*{\scriptsize {\bf Fuente:} Proyecciones. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}

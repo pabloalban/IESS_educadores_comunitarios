@@ -1,0 +1,350 @@
+%-----------------GASTOS ---------------------------------------------------
+\begin{landscape}
+\chapter{Anexos: Gastos }
+\label{chap_gastos}
+
+% Componentes egresos prestacionales
+
+A continuación, en la tabla  \ref{tab:iess_comp_egresos_ivm} se presenta la evolución de los egresos prestacionales como de los gastos de administración del Fondo de IVM correspondiente al período 2010 - 2020.
+
+%\vspace*{\fill}
+\begin{table}[H]
+\captionsetup{justification=centering}
+  \begin{center}
+  \caption{Evolución de los componentes de egresos del IVM}
+  \label{tab:iess_comp_egresos_ivm}
+  {\fontsize{6.5}{8.5}\selectfont
+  \begin{tabular}{rrrrrrrrrrrr}
+    \toprule
+    Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+   de las cuentas   &      &      &      &      &      &      &      &      &      &      &      \\
+    \midrule
+    \input{tablas/iess_comp_egresos_ivm.tex}
+    \bottomrule
+  \end{tabular}
+  }
+\caption*{\scriptsize {\bf Fuente:} Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+{\bf Elaborado:} DAIE.}
+  \end{center}
+\end{table}
+
+{\fontsize{9}{10}\selectfont
+\begin{quotation}
+\textbf{Nota:} Cabe mencionar que los balances del IESS en el período 2010 al 2020 han sufrido cambios en los códigos de cuentas, creación de cuentas, por lo que presenta variación y optimización en las siguientes partidas:
+
+\begin{itemize}
+\item	Entre el año 2010 al 2012  los Gastos poseían seis cuentas como son “Egresos Prestacionales IESS”,  “Pérdida Venta Activos”, “Gastos Operación y Ser. Varios”, “Gastos Ejercicios Anteriores”, “Deprec. Propiedades y Eq. Especial” y  “Provisiones”;
+\item	A partir del 2013 la cuenta  “Egresos Prestacionales IESS” cambia de nombre a “Gastos Operacionales Directos”, y se crea la cuenta “Gastos de Administración”.
+\end{itemize}
+\end{quotation}
+}
+
+\end{landscape}
+
+%Análisis horizontal y vertical de los egresoso prestacionales y gastos de administración
+\begin{landscape}
+\section{Análisis horizontal y vertical de los egresos prestacionales y gastos de administración}
+
+En las tablas \ref{tab:iess_analisis_horizontal_egresos_ivm} y  \ref{tab:iess_analisis_vertical_egresos_ivm}, se presentan los análisis horizontal y vertical del Fondo de IVM del período 2010 a 2020.
+
+
+\begin{table}[H]
+\captionsetup{justification=centering}
+  \begin{center}
+  \caption{Análisis horizontal de los egresos prestacionales y gastos de administración del IVM. Porcentaje de
+  variación de cada año con respecto al año anterior}
+  \label{tab:iess_analisis_horizontal_egresos_ivm}
+  {\fontsize{7.5}{9.5}\selectfont
+  \begin{tabular}{rrrrrrrrrrr}
+    \toprule
+    Descripción    & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+   de las cuentas  &      &      &      &      &      &      &      &      &      &     \\
+    \midrule
+    \input{tablas/iess_egresos_horiz_ivm.tex}
+    \bottomrule
+  \end{tabular}
+  }
+\caption*{\scriptsize {\bf Fuente:} Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+{\bf Elaborado:} DAIE.}
+  \end{center}
+\end{table}
+
+
+
+Los egresos por prestaciones pagadas mantiene variaciones positivas entre el 2011 al 2020, las cuales crecieron anualmente en promedio (geométrico) en 13,63\%. El aumento sostenido de los egresos obedece principalmente al pensionamiento de afiliados y al aumento de las pensiones, mismas que crecieron de acuerdo con la inflación a partir del año 2016.
+Sin embargo, a partir del 2018 los egresos prestacionales crecieron en menor proporción, pasando del 7,04\% (2018/2017) a 7,78\% (2020/2019).
+
+
+\end{landscape}
+
+
+\begin{landscape}
+
+\begin{table}[H]
+\captionsetup{justification=centering}
+\begin{center}
+\caption{Análisis vertical de la evolución de los egresos prestacionales y gastos de administración del Fondo de IVM}
+\label{tab:iess_analisis_vertical_egresos_ivm}
+{\fontsize{7.5}{9.5}\selectfont
+\begin{tabular}{rrrrrrrrrrrr}
+\toprule
+Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+de las cuentas  &      &      &      &      &      &      &      &      &      &      &      \\
+\midrule
+\input{tablas/iess_egresos_vert_ivm.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+{\bf Elaborado:} DAIE.}
+  \end{center}
+\end{table}
+
+
+
+Los “Egresos Prestacionales” es la cuenta con mayor representatividad del total, con un peso promedio del 96,82\% para el período analizado; debido que en la misma se encuentra los gastos por pensiones, auxilio de funerales y ayuda mortuoria y otros gastos directos. 
+
+El segundo lugar lo ocupa la cuenta “Gastos de Administración” en el período 2010 – 2012, manteniendo un porcentaje de representatividad del 3,02\%; en la misma se encuentran rubros como contribución a la administradora. El tercer lugar lo ocupa otros gastos en los cuales se consideran las depreciaciones de bienes inmuebles y gastos por deterioro de propiedad.
+
+\end{landscape}
+
+%  % Componentes de los egresos ---------------------------------------------------------------------
+% En la tabla \ref{tab:iess_comp_egresos_ivm} se presenta la evolución de los componentes de los egresos por prestaciones
+% 
+% \begin{landscape}
+% \vspace*{\fill}
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de los componentes de los egresos por prestaciones del IVM}
+%   \label{tab:iess_comp_egresos_ivm}
+%   {\fontsize{6.5}{8}\selectfont
+%   \begin{tabular}{rrrrrrrrrrrr}
+%     \toprule
+%     Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+%    de las cuentas  &      &      &      &      &      &      &      &      &      &      &      \\
+%     \midrule
+%     \input{tablas/iess_comp_egresos_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+% Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% \begin{quotation}
+% \textbf{Nota:} Cabe mencionar que los balances del IESS en el periodo 2010 al 2020 han sufrido cambios en los códigos de cuentas, creación de cuentas, por lo que presenta variación y optimización en las siguientes partidas:
+% 
+% \begin{itemize}
+% \item Entre el año 2010 al 2012  los Gastos poseían seis cuentas como son “Egresos Prestacionales IESS”,  “Pérdida Venta Activos”, “Gastos Operación y Ser. Varios”, “Gastos Ejercicios Anteriores”, “Deprec. Propiedades y Eq. Especial” y  “Provisiones”;
+% \item	A partir del 2013 la cuenta  “Egresos Prestacionales IESS” cambia de nombre a “Gastos Operacionales Directos”, y se crea la cuenta “Gastos de Administración”  en la que se consolida como una subcuenta las depreciaciones.
+%  \end{itemize}
+% \end{quotation}
+% \vspace*{\fill}
+% \end{landscape}
+% 
+% % --------------------------------------------------------------------
+% \subsection{Análisis horizontal y vertical de los componentes del gasto}
+% \label{chp_infofinan:egresos_horiz_vert}
+% 
+% En las tablas \ref{tab:iess_egresos_horiz_ivm} y \ref{tab:iess_egresos_vert_ivm}, se presentan los análisis horizontal y vertical de los gastos del Fondo de IVM del período 2010 a 2020.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Análisis horizontal de la evolución de los gastos del fondo de IVM}
+%   \label{tab:iess_egresos_horiz_ivm}
+%   {\fontsize{7}{7}\selectfont
+%   \begin{tabular}{rrrrrrrrrrr}
+%     \toprule
+%     Descripción & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017& 2018 & 2019& 2020  \\
+%     de las cuentas  &       &         &      &      &      &      &      &      &      &   \\
+%     \midrule
+%     \input{tablas/iess_egresos_horiz_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+% Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% El incremento de los egresos por prestaciones pagadas (Gastos Operacionales Directos) sigue una tendencia positiva entre el 2011 al 201-6 las tasa de variación crecieron anualmente en promedio (geométrico) en 15,88\%. El aumento sostenido de los egresos obedece principalmente al pensionamiento de afiliados y al aumento de las pensiones, mismas que crecieron de acuerdo con la inflación a partir del año 2016.
+% 
+% Sin embargo a partir del 2018 los “Gastos Operacionales Directos” crecen en menor proporción, pasando del 7,04\% (2018/2017) a 7,78\% (2020/2019).
+% 
+% 
+% % Análisis vertical de los egresos ------------------------------------------------------------------
+% 
+% \begin{table}[H]
+%   \begin{center} % centering{}
+%   \caption{Análisis vertical de la evolución de los gastos pagados por las prestaciones de IVM.
+% (Valores en porcentaje \%).}
+%   \label{tab:iess_egresos_vert_ivm}
+%   {\fontsize{7}{7}\selectfont
+%    \begin{tabular}{rrrrrrrrrrrr} %r right
+%     \toprule
+%    Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+%     de las cuentas  &      &      &      &      &      &      &      &      &      &      &     \\
+%     \midrule
+%     \input{tablas/iess_egresos_vert_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Los “Egresos Prestacionales/Gastos Operacionales Directos” es la cuenta con mayor representatividad del total de los egresos, con un peso promedio del 97,43\% para el período analizado; debido que en la misma se encuentra los gastos por pensiones, gastos prestacionales por subsidios y otros gastos directos. 
+% 
+% El segundo lugar lo ocupa la cuenta “Gastos Operación y Ser. Varios” en el periodo 2010 – 2012, en la que se encuentran rubros como gastos por comisiones, gastos por servicios bancarios e impuestos/tasas; a partir del año 2013 hasta el 2020 dicho lugar lo ocupa la cuenta “Gastos de Administración” con una representatividad promedio del 1,79\%, misma que se encuentra conformada por contribuciones y gastos por depreciaciones.
+% 
+% % FIGURA 5.11 BARRAS
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Porcentaje promedio de representatividad de los componentes del Gasto correspondiente al período 2010 – 2020}
+% \label{fig:iess_porcent_prom_comp_egres_ivm}
+% \includegraphics[scale=1]{graficos/iess_porcent_prom_comp_egres_ivm.png}
+% \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% 
+
+%Gastos prestacionales por pensiones ---------------------------------------------
+
+% \subsection{Gastos prestacionales por pensiones}
+% \label{chp_infofinan:iess_gastosprestpens_ivm}
+% 
+% Los egresos por pago de las pensiones de IVM para el período 2010 al 2020 se muestran a continuación en la tabla \ref{tab:iess_gastxprest_IVM} y figura \ref{fig:iess_egresosxpagpensiones_ivm}.
+% 
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de egresos por prestaciones del IVM}
+%   \label{tab:iess_gastxprest_IVM}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{crr}
+%   \toprule
+%   Año  & Pensiones de Invalidez,  &  Tasa de variación de  \\
+%        & Vejez y Montepío         &  las pensiones pagadas \\
+%   \midrule
+%   \input{tablas/iess_gastxprest_IVM.tex}
+%   \bottomrule
+%   \end{tabular}
+%   }
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados - DNGF \\
+% Elaborado: DAIE.}
+% \end{center}
+% \end{table}
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Evolución de los egresos por pensiones del IVM}
+% \label{fig:iess_egresosxpagpensiones_ivm}
+% \includegraphics[scale=1.0]{graficos/iess_egresosxpagpensiones_ivm.png}
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados - DNGF \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% Los egresos por pensiones incluyen el pago de pensiones de vejez, discapacidad, invalidez, montepío, magisterio adicional a cargo del IESS y sus respectivas decimotercera y decimocuarta pensión. Además de estas pensiones, dentro de los balances en esta cuenta se incluye el pago de pensiones a Héroes y Heroínas y el incremento de la Ley 2004-39. Los gastos pensionales siguen una tendencia positiva entre el 2010 al 2020 con un crecimiento anual promedio del 14,26\%.
+% 
+% Entre el 2010 y el 2013 se observa un crecimiento porcentual acelerado de la masa pensional causado por el incremento de las pensiones otorgadas y de las pensiones mínimas y máximas que están atadas al Salario Básico Unificado, misma que tuvieron tasas de variación positivas del 14,62\% al 25,25\% siendo esta última la más significativa del periodo analizado.
+% 
+% A partir del 2016 los incrementos de pensiones se ataron a la inflación promedio anual del año anterior, lo que ocasionó que el crecimiento de la masa pensional se desacelere pasando del 14,06\% (2016) a 7,65\% (2020). Es importante mencionar que las pensiones de vejez y retiro representan el 96\% del total de egresos por pago de pensionales, estos beneficios comprenden doce pensiones al año añadidas los decimotercera y decimocuarta pensión.
+% 
+% %----------------------------------------------------------------------------------
+% \subsection{Otros gastos prestacionales}
+% \label{chp_infofinan:iess_otrgastosprest_ivm}
+% 
+% El comportamiento de los egresos por otros gastos prestacionales entregados de este fondo se presenta en la tabla \ref{tab:iess_otrgastosprest_ivm}.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de otros beneficios de IVM}
+%   \label{tab:iess_otrgastosprest_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{c*{4}{r}}
+%   \toprule
+%   Año & 13ra Pensión & 14ta Pensión & Auxilios funerales &  Total \\
+%   \midrule
+%   \input{tablas/iess_otrgastosprest_ivm.tex}
+%   \bottomrule
+%   \end{tabular}
+%   }
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+% Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Para los años 2017, 2018, 2019 y 2020 los conceptos de decimotercera y decimocuarta pensiones aparecen sumados al rubro pensiones de vejez y retiro como un total dentro de gastos prestacionales por pensiones correspondiente al balance de resultados.
+% 
+% Se observa que el total de “otros gastos prestacionales” mantuvo un crecimiento constante desde el 2010 hasta el 2016 con una tasa de variación positiva de 153,83\%; sin embargo a partir del 2017 decrece significativamente en -95,24\% respecto al año anterior, es decir disminuyo en USD. 384.314.047,00. Cabe mencionar que en el año 2020 el gasto por auxilios funerales y ayuda mortuoria creció en 34,04\% (USD. 7.549.899,86) respecto al 2019, aquello debido en parte a la crisis sanitaria vivida en el país.
+% 
+% 
+% % ----------------------------------------------------------------------------
+% \subsection{Gastos administrativos}
+% \label{chp_infofinan:iess_gastosadminis_ivm}
+% 
+% Los gastos administrativos se presentan a continuación en la tabla \ref{tab:iess_gastosadminis_ivm} correspondiente al periodo 2010 – 2020.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución del gasto contribución administradora del IVM}
+%   \label{tab:iess_gastosadminis_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{c*{3}{r}}
+%   \toprule
+%   Año & Gasto Contribución & Crecimiento de gasto & Crecimiento Porcentual de \\
+%       & Administradora     & Contribución         & Gasto Contribución        \\
+%       &                    & Administradora       & Administradora            \\
+%   \midrule
+%   \input{tablas/iess_gastcontradmin_ivm.tex}
+%   \bottomrule
+%   \end{tabular}
+%   }
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados - DNGF. \\
+% Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% El gasto “contribución administradora” en el año 2020 con respecto al año 2010 mantuvo una tasa de crecimiento del 69,07\%; sin embargo con el impacto de la aplicación de la Resolución No. C.D. 501 de 13 de noviembre de 2015, la misma sufre el mayor decrecimiento en el año 2016 del -43,80\%.
+% 
+% A partir del año 2017 hasta el 2019 se aprecia un crecimiento promedio anual del gasto de 25,17\%, evidenciando el mayor gasto en el 2019 por un valor de USD.106.195.703,40; en el 2020 se evidencia una tasa de variación negativa del 8,03\%, pasando de USD. 106.195.703,40 (2019) a USD. 97.672.311,66 (2020).
+% 
+% 
+% %-------------------------------------------------------------------------------------
+ \section{Ingresos por aportes versus gastos pensionales}
+ \label{chp_infofinan:iess_ingrvsgast_ivm}
+
+ Se presenta en la tabla \ref{tab:iess_ingrvsgast_ivm} la evolución de los ingresos por aportes (personal y patronal) de los afiliados activos versus los gastos pensionales de este fondo por cada año.
+
+ El resultado corresponde a la diferencia entre los aportes de los afiliados y los gastos pensionales.
+
+ \begin{table}[H]
+ \captionsetup{justification=centering}
+  \begin{center}
+  \caption{Evolución de ingresos por aportes vs los gastos pensionales del Fondo del IVM}
+   \label{tab:iess_ingrvsgast_ivm}
+   {\fontsize{8}{10}\selectfont
+   \begin{tabular}{c*{5}{r}}
+   \toprule
+   Año & Aportes       & Total Gastos & Resultado & Utilización & Contribución a la  \\
+       & de Afiliados  & Pensionales  &           & Anual (\%)     & Reserva (\%)\\
+   \midrule
+   \input{tablas/iess_ingresos_v_gastos_ivm.tex}
+   \bottomrule
+   \end{tabular}
+   }
+ \caption*{\scriptsize {\bf Fuente:} Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados - DNGF. \\
+ {\bf Elaborado:} DAIE.}
+   \end{center}
+ \end{table}
+%
+% Al realizar una comparación entre las cuentas de ingresos por aportes sobre los gastos pensionales se puede observar que desde el año 2014 hasta el año 2020 el gasto es superior a los ingresos por aportes (déficit), por lo que fue necesario recurrir de ingresos adicionales para cubrir dicha brecha que se obtuvo a través de las desinversiones realizadas.
+% 
+% Como se observa en la tabla \ref{tab:iess_ingrvsgast_ivm} el año 2020 registró el mayor déficit por un valor de USD. 2.083 millones.
+

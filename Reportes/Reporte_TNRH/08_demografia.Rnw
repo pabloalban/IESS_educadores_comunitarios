@@ -1,0 +1,623 @@
+\chapter[Análisis demográfico]{Análisis demográfico}
+\label{chp_demog}
+\section{Estructura demográfica de la población afiliada}
+A continuación presentamos un análisis tabular y gráfico de las principales variables demográficas, salariales, aportaciones y montos de pensiones pagadas, de la población asegurada y beneficiaria.
+
+%-------------------------------------------------------------------------------
+\subsection{Afiliados}
+\label{chp_demog:afi}
+
+%---------------------------------------------------------------------------------------------------
+Para el presente estudio se considera el número de afiliados activos a diciembre de cada año; en la
+tabla \ref{tab:iess_afi_acti2_tnrh} y figura \ref{fig:afi_acti2_tnrh} se muestra a la población
+afiliada en el período 2015 - 2020, observándose un crecimiento promedio del 37.87\% anual.
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución de la población afiliada}
+\label{tab:iess_afi_acti2_tnrh}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{*{5}{r}}
+\toprule
+Año	& Afiliados   & Porcentaje de \\
+    & activos     & incremento \\
+\midrule
+\input{tablas/iess_afi_acti2_tnrh.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Portal BI. Cubo Historia Laboral Activos. \\
+{\bf Elaborado:} DAIE.}
+\end{table}
+
+A diciembre de 2020 existen 306.994 afiliados activos, que representa un crecimiento del 274,21\% en comparación al año 2015.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución de la población afiliada}
+\label{fig:afi_acti2_tnrh}
+\includegraphics[scale=0.8]{graficos/afi_acti2_tnrh.png}
+\caption*{\scriptsize {\bf Fuente:} Portal BI. Cubo Historia Laboral Activos. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+En la figura \ref{fig:iess_pir_afiliados_tnrh} se presenta la distribución por edad de población afiliada.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Distribución por edad de la población afiliada}
+\label{fig:iess_pir_afiliados_tnrh}
+\includegraphics[scale=0.8]{graficos/iess_pir_afiliados_tnrh.png}
+\caption*{\scriptsize {\bf Fuente:} Portal BI. Cubo Historia Laboral Activos. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+El total de afiliados a diciembre de 2020 es de 306 994 mujeres. La edad
+promedio de la población es de 39,7 años
+
+% -----------------------------------------------------------------------------------------------
+\subsection{Masa salarial}
+\label{chp_masa:salarial}
+% -----------------------------------------------------------------------------------------------
+
+En la tabla \ref{tab:iess_masa_salarial_tnrh} y figura \ref{fig:iess_masa_salarial_tnrh} se presenta
+la evolución anual de la masa salarial y la correspondiente al mes de diciembre para el período 2015
+al 2020.
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución de la masa salarial (Período 2015 – 2020)}
+\label{tab:iess_masa_salarial_tnrh}
+%\scalebox{0.8}{
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{*{5}{r}}
+\toprule
+Año	& Masa salarial & Masa salarial      & Crecimiento de la         & Porcentaje de\\
+    & anual (USD)   & de diciembre (USD) & masa salarial anual (USD) & crecimiento\\
+\midrule
+\input{tablas/iess_masa_salarial_tnrh.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Base de datos de planillas. \\
+{\bf Elaborado:} DAIE.}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Masa salarial anual en el período 2015 – 2020 }
+\label{fig:iess_masa_salarial_tnrh}
+\includegraphics[scale=0.8]{graficos/iess_masa_salarial_tnrh.png}
+\caption*{\scriptsize {\bf Fuente:} Base de datos de planillas. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+
+% %---------------------------------------------------------------------------------------------------
+% \chapter[Análisis demográfico y prestacional]{Análisis demográfico y prestacional}
+% \label{chp_demog}
+% A continuación presentamos un análisis tabular y gráfico de las principales variables demográficas, salariales, aportaciones y montos de pensiones pagadas, de la población asegurada y beneficiaria.
+% \section{Estructura demográfica de la población afiliada al SGO} \label{chp_demog}
+% \subsection{Afiliados}
+% Para el presente estudio se considera el número de afiliados \footnote{Se excluye a las Trabajadoras No Remuneradas del Hogar debido a que no aportan al SSC} activos a diciembre de cada año; en la tabla \ref{tab:iess_afi_activos_ssc} y figura \ref{fig:iess_afi_activos_ssc} se muestra a la población afiliada en el período 2005 - 2020, observándose un crecimiento promedio del 5,99 \% anual.
+% 
+% \begin{table}[H]
+% \begingroup\scriptsize\centering
+% \setlength\extrarowheight{1pt}
+% \setlength\aboverulesep{-0.5pt}
+% \setlength\belowrulesep{0pt}
+%   \caption{Evolución de la población afiliada}
+%   \label{tab:iess_afi_activos_ssc}
+%   {\fontsize{10}{12}\selectfont
+% 
+%   \arrayrulecolor{black}
+%   \begin{tabular}{r!{\color{white}\vrule}R{1.5cm}!{\color{white}\vrule}R{2cm}} %r right
+%     \toprule \rowcolor{iess_green!60}
+%       %\multicolumn{1}{r!{\color{white}\vrule}}{Año}
+%         \multirow{2}[0]{*}{\textbf{Año}}
+%       & \textbf{Afiliados activos} & \textbf{Tasa de variación (\%)}\\
+%     \midrule
+%     \input{tablas/iess_afi_activos_sgo.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Portal BI. Cubo Historia Laboral Activos. \\
+%   Elaborado: DAIE.}
+% \endgroup
+% \end{table}
+% 
+% A diciembre de 2020 existen 2.851.255 afiliadoss activos, que representa un crecimiento del 131,15 \% en comparación al año 2005.
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Evolución de la población afiliada al SGO}
+% \label{fig:iess_afi_activos_ssc}
+% \includegraphics[scale=0.8]{graficos/iess_pob_afi_ini_sgo.png}
+% \caption*{\scriptsize Fuente: Portal BI. Cubo Historia Laboral Activos. \\
+% Elaborado: DAIE.}
+% \end{figure}
+% 
+% A continuación se presenta la distribución de población afiliada por edad y sexo en la
+% pirámide poblacional de la figura \ref{fig:iess_pir_afiliados}.
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Distribución por edad y sexo de la población afiliada}
+% \label{fig:iess_pir_afiliados}
+% \includegraphics[scale=0.8]{graficos/iess_pir_afiliados.png}
+% \caption*{\scriptsize Fuente: Portal BI. Cubo Historia Laboral Activos. \\
+% Elaborado: DAIE.}
+% \end{figure}
+% 
+% Del total de afiliados a diciembre de 2020, el 42,73 \% son mujeres y el 57,27 \% son hombres. La edad promedio de la población femenina es de 41,3 años, mientras que la población masculina es de 39,7 años.
+% 
+% \subsection{Masa Salarial}
+% En la tabla \ref{tab:iess_masa_salarial_sgo} y figura \ref{fig:iess_masa_salarial} se presenta la evolución anual de la masa salarial \footnote{Se excluye a las Trabajadoras No Remuneradas del Hogar debido a que no aportan al SSC} y la correspondiente al mes de diciembre para el período 2005 al 2020.
+% 
+% \begin{table}[H]
+%  \begingroup\scriptsize\centering
+% \setlength\extrarowheight{1pt}
+% \setlength\aboverulesep{-0.5pt}
+% \setlength\belowrulesep{0pt}
+%   \caption{Evolución de la masa salarial (Período 2005 – 2020)}
+%   \label{tab:iess_masa_salarial_sgo}
+%   {\fontsize{10}{12}\selectfont
+% 
+%   \begin{tabular}{r!{\color{white}\vrule}R{2.5cm}!{\color{white}\vrule}R{2.5cm}!{\color{white}\vrule}
+%                   R{3.0cm}!{\color{white}\vrule}R{2.0cm}}
+%   \rowcolor{iess_green!60}
+%     \toprule
+%     \rowcolor{iess_green!60}
+%    \multirow{2}[0]{*}{\textbf{Año}} & \textbf{Masa Salarial anual (USD)} & \textbf{Masa Salarial diciembre (USD)} & \textbf{Variación de la masa salarial anual (USD)} & \textbf{Tasa de variación (\%)}\\
+% 
+%     \midrule
+%     \input{tablas/iess_masa_salarial.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Base de datos de planillas. \\ Elaborado: DAIE}
+%   \endgroup
+% \end{table}
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Masa salarial anual en el período 2005 – 2020}
+% \label{fig:iess_masa_salarial}
+% \includegraphics[scale=0.8]{graficos/iess_masa_salarial.png}
+% \caption*{\scriptsize Fuente: Base de datos de planillas. \\
+% Elaborado: DAIE.}
+% \end{figure}
+% 
+% Se observa un rápido crecimiento de la masa salarial en el período 2005 al 2015, con una tasa promedio anual del 13,63 \%. Para el año 2020, la masa salarial tiene un valor de USD 25.688.790.710,51 que representa un crecimiento del 526,29 \% en comparación del año 2005.
+% 
+% En la figura \ref{fig:iess_pir_masa_salarial} se muestra la distribución del salario declarado de los afiliados por sexo a diciembre de 2020.
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Distribución del salario declarado de los afiliados por sexo a diciembre de 2020}
+% \label{fig:iess_pir_masa_salarial}
+% \includegraphics[scale=0.8]{graficos/iess_pir_masa_salarial.png}
+% \caption*{\scriptsize Fuente: Base de datos de planillas. \\
+% Elaborado: DAIE.}
+% \end{figure}
+% 
+% El salario promedio declarado por parte de las mujeres a diciembre 2020 es USD 731,62 y para los hombres es de USD 775.
+% 
+% En la tabla \ref{tab:iess_afi_tiempo_aportacion} se presenta la población afiliada al IESS por rangos de edad,  número de aportaciones y sueldo promedio:
+% \begin{landscape}
+% \begin{table}[H]
+% \begingroup\scriptsize\centering
+% \setlength\extrarowheight{1pt}
+% \setlength\aboverulesep{-0.5pt}
+% \setlength\belowrulesep{0pt}
+% \captionsetup{justification=centering, width = 1.5\textwidth}
+% \caption{Población afiliada al IESS por rangos de edad, número de aportaciones y sueldo promedio a diciembre de 2020}
+% \label{tab:iess_afi_tiempo_aportacion}
+% 
+% \scalebox{0.99}{
+% 
+% \begin{tabular}{r|crrrrrrrrrr|c}
+% \toprule
+% \multicolumn{1}{c|}{\multirow{2}[4]{*}{{\textbf{Edad}}}} & \multicolumn{11}{p{20em}|}{{\textbf{Tiempo de afiliación}}} & \multicolumn{1}{c}{\multirow{2}[4]{*}{{\textbf{Total}}}} \\
+% \rowcolor{iess_green!60}
+% \textbf{Edad} & \textbf{[0 , 5]} & \textbf{[6 , 10]} & \textbf{[11 , 15]} & \textbf{[16 , 20]} & \textbf{[21 , 25]} & \textbf{[26 ,30]} & \textbf{[31 , 35]} & \textbf{[36 , 40]} & \textbf{[41 , 45]}  & \textbf{[46 , 50]} & \text{\textbf{$>50$}} & \textbf{Total}\\
+% \midrule
+% \input{tablas/iess_afi_tiempo_aportacion.tex}
+% \bottomrule
+% \end{tabular}
+% }
+% \caption*{\scriptsize Fuente: Base de datos de planillas. \\
+% Elaborado: DAIE.}
+% \endgroup
+% \end{table}
+% \vspace{-1cm}
+% La matriz precedente detalla la cantidad de afiliados activos a la fecha corte de este estudio, clasificados por edad, tiempo de aportes en años y el valor promedio del sueldo sobre el que se aporta. En esta matriz se detectan afiliados con edades superiores a los 90 años.
+% 
+% Además se observa que el 34 \% de la población afiliada tiene entre 0 y 5 años aportados, que el 50 \% de la población afiliada está comprendida entre 25 y 45 años de edad; y, que las personas que más años aportados tienen les corresponden los salarios promedios más altos (USD 825,21 en promedio de sueldos). La población entre 40 y 45 años tiene el promedio de sueldos más altos.
+% La población entre 41 y 45 años tiene el promedio de sueldos más altos (USD 870,12 en promedio de sueldos).
+% 
+% \end{landscape}
+% % --------------------------------------------------------------------------------------------------
+% \section{Estructura demográfica de la población afiliada al SSC} \label{chp_demog}
+% \subsection{Afiliados activos (Jefes de familia)}
+% Dentro de los afiliados activos también se encuentran los jubilados cotizantes, pese que a partir de la Resolución No. C.D. 516 de 30 de marzo de 2016, esta figura desaparece; sin embargo, debido a que todavía existen en los registros administrativos se los considera dentro de este grupo. Con esta consideración, el número de afiliados activos a diciembre de cada año para el período 2011-2020 se presenta en la tabla \ref{tab:iess_afi_hist_ssc} y figura \ref{fig:iess_afi_hist_ssc}.
+% 
+% \begin{table}[H]
+% \begingroup\scriptsize\centering
+% \setlength\extrarowheight{1pt}
+% \setlength\aboverulesep{-0.5pt}
+% \setlength\belowrulesep{0pt}
+%   \caption{Evolución de la población afiliada al SSC}
+%   \label{tab:iess_afi_hist_ssc}
+%   {\fontsize{10}{12}\selectfont
+% 
+%   \begin{tabular}{r!{\color{white}\vrule}R{3.0cm}!{\color{white}\vrule}R{2.0cm}} %r right
+% 
+%     \toprule
+%     \rowcolor{iess_green!60}
+%     \multirow{2}[0]{*}{\textbf{Año}}	& \textbf{Afiliados activos y	Jubilados cotizantes}
+%     & \textbf{Porcentaje de variación (\%)} \\
+%     \midrule
+%     \input{tablas/iess_afi_hist_ssc.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Base de datos de planillas. \\
+% Elaborado: DAIE.}
+%   \endgroup
+% \end{table}
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Evolución de la población afiliada al SSC}
+% \label{fig:iess_afi_hist_ssc}
+% \includegraphics[scale=0.8]{graficos/iess_afi_hist_ssc.png}
+% \caption*{\scriptsize Fuente: Base de datos de planillas. \\
+% Elaborado: DAIE.}
+% \end{figure}
+% 
+% A diciembre de 2020 existen 377.546 afiliados activos, que representa un crecimiento del 36,62 \% en comparación al año 2011.
+% A continuación, en la figura \ref{fig:iess_afi_edad_sexo} se presenta la distribución de población afiliada activa por edad y sexo.
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Distribución de la población afiliada activa del SSC por sexo y edad}
+% \label{fig:iess_afi_edad_sexo}
+% \includegraphics[scale=0.8]{graficos/iess_afi_edad_sexo_ssc.png}
+% \caption*{\scriptsize Fuente: Base de datos de planillas. \\
+% Elaborado: DAIE.}
+% \end{figure}
+% 
+% Del total de afiados activos, a diciembre de 2020, el 38,67 \% son mujeres y el 61,33 \% son hombres. La edad promedio de la población femenina es de 52,41 años, mientras que la población masculina es de 54,04 años.
+% 
+% \subsection{Ingresos por aportes de los jefes de familia del SSC}
+% En la tabla \ref{tab:iess_masa_salarial_jefe} y en la figura \ref{fig:iess_masa_salarial_ssc_jefe} se presenta la evolución anual del ingreso por aportes y el correspondiente al mes de diciembre para el período 2009 al 2020 \footnote{Existen diferencias con los valores presentados en los Estados de Resultados}.
+% 
+% \begin{table}[H]
+% 
+% \begingroup\scriptsize\centering
+% \setlength\extrarowheight{1pt}
+% \setlength\aboverulesep{-0.5pt}
+% \setlength\belowrulesep{0pt}
+%   \caption{Evolución del ingreso por aportes de jefes de familia (Período 2009 – 2020)}
+%   \label{tab:iess_masa_salarial_jefe}
+%   {\fontsize{10}{12}\selectfont
+%   \begin{tabular}{r!{\color{white}\vrule}R{3.0cm}!{\color{white}\vrule}
+%                   R{3.0cm}!{\color{white}\vrule}R{3.5cm}!{\color{white}\vrule}R{2.0cm}} %r right
+%     \toprule
+%     \rowcolor{iess_green!60}
+%     \multirow{2}[0]{*}{\textbf{Año}}	& \textbf{Ingreso por aportes anual (USD)} & \textbf{Ingreso por aportes diciembre (USD)}
+%     & \textbf{Variación del ingreso por aportes anual (USD)} & \textbf{Tasa de variación (\%)}\\
+% 
+%     \midrule
+%     \input{tablas/iess_masa_salarial_ssc.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Base de datos de planillas. \\ Elaborado: DAIE}
+% 
+%   \endgroup
+% 
+% \end{table}
+% 
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Ingreso por aportes anual en el período 2009 – 2020}
+% \label{fig:iess_masa_salarial_ssc_jefe}
+% \includegraphics[scale=0.8]{graficos/iess_masa_salarial_ssc.png}
+% \caption*{\scriptsize Fuente: Base de datos de planillas. \\
+% Elaborado: DAIE.}
+% \end{figure}
+% 
+% Se observa un rápido crecimiento de este ingreso en el período 2009 al 2017, con una tasa promedio anual del 38,53 \%. Para el año 2018, el ingreso por aportes de los jefes de familia tiene un valor de USD 10.391.619,49 , que representa un crecimiento del 839,80 \% en comparación del año 2009.
+% 
+% \section{Estructura demográfica de la población beneficiaria del SSC} \label{chp_demog}
+% A continuación, se detalla la población beneficiaria por cada una de las prestaciones que otorga
+% el SSC.
+% \subsection{Pensionistas de Vejez}
+% En la tabla \ref{tab:iess_jub_vejez_ssc} se presenta el número de jubilados por vejez y el crecimiento anual del beneficio pagado a diciembre de cada año \footnote{Existen diferencias con los valores presentados en los Estados de Resultados}.
+% 
+% \begin{table}[H]
+%   \begingroup\scriptsize\centering
+% \setlength\extrarowheight{1pt}
+% \setlength\aboverulesep{-0.5pt}
+% \setlength\belowrulesep{0pt}
+%   \caption{Crecimiento de la población jubilada por vejez}
+%   \label{tab:iess_jub_vejez_ssc}
+%   {\fontsize{10}{12}\selectfont
+%   \begin{tabular}{r!{\color{white}\vrule}R{3.0cm}!{\color{white}\vrule}
+%                   R{3.0cm}!{\color{white}\vrule}R{3.0cm}!{\color{white}\vrule}R{3.5cm}!{\color{white}\vrule}R{2.0cm}} %r right
+%     \toprule
+%     \rowcolor{iess_green!60}
+%     \multirow{2}[0]{*}{\textbf{Año}}	& \textbf{Jubilado de vejez} & \textbf{Tasa de crecimiento (\%)}
+%     & \textbf{Beneficio pagado a diciembre (USD)} & \textbf{Beneficio pagado anual (USD)} & \textbf{Tasa de variación (\%)}\\
+%     \midrule
+%     \input{tablas/iess_jub_vejez_ssc.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Base de datos de roles pagados. \\ Elaborado: DAIE.}
+%   \endgroup
+% \end{table}
+% 
+% En la figura \ref{fig:iess_jub_vejez_ssc} se muestra el crecimiento de la población jubilada por vejez perteneciente al SSC a diciembre de 2020.
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Crecimiento de la población jubilada por vejez del SSC}
+% \label{fig:iess_jub_vejez_ssc}
+% \includegraphics[scale=0.8]{graficos/iess_jub_vejez_ssc.png}
+% \caption*{\scriptsize Fuente: Base de datos de roles pagados. \\
+% Elaborado: DAIE.}
+% \end{figure}
+% 
+% Según registros institucionales, durante el año 2012 se entregaron beneficios a 49.118 jubilados por vejez. Al mes de diciembre del año 2020 esta población fue de 93.672 personas, con un crecimiento promedio anual del 8,43 \%.
+% 
+% En la figura \ref{fig:iess_jub_vejez_edad_sexo} se muestra la distribución de los jubilados por vejez pertenecientes al SSC, por edad y sexo a diciembre de 2020.
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Distribución de los jubilados por vejez, por edad y sexo}
+% \label{fig:iess_jub_vejez_edad_sexo}
+% \includegraphics[scale=0.8]{graficos/iess_jub_vejez_edad_sexo.png}
+% \caption*{\scriptsize Fuente: Base de datos de roles pagados. \\
+% Elaborado: DAIE.}
+% \end{figure}
+% 
+% Del total de jubilados por vejez, el 27,43 \% son mujeres y el 72,57 \% son hombres. La edad promedio de las mujeres es de 78,40 años, mientras que la de los hombres es de 76,83 años. El valor de la pensión mensual promedio de mujeres y hombres a diciembre de 2020 es de USD 100,00.
+% 
+% \subsection{Pensionistas de Invalidez}
+% En la tabla \ref{tab:iess_jub_invalidez_ssc} se presenta el número de jubilados por invalidez y el crecimiento anual del beneficio pagado a diciembre de cada año \footnote{Existen diferencias con los valores presentados en los Estados de Resultados}.
+% 
+% \begin{table}[H]
+%   \begingroup\scriptsize\centering
+% \setlength\extrarowheight{1pt}
+% \setlength\aboverulesep{-0.5pt}
+% \setlength\belowrulesep{0pt}
+%   \caption{Crecimiento de la población jubilada por invalidez}
+%   \label{tab:iess_jub_invalidez_ssc}
+%   {\fontsize{10}{12}\selectfont
+%    \begin{tabular}{r!{\color{white}\vrule}R{3.0cm}!{\color{white}\vrule}
+%                   R{3.0cm}!{\color{white}\vrule}R{3.0cm}!{\color{white}\vrule}R{3.5cm}!{\color{white}\vrule}R{2.0cm}} %r right
+%     \toprule
+%     \rowcolor{iess_green!60}
+%     \multirow{2}[0]{*}{\textbf{Año}}	& \textbf{Jubilado de invalidez} & \textbf{Tasa de crecimiento (\%)}
+%     & \textbf{Beneficio pagado a diciembre (USD)} & \textbf{Beneficio pagado anual (USD)} & \textbf{Tasa de variación (\%)}\\
+%     \midrule
+%     \input{tablas/iess_jub_invalidez_ssc.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Base de datos de roles pagados. \\ Elaborado: DAIE.}
+%   \endgroup
+% \end{table}
+% 
+% En la figura \ref{fig:iess_jub_invalidez_ssc} se muestra el crecimiento de la población jubilada por invalidez perteneciente al SSC a diciembre de 2020.
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Distribución de los jubilados por vejez, por edad y sexo}
+% \label{fig:iess_jub_invalidez_ssc}
+% \includegraphics[scale=0.8]{graficos/iess_jub_invalidez_ssc.png}
+% \caption*{\scriptsize Fuente: Base de datos de roles pagados. \\
+% Elaborado: DAIE.}
+% \end{figure}
+% 
+% Según registros institucionales, durante el año 2012 se entregaron beneficios a 363 jubilados por invalidez. Al mes de diciembre del año 2020 esta población fue de 349 personas, con un crecimiento promedio anual del -37,30 \%.
+% 
+% En la figura \ref{fig:iess_jub_invalidez_edad_sexo} se muestra la distribución de los jubilados por invalidez del SSC, por edad y sexo a diciembre de 2020.
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Distribución de los jubilados por invalidez, por edad y sexo}
+% \label{fig:iess_jub_invalidez_edad_sexo}
+% \includegraphics[scale=0.8]{graficos/iess_jub_invalidez_edad_sexo.png}
+% \caption*{\scriptsize Fuente: Base de datos de roles pagados. \\
+% Elaborado: DAIE.}
+% \end{figure}
+% 
+% Del total de jubilados de invalidez, el 11,17 \% son mujeres y el 88,83 \% son hombres. La edad promedio de las mujeres es de 67,23 años, mientras que la de los hombres es de 65,17 años.
+% El valor de la pensión mensual promedio de mujeres y hombres a diciembre de 2020 es de USD 103,62.
+% 
+% \subsection{Dependientes}
+% En la tabla \ref{tab:iess_dependientes_ssc} se presenta el número de dependientes a diciembre de cada año para el período 2012–2020.
+% 
+% \begin{table}[H]
+%   \begingroup\scriptsize\centering
+% \setlength\extrarowheight{1pt}
+% \setlength\aboverulesep{-0.5pt}
+% \setlength\belowrulesep{0pt}
+%   \caption{Crecimiento de la población dependiente}
+%   \label{tab:iess_dependientes_ssc}
+%   {\fontsize{10}{12}\selectfont
+%    \begin{tabular}{r!{\color{white}\vrule}R{3.0cm}!{\color{white}\vrule}
+%                   R{3.0cm}!{\color{white}\vrule}} %r right
+%     \toprule
+%     \rowcolor{iess_green!60}
+%     \multirow{2}[0]{*}{\textbf{Año}}	& \textbf{Dependientes} & \textbf{Porcentaje de crecimiento (\%)}\\
+% 
+%     \midrule
+%     \input{tablas/iess_dependientes_ssc.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Base de dependientes del SSC. \\ Elaborado: DAIE.}
+%   \endgroup
+% \end{table}
+% 
+% A continuación se presenta la distribución de los dependientes por sexo y edad del SSC a diciembre
+% de 2020.
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Distribución de los dependientes por sexo y edad}
+% \label{fig:iess_dep_edad_sexo}
+% \includegraphics[scale=0.8]{graficos/iess_dep_edad_sexo.png}
+% \caption*{\scriptsize Fuente: Base de datos de roles pagados. \\
+% Elaborado: DAIE.}
+% \end{figure}
+% 
+% Del total de dependientes, el 63,31 \% son mujeres y el 36,69 \% son hombres. La edad promedio de las mujeres es de 33,10 años, mientras que la de los hombres es de 17,95 años.
+% La distribución de los dependientes por parentesco, zona y provincia, a diciembre de 2020, se presentan en las tablas \ref{tab:iess_parentesco_ssc}, \ref{tab:iess_zona_ssc} y \ref{tab:iess_prov_ssc} respectivamente.
+% 
+% 
+% \begin{table}[H]
+%   \begingroup\scriptsize\centering
+% \setlength\extrarowheight{1pt}
+% \setlength\aboverulesep{-0.5pt}
+% \setlength\belowrulesep{0pt}
+%   \caption{Distribución de los dependientes del SSC por parentesco}
+%   \label{tab:iess_parentesco_ssc}
+%   {\fontsize{10}{12}\selectfont
+%    \begin{tabular}{r!{\color{white}\vrule}R{3.0cm}!{\color{white}\vrule}
+%                   R{3.0cm}!{\color{white}\vrule}} %r right
+%     \toprule
+%     \rowcolor{iess_green!60}
+%     \textbf{Parentesco}	& \textbf{Número} & \textbf{Porcentaje (\%)}\\
+% 
+%     \midrule
+%     \input{tablas/iess_parentesco_ssc.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Base de datos de dependientes del SSC. \\ Elaborado: DAIE.}
+%   \endgroup
+% \end{table}
+% 
+% \begin{table}[H]
+%   \begingroup\scriptsize\centering
+% \setlength\extrarowheight{1pt}
+% \setlength\aboverulesep{-0.5pt}
+% \setlength\belowrulesep{0pt}
+%   \caption{Distribución de los dependientes del SSC por zona}
+%   \label{tab:iess_zona_ssc}
+%   {\fontsize{10}{12}\selectfont
+%   \begin{tabular}{r!{\color{white}\vrule}R{3.0cm}!{\color{white}\vrule}
+%                   R{3.0cm}!{\color{white}\vrule}} %r right
+%     \toprule
+%     \rowcolor{iess_green!60}
+%     \textbf{Parentesco}	& \textbf{Número} & \textbf{Porcentaje (\%)}\\
+% 
+%     \midrule
+%     \input{tablas/iess_zona_ssc.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Base de datos de dependientes del SSC. \\ Elaborado: DAIE.}
+%   \endgroup
+% \end{table}
+% 
+% \begin{table}[H]
+%   \begingroup\scriptsize\centering
+% \setlength\extrarowheight{1pt}
+% \setlength\aboverulesep{-0.5pt}
+% \setlength\belowrulesep{0pt}
+%   \caption{Distribución de los dependientes del SSC por provincias}
+%   \label{tab:iess_prov_ssc}
+%   {\fontsize{10}{12}\selectfont
+%   \begin{tabular}{r!{\color{white}\vrule}R{3.0cm}!{\color{white}\vrule}
+%                   R{3.0cm}!{\color{white}\vrule}} %r right
+%     \toprule
+%     \rowcolor{iess_green!60}
+%     \textbf{Parentesco}	& \textbf{Número} & \textbf{Porcentaje (\%)}\\
+%     \midrule
+%     \input{tablas/iess_prov_ssc.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Base de datos de dependientes del SSC. \\ Elaborado: DAIE.}
+%   \endgroup
+% \end{table}
+% 
+% % % % %------------------------------------------------------------------------------
+% \section{Perfil epidemiológico} \label{chp_demog}
+% En esta sección consideraremos morbilidad a las atenciones realizadas a los beneficiarios del SSC en relación a un cuadro patológico por el médico, odontólogo, psicólogo u obstetriz.
+% % \subsection{Atenciones médicas de la población afiliada por meses y días}
+% % El número de atenciones médicas mensuales ha experimentado pocas variaciones en el período de estudio. Esto se puede observar en las tablas 6.12, 6.13, 6.14 y en la figura 6.13.
+% % % %
+% % % % %-------------TABLA 6.12
+% % % %
+% % % % %-------------TABLA 6.13
+% % % %
+% % % % %-------------TABLA 6.14
+% % % %
+% % % % Nota: En el año 2013, el Ministerio de Salud Pública implementó el Registro Diario Automatizado de Consultas y Atenciones Ambulatorias (RDACAA), el mismo que fue adoptado por el Seguro Social Campesino para el registro de las atenciones en sus unidades médicas, pese a que la institución cuenta con el sistema AS400.
+% % % % El problema con el sistema RDACAA es que no incluye la facturación de las atenciones de salud, por lo que no es posible obtener esa información de los registros digitales.
+% % % %
+% % % % %------------FIGURA 6.13
+% % % %
+% % % % En las tablas 6.15, 6.16, 6.17 y figura 6.14 se presenta el comportamiento de las atenciones médicas por día de la semana de atención.
+% % % %
+% % % % %-------------TABLA 6.15
+% % % %
+% % % % %-------------TABLA 6.16
+% % % %
+% % % % %-------------TABLA 6.17
+% % % %
+% % % % %-------------FIGURA 6.14
+% % % %
+% % % % Se observa una tendencia casi constante de las atenciones en los últimos tres años, siendo el día miércoles el punto con el mayor número de observaciones.
+% % % %
+% % % % \subsection{Atenciones médicas de la población afiliada por sexo y edad}
+% % % % En las figuras 6.15, 6.16 y 6.17 se presenta las pirámides poblacionales de la población afiliada atendida por edad y sexo en los años 2016, 2017 y 2018.
+% % % %
+% % % % %-------------FIGURA 6.15
+% % % %
+% % % % %-------------FIGURA 6.16
+% % % %
+% % % % %-------------FIGURA 6.17
+% % % %
+% % % % Las unidades médicas de atención ambulatoria de primer nivel atendieron en su mayoría a menores de 20 años y el segundo pico de pacientes pertenecieron al rango de 60 a 70 años de edad, como se muestra en la figura 6.18
+% % % %
+% % % % %-------------FIGURA 6.18
+% % % %
+% % % %
+% % % % \subsection{Atenciones médicas de la población afiliada por área geográfica}
+% % % % En la tabla 6.18 se presenta las frecuencias de atenciones médicas a la población afiliada por provincia durante los años 2016 - 2018:
+% % % %
+% % % % %-------------TABLA 6.18
+% % % %
+% % % % El 50 \% de las atenciones médicas se concentra en las provincias de Manabí, Guayas, Loja y Chimborazo. En la figura 6.19 se presenta la frecuencia de las atenciones médicas para el año 2018.
+% % % %
+% % % % %-------------FIGURA 6.19
+% % % %
+% % % % \subsection{Morbilidad}
+% % % % A diciembre del 2018, el Seguro Social Campesino registra 659 dispensarios y 3.559 organizaciones campesinas distribuidas por zonas, así como se presenta en la figura 6.20.
+% % % %
+% % % % %-------------FIGURA 6.20
+% % % %
+% % % % Como se observa en la gráfica la zona 4 de Manabí es la que tiene el mayor número de dispensarios representando un 23,67 \%, le sigue la zona 3 de Tungurahua con el 15,48 \%, la zonas 5 Guayas, zona 6 Azuay y zona 1 Imbabura, cuentan con el 13,96 \%, 20,04 \% y 13,66 \% respectivamente, las otras zonas tienen participaciones menores.
+% % % % En la figura 6.21 se presentan información relacionada con las atenciones médicas entregadas en los dispensarios del SSC por año y sexo.
+% % % %
+% % % % %-------------FIGURA 6.21
+% % % %
+% % % %
+% % % % Las atenciones en las unidades médicas del SSC de acuerdo con la CIE-10 se presentan en la figura 6.22.
+% % % %
+% % % % %-------------FIGURA 6.22

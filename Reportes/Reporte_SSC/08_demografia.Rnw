@@ -1,0 +1,1495 @@
+\restoregeometry
+%---------------------------------------------------------------------------------------------------
+\chapter[Análisis demográfico y prestacional]{Análisis demográfico y prestacional}
+\label{chp_demog}
+\vspace{-1.0cm}
+A continuación presentamos un análisis tabular y gráfico de las principales variables demográficas, salariales, aportaciones y montos de pensiones pagadas de la población asegurada y beneficiaria.
+\section{Estructura demográfica de la población afiliada al SGO} \label{chp_demog}
+Para la presente sección se considera el número de afiliados activos al SGO\footnote{Se excluye a las Trabajadoras No Remuneradas del Hogar debido a que no aportan al SSC} a diciembre de cada año.
+\subsection{Afiliados}
+
+En la tabla \ref{tab:iess_afi_activos_ssc} y figura \ref{fig:iess_afi_activos_ssc} se muestra a la población afiliada en el período 2005 - 2020, observándose un crecimiento promedio del \Sexpr{REP$prom_anual_sgo}\% anual.
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Evolución de la población afiliada al SGO}
+  \label{tab:iess_afi_activos_ssc}
+  {\fontsize{10}{12}\selectfont
+
+  \arrayrulecolor{black}
+  \begin{tabular}{R{1.0cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.4cm}!{\color{white}\vrule}
+                  R{2.0cm}}
+    \toprule \rowcolor{iess_green!60}
+
+     & \multicolumn{3}{c!{\color{white}\vrule}}{Afiliados} & \\
+
+  \arrayrulecolor{white}\cmidrule{2-4} \rowcolor{iess_green!60}
+  \parbox{1.0cm}{\vspace{-0.5cm}\centering Año }
+    & Masculino
+    & Femenino
+    & Total
+    & \parbox{2.0cm}{\vspace{-0.5cm}\centering Tasa de Variación (\%) }\\
+
+
+  \arrayrulecolor{black}\midrule
+    \input{tablas/iess_afi_activos_sgo.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} Portal BI - Cubo Historia Laboral Activos. \\
+  \textbf{Elaborado:} DAIE.}
+\endgroup
+\end{table}
+
+A diciembre de 2020 existen 2.847.077 afiliados, que representan un crecimiento del 130,81\% en comparación al año 2005. En el período 2005-2014 se observa un crecimiento sostenido de los afiliados, pero para los años 2015 y 2016 se evidencia un decremento en su número, esto como producto de la disminución de más del 50\% del precio del crudo, la apreciación del dólar y el terremoto de abril de 2016. Si bien la población afiliada se recuperó lentamente en los siguientes dos años, en el año 2020 se observa nuevamente una caída importante en el número de afiliados, producto de la crisis sanitaria, económica y social producida por la pandemia del SARS-COV2 (COVID-2019).
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification = centering}
+\caption{Evolución de la población afiliada al SGO}
+\label{fig:iess_afi_activos_ssc}
+\includegraphics[scale=0.8]{graficos/iess_pob_afi_ini_sgo.png}
+\caption*{\scriptsize \hspace{1.5cm} \textbf{Fuente:} Portal BI - Cubo Historia Laboral Activos. \\
+\hspace{1.5cm} \textbf{Elaborado:} DAIE.}
+\end{figure}
+
+A continuación, en la figura \ref{fig:iess_pir_afiliados}  se presenta la distribución de población afiliada al SGO por edad y sexo.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification = centering}
+\caption{Distribución por edad y sexo de la población afiliada al SGO}
+\label{fig:iess_pir_afiliados}
+\includegraphics[scale=0.8]{graficos/iess_pir_afiliados.png}
+\caption*{\scriptsize \hspace{1.5cm} \textbf{Fuente:} Datos administrativos del IESS. \\
+\hspace{1.5cm}\textbf{Elaborado:} DAIE.}
+\end{figure}
+
+Del total de afiliados a diciembre de 2020, el 42,75\% son mujeres y el 57,25\% son hombres. La edad promedio de la población femenina es 41,3 años, mientras que de la  población masculina es 39,7 años.
+
+\girarpagina
+\subsection{Masa Salarial}
+
+En la tabla \ref{tab:iess_masa_salarial_sgo} y figura \ref{fig:iess_masa_salarial} se presenta la evolución anual de la masa salarial\footnote{Se excluye a las Trabajadoras No Remuneradas del Hogar debido a que no aportan al SSC} y la correspondiente al mes de diciembre para el período 2005 al 2020.
+
+\begin{table}[H]
+ \begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Evolución de la masa salarial de los afiliados al SGO (Período 2005 – 2020)}
+  \label{tab:iess_masa_salarial_sgo}
+  {\fontsize{9}{11}\selectfont
+ \arrayrulecolor{black}
+  \begin{tabular}{R{1.0cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{2.2cm}!{\color{white}\vrule}
+                  R{2.2cm}!{\color{white}\vrule}
+                  R{2.2cm}!{\color{white}\vrule}
+                  R{3.5cm}!{\color{white}\vrule}
+                  R{2.0cm}}
+
+  \rowcolor{iess_green!60}
+    \toprule
+     & \multicolumn{3}{c!{\color{white}\vrule}}{Masa Salarial Anual (USD)}
+     & \multicolumn{3}{c!{\color{white}\vrule}}{Masa Salarial a Diciembre (USD)} & & \\
+
+  \arrayrulecolor{white}\cmidrule{2-7} \rowcolor{iess_green!60}
+     \parbox{1.0cm}{\vspace{-0.5cm}\centering Año }
+     & Masculino & Femenino & Total
+     & Masculino & Femenino & Total
+     & \parbox{3.5cm}{\vspace{-0.5cm}\centering Variación de la Masa Salarial Anual (USD)}
+     & \parbox{2.0cm}{\vspace{-0.5cm}\centering Tasa de Variación (\%) } \\
+
+
+  \arrayrulecolor{black} \midrule
+    \input{tablas/iess_masa_salarial.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} Datos administrativos del IESS. \\ \textbf{Elaborado: DAIE}}
+  \endgroup
+\end{table}
+Se observa un rápido crecimiento de la masa salarial en el período 2005 al 2015, con una tasa promedio anual del 20,50\%. Para el año 2020, toma un valor de USD 25.688.790.710,51, que representa un crecimiento del 526,29\% en comparación al año 2005. Por otro lado, en comparación al año 2019 este valor presenta una disminución del 7,33\%, debido a la crisis sanitaria, económica y social producida por la pandemia del COVID-19, que incrementó la tasa de desempleo en el país provocando una enorme cantidad de desafiliaciones.
+\regresargirar
+
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification = centering}
+\caption{Masa salarial anual de los afiliados al SGO en el período 2005 – 2020}
+\label{fig:iess_masa_salarial}
+\includegraphics[scale=0.8]{graficos/iess_masa_salarial_ini.png}
+\caption*{\scriptsize \hspace{1.5cm} \textbf{Fuente:} Datos administrativos del IESS. \\
+\hspace{1.5cm} \textbf{Elaborado:} DAIE.}
+\end{figure}
+
+% Se observa un rápido crecimiento de la masa salarial en el período 2005 al 2015, con una tasa promedio anual del 20,50\%. En el año 2016 se evidencia una disminución de la masa salarial producto de la caída de más del 50\% del precio del petróleo en el 2015 y del terremoto de abril de 2016. Si bien la masa salarial se recuperó lentamente entre el año 2017 y 2019; sin embargo en el 2020 se observa nuevamente un decremento importante del 7,33\% debido a la crisis sanitaria, económica y social producida por la pandemia COVID-19, que incrementó la tasa de desempleo en el país provocando una enorme cantidad de desafliaciones.
+\vspace{-0.5cm}
+En la figura \ref{fig:iess_pir_masa_salarial} se muestra la distribución del salario declarado de los afiliados por sexo a diciembre de 2020. El promedio declarado por parte de las mujeres es de USD  742,93 y para los hombres es de USD 772,29. El promedio del total es de USD 756,48.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification = centering}
+\captionsetup{justification=centering, width=1\textwidth}
+\caption{Distribución del salario declarado de los afiliados al SGO \\ por sexo a diciembre de 2020}
+\label{fig:iess_pir_masa_salarial}
+\includegraphics[scale=0.8]{graficos/iess_pir_masa_salarial.png}
+\caption*{\scriptsize \hspace{1.5cm} \textbf{Fuente:} Datos administrativos del IESS. \\
+\hspace{1.5cm} \textbf{Elaborado:} DAIE.}
+\end{figure}
+\vspace{-0.5cm}
+En las tablas \ref{tab:iess_afi_tiempo_aportacion}, \ref{tab:iess_afi_tiempo_aportacion_h} y \ref{tab:iess_afi_tiempo_aportacion_m} se presenta la cantidad de afiliados al SGO clasificados por sexo, edad, tiempo de aportes en años y el valor promedio del sueldo sobre el que se aporta. En estas matrices se detectan afiliados con edades superiores a los 90 años y se observa que el 28,5\% de la población afiliada tiene entre 0 y 5 años aportados, que más del 50\% de la población está comprendida entre 26 y 45 años de edad; y, que las personas con más años aportados tienen los salarios promedios más altos.
+
+\girarpagina
+La población entre 41 y 45 años tiene el promedio de sueldos más altos (USD 870,12).
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\captionsetup{justification=centering}
+\caption{Población afiliada al SGO por rangos de edad, número de imposiciones y sueldo promedio a diciembre de 2020}
+\label{tab:iess_afi_tiempo_aportacion}
+\scalebox{0.75}{
+{\fontsize{9}{11}\selectfont
+\arrayrulecolor{black}
+\begin{tabular}{R{1.5cm}!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}R{2.0cm}}
+\toprule
+\rowcolor{iess_green!60}
+\parbox{1.5cm}{\vspace{0.4cm}\centering Edad }
+& \multicolumn{11}{c!{\color{white}\vrule}}{Tiempo de Afiliación}
+& \parbox{2.0cm}{\vspace{0.4cm}\centering Total }  \\
+
+\arrayrulecolor{white}\cmidrule{2-12}\rowcolor{iess_green!60}
+& [0 , 5] & ]5 , 10] & ]10 , 15] & ]15 , 20] & ]20 , 25] & ]25 ,30] & ]30 , 35] & ]35 , 40] & ]40 , 45]  & ]45 , 50]& \text{$>50$} &  \\
+\arrayrulecolor{black}\midrule
+\input{tablas/iess_afi_tiempo_aportacion.tex}
+\bottomrule
+\end{tabular}
+}
+}
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\endgroup
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\captionsetup{justification=centering,  width=1\textwidth}
+\caption{Población afiliada masculina al SGO por rangos de edad, número de imposiciones y sueldo promedio a diciembre de 2020}
+\label{tab:iess_afi_tiempo_aportacion_h}
+\scalebox{0.75}{
+{\fontsize{10}{12}\selectfont
+\arrayrulecolor{black}
+\begin{tabular}{R{1.5cm}!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}R{2.0cm}}
+
+\rowcolor{iess_green!60}
+\parbox{1.5cm}{\vspace{0.4cm}\centering Edad }
+& \multicolumn{11}{c!{\color{white}\vrule}}{Tiempo de Afiliación}
+& \parbox{2.0cm}{\vspace{0.4cm}\centering Total }  \\
+
+\arrayrulecolor{white}\cmidrule{2-12}\rowcolor{iess_green!60}
+& [0 , 5] & ]5 , 10] & ]10 , 15] & ]15 , 20] & ]20 , 25] & ]25 ,30] & ]30 , 35] & ]35 , 40] & ]40 , 45]  & ]45 , 50]& \text{$>50$} &  \\
+\arrayrulecolor{black}\midrule
+\input{tablas/iess_afi_tiempo_aportacion_h.tex}
+\bottomrule
+\end{tabular}
+}}
+
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\endgroup
+\end{table}
+
+\begin{table}[H]
+\centering
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\captionsetup{justification=centering,  width=1\textwidth}
+\caption{Población afiliada femenina al SGO por rangos de edad, número de imposiciones y sueldo promedio a diciembre de 2020}
+\label{tab:iess_afi_tiempo_aportacion_m}
+\scalebox{0.75}{
+{\fontsize{10}{12}\selectfont
+\arrayrulecolor{black}
+\begin{tabular}{R{1.5cm}!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}R{2.0cm}}
+
+\rowcolor{iess_green!60}
+\parbox{1.5cm}{\vspace{0.4cm}\centering Edad }
+& \multicolumn{11}{c!{\color{white}\vrule}}{Tiempo de Afiliación}
+& \parbox{2.0cm}{\vspace{0.4cm}\centering Total }  \\
+
+\arrayrulecolor{white}\cmidrule{2-12}\rowcolor{iess_green!60}
+& [0 , 5] & ]5 , 10] & ]10 , 15] & ]15 , 20] & ]20 , 25] & ]25 ,30] & ]30 , 35] & ]35 , 40] & ]40 , 45]  & ]45 , 50]& \text{$>50$} &  \\
+\arrayrulecolor{black}\midrule
+\input{tablas/iess_afi_tiempo_aportacion_m.tex}
+\bottomrule
+\end{tabular}
+}
+}
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\endgroup
+\end{table}
+\regresargirar
+
+% --------------------------------------------------------------------------------------------------
+\section{Estructura demográfica de la población afiliada al SSC} \label{chp:sec:afi_ssc}
+\subsection{Afiliados activos (Jefes de familia)} 
+Dentro de los afiliados activos también se encuentran los jubilados cotizantes, pese que a partir de la \legalcite{ResIESS_CD516}, esta figura desaparece; sin embargo, debido a que todavía existen en los registros administrativos se los considera dentro de este grupo. Con esta consideración, el número de afiliados a diciembre de cada año para el período 2011-2020 se presenta en la tabla \ref{tab:iess_afi_hist_ssc} y figura \ref{fig:iess_afi_hist_ssc}.
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Evolución de la población afiliada al SSC}
+  \label{tab:iess_afi_hist_ssc}
+  {\fontsize{10}{12}\selectfont
+
+  \arrayrulecolor{black}
+  \begin{tabular}{R{1.0cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.4cm}!{\color{white}\vrule}
+                  R{2.0cm}}
+    \toprule \rowcolor{iess_green!60}
+
+     & \multicolumn{3}{c!{\color{white}\vrule}}{Afiliados} & \\
+
+  \arrayrulecolor{white}\cmidrule{2-4} \rowcolor{iess_green!60}
+  \parbox{1.0cm}{\vspace{-0.5cm}\centering Año }
+    & Masculino
+    & Femenino
+    & Total
+    & \parbox{2.0cm}{\vspace{-0.5cm}\centering Tasa de Variación (\%) }\\
+
+
+  \arrayrulecolor{black}\midrule
+    \input{tablas/iess_afi_hist_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} Datos administrativos del IESS. \\
+  \textbf{Elaborado:} DAIE.}
+\endgroup
+\end{table}
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification = centering}
+\caption{Evolución de la población afiliada al SSC}
+\label{fig:iess_afi_hist_ssc}
+\includegraphics[scale=0.9]{graficos/iess_afi_hist_ssc.png}
+\caption*{\scriptsize \hspace{1.5cm} \textbf{Fuente}: Datos administrativos del IESS. \\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+A diciembre de 2020 existen \Sexpr{REP$afi_ssc} afiliados activos, que representan un crecimiento del
+\Sexpr{REP$prom_ssc}\% en comparación al año 2011. En los últimos 4 años la cantidad de afiliados ha
+disminuido, como consecuencia del impacto en la afiliación del SGO, la crisis socio-ecónomica de los
+años 2015-2016 y  de los estragos ocasionados  por la pandemia del COVID-19.
+
+A continuación en la figura \ref{fig:iess_afi_edad_sexo_ssc} se presenta la distribución por edad y sexo de los afiliados activos al SSC a diciembre del año 2020.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification = centering}
+\captionsetup{justification=centering, width=1\textwidth}
+\caption{Distribución de la población afiliada del SSC por edad y sexo a diciembre 2020}
+\label{fig:iess_afi_edad_sexo_ssc}
+\includegraphics[scale=0.9]{graficos/iess_afi_edad_sexo_ssc.png}
+\caption*{\scriptsize \hspace{1.5cm} \textbf{Fuente}: Datos administrativos del IESS. \\
+\hspace{1.5cm}\textbf{Elaborado}: DAIE.}
+\end{figure}
+
+Del total de afiliados activos, el \Sexpr{REP$afi_por_f_ssc}\% son mujeres y el \Sexpr{REP$afi_por_m_ssc}\%
+son hombres. La edad promedio de la población femenina es \Sexpr{REP$afi_prom_x_f_ssc} años, mientras que de la población masculina es \Sexpr{REP$afi_prom_x_m_ssc} años.
+
+\subsection{Ingresos por aportes de los jefes de familia del SSC}
+En la tabla \ref{tab:iess_masa_salarial_ssc} y figura \ref{fig:iess_masa_salarial_ssc_jefe} se presenta
+la evolución anual del ingreso por aportes\footnote{Existen diferencias con los valores presentados en los Estados de Resultados} y el correspondiente al mes de diciembre, para el período 2009 al 2020.
+
+De manera general, el ingreso por aportes de los afiliados al SSC ha mostrado una notable tendencia de crecimiento, no obstante, en los últimos tres años este crecimiento ha sido muy lento. Para el año 2020, este crecimiento llega a ser apenas del \Sexpr{REP$por_masa_ssc}\% con respecto al año anterior, tomando un valor de USD \Sexpr{REP$masa_ssc}. La disminución se relaciona con la crisis sanitaria ocasionada por el COVID-19.
+
+
+\girarpagina
+
+\begin{table}[H]
+ \begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Evolución del ingreso por aportes de los jefes de familia del SSC (Período 2009 – 2020)}
+  \label{tab:iess_masa_salarial_ssc}
+  {\fontsize{9}{11}\selectfont
+ \arrayrulecolor{black}
+  \begin{tabular}{R{1.0cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{2.2cm}!{\color{white}\vrule}
+                  R{2.2cm}!{\color{white}\vrule}
+                  R{2.2cm}!{\color{white}\vrule}
+                  R{3.5cm}!{\color{white}\vrule}
+                  R{2.0cm}}
+
+  \rowcolor{iess_green!60}
+    \toprule
+     & \multicolumn{3}{c!{\color{white}\vrule}}{Ingreso Anual (USD)}
+     & \multicolumn{3}{c!{\color{white}\vrule}}{Ingreso a Diciembre (USD)} & & \\
+
+  \arrayrulecolor{white}\cmidrule{2-7} \rowcolor{iess_green!60}
+     \parbox{1.0cm}{\vspace{-0.5cm}\centering Año }
+     & Masculino & Femenino & Total
+     & Masculino & Femenino & Total
+     & \parbox{3.5cm}{\vspace{-0.5cm}\centering Variación del Ingreso Anual (USD)}
+     & \parbox{2.0cm}{\vspace{-0.5cm}\centering Tasa de Variación (\%) } \\
+
+
+  \arrayrulecolor{black} \midrule
+    \input{tablas/iess_masa_salarial_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} Datos administrativos del IESS. \\ \textbf{Elaborado}: DAIE}
+  \endgroup
+\end{table}
+\vspace{-1cm}
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification = centering}
+\caption{Ingreso anual por aportes de los jefes de familia en el período 2009 – 2020}
+\label{fig:iess_masa_salarial_ssc_jefe}
+\includegraphics[scale=0.75]{graficos/iess_masa_salarial_ssc.png}
+\caption*{\scriptsize \hspace{1.5cm} \textbf{Fuente}: Datos administrativos del IESS.. \\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\regresargirar
+
+\girarpagina
+A continuación, en las tablas \ref{tab:iess_jefes_tiempo_aportacion}, \ref{tab:iess_jefes_tiempo_aportacion_male} y \ref{tab:iess_jefes_tiempo_aportacion_female} se presenta la cantidad de afiliados activos a la fecha corte de este estudio clasificados por sexo, edad, tiempo de aportes en años y el valor promedio del aporte. Se detectan afiliaciones superiores a los 80 años de edad, que representan el 3,46\% del total. El 52,62\% de los jefes tiene entre 6 y 15 años de cotizaciones y solo el 22,40\% del total de jefes ya cumple requisitos de edad para acceder a una pensión de vejez o invalidez. Se observa también que el valor del aporte para toda la población en el año 2020 llega a ser de USD 2,34.
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\captionsetup{justification=centering, width=1\textwidth}
+\caption{Población afiliada al SSC por rangos de edad, número de imposiciones y valor promedio del aporte a diciembre de 2020}
+\label{tab:iess_jefes_tiempo_aportacion}
+\scalebox{0.75}{
+{\fontsize{10}{12}\selectfont
+\arrayrulecolor{black}
+\begin{tabular}{R{1.5cm}!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}R{2.0cm}}
+\toprule
+\rowcolor{iess_green!60}
+\parbox{1.5cm}{\vspace{0.4cm}\centering Edad }
+& \multicolumn{11}{c!{\color{white}\vrule}}{Tiempo de Afiliación}
+& \parbox{2.0cm}{\vspace{0.4cm}\centering Total }  \\
+
+\arrayrulecolor{white}\cmidrule{2-12}\rowcolor{iess_green!60}
+& [0 , 5] & ]5 , 10] & ]10 , 15] & ]15 , 20] & ]20 , 25] & ]25 ,30] & ]30 , 35] & ]35 , 40] & ]40 , 45]  & ]45 , 50]& \text{$>50$} &  \\
+\arrayrulecolor{black}\midrule
+\input{tablas/iess_jefes_tiempo_aportacion.tex}
+\bottomrule
+\end{tabular}
+}
+}
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS.. \\
+{\bf Elaborado:} DAIE.}
+\endgroup
+\end{table}
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\captionsetup{justification=centering, width=1\textwidth}
+\caption{Población afiliada masculina del SSC por rangos de edad, número de imposiciones y valor promedio del aporte a diciembre de 2020}
+\label{tab:iess_jefes_tiempo_aportacion_male}
+\scalebox{0.90}{
+{\fontsize{10}{12}\selectfont
+\arrayrulecolor{black}
+\begin{tabular}{R{1.5cm}!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}R{2.0cm}}
+\toprule
+\rowcolor{iess_green!60}
+\parbox{1.5cm}{\vspace{0.4cm}\centering Edad }
+& \multicolumn{11}{c!{\color{white}\vrule}}{Tiempo de Afiliación}
+& \parbox{2.0cm}{\vspace{0.4cm}\centering Total }  \\
+
+\arrayrulecolor{white}\cmidrule{2-12}\rowcolor{iess_green!60}
+& [0 , 5] & ]5 , 10] & ]10 , 15] & ]15 , 20] & ]20 , 25] & ]25 ,30] & ]30 , 35] & ]35 , 40] & ]40 , 45]  & ]45 , 50]& \text{$>50$} &  \\
+\arrayrulecolor{black}\midrule
+\input{tablas/iess_jefes_tiempo_aportacion_male.tex}
+\bottomrule
+\end{tabular}
+}
+}
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\endgroup
+\end{table}
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\captionsetup{justification=centering, width=1\textwidth}
+\caption{Población afiliada femenina del SSC por rangos de edad, número de imposiciones y valor promedio del aporte a diciembre de 2020}
+\label{tab:iess_jefes_tiempo_aportacion_female}
+\scalebox{0.9}{
+{\fontsize{10}{12}\selectfont
+\arrayrulecolor{black}
+\begin{tabular}{R{1.5cm}!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}r!{\color{white}\vrule}
+                  r!{\color{white}\vrule}r!{\color{white}\vrule}R{2.0cm}}
+\toprule
+\rowcolor{iess_green!60}
+\parbox{1.5cm}{\vspace{0.4cm}\centering Edad }
+& \multicolumn{11}{c!{\color{white}\vrule}}{Tiempo de Afiliación}
+& \parbox{2.0cm}{\vspace{0.4cm}\centering Total }  \\
+
+\arrayrulecolor{white}\cmidrule{2-12}\rowcolor{iess_green!60}
+& [0 , 5] & ]5 , 10] & ]10 , 15] & ]15 , 20] & ]20 , 25] & ]25 ,30] & ]30 , 35] & ]35 , 40] & ]40 , 45]  & ]45 , 50]& \text{$>50$} &  \\
+\arrayrulecolor{black}\midrule
+\input{tablas/iess_jefes_tiempo_aportacion_female.tex}
+\bottomrule
+\end{tabular}
+}
+}
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\endgroup
+\end{table}
+
+\regresargirar
+\subsection{Afiliados activos e inactivos según la exposición al riesgo}
+En la figura \ref{fig:iess_jefes_act_inact} se puede apreciar que, del número total de afiliados que cotizaron al menos una vez al SSC hasta el 31 de diciembre de 2020 (\Sexpr{REP$afi_act_inact_ssc} afiliados), el \Sexpr{REP$afi_act_m_ssc}\% corresponde a afiliados activos\footnote{\textbf{Afiliados Activos}: Los afiliados que aportaron al SSC al menos una vez en el año de la fecha de corte el estudio} hombres, el \Sexpr{REP$afi_act_f_ssc}\% a afiliadas activas mujeres, el \Sexpr{REP$afi_inact_m_ssc}\% a afiliados inactivos\footnote{\textbf{Afiliados Inactivos}: Los afiliados que aportaron al SSC, pero no se encuentran con aportes en el año de la fecha de corte del estudio} hombres y el \Sexpr{REP$afi_inact_f_ssc}\% a afiliadas inactivas mujeres.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Porcentaje de afiliados activos e inactivos del SSC ambos sexos}
+\label{fig:iess_jefes_act_inact}
+\includegraphics[ scale = 0.6]{graficos/iess_jefes_act_inact.pdf}
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+Con la finalidad de realizar un análisis más descriptivo de la población mencionada en el párrafo anterior, se ha procedido a clasificarla en los siguientes tipos se riesgo:
+
+\begin{itemize}
+\item \textbf{Grupo 1}: Los afiliados que no cumplen requisitos, por tanto, no son elegibles a ninguna pensión o prestación por muerte, \vspace{-0.2cm}
+\item \textbf{Grupo 2}: Los afiliados que tienen al menos cinco años de cotización, por tanto, son elegibles para una pensión resultante de una eventual invalidez o muerte,\vspace{-0.2cm}
+\item \textbf{Grupo 3}: Los afiliados que, en menos de cinco años, cumplirían con los criterios de edad y tiempo de contribución para recibir una pensión de vejez; y,\vspace{-0.2cm}
+\item \textbf{Grupo 4}: Los afiliados que ya tienen derecho a su pensión de vejez o lo tendrán en menos de un año.
+\end{itemize}
+
+A diciembre de 2020, de la población afiliada activa masculina al SSC, el \Sexpr{REP$act_m_g4}\%  cumplirá requisitos de vejez en un año o menos, el \Sexpr{REP$act_m_g3}\% cumplirá requisitos de vejez en 5 años, el \Sexpr{REP$act_m_g2}\%  tiene requisitos cumplidos para invalidez y muerte; y, el \Sexpr{REP$act_m_g1}\% tiene  requisitos no cumplidos.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Afiliados activos del sexo masculino por tipo de riesgo}
+\label{fig:iess_pastel_jefes_male_riesgo}
+\includegraphics[ scale = 0.7 ]{graficos/iess_pastel_jefes_male_riesgo.pdf}
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+A continuación, en la figura \ref{fig:iess_jef_male_edad_riesgo} se puede apreciar la desagregación de los 4 tipos de riesgo por edad y años de imposiciones.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering, width=1.0\textwidth}
+\caption{Afiliados activos del sexo masculino por edad, número de años de imposiciones y tipo de riesgo}
+\label{fig:iess_jef_male_edad_riesgo}
+\includegraphics[ scale = 0.9 ]{graficos/iess_jef_male_edad_riesgo.png}
+\caption*{\scriptsize \hspace{1.5cm} {\bf Fuente:} Datos administrativos del IESS. \\
+\hspace{1.5cm}{\bf Elaborado:} DAIE.}
+\end{figure}
+
+En la figura \ref{fig:iess_jefe_male_num_cotiz} se muestra la distribución de los afiliados al SSC por el número de años de imposiciones, observándose que la mayor concentración se encuentra de 5 a 10 años de imposiciones.
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Afiliados activos del sexo masculino por número de años de imposiciones}
+\label{fig:iess_jefe_male_num_cotiz}
+\includegraphics[ scale =0.75 ]{graficos/iess_jefe_male_num_cotiz.png}
+\caption*{\scriptsize \hspace{1.5cm} {\bf Fuente:} Datos administrativos del IESS. \\
+\hspace{1.5cm}{\bf Elaborado:} DAIE.}
+\end{figure}
+
+Respecto a la población afiliada activa femenina del SSC, el \Sexpr{REP$act_f_g4}\%  cumplirá requisitos de vejez en un año o menos, el \Sexpr{REP$act_f_g3}\% cumplirá requisitos de vejez en 5 años, el \Sexpr{REP$act_f_g2}\%  tiene requisitos cumplidos para invalidez y muerte; y, el \Sexpr{REP$act_f_g1}\% tiene  requisitos no cumplidos.
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Afiliados activos del sexo femenino por tipo de riesgo}
+\label{fig:iess_pastel_jefes_female_riesgo}
+\includegraphics[ scale = 0.6 ]{graficos/iess_pastel_jefes_female_riesgo.pdf}
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+La clasificación de la población anterior en los 4 tipos de riesgos se puede apreciar en la figura \ref{fig:iess_jef_female_edad_riesgo}.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering, width=1.0\textwidth}
+\caption{Afiliados activos del sexo femenino por edad, número de años de imposiciones y tipo de riesgo}
+\label{fig:iess_jef_female_edad_riesgo}
+\includegraphics[ scale = 0.9 ]{graficos/iess_jef_female_edad_riesgo.png}
+\caption*{\scriptsize \hspace{1.5cm} {\bf Fuente:} Datos administrativos del IESS. \\
+\hspace{1.5cm} {\bf Elaborado:} DAIE.}
+\end{figure}
+La distribución del número de años de imposiciones de los afiliados activos de sexo femenino del SSC se puede apreciar en la figura \ref{fig:iess_jefe_female_num_cotiz}. La mayor concentración de personas se encuentra en el intervalo de 5 a 10 año de imposiciones.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Afiliados activos del sexo femenino por número de años de imposiciones}
+\label{fig:iess_jefe_female_num_cotiz}
+\includegraphics[ scale =0.8 ]{graficos/iess_jefe_female_num_cotiz.png}
+\caption*{\scriptsize \hspace{1.5cm} {\bf Fuente:} Datos administrativos del IESS. \\
+\hspace{1.5cm}{\bf Elaborado:} DAIE.}
+\end{figure}
+\vspace{-0.5cm}
+%Inactivos
+Para la población afiliada inactiva masculina del SSC se tiene que, el \Sexpr{REP$inact_m_g4}\%  cumplirá requisitos de vejez en un año o menos, el \Sexpr{REP$inact_m_g3}\% cumplirá requisitos de vejez en 5 años, el \Sexpr{REP$inact_m_g2}\%  tiene requisitos cumplidos para invalidez y muerte; y, el \Sexpr{REP$inact_m_g1}\% tiene  requisitos no cumplidos.
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Afiliados inactivos del sexo masculino por tipo de riesgo}
+\label{fig:iess_pastel_jefes_male_riesgo_inac}
+\includegraphics[ scale = 0.45 ]{graficos/iess_pastel_jefes_male_riesgo_inac.pdf}
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+A continuación, en la figura \ref{fig:iess_jef_male_edad_riesgo_inac} se puede apreciar la desagregación  de los afiliados inactivos de sexo masculino para los 4 tipos de riesgo por edad y años de imposiciones.
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering, width=1.0\textwidth}
+\caption{Afiliados inactivos del sexo masculino por edad, número de años de imposiciones y tipo de riesgo}
+\label{fig:iess_jef_male_edad_riesgo_inac}
+\includegraphics[ scale = 0.9 ]{graficos/iess_jef_male_edad_riesgo_inac.png}
+\caption*{\scriptsize \hspace{1.5cm} {\bf Fuente:} Datos administrativos del IESS. \\
+\hspace{1.5cm}{\bf Elaborado:} DAIE.}
+\end{figure}
+
+La distribución del número de imposiciones en años se puede observar en la figura \ref{fig:iess_jefe_male_num_cotiz_inac}. La mayor concentración se encuentra en el intervalo de 0 a 5 años.
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Afiliados inactivos del sexo masculino por número de años de imposiciones}
+\label{fig:iess_jefe_male_num_cotiz_inac}
+\includegraphics[ scale =0.8 ]{graficos/iess_jefe_male_num_cotiz_inac.png}
+\caption*{\scriptsize \hspace{1.5cm} {\bf Fuente:} Datos administrativos del IESS. \\
+\hspace{1.5cm}{\bf Elaborado:} DAIE.}
+\end{figure}
+
+Finalmente, para la población afiliada inactiva femenina del SSC tenemos que, el \Sexpr{REP$inact_f_g4}\%  cumplirá requisitos de vejez en un año o menos, el \Sexpr{REP$inact_f_g3}\% cumplirá requisitos de vejez en 5 años, el \Sexpr{REP$inact_f_g2}\%  tiene requisitos cumplidos para invalidez y muerte; y, el \Sexpr{REP$inact_f_g1}\% tiene  requisitos no cumplidos.
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Afiliados inactivos del sexo femenino por tipo de riesgo}
+\label{fig:iess_pastel_jefes_female_riesgo_inac}
+\includegraphics[ scale = 0.45 ]{graficos/iess_pastel_jefes_female_riesgo_inac.pdf}
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+La desagregación de la población anterior en los 4 tipos de riesgo por edad y años de imposiciones se puede apreciar en la figura \ref{fig:iess_jef_female_edad_riesgo_inac}.
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering, width=1.0\textwidth}
+\caption{Afiliados inactivos del sexo femenino por edad, número de \\ años de imposiciones y tipo de riesgo}
+\label{fig:iess_jef_female_edad_riesgo_inac}
+\includegraphics[ scale = 0.9 ]{graficos/iess_jef_female_edad_riesgo_inac.png}
+\caption*{\scriptsize \hspace{1.5cm} {\bf Fuente:} Datos administrativos del IESS. \\
+\hspace{1.5cm} {\bf Elaborado:} DAIE.}
+\end{figure}
+Por otro lado, en la figura \ref{fig:iess_jefe_female_num_cotiz_inac} se muestra la distribución de los afiliados inactivos de sexo femenino por el número de años de imposiciones. La mayor concentración se encuentra de 0 a 5 años de imposiciones.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Afiliados inactivos del sexo femenino por número \\ de años de imposiciones}
+\label{fig:iess_jefe_female_num_cotiz_inac}
+\includegraphics[ scale =0.8 ]{graficos/iess_jefe_female_num_cotiz_inac.png}
+\caption*{\scriptsize \hspace{1.5cm} {\bf Fuente:} Datos administrativos del IESS. \\
+\hspace{1.5cm} {\bf Elaborado:} DAIE.}
+\end{figure}
+
+\section{Estructura demográfica de la población beneficiaria del SSC} \label{chp_demog:pob_beneficiaria}
+
+A diciembre de 2020 había un total de \Sexpr{REP$ch_pens_total_ssc} pensionistas en el SSC, de los cuales el \Sexpr{REP$p_vej_ssc}\% correspondía a pensionistas por vejez y el restante \Sexpr{REP$p_inv_ssc}\% a pensionistas por invalidez.
+
+En la figura \ref{fig:iess_pensionistas_tipo} se presenta el porcentaje\footnote{Debido al valor tan pequeño para los pensionistas de invalidez no se puede apreciar claramente en la figura \ref{fig:iess_pensionistas_tipo}} de pensionistas por tipo de pensión y sexo. Se observa que del total de pensionistas, el \Sexpr{REP$p_vej_m_ssc}\% corresponde a pensionistas por vejez hombres, el \Sexpr{REP$p_vej_f_ssc}\% a pensionistas por vejez mujeres, el \Sexpr{REP$p_inv_m_ssc}\% a pensionistas por invalidez hombres y el \Sexpr{REP$p_inv_f_ssc}\% corresponde a pensionistas por invalidez mujeres.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Porcentaje de pensionistas del SSC por tipo de pensión ambos sexos}
+\label{fig:iess_pensionistas_tipo}
+\includegraphics[ scale = 0.5]{graficos/iess_pensionistas_tipo.pdf}
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+A continuación, en la figura \ref{fig:iess_pension_ssc_male} y \ref{fig:iess_pension_ssc_female} se puede apreciar que el número de pensionistas de vejez alcanza su máximo a los 75 años para el caso de los hombres y a los 77 años para las mujeres.
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Número de pensionistas del sexo masculino por tipo de pensión y edad}
+\label{fig:iess_pension_ssc_male}
+\includegraphics[ scale = 0.65 ]{graficos/iess_pension_ssc_male.png}
+\caption*{\scriptsize \hspace{1cm} {\bf Fuente:} Datos administrativos del IESS. \\
+\hspace{1cm} {\bf Elaborado:} DAIE.}
+\end{figure}
+Para los pensionistas por invalidez tenemos que estas cifras llegan a ser de 72 años y 69 años para los hombres y mujeres respectivamente.
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Número de pensionistas del sexo femenino por tipo de pensión y edad}
+\label{fig:iess_pension_ssc_female}
+\includegraphics[ scale = 0.65 ]{graficos/iess_pension_ssc_female.png}
+\caption*{\scriptsize \hspace{1cm} {\bf Fuente:} Datos administrativos del IESS. \\
+\hspace{1cm} {\bf Elaborado:} DAIE.}
+\end{figure}
+
+En lo referente al gasto prestacional para el año 2020 tenemos que, del total de gasto (USD \Sexpr{REP$ch_bens_total_ssc}) por concepto de pensiones, el \Sexpr{REP$p_ben_vej_ssc}\% corresponde a  vejez y el restante \Sexpr{REP$p_ben_inv_ssc}\% a invalidez. La desagregación de este rubro por sexo y tipo de pensión se puede apreciar\footnote{Debido al valor tan pequeño para los pensionistas de invalidez, no se puede apreciar claramente en la figura \ref{fig:iess_gasto_pensional_tipo}} en la figura \ref{fig:iess_gasto_pensional_tipo}.
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Gasto por concepto de pensiones de ambos sexos por tipo de pensión}
+\label{fig:iess_gasto_pensional_tipo}
+\includegraphics[ scale = 0.6]{graficos/iess_gasto_pensional_tipo.pdf}
+\caption*{\scriptsize {\bf Fuente:} Datos administrativos del IESS. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+El gasto del beneficio por vejez es del \Sexpr{REP$p_ben_vej_m_ssc}\% y del \Sexpr{REP$p_ben_vej_f_ssc}\% para hombres y mujeres respectivamente. Para el caso invalidez toma el valor del \Sexpr{REP$p_ben_inv_m_ssc}\% para hombres y del  \Sexpr{REP$p_ben_inv_f_ssc}\% para  mujeres.
+
+\subsection{Pensionistas de vejez}
+En la tabla \ref{tab:iess_jub_vejez_total_ssc} se presenta el número de jubilados por vejez, el beneficio anual pagado en cada año\footnote{Existen diferencias con los valores presentados en los Estados de Resultados} y la pensión promedio. Una idea similar se muestra en las tablas \ref{tab:iess_jub_vejez_male_ssc} y \ref{tab:iess_jub_vejez_female_ssc}, solo que se condicionan al sexo del beneficiario.
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\captionsetup{justification = centering}
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Población beneficiaria y montos pagados por vejez}
+  \label{tab:iess_jub_vejez_total_ssc}
+  {\fontsize{10}{12}\selectfont
+  \begin{tabular}{R{1.0cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.0cm}}
+    \toprule \rowcolor{iess_green!60}
+    \parbox{1.0cm}{\vspace{0.35cm}\centering Año }
+    & Jubilado de vejez
+    & Tasa de variación (\%)
+    & Beneficio pagado anual (USD)
+    & Tasa de variación (\%)
+    & Pensión promedio
+    & Tasa de variación (\%)\\
+
+    \midrule
+    \input{tablas/iess_jub_vejez_total_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+    \caption*{ \scriptsize  \textbf{Fuente:} Datos administrativos del IESS. \\   \textbf{Elaborado:} DAIE.}
+  \endgroup
+\end{table}
+La tabla \ref{tab:iess_jub_vejez_total_ssc} muestra que el número de pensionistas de vejez del año 2020
+es aproximadamente \Sexpr{REP$p_cre_vej} veces el número del año 2012. En este período de tiempo, el crecimiento promedio anual del número de pensionistas de vejez es del \Sexpr{REP$prom_anual_vej}\%.
+
+Un aspecto importante a considerar se deriva de la pensión promedio, misma que tuvo su crecimiento más alto en
+el año 2018 (\Sexpr{REP$pen_prom_vej}\% en comparación al año 2017) como consecuencia directa de la aplicación de la \legalcite{ResIESS_CD573}. Esto ocasionó que el beneficio pagado anualmente durante el año 2018 crezca en un \Sexpr{REP$pen_ben_vej}\% en comparación al año 2017.
+
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Población beneficiaria y montos pagados por vejez - Hombres}
+  \label{tab:iess_jub_vejez_male_ssc}
+  {\fontsize{10}{12}\selectfont
+  \begin{tabular}{R{1.0cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.0cm}}
+    \toprule \rowcolor{iess_green!60}
+    \parbox{1.0cm}{\vspace{0.35cm}\centering Año }
+    & Jubilado de vejez
+    & Tasa de variación (\%)
+    & Beneficio pagado anual (USD)
+    & Tasa de variación (\%)
+    & Pensión promedio
+    & Tasa de variación (\%)\\
+
+    \midrule
+    \input{tablas/iess_jub_vejez_male_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+    \caption*{ \scriptsize \textbf{Fuente}: Datos administrativos del IESS. \\ \textbf{Elaborado}: DAIE.}
+  \endgroup
+\end{table}
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Población beneficiaria y montos pagados por vejez - Mujeres}
+  \label{tab:iess_jub_vejez_female_ssc}
+  {\fontsize{8}{8}\selectfont
+  \begin{tabular}{R{1.0cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.0cm}}
+    \toprule \rowcolor{iess_green!60}
+    \parbox{1.0cm}{\vspace{0.35cm}\centering Año }
+    & Jubilado de vejez
+    & Tasa de variación (\%)
+    & Beneficio pagado anual (USD)
+    & Tasa de variación (\%)
+    & Pensión promedio
+    & Tasa de variación (\%)\\
+
+    \midrule
+    \input{tablas/iess_jub_vejez_female_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente}: Datos administrativos del IESS. \\ \textbf{Elaborado}: DAIE.}
+  \endgroup
+\end{table}
+
+La evolución del crecimiento de la población jubilada por vejez (a diciembre del año 2020) perteneciente al SSC se presenta en la figura \ref{fig:iess_jub_vejez_ssc}.
+
+\begin{figure}[H]
+\centering
+\caption{Evolución de la población jubilada por vejez del SSC a diciembre de 2020}
+\label{fig:iess_jub_vejez_ssc}
+\includegraphics[scale=0.65]{graficos/iess_jub_vejez_ssc.png}
+\caption*{\scriptsize \hspace{1.5cm}  \textbf{Fuente}: Datos administrativos del IESS. \\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+%
+% Según registros institucionales, durante el año 2012 se entregaron beneficios a 49.118 jubilados por vejez. Al mes de diciembre del año 2020 esta población fue de 93.672 personas, con un crecimiento promedio anual del 8,43 \%.
+%
+En la figura \ref{fig:iess_jub_vejez_edad_sexo} se muestra la distribución de los jubilados de vejez por edad y sexo.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering, width=1\textwidth}
+\caption{Distribución de los jubilados de vejez por edad y sexo a diciembre de 2020}
+\label{fig:iess_jub_vejez_edad_sexo}
+\includegraphics[scale=0.6]{graficos/iess_jub_vejez_edad_sexo.png}
+\caption*{\scriptsize \hspace{1.5cm} \textbf{Fuente}: Datos administrativos del IESS. \\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+A diciembre de 2020, del total de jubilados por vejez, el \Sexpr{REP$p_vej_f_2020_ssc}\% son mujeres y el \Sexpr{REP$p_vej_m_2020_ssc} \% son hombres. La edad promedio de las mujeres es de \Sexpr{REP$vej_prom_x_f_ssc} años, mientras que la de los hombres es de \Sexpr{REP$vej_prom_x_m_ssc} años. El valor de la pensión mensual promedio de mujeres y hombres es de USD 103,62.
+
+\subsection{Pensionistas de invalidez}
+El número de jubilados por invalidez a diciembre de 2020, tanto a nivel de total como su desagregación por sexo  se
+presentan en las tablas \ref{tab:iess_jub_invalidez_total_ssc}, \ref{tab:iess_jub_invalidez_male_ssc} y
+\ref{tab:iess_jub_invalidez_female_ssc} respectivamente.
+
+%
+% En la tabla \ref{tab:iess_jub_invalidez_total_ssc} se observa que el número de pensionistas de invalidez ha venido disminuyendo en los últimos 5 años. De igual manera que para los pensionistas de vejez, la pensión promedio tuvo su crecimiento más alto en el año 2018 (\Sexpr{REP$pen_prom_inv }\% en comparación al año 2017), como implicación directa de la aplicación de la \legalcite{ResIESS_CD573}. Esto ocasionó que el beneficio pagado anualmente en el año 2018 crezca en un \Sexpr{REP$pen_ben_inv}\% en comparación al año 2017.
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Población beneficiaria y montos pagados por invalidez}
+  \label{tab:iess_jub_invalidez_total_ssc}
+  {\fontsize{8}{8}\selectfont
+  \begin{tabular}{R{0.8cm}!{\color{white}\vrule}
+                  R{1.7cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.0cm}}
+    \toprule \rowcolor{iess_green!60}
+    \parbox{1.0cm}{\vspace{0.35cm}\centering Año }
+    & Jubilado de invalidez
+    & Tasa de variación (\%)
+    & Beneficio pagado anual (USD)
+    & Tasa de variación (\%)
+    & Pensión promedio
+    & Tasa de variación (\%)\\
+
+    \midrule
+    \input{tablas/iess_jub_invalidez_total_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} Datos administrativos del IESS. \\ \textbf{Elaborado:} DAIE.}
+  \endgroup
+\end{table}
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Población beneficiaria y montos pagados por invalidez - Hombres}
+  \label{tab:iess_jub_invalidez_male_ssc}
+  {\fontsize{8}{8}\selectfont
+  \begin{tabular}{R{0.8cm}!{\color{white}\vrule}
+                  R{1.7cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.0cm}}
+    \toprule \rowcolor{iess_green!60}
+    \parbox{1.0cm}{\vspace{0.35cm}\centering Año }
+    & Jubilado de invalidez
+    & Tasa de variación (\%)
+    & Beneficio pagado anual (USD)
+    & Tasa de variación (\%)
+    & Pensión promedio
+    & Tasa de variación (\%)\\
+
+    \midrule
+    \input{tablas/iess_jub_invalidez_male_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} Datos administrativos del IESS. \\ \textbf{Elaborado:} DAIE.}
+  \endgroup
+\end{table}
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Población beneficiaria y montos pagados por invalidez - Mujeres}
+  \label{tab:iess_jub_invalidez_female_ssc}
+  {\fontsize{8}{8}\selectfont
+  \begin{tabular}{R{0.8cm}!{\color{white}\vrule}
+                  R{1.7cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.0cm}!{\color{white}\vrule}
+                  R{2.0cm}}
+    \toprule \rowcolor{iess_green!60}
+    \parbox{1.0cm}{\vspace{0.35cm}\centering Año }
+    & Jubilado de invalidez
+    & Tasa de variación (\%)
+    & Beneficio pagado anual (USD)
+    & Tasa de variación (\%)
+    & Pensión promedio
+    & Tasa de variación (\%)\\
+
+    \midrule
+    \input{tablas/iess_jub_invalidez_female_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} Datos administrativos del IESS. \\ \textbf{Elaborado:} DAIE.}
+  \endgroup
+\end{table}
+
+En la tabla \ref{tab:iess_jub_invalidez_total_ssc} se observa que el número de pensionistas de invalidez ha venido disminuyendo en los últimos 6 años. De igual manera que para los pensionistas de vejez, la pensión promedio tuvo su crecimiento más alto en el año 2018 (\Sexpr{REP$pen_prom_inv }\% en comparación al año 2017), como implicación directa de la aplicación de la \legalcite{ResIESS_CD573}. Esto ocasionó que el beneficio pagado anualmente en el año 2018 crezca en un \Sexpr{REP$pen_ben_inv}\% en comparación al año 2017.
+
+
+A continuación, en la figura \ref{fig:iess_jub_invalidez_ssc} se muestra el crecimiento de la población jubilada por invalidez.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering, width=1\textwidth}
+\caption{Evolución de la población jubilada por invalidez del SSC a diciembre de 2020}
+\label{fig:iess_jub_invalidez_ssc}
+\includegraphics[scale=0.8]{graficos/iess_jub_invalidez_ssc.png}
+\caption*{\scriptsize \hspace{1.5cm}  \textbf{Fuente}: Datos administrativos del IESS. \\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+%
+% Según registros institucionales, durante el año 2012 se entregaron beneficios a 363 jubilados por invalidez. Al mes de diciembre del año 2020 esta población fue de 349 personas, con un crecimiento promedio anual del -37,30 \%.
+%
+En la figura \ref{fig:iess_jub_invalidez_edad_sexo} se muestra la distribución de los jubilados por invalidez del SSC, por edad y sexo.
+
+\begin{figure}[H]
+\centering
+\caption{Distribución de los jubilados por invalidez, por edad y sexo a diciembre de 2020}
+\label{fig:iess_jub_invalidez_edad_sexo}
+\includegraphics[scale=0.8]{graficos/iess_jub_invalidez_edad_sexo.png}
+\caption*{\scriptsize \hspace{1.5cm}  \textbf{Fuente}: Datos administrativos del IESS. \\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+Del total de jubilados de invalidez, el \Sexpr{REP$p_inv_f_2020_ssc}\% son mujeres y el \Sexpr{REP$p_inv_m_2020_ssc}\% son hombres. La edad promedio de las mujeres es de \Sexpr{REP$inv_prom_x_f_ssc} años, mientras que la de los hombres es de \Sexpr{REP$inv_prom_x_m_ssc} años.
+
+La pensión mensual promedio de estos pensionistas a diciembre de 2020 es de USD 103,62.
+
+\subsection{Dependientes}
+En la tabla \ref{tab:iess_dependientes_ssc} se presenta el número de dependientes del SSC a diciembre de 2020, clasificados por hijos, cónyuges y otros dependientes.
+
+\begin{table}[H]
+  \begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Evolución de la población dependiente del SSC a diciembre de cada año}
+  \label{tab:iess_dependientes_ssc}
+  {\fontsize{10}{11}\selectfont
+   \begin{tabular}{R{0.8cm}!{\color{white}\vrule}
+                   R{1.0cm}!{\color{white}\vrule}
+                   R{1.5cm}!{\color{white}\vrule}
+                   R{1.0cm}!{\color{white}\vrule}
+                   R{1.5cm}!{\color{white}\vrule}
+                   R{2.0cm}!{\color{white}\vrule}}
+    \toprule
+    \rowcolor{iess_green!60}
+
+   & \multicolumn{5}{c!{\color{white}\vrule}}{Dependientes} \\
+
+    \arrayrulecolor{white}\cmidrule{2-6} \rowcolor{iess_green!60}
+    \parbox{1.0cm}{\vspace{-0.4cm}\centering Año }
+    & Hijos & Cónyuges & Otros & Total
+    & Variación (\%)\\
+
+    \arrayrulecolor{black} \midrule
+    \input{tablas/iess_dependientes_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} Base de dependientes del SSC. \\ \textbf{Elaborado:} DAIE.}
+  \endgroup
+\end{table}
+En los últimos 5 años el número de dependientes en el SSC a disminuido notablemente, llegando a pasar de
+\Sexpr{REP$dep_2015_ssc} en 2015 a \Sexpr{REP$dep_2020_ssc} en 2020, es decir una disminución del \Sexpr{REP$rel_dep_ssc}\%.
+
+A continuación en la figura \ref{fig:iess_dep_edad_sexo} se presenta la distribución de los dependientes del SSC por edad, sexo y parentesco.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering, width=1\textwidth}
+\caption{Distribución de los dependientes del SSC por edad, sexo y parentesco a diciembre de 2020}
+\label{fig:iess_dep_edad_sexo}
+\includegraphics[scale=0.75]{graficos/iess_dep_edad_sexo.png}
+\caption*{\scriptsize \hspace{1.5cm} \textbf{Fuente}: Datos administrativos del IESS. \\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+Del total de dependientes, el 63,31 \% son mujeres y el 36,69 \% son hombres. La edad promedio de las mujeres es de \Sexpr{REP$dep_prom_x_f_ssc} años, mientras que la de los hombres es de \Sexpr{REP$dep_prom_x_m_ssc} años.
+
+La distribución de los dependientes por parentesco, zona y provincia, a diciembre de 2020, se presentan en las tablas \ref{tab:iess_parentesco_ssc}, \ref{tab:iess_zona_ssc} y \ref{tab:iess_prov_ssc} respectivamente.
+
+\begin{table}[H]
+  \begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Distribución de los dependientes del SSC por parentesco}
+  \label{tab:iess_parentesco_ssc}
+  {\fontsize{10}{11}\selectfont
+   \begin{tabular}{r!{\color{white}\vrule}
+                   R{1.5cm}!{\color{white}\vrule}
+                   R{2.5cm}!{\color{white}\vrule}}
+    \toprule
+    \rowcolor{iess_green!60}
+    Parentesco
+    & Número
+    & Porcentaje (\%)\\
+
+    \midrule
+    \input{tablas/iess_parentesco_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} Datos administrativos del IESS. \\ \textbf{Elaborado:} DAIE.}
+  \endgroup
+\end{table}
+
+En la tabla \ref{tab:iess_parentesco_ssc} se puede observar que, del total de dependientes el 26,31\%
+corresponde a esposa(o) o conviviente y el 61,46\% a hijos. Al sumar estas dos cifras tenemos que el
+87,77\% de los dependientes están constituidos por estas tres categorías.
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Distribución de los dependientes del SSC por zona}
+  \label{tab:iess_zona_ssc}
+  {\fontsize{10}{11}\selectfont
+  \begin{tabular}{r!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{3.0cm}!{\color{white}\vrule}}
+    \toprule
+    \rowcolor{iess_green!60}
+    Zona
+    & Número
+    & Porcentaje (\%)\\
+
+    \midrule
+    \input{tablas/iess_zona_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} Datos administrativos del IESS. \\ \textbf{Elaborado:} DAIE.}
+  \endgroup
+\end{table}
+
+En la tabla \ref{tab:iess_zona_ssc} tenemos que la mayor concentración de dependientes se encuentran en
+la zona 5 - Guayas y Zona 4 -  Manabí, llegando a cubrir el 60,44\% del total.
+
+\begin{table}[H]
+  \begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Distribución de dependientes y afiliados del SSC por provincia}
+  \label{tab:iess_prov_ssc}
+  {\fontsize{10}{11}\selectfont
+  \begin{tabular}{R{6.0cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{2.5cm}!{\color{white}\vrule}}
+    \toprule
+    \arrayrulecolor{white}\rowcolor{iess_green!60}
+    & \multicolumn{2}{c!{\color{white}\vrule}}{Dependientes}
+    & \multicolumn{2}{c!{\color{white}\vrule}}{Afiliados} \\
+
+    \cmidrule{2-5}\rowcolor{iess_green!60}
+    \parbox{6.0cm}{\vspace{-0.5cm}\centering Provincia }
+    & Número
+    & Porcentaje (\%)
+    & Número
+    & Porcentaje (\%)\\
+
+    \arrayrulecolor{black}\midrule
+    \input{tablas/iess_prov_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente}: Datos administrativos del IESS. \\ \textbf{Elaborado}: DAIE.}
+  \endgroup
+\end{table}
+Finalmente, en la tabla \ref{tab:iess_prov_ssc} y figuras \ref{fig:dependientes_ssc_provincia} y \ref{fig:jefes_familia_ssc_provincia} se muestra la desagregación de los afiliados y dependientes del SSC por provincia. La mayor concentración tanto de afiliados como de dependientes se encuentran en las provincias de Manabí y Guayas.
+
+\girarpagina
+\begin{figure}[H]
+\centering
+\caption{Dependientes de afiliados del SSC por provincia}
+\label{fig:dependientes_ssc_provincia}
+\begin{minipage}{.7\textwidth}
+\includegraphics[scale=0.80]{graficos/iess_dependientes_provincia_galapagos.pdf}
+%\includegraphics[scale=0.80]{graficos/iess_daie_plt_aseg_exterior_2020.pdf}
+\vspace{5.0cm}%regula la altura de Galápagos
+\end{minipage}\vspace{-5cm}\begin{minipage}{1.0\textwidth}
+\hspace{-6.8cm}\includegraphics[scale=0.95]{graficos/iess_dependientes_provincia.pdf}
+\end{minipage}
+\end{figure}
+\vspace{2.3cm}
+\begin{center}
+\scriptsize{\textbf{Elaborado}: DAIE}
+\end{center}
+
+\newpage
+\begin{figure}[H]
+\centering
+\caption{Afiliados del SSC por provincia}
+\label{fig:jefes_familia_ssc_provincia}
+\begin{minipage}{.7\textwidth}
+\includegraphics[scale=0.80]{graficos/iess_jefes_provincia_galapagos.pdf}
+%\includegraphics[scale=0.80]{graficos/iess_daie_plt_aseg_exterior_2020.pdf}
+\vspace{5.0cm}%regula la altura de Galápagos
+\end{minipage}\vspace{-5cm}\begin{minipage}{1.0\textwidth}
+\hspace{-6.8cm}\includegraphics[scale=0.95]{graficos/iess_jefes_provincia.pdf}
+\end{minipage}
+\end{figure}
+\vspace{2.3cm}
+\begin{center}
+\scriptsize{\textbf{Elaborado}: DAIE}
+\end{center}
+
+% \newpage
+% \begin{figure}[H]
+% \centering
+% \caption{Afiliados del SSC como porcentaje de sus dependientes por provincia}
+% \label{fig:afiliados_dependientes_ssc_provincia}
+% \begin{minipage}{.7\textwidth}
+% \includegraphics[scale=0.80]{graficos/iess_relacion_relacion_galapagos.pdf}
+% %\includegraphics[scale=0.80]{graficos/iess_daie_plt_aseg_exterior_2020.pdf}
+% \vspace{5.0cm}%regula la altura de Galápagos
+% \end{minipage}\vspace{-5cm}\begin{minipage}{1.0\textwidth}
+% \hspace{-6.8cm}\includegraphics[scale=0.95]{graficos/iess_relacion_provincia.pdf}
+% \end{minipage}
+% \end{figure}
+% \vspace{2.3cm}
+% \begin{center}
+% \scriptsize{\textbf{Elaborado}: DAIE}
+% \end{center}
+
+\regresargirar
+
+\section{Perfil epidemiológico}
+En esta sección se analiza la morbilidad de la población afiliada y beneficiaria de este seguro, dentro de las especialidades de medicina general, odontología, psicología y obstetricia.
+
+\blfootnote{\textbf{Nota:} En el año 2013, el Ministerio de Salud Pública implementó el Registro
+Diario Automatizado de Consultas y Atenciones Ambulatorias (RDACAA), el mismo que fue adoptado por
+el Seguro Social Campesino para el registro de las atenciones en sus unidades médicas, pese a que la
+institución cuenta con el sistema AS400. El problema con el sistema RDACAA es que no incluye la
+facturación de las atenciones de salud, por lo que no es posible obtener esa información de los
+registros digitales. A partir de julio de 2019, en cumplimiento del memorando Nro. IESS-DSGSIF-2019-3517-M todo el proceso pasó a formar parte del sistema MIS-AS400.}
+
+\subsection{Atenciones médicas de la población afiliada por meses y días}
+El número de atenciones médicas mensuales ha experimentado ciertas variaciones. (Véase la tabla \ref{tab:iess_atenciones_medicas_mes_ssc}.)
+
+\begin{table}[H]
+  \begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Atenciones médicas de los dispensarios del SSC por mes y año}
+  \label{tab:iess_atenciones_medicas_mes_ssc}
+  {\fontsize{10}{11}\selectfont
+   \begin{tabular}{R{2.0cm}!{\color{white}\vrule}
+                   R{1.5cm}!{\color{white}\vrule}
+                   R{1.5cm}!{\color{white}\vrule}
+                   R{1.5cm}!{\color{white}\vrule}
+                   R{1.5cm}!{\color{white}\vrule}
+                   R{1.5cm}}
+    \toprule\arrayrulecolor{white}
+    \rowcolor{iess_green!60}
+
+     & \multicolumn{5}{c!{\color{white}}}{Año} \\
+
+    \cmidrule{2-6}\rowcolor{iess_green!60}
+    \parbox{1.0cm}{\vspace{-0.5cm}\centering Mes }& 2016 & 2017 & 2018 & 2019 & 2020 \\
+
+    \arrayrulecolor{black}\midrule
+    \input{tablas/iess_atenciones_medicas_mes_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} Datos administrativos del IESS. \\ \textbf{Elaborado:} DAIE.}
+  \endgroup
+\end{table}
+Se puede observar que el número de atenciones médicas en los años 2016 y 2019 son muy similares, las atenciones por mes varían a la par. Este mismo comportamiento se tiene para los años 2017 y 2018. Sin embargo, el escenario cambia para el año 2020 a raíz de la crisis sanitaria ocasionada por el COVID-19, las medidas preventivas y los estados de excepción emitidos por el Gobierno Central.
+
+En la figura \ref{fig:iess_aten_anios}, considerando el total de atenciones dentro del período 2016 - 2020, se muestra la variación en el número de atenciones de cada año.
+
+\begin{figure}[H]
+\centering
+\caption{Atenciones médicas de los dispensarios del SSC por año}
+\label{fig:iess_aten_anios}
+\includegraphics[scale=0.4]{graficos/iess_pastel_aten_med_anios.pdf}
+\caption*{\scriptsize \textbf{Fuente}: Bases Datos administrativos del IESS.\\
+\textbf{Elaborado}: DAIE.}
+\end{figure}
+
+En la figura \ref{fig:iess_aten_med_2016_2019} se puede ver el número de atenciones de los dispensarios de SSC para el período 2016 - 2019.
+
+\begin{figure}[H]
+\centering
+\caption{Atenciones médicas de los dispensarios del SSC años 2016-2019}
+\label{fig:iess_aten_med_2016_2019}
+\includegraphics[scale=1]{graficos/iess_aten_med_2016_2019.png}
+\caption*{\scriptsize \hspace{1.5cm} \textbf{Fuente}: Datos administrativos del IESS.\\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+En este período de tiempo, el número de pacientes atendidos no presenta variaciones significativas, pero para el año 2020 esta situación cambia, tal como se puede apreciar en la figura \ref{fig:iess_aten_med_2020}.
+
+\begin{figure}[H]
+\centering
+\caption{Atenciones médicas de los dispensarios del SSC por mes año 2020}
+\label{fig:iess_aten_med_2020}
+\includegraphics[scale=0.8]{graficos/iess_aten_med_2020.png}
+\caption*{\scriptsize \hspace{1.5cm}  \textbf{Fuente}: Datos administrativos del IESS.\\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+Se tiene que en el mes de abril de 2022, las atenciones médicas se redujeron a menos de la mitad comparadas con el mes de marzo. Con el levantamiento progresivo de las medidas preventivas, en el mes de septiembre el número de pacientes atendidos se incrementa considerablemente manteniéndose casi constante hasta diciembre.
+
+
+En la tabla \ref{tab:atenciones_medicas_dia_ssc} y figura \ref{fig:iess_aten_dia_ssc} se presenta el comportamiento de las atenciones médicas por año y el día de la semana de la atención.
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\fontsize{9}{10.5}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      R{1.2cm}!{\color{white}\vrule}
+                      R{1.2cm}!{\color{white}\vrule}
+                      R{1.2cm}!{\color{white}\vrule}
+                      R{1.2cm}!{\color{white}\vrule}
+                      R{1.2cm}!{\color{white}\vrule}
+                      R{1.2cm}!{\color{white}\vrule}
+                      R{1.2cm}!{\color{white}\vrule}
+                      R{1.5cm} }
+\caption{Atenciones médicas de los dispensarios del SSC por año, mes y día}
+\label{tab:atenciones_medicas_dia_ssc} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+
+  Mes & Lunes & Martes & Miércoles & Jueves & Viernes & Sábado & Domingo & Total \\
+
+  \midrule
+  \endfirsthead
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+   Mes & Lunes & Martes & Miércoles & Jueves & Viernes & Sábado & Domingo & Total \\
+
+  \midrule
+  \endhead
+
+  \hline \multicolumn{9}{r}{continúa...} \\
+  \endfoot
+
+  \bottomrule
+  \caption*{\scriptsize \textbf{Fuente}: Datos administrativos del IESS.\\\textbf{Elaborado}: DAIE.}
+  \endlastfoot
+
+   \midrule\arrayrulecolor{black}\rowcolor{iess_green!60}
+   \multicolumn{9}{c}{\textbf{2016}}\\
+   \midrule
+   \input tablas/iess_atenciones_medicas_dia_2016_ssc.tex
+   \midrule\arrayrulecolor{black}\rowcolor{iess_green!60}
+   \multicolumn{9}{c}{\textbf{2017}} \\
+   \midrule
+   \input tablas/iess_atenciones_medicas_dia_2017_ssc.tex
+   \midrule\arrayrulecolor{black}\rowcolor{iess_green!60}
+   \multicolumn{9}{c}{\textbf{2018}} \\
+   \midrule
+   \input tablas/iess_atenciones_medicas_dia_2018_ssc.tex
+   \midrule\arrayrulecolor{black}\rowcolor{iess_green!60}
+   \multicolumn{9}{c}{\textbf{2019}} \\
+   \midrule
+   \input tablas/iess_atenciones_medicas_dia_2019_ssc.tex
+   \midrule\arrayrulecolor{black}\rowcolor{iess_green!60}
+   \multicolumn{9}{c}{\textbf{2020}} \\
+   \midrule
+   \input tablas/iess_atenciones_medicas_dia_2020_ssc.tex
+
+\end{longtable}
+\endgroup
+
+
+\begin{figure}[H]
+\centering
+\caption{Atenciones médicas de los dispensarios del SSC por año y día}
+\label{fig:iess_aten_dia_ssc}
+\includegraphics[scale=0.7]{graficos/iess_aten_dia_ssc.png}
+\caption*{\scriptsize \hspace{1.5cm} \textbf{Fuente}: Datos aadministrativos del IESS.\\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+Se observa una tendencia casi constante de las atenciones en los últimos tres años, siendo el día miércoles el punto con el mayor número de atenciones.
+
+\subsection{Atenciones médicas de la población afiliada por sexo y edad}
+
+Las unidades médicas de atención ambulatoria de primer nivel atendieron en su mayoría a menores de 20 años y el segundo pico de pacientes pertenecieron al rango de 60 a 70 años de edad, como se muestra en la figura \ref{fig:iess_aten_edad_ssc}
+
+\begin{figure}[H]
+\centering
+\caption{Pacientes atendidos por edad simple}
+\label{fig:iess_aten_edad_ssc}
+\includegraphics[scale=0.7]{graficos/iess_aten_edad_ssc.png}
+\caption*{\scriptsize \hspace{1.5cm}  \textbf{Fuente}: Datos administrativos del IESS\\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+En la figura \ref{fig:iess_plt_aten_med_ssc} se presenta las pirámides poblacionales de la población afiliada atendida por edad y sexo en los dispensarios del SSC para el período 2016 - 2020.
+
+\girarpagina
+
+\begin{figure}[H]
+\caption{Distribución de las atenciones en los dispensarios del SSC por año, edad y sexo}
+\label{fig:iess_plt_aten_med_ssc}
+\centering
+\includegraphics[scale=0.90]{graficos/iess_plt_aten_med_ssc.png}
+\caption*{\scriptsize \textbf{Fuete:} Datos administrativos del IESS \\
+\textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\regresargirar
+Se puede observar que para los períodos 2016 - 2018 el número de atenciones por edad y sexo es muy similar, siendo los pacientes entre 5 y 10 años los más atendidos seguidos de los pacientes de 60 y 65 años.
+
+Durante los años 2019 y 2020, la variación del número de atenciones de los dispensarios del SSC es similar, en este caso la edad de los pacientes más atendidos fue entre 65 y 75 años.
+
+Se observa también que entre los años 2016 - 2020 se da más atención a personas afiliadas de sexo femenino.
+
+\subsection{Atenciones médicas de la población afiliada por área geográfica}
+En la tabla \ref{tab:iess_atenciones_medicas_prov_ssc} se presenta las frecuencias de atenciones médicas de la población afiliada al SSC por provincia durante los años 2016 - 2020.
+
+\girarpagina
+
+\begin{table}[H]
+  \begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Atenciones médicas de la población afiliada por área geográfica y año}
+  \label{tab:iess_atenciones_medicas_prov_ssc}
+  {\fontsize{9}{9}\selectfont
+   \begin{tabular}{R{5.0cm}!{\color{white}\vrule}
+                   R{1.5cm}!{\color{white}\vrule}
+                   R{1.0cm}!{\color{white}\vrule}
+                   R{1.5cm}!{\color{white}\vrule}
+                   R{1.0cm}!{\color{white}\vrule}
+                   R{1.5cm}!{\color{white}\vrule}
+                   R{1.0cm}!{\color{white}\vrule}
+                   R{1.5cm}!{\color{white}\vrule}
+                   R{1.0cm}!{\color{white}\vrule}
+                   R{1.5cm}!{\color{white}\vrule}
+                   R{1.0cm}}
+    \toprule\arrayrulecolor{white}
+    \rowcolor{iess_green!60}
+
+     & \multicolumn{10}{c!{\color{white}}}{Año} \\
+
+     \cmidrule{2-11}\rowcolor{iess_green!60}
+     & \multicolumn{2}{c!{\color{white}\vrule}}{2016} & \multicolumn{2}{c!{\color{white}\vrule}}{2017}
+     & \multicolumn{2}{c!{\color{white}\vrule}}{2018} & \multicolumn{2}{c!{\color{white}\vrule}}{2019}
+     & \multicolumn{2}{c!{\color{white}}}{2020} \\
+
+     \cmidrule{2-11} \rowcolor{iess_green!60}
+     \parbox{5.0cm}{\vspace{-0.8cm}\centering Provincia }
+     & Frecuencia & \% & Frecuencia & \% & Frecuencia & \%
+     & Frecuencia & \% & Frecuencia & \%\\
+    \arrayrulecolor{black}\midrule
+    \input{tablas/iess_atenciones_medicas_prov_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} Datos administrativos del IESS. \\ \textbf{Elaborado:} DAIE.}
+  \endgroup
+\end{table}
+\vspace{-0.5cm}
+
+El 50 \% de las atenciones médicas en los años 2016 - 2018 se concentra en las provincias de Manabí, Guayas, Loja y Chimborazo. En los años 2019 y 2020, el 50 \% de las atenciones se acumula en las provincias de Manabí, Azuay, Chimborazo y Loja.
+
+En la figura \ref{fig:iess_fre20_provincia_ssc} se presenta la frecuencia de las atenciones médicas para el año 2020.
+\regresargirar
+
+\begin{figure}[H]
+\caption{Atenciones Médicas del SSC por provincias del año 2020}
+\label{fig:iess_fre20_provincia_ssc}
+\centering
+\includegraphics[scale=0.8]{graficos/iess_fre20_provincia_ssc.png}
+\caption*{\scriptsize \hspace{1.5cm}  \textbf{Fuente:} Datos administrativos del IESS \\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+En el año 2020 se atendió con mayor frecuencia a personas en las provincias de Manabí, Azuay, Chimborazo y Loja.
+
+\subsection{Morbilidad}
+A diciembre del 2020, el Seguro Social Campesino registra 659 dispensarios y 3.611 organizaciones campesinas distribuidas por zonas, así como se presenta en la figura \ref{fig:iess_zona_dis_ssc}.
+
+\begin{figure}[H]
+\caption{Distribución de dispensarios del SSC a nivel nacional}
+\label{fig:iess_zona_dis_ssc}
+\centering
+\includegraphics[scale=0.7]{graficos/iess_zona_dis_ssc.png}
+\caption*{\scriptsize  \textbf{Fuente:} Portal BI - Cubo Aseguramiento SSC.\\
+\textbf{Elaborado}: DAIE.}
+\end{figure}
+
+
+Como se observa en la figura \ref{fig:iess_zona_dis_ssc}, la ZONA 4 - MANABÍ es la que tiene el mayor número de dispensarios, representando un 25,17\% del total, le sigue la ZONA 6 - AZUAY con el 18,66 \%, la ZONA 3 - TUNGURAHUA, ZONA 7 - LOJA y ZONA 1 - IMBABURA, cuentan con el 14,21 \%, 13,53 \% y 11,64 \% respectivamente, las otras zonas tienen participaciones menores.
+
+
+En la figura \ref{fig:iess_aten_sexo_ssc} se presentan información relacionada con las atenciones médicas entregadas en los dispensarios del SSC por año y sexo.
+
+\begin{figure}[H]
+\caption{Atención médica de los dispensarios del SSC por año y sexo}
+\label{fig:iess_aten_sexo_ssc}
+\centering
+\includegraphics[scale=0.70]{graficos/iess_aten_sexo_ssc.png}
+\caption*{\scriptsize\hspace{1.5cm}   \textbf{Fuente:} Datos administrativos del IESS \\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+Se puede ver que en los años 2016 - 2018 el mayor número de pacientes atendidos fueron de sexo femenino, mientras que en el año 2019 y 2020 se brindó más atención a personas de sexo masculino. Las atenciones en las unidades médicas del SSC de acuerdo con la CIE-10 se presentan en la figura \ref{fig:iess_morbilidad_ssc}.
+
+
+\begin{figure}[H]
+\captionsetup{justification=centering, width=1\textwidth}
+\caption{Morbilidad atendida por los dispensarios del SSC por capítulo de la CIE-10 y año}
+\label{fig:iess_morbilidad_ssc}
+\centering
+\includegraphics[scale=0.80]{graficos/iess_morbilidad_ssc.png}
+\caption*{\scriptsize \hspace{1.5cm}   \textbf{Fuete:} Datos administrativos del IESS \\
+\hspace{1.5cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+En los años 2019 y 2020, más del 50\% de atenciones se clasificaron de acuerdo al código Z00 - Z99 del capítulo XXI de la CIE-10. Alrededor de un 10 \% de las atenciones registraron pacientes con enfermedades del aparato digestivo, un porcentaje similar se tiene de pacientes con enfermedades del aparato circulatorio.
+
+Para los años 2016 - 2019, más del 20 \% de atenciones se clasificaron de acuerdo al capítulo XXI de la CIE-10. El 20 \% de pacientes presentaron enfermedades del aparato digestivo. Se registró cerca del 10 \% de pacientes con enfermedades del aparato circulatorio.
+
+En la figura \ref{fig:iess_morbilidad_ssc} se observa también que la clasificación de enfermedades menos frecuente es: trastornos mentales y del comportamiento, afecciones originadas en el período perinatal, malformaciones congénitas, deformidades y anomalías cromosómicas.
+
+

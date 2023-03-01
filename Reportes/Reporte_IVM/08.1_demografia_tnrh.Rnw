@@ -1,0 +1,103 @@
+%---------------------------------------------------------------------------------------------------
+\chapter[Análisis demográfico, de salarios y pensiones]{Análisis demográfico, de salarios y pensiones (TNRH)}
+\label{chp_demog}
+%--------------------------------------------------------------------------------------------------
+% Población Afiliada y Pensionistas del SGO
+
+ A continuación presentamos un análisis tabular y gráfico de las principales variables demográficas, salariales, aportaciones y montos de pensiones pagadas, de la población asegurada y beneficiaria.                                                                                      
+
+\section{Estructura demográfica de la población afiliada}
+
+% %---------------------------------------------------------------------------------------------------
+\subsection{Afiliados}
+\label{chp_demog:afi}
+
+%---------------------------------------------------------------------------------------------------
+Para el presente estudio se considera el número de afiliados activos a diciembre de cada año; en la
+tabla \ref{tab:iess_afi_acti2_tnrh} y figura \ref{fig:afi_acti2_tnrh} se muestra a la población
+afiliada en el período 2015 - 2020, observándose un crecimiento promedio del 37.87\% anual.
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución de la población afiliada}
+\label{tab:iess_afi_acti2_tnrh}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{*{5}{r}}
+\toprule
+Año	& Afiliados   & Porcentaje de \\
+    & activos     & incremento \\
+\midrule
+\input{tablas/iess_afi_acti2_tnrh.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Portal BI. Cubo Historia Laboral Activos. \\
+{\bf Elaborado:} DAIE.}
+\end{table}
+
+A diciembre de 2020 existen 306.994 afiliados activos, que representa un crecimiento del 274,21\% en comparación al año 2015.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución de la población afiliada}
+\label{fig:afi_acti2_tnrh}
+\includegraphics[scale=0.8]{graficos/afi_acti2_tnrh.png}
+\caption*{\scriptsize {\bf Fuente:} Portal BI. Cubo Historia Laboral Activos. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+En la figura \ref{fig:iess_pir_afiliados_tnrh} se presenta la distribución por edad de población afiliada.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Distribución por edad de la población afiliada}
+\label{fig:iess_pir_afiliados_tnrh}
+\includegraphics[scale=0.8]{graficos/iess_pir_afiliados_tnrh.png}
+\caption*{\scriptsize {\bf Fuente:} Portal BI. Cubo Historia Laboral Activos. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+El total de afiliados a diciembre de 2020 es de 306 994 mujeres. La edad
+promedio de la población es de 39,7 años
+
+% -----------------------------------------------------------------------------------------------
+\subsection{Masa salarial}
+\label{chp_masa:salarial}
+% -----------------------------------------------------------------------------------------------
+
+En la tabla \ref{tab:iess_masa_salarial_tnrh} y figura \ref{fig:iess_masa_salarial_tnrh} se presenta
+la evolución anual de la masa salarial y la correspondiente al mes de diciembre para el período 2015
+al 2020.
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución de la masa salarial (Período 2015 – 2020)}
+\label{tab:iess_masa_salarial_tnrh}
+%\scalebox{0.8}{
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{*{5}{r}}
+\toprule
+Año	& Masa salarial & Masa salarial      & Crecimiento de la         & Porcentaje de\\
+    & anual (USD)   & de diciembre (USD) & masa salarial anual (USD) & crecimiento\\
+\midrule
+\input{tablas/iess_masa_salarial_tnrh.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Base de datos de planillas. \\
+{\bf Elaborado:} DAIE.}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Masa salarial anual en el período 2015 – 2020 }
+\label{fig:iess_masa_salarial_tnrh}
+\includegraphics[scale=0.8]{graficos/iess_masa_salarial_tnrh.png}
+\caption*{\scriptsize {\bf Fuente:} Base de datos de planillas. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}

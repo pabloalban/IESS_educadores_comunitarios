@@ -1,0 +1,680 @@
+%---------------------------------------------------------------------------------------------------
+\chapter[Introducción]{Introducción}
+\label{chap_Intro}
+
+El artículo 45 “Responsabilidad”, del parágrafo 1 “De la Dirección Actuarial”, del capítulo seis
+“Órganos de Asesoría”, del título II “Del Organismo de Aplicación” de la Ley de Seguridad Social,
+establece que: “La Dirección Actuarial es órgano de asesoría técnica del IESS, […]. Tiene a su cargo
+la preparación de los balances actuariales de cada uno de los regímenes de protección del Seguro
+General Obligatorio; la elaboración de los estudios técnicos y los informes periódicos sobre la
+situación de dichos regímenes y sus proyecciones; […]; la preparación sistemática, periódica y
+oportuna de la memoria estadística del IESS, y los demás que ordene el Consejo Directivo”. 
+
+El numeral 2.3 “Gestión Actuarial, de Investigación y Estadística”, del numeral 2 “Procesos
+Adjetivos de Asesoría del Consejo Directivo”, del artículo 10 “Estructura Descriptiva”, del capítulo
+III “De la Estructura Orgánica Descriptiva” de la Resolución No. C.D. 535 de 08 de septiembre de
+2016, que contiene la Reforma Integral al Reglamento Orgánico Funcional del IESS, establece como
+misión de esta área de gestión: “Preparar los balances actuariales de cada uno de los regímenes de
+protección del Seguro General Obligatorio la elaboración de los estudios técnicos y los informes
+periódicos sobre la situación de dichos regímenes y sus proyecciones para mantener el equilibrio
+financiero de los seguros administrados por el IESS […]; y, preparar de manera sistémica, periódica
+y oportuna la memoria estadística del IESS.
+
+El Plan Estratégico del IESS 2018-2028 establece como objetivo estratégico No. 1 “Incrementar la
+sostenibilidad de los fondos de los seguros especializados”, determinando como una de las
+estrategias la de mejorar la gestión institucional en función a los estudios actuariales para la
+sostenibilidad financiera. 
+
+La Resolución No. SB-2017-810 que se encuentra publicada en la Edición Especial del Registro Oficial
+No. 123 de 31 de octubre de 2017, que contiene el Libro II Normas de Control para las entidades del
+sistema de seguridad social, en su artículo 1 del Capítulo IV.- NORMAS PARA LA PRESTACIÓN DE
+BALANCES ACTUARIALES DEL INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL, determina que el IESS presentará
+por lo menos cada tres (3) años los balances actuariales por régimen o seguros elaborados por el
+director actuarial del Instituto.
+
+Con estas consideraciones, al amparo del literal b) del numeral 2.3 del artículo 10 de la Resolución
+No. C.D. 535 de 8 de septiembre de 2016, se presenta el “Valuación actuarial del Fondo del Seguro de
+Cesantía General y Adicional del Seguro General Obligatorio”. 
+
+%---------------------------------------------------------------------------------------------------
+\section{Reseña histórica de la normativa expedida de los porcentajes de aportación para el Seguro General de Cesantía}
+
+Se presenta un rápido resumen de la evolución histórica de la reglamentación y leyes sobre el financiamiento del Seguro General de Cesantía y sus prestaciones:
+
+\begin{enumerate}[label=\alph*.]
+\item Se establece el Seguro de Cesantía Militar, en el Registro Oficial No. 76 del 2 de diciembre de 1948, en donde en su artículo 1 y 2 dice "Art. 1°: ESTABLECE EL SEGURO DE CESANTIA MILITAR, para todos los Oficiales Profesionales de las Fuerzas Armadas en servicio activo. Para gozar de este Seguro se requiere una base de diez años de servicio activo, sin abonos, como Oficial Profesional.\\
+Este Seguro no comprende a los Oficiales Asimilados.\\
+Art 2°: Serán fondos para el Seguros que establece este Decreto, los que provengan del aporte mensual del 1\% del sueldo que percibe cada Oficial en servicio o en disponibilidad. Esos descuentos se efectuarán a partir del 30 de noviembre del presente año; pero gozarán del beneficio del Seguro, todos los Oficiales que fueren dados de baja con fecha posterior al treinta de mayo de 1949.\\
+
+Los pagadores Militares depositarán todos los descuentos que se efectuaren mensualmente, dentro de los tres primeros días de cada mes en el Banco Central en una cuenta especial que se denominará "de Seguro de Cesantía", la que será administrada de conformidad con el Reglamento Especial que, para organizar dicho Seguro, expedirá el Poder Ejecutivo."
+
+\item El artículo 2 de la Ley del Seguro de Cesantía del Magisterio y de otros empleados, con Registro Oficial No.11 del 13 de septiembre de 1956, establece: “Art. 2. Son fondos de este Seguro:\\
+1° Para los empleados en general, su aporte mensual del 2\% de sus sueldos imponibles y las utilidades a que se refiere el Art. 7; \\
+2° Para los profesores, además de los indicados en el ordinal anterior, los siguientes:
+\begin{enumerate}[1)]
+    \item El aporte patronal del 1\% sobre los sueldos que perciban, y que deberá ser pagado por las instituciones de derecho público, o por las entidades de derecho privado y finalidad social o publica, o por los particulares, según el caso;\\
+    \item El producto de los descuentos y multas impuestos a los profesores por el funcionario correspondiente; y,\\
+    \item Las herencias, legados y donaciones que se destinen a este objeto; y,\\
+    \item Para los empleados del Sistema de Crédito de Fomento, además de los indicados en el ordinal 1°, el aporte patronal del 1\% de sus sueldos.”\\
+\end{enumerate}
+
+\item En el Registro Oficial No. 881 del 30 de julio de 195 se expide la Codificación de la Ley del Seguro Social Obligatorio, el cual en artículo 40 dice: “ Art. 40 .- Son fondos de la Caja de Pensiones: 
+\begin{enumerate}[1)]
+
+\item El aporte personal mensual del 2\% de los sueldos de sus afiliados, destinado al Seguro de Cesantía.
+\item El aporte patronal del 1\% de los sueldos que perciben los profesores, los empleados de Banco y los de instituciones autónomas sujetas al régimen de esta Caja, para el mismo Seguro de Cesantía.
+
+
+\end{enumerate}
+
+ \item En la Resolución No. 707 del Consejo Superior del Instituto Ecuatoriano de Seguridad Social., con Registro Oficial No.187 del 10 de mayo de 1989, en el artículo 1 indica el valor de la prima de cesantía, de acuerdo con el tipo de empleador, de la siguiente manera:
+ 
+ \begin{table}[H]
+ \centering
+ \resizebox{\textwidth}{!}{%
+ \begin{tabular}{|l|l|l|l|}
+\hline
+\multicolumn{4}{|c|}{\textbf{Valor de la prima de cesantía}}\\ \hline 
+\textbf{ Tipo de empleador}& \textbf{Personal}&\textbf{Patronal}&\textbf{Total}\\\hline
+ Servidores públicos& 2&1&3\\\hline
+Empleados de entidades bancarias, municipalidades & & & \\  
+y entidades públicas financieramente descentralizadas&2&1&3\\ \hline
+ Empleados privados, obreros y afiliaciones del seguro general&2&1&3& \hline
+ \end{tabular}}
+ \end{table}
+ 
+ \item La Resolución No.C.150 emitida el 21 de enero del 2003, establece: “Art. 5.- Apruébese las siguientes tablas de distribución de las tasas de aportación, personal y patronal, al Seguro General Obligatorio, que se aplicarán a partir del 1 de abril de 2003”, se resumen las tablas en cuanto a cesantía:
+ 
+
+\begin{table}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|}
+\hline
+\multicolumn{4}{|c|}{\textbf{Tasas de aportación al Seguro de Cesantía}}\\ \hline 
+\textbf{Tipo de empleador}  & \textbf{Personal}&\textbf{Patronal}&\textbf{Total}\\\hline
+De los empleados y obreros, trabajadores del servicio doméstico& & &\\
+trabajadores de la construcción, trabajadores agrícolas, operarios& & &\\ 
+y aprendices de artesanía,aprendices sujetos a contrato de aprendizaje,&2&1&3\\ 
+trabajadores a prueba, trabajadores a domicilio& & &\\
+trabajdores de iglesias, miembros del clero secular& &&\\\hline
+
+De los empleados bancarios, municipales y de entidades& & &\\ 
+públicas descentralizadas:notarios, registradores &2 &1 &3\\ 
+ de la propiedad y registradores mercantiles & & &\\ \hline
+
+De los servidores públicos, incluidos los funcionarios y empleadores  & & &\\ 
+
+de la función judicial y otras dependencias que presten & 2&1&3\\ 
+
+servicios públicos, mediante remuneración variable,& & &\\
+
+en forma de aranceles o similares&  & &\\ \hline
+
+De los funcionarios del servicio exterior residentes en el exterior&2&1&3\\ \hline
+
+Del magisterio fiscal&2&1&3\\ \hline
+
+De los trabajadores gráficos sin seguro adicional&2&1&3\\ \hline
+De los trabajadores gráficos con seguro adicional& & &\\
+y lostrabajadores en actividades insalubres&2&1&3\\ \hline
+De los trabajadores temporales de la industria azucarera&4&2&6\\ \hline
+De los maestros de taller y artesanos autónomos;& & & \\
+choferes profesionales  miembros de alguna organización& 3&0&3\\
+gremial,sin relación de dependencia  &  &  & \\ \hline
+
+ \end{tabular}}
+ \end{table}
+
+\item En la Resolución C.D. 501, de fecha 13 de noviembre del 2015, determinar la distribución de los aportes personales y patronales del Seguro de Cesantía de forma igual que la anterior tabla.
+\item Ley Orgánica para la promoción del trabajo juvenil, regulación excepcional de la jornada de trabajo, cesantía y seguro de desempleo, con Registro Oficial No. 720 del 28 de marzo del 2016, expresa lo siguiente: “Art. 6.- En el Título IX, a continuación del artículo 275 añádase el siguiente Capítulo y los artículos innumerados: "CAPITULO DE LA CESANTIA Y EL SEGURO DE DESEMPLEO Artículo ....- Del Seguro de Desempleo.- El Seguro de Desempleo es la prestación económica que protege a los afiliados del Instituto Ecuatoriano de Seguridad Social, bajo relación de dependencia por la pérdida de ingresos generada por un cese temporal de actividades productivas por causas ajenas a su voluntad y se regirá por los principios de obligatoriedad, suficiencia, integración, solidaridad y subsidiariedad. Artículo ... .-De los requisitos. - La persona afiliada para acceder a la prestación de Seguro de Desempleo deberá cumplir los siguientes requisitos en cada evento de desempleo: a) Acreditar 24 aportaciones acumuladas y no simultáneas en relación de dependencia, de las cuales al menos 6 deberán ser continuas e inmediatamente anteriores a la contingencia; b) Encontrarse en situación de desempleo por un período no menor a 60 días; c) Realizar la solicitud para el pago de la prestación a partir del día 61 de encontrarse desempleado, y hasta en un plazo máximo de 45 días posteriores al plazo establecido en este literal; y, d) No ser jubilado. Artículo...- De la aplicación del Seguro de Desempleo o la Cesantía.- En caso de suscitarse el evento de desempleo, el afiliado podrá optar por una de las siguientes opciones excluyentes: a.- Podrá solicitar y retirar el saldo de los fondos de cesantía acumulados en su cuenta individual más los fondos que se acumularen en la misma cuenta por efecto de la aportación del 2\% personal y su rendimiento para configurar la parte variable del Seguro de Desempleo; o, b.- Podrá acogerse al Seguro de Desempleo y solicitar al final de su cobertura la entrega del saldo acumulado una vez efectuados los pagos correspondientes a dicho seguro en la forma prevista en esta ley. Artículo...- Del financiamiento. - El Fondo del Seguro de Desempleo será financiado por las tasas de aportación correspondientes al 2\% del aporte personal de la remuneración del trabajador, obrero o servidor y con el aporte del empleador del 1\% de la remuneración del trabajador, obrero o servidor, que tiene el carácter de solidario.
+
+"DISPOSICIONES GENERALES PRIMERA. - Los porcentajes de los aportes que financian el Seguro de Desempleo establecidos en el artículo sobre montos y cálculo de la prestación señalados en esta ley, podrán ser modificados en base a resultados de estudios actuariales independientes contratados por el IESS conforme a lo que establece la Ley y las disposiciones del Consejo Directivo del IESS. La tasa de aportación que hasta antes de la vigencia de esta Ley correspondía al Seguro de Cesantía, pasa a constituir el fondo del Seguro de Desempleo”
+
+\item El 30 de marzo del 2016 el Consejo Directivo del IESS mediante Resolución C.D. 515 expidió el “Reglamento para la aplicación de la Cesantía y Seguro de Desempleo”, mediante el cual se establece que “a partir del mes de marzo de 2016 se reformen los porcentajes del Seguro de Cesantía establecidos por la Resolución C.D. 501 del 13 de noviembre del 2015 por los siguientes: Aporte Personal del 2\% para cesantía; Aporte del empleador del 1\% de la remuneración del trabajador, obrero o servidor que constituye el fondo solidario.”
+
+\newpage
+
+\begin{table}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\multicolumn{5}{|c|}{\textbf{Porcentajes Seguro de Cesantía}}\\ \hline 
+\textbf{Tipo de empleador}  & \textbf{ General}  &\textbf{Personal}&\textbf{Patronal}&\textbf{Total}\\\hline
+
+\multirow{3}{100mm}{De los trabajadores del sector privado bajo relación de dependencia}&Cesantía &2 &0&2\\ \cline{2-5}
+& Desempleo& 0&1&1\\ \cline{2-5}
+&SEGURO DE DESEMPLEO&2&1&3\\ \hline
+
+\multirow{4}{100mm}{\begin{tabular}[c]{@{}l@{}}De los servidores públicos definidos en la Ley Orgánica \\
+del Servicio Público, incluido el magisterio y \\
+los servidores, funcionarios y empleados de la función \\ 
+judicial u otras dependencias que presten servicios \\ 
+públicos incluidos notarios públicos, mediante \\
+remuneración variable en forma de aranceles o similares\end{tabular}} & Cesantia   & 2  & 0 & 2\\  
+                                   &            &   &    &  \\ \cline{2-5}
+                                  & Desempleo  & 0 & 1  & 1\\ \cline{2-5}
+                                   &            &   &    &  \\
+                                  & SEGURO DE DESEMPLEO & 2& 1 & 3 \\ 
+                                   &            &   &    &  \\ \hline
+
+ \multirow{3}{100mm}{De los funcionarios del servicio exterior residentes en el extranjero}&Cesantía &2 &0&2\\ \cline{2-5}
+ & Desempleo& 0&1&1\\ \cline{2-5}
+ &SEGURO DE DESEMPLEO&2&1&3\\ \hline
+\multirow{3}{100mm}{De los trabajadores de la industria azucarera}&Cesantía &4 &0&4\\ \cline{2-5}
+& Desempleo& 0&2&2\\ \cline{2-5}
+&SEGURO DE DESEMPLEO&4&2&6\\ \hline
+De los trabajadores gráficos sin seguro adicional&Cesantía &2 &1&3\\ \hline
+&  &  &  & \\
+De los trabajadores gráficos con seguro adicional& Cesantía  &  2&1 &3 \\ 
+y los trabajadores en actividades insalubres& & &&\\ 
+& & & &\\ \hline
+
+De los trabajadores temporales de la industria azucarera&Cesantía &4 &2&6\\ \hline
+
+\end{tabular}}
+\end{table}
+
+
+
+
+
+
+\end{enumerate}
+
+
+
+
+
+
+%---------------------------------------------------------------------------------------------------
+\section{Objeto del estudio actuarial}
+
+Realizar el estudio con un horizonte de cuarenta (40) años, que permita evaluar la capacidad de pago
+del Fondo de Cesantía para cumplir con obligaciones futuras, causada por la contingencia de
+desempleo con diferentes escenarios como económicos, financieros y demográficos que se esperan en un
+mediano y largo plazo, así como, recomendar las acciones que se deben adoptar con el fin de
+garantizar la sostenibilidad del Fondo en el tiempo para el pago de esta prestación.
+
+
+%---------------------------------------------------------------------------------------------------
+\section{Características del fondo o seguro; edad, tamaño, institución patrocinadora, estructura }
+El sistema de seguridad social en el Ecuador, que comprende las entidades públicas, normas,
+políticas, recursos, servicios y prestaciones de seguridad social, según lo consagra la
+Constitución, es público y universal, debe atender las necesidades contingentes de la población,
+protección que se hace efectiva a través del seguro universal obligatorio y de sus regímenes
+especiales; sistema que se guiará por los principios del seguro social y del sistema nacional de
+inclusión y equidad social, obligatoriedad, suficiencia, integración, solidaridad y subsidiaridad;
+y, funcionará con base en el criterio de sostenibilidad, eficiencia, celeridad y transparencia. 
+
+Los artículos 369 y 370 de la Constitución de la República del Ecuador determinan que el Instituto
+Ecuatoriano de Seguridad Social tiene la misión de proteger a la población afiliada al Seguro
+General Obligatorio contra las contingencias de enfermedad, maternidad, riesgos del trabajo,
+discapacidad, cesantía, desempleo, invalidez, vejez y muerte en los términos que consagra la ley. 
+
+La Ley de Seguridad Social en sus artículos 16, 17 y 18 establecen que el Instituto Ecuatoriano de
+Seguridad Social (IESS), es una entidad pública descentralizada, creada por la Constitución, con
+autonomía normativa, técnica, administrativa, financiera y presupuestaria, dotada de personería
+jurídica y patrimonio propio, que tiene por objeto indispensable la prestación del Seguro Universal
+Obligatorio a sus afiliados en todo el territorio nacional; su misión es la de proteger a la
+población urbana y rural, con dependencia laboral o sin ella, contra las contingencias determinadas
+en la normativa legal vigente; y, que está sujeto a las normas del derecho público y rige su
+organización y funcionamiento por los principios de autonomía, división de negocios,
+desconcentración geográfica, descentralización operativa, control interno descentralizado y
+jerárquico, rendición de cuentas por los actos y hechos de sus autoridades, y garantía de buen
+gobierno; divide la administración de los seguros obligatorios en unidades básicas de negocios,
+según la naturaleza de los riesgos y el proceso de entrega de las prestaciones.
+
+En cuanto al financiamiento, la Constitución de la República en su artículo 371 establece que las
+prestaciones de la seguridad social se financian con el aporte de las personas aseguradas en
+relación de dependencia y de sus empleadoras o empleadores; con los aportes de las personas
+independientes aseguradas; con los aportes voluntarios de las ecuatorianas y ecuatorianos
+domiciliados en el exterior; y con los aportes y contribuciones del Estado, mismos que deben constar
+cada año en el Presupuesto General del Estado y ser transferidos de forma oportuna. También forman
+parte del financiamiento, descuentos a pensionistas destinados al pago de las decimas tercera y
+cuarta pensiones, multas, intereses y otros ingresos provenientes de las utilidades de inversiones y
+el rendimiento financiero de otras obligaciones a favor del IESS, ajustados a las previsiones
+generales de la coyuntura económica nacional, y, el excedente de gastos de administración de la
+administradora.
+
+La Disposición Transitoria Cuarta de la Constitución Política de la República, la cual estuvo
+vigente a partir de agosto de 1998, dispuso que los fondos de los seguros de invalidez, vejez,
+muerte, riesgos del trabajo y cesantía se administren y mantengan en forma separada del patrimonio
+del Instituto Ecuatoriano de Seguridad Social. Esta disposición fue instrumentada con la
+promulgación de la Ley 2001-55 de Seguridad Social, publicada en el Registro Oficial No. 465 del 30
+de noviembre del 2001, con la que se concretó la separación de los ingresos y egresos de cada uno de
+los Seguros que, con anterioridad a su promulgación, se administraban como un fondo común, según se
+determinaba en el artículo 78 de la Codificación de la Ley del Seguro Social Obligatorio publicada
+en el Registro Oficial No. 21 del 8 de septiembre de 1988.
+
+La actual Constitución de la República del Ecuador, vigente a partir del 20 de octubre del 2008, no
+hace referencia a la separación de los fondos de los Seguros administrados por el IESS; sin embargo,
+en vista de que no se ha modificado la Ley de Seguridad Social, continúa en aplicación las normas
+legales vigentes a partir de noviembre del 2001, es decir, los fondos de las aportaciones acumuladas
+por los asegurados para las distintas prestaciones del seguro universal obligatorio, deben
+mantenerse en forma separada y no deben ser utilizados en prestaciones diferentes de aquellas para
+las que fueron creados. Los fondos y reservas del Seguro de Cesantía, así como de los otros seguros
+especializados, se administran y mantienen separados del patrimonio del Instituto Ecuatoriano de
+Seguridad Social, y no pueden ser dispuestos para otros fines que no sean los expresamente
+determinados en la ley.
+
+Mediante Resolución No. C.D. 515 se expide el “Reglamento para la aplicación de Cesantía y el Seguro
+de Desempleo” y se dispone “refórmese los porcentajes del Seguro de Cesantía establecidos en la
+Resolución 501 del 13 de noviembre de 2015 por los siguientes: Aporte Personal del 2\% para
+cesantía; aporte del empleador del 1\% de la remuneración del trabajador, obrero o servidor que
+constituye el fondo solidario.  
+
+Mediante Resolución No. C.D. 518, se expide el “Reglamento General para el Seguro de Cesantía y para
+el Seguro de desempleo para la aplicación de Cesantía y el Seguro de Desempleo” dentro de varios
+aspectos se definió el financiamiento del Seguro de Desempleo con los aportes del empleador del 1\%
+de la remuneración del trabajador, obrero o servidor privados y públicos en relación de dependencia;
+con los que se constituye un fondo de carácter solidario. 
+
+Conforme los principios de organización del IESS, operativamente el Seguro de Cesantía se
+caracteriza por funcionar bajo un esquema de desconcentración geográfica y descentralización
+operativa, bajo la administración de la Subdirección Nacional de Fondos de Terceros, con el
+direccionamiento técnico de la Dirección General del IESS; y, con las políticas, programas,
+regulación administrativa, normas técnicas y resoluciones que apruebe el Consejo Directivo.
+
+Los fondos previsionales públicos y sus inversiones se canalizan a través del BIESS, institución
+financiera de propiedad del Instituto Ecuatoriano de Seguridad Social, cuya gestión está sujeta a
+los principios de seguridad, solvencia, eficiencia, rentabilidad y al control de los órganos
+competentes.
+
+%---------------------------------------------------------------------------------------------------
+\section{Breve descripción del seguro}
+La prestación por cesantía consiste en la entrega de dinero al afiliado/da, por parte del IESS en
+los casos en los que éste lo requiera por encontrarse en situación de desempleo.
+
+De conformidad con el artículo 274 de la Ley de Seguridad Social, se entenderá como cesantía la
+falta de ingresos provenientes del trabajo de un empleado, obrero o servidor público, afiliado al
+lESS, según lo establece el artículo 3 de la Resolución No. C.D. 518.
+
+\subsection{Sujetos de protección}
+
+Son sujetos de protección del Seguro de Cesantía, todas las personas que han cotizado para este
+fondo dentro de la prima del seguro general obligatorio. 
+
+La segunda disposición general de la Resolución No. C.D. 518 establece: ``los trabajadores
+autónomos, sin relación de dependencia, los afiliados voluntarios residentes en el Ecuador,
+pasantes, becarios, internos rotativos, afiliados voluntarios ecuatorianos residentes en el
+exterior, miembros del clero secular, las trabajadoras no remuneradas del hogar; y las personas
+jubiladas que se afilien al IESS; no aportarán al Seguro de Desempleo ni a la Cesantía y por lo
+tanto no podrán acceder a estas prestaciones ni a las que de estas se derivan''.
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Requisitos}
+El artículo 5 de la Resolución No. C.D. 518, de los requisitos para el retiro de la Cesantía,
+establece: ``el afiliado que opte por retirar el monto acumulado en su cuenta individual de cesantía
+deberá cumplir con los siguientes requisitos:
+\begin{enumerate}[label=\alph*.]
+\item Tener veinte y cuatro 24 aportaciones no simultáneas 
+\item Estar sesenta 60 días cesante
+\item Realizar la solicitud de retiro de fondos de cesantía a través del portal institucional
+	(\url{www.iess.gob.ec}). 
+\end{enumerate}
+
+Siempre que cumplan los requisitos establecidos, los afiliados podrán retirar los fondos existentes
+en su cuenta individual de cesantía y sus rendimientos financieros. En todo lo que no se haya
+previsto en las disposiciones del presente reglamento, la prestación de cesantía y los pagos de los
+montos acumulados individuales se ajustará a los términos y condiciones establecidos en las normas
+pertinentes''. 
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Causas de rechazo de una solicitud de cesantía}
+\begin{itemize}
+\item Cuando se hayan determinado hechos fraudulentos 
+\item Cuando existan valores pendientes de pago por préstamos quirografarios 
+\item Si el beneficiario hubiese sido condenado como autor cómplice o encubridor de la muerte del
+	causante o de la del deudo o deudos que tuvieren derecho preferencial a la prestación.
+\end{itemize}
+%---------------------------------------------------------------------------------------------------
+\subsection{Financiamiento}
+
+El fondo acumulado de la cesantía se mantiene como una cuenta individual de cada afiliado integrado
+por el 3\%, hasta el mes de febrero del año 2016. A partir del mes de marzo de 2016, la cuenta
+individual de cesantía de cada afiliado estará constituido por la tasa del 2\% del aporte personal
+de los trabajadores, obreros o servidores en relación de dependencia afiliados al IESS, así como los
+valores diferenciados por los grupos de cotización descritos en la Resolución No. C.D. 515 de 30 de
+marzo de 2016. 
+
+Además, existen instituciones públicas o empresas privadas que cotizan para la Cesantía Adicional y
+se constituye un fondo común de ahorro forzoso que financia las prestaciones a los afiliados
+mediante la capitalización del fondo colectivo constituido por el aporte personal de los afiliados y
+la tasa de rendimiento correspondiente. 
+
+
+\subsection{Causales para retiro de la cesantía}
+
+El Reglamento General del Seguro de Cesantía establece los motivos por los cuales el afiliado puede
+retirar los valores acumulados en su cuenta individual, los cuales son: retiro de la cesantía del
+afiliado cesante, retiro de la cesantía del jubilado, retiro de la cesantía del afiliado sin
+relación de dependencia y del afiliado del régimen Especial del Seguro Voluntario, retiro de la
+cesantía por licencia de maternidad o paternidad y retiro de cesantía en caso de fallecimiento del
+afiliado. Estos motivos están establecidos en los siguientes artículos de Resolución No. C.D. 518:
+
+``(...)
+\textbf{Artículo 7}.-Del retiro de la cesantía del afiliado en el Seguro General Obligatorio.-El
+afiliado en relación de dependencia, a quien su empleador le registre un aviso de salida por
+cualquier razón, se afilie al Régimen Especial del Seguro Voluntario y no registre una solicitud
+para la prestación del seguro de desempleo, siempre que cumpla con los requisitos determinados en el
+presente reglamento, podrá solicitar y retirar los valores disponibles en su cuenta individual de
+cesantía. El Jubilado por vejez o el pensionista de invalidez del seguro generala por incapacidad
+permanente total o por incapacidad permanente absoluta de riesgos del trabajo, que se encontraré
+cesante, tendrá derecho al retiro total del fondo acumulado en su cuenta individual de cesantía, sin
+necesidad de cumplir con los requisitos de aportaciones y tiempos de espera. Igual procedimiento se
+aplicará para los asegurados cesantes, con derecho a recibir prestaciones de jubilación o mejora por
+vejez o de pensiones de invalidez del seguro general o por incapacidad permanente total o
+incapacidad permanente absoluta de riesgos del trabajo.
+
+\textbf{Artículo 8}.-Del retiro de la cesantía del afiliado sin relación de dependencia y del
+afiliado del Régimen Especial del Seguro Voluntario.-Las personas sin relación de dependencia o
+independientes y los ecuatorianos domiciliados en el exterior afiliados al IESS que a raíz de la
+Resolución C.D. 467 del 20 de marzo del 2014 registren valores acumulados en su cuenta individual de
+cesantía, podrán retirarlos efectuando una solicitud en el Portal Institucional
+\url{www.iess.gob.ec}, sin tener que cumplir el número de aportaciones, el tiempo de espera ni el
+estado de cesante. 
+
+\textbf{Artículo 9}.-Del retiro de la cesantía por licencia de maternidad o paternidad para cuidado
+de los hijos.-Una vez que el afiliado o afiliada se haya acogido a la licencia o permiso por
+maternidad o paternidad sin remuneración para el cuidado de los hijos, y de conformidad con la ley
+cumpla los requisitos de número de aportaciones para acceder a los fondos que tenga acumulados por
+concepto de cesantía, podrá solicitarlos, a través del portal institucional www.iess.gob.ec, dentro
+de los 3 días posteriores a la terminación de la licencia o permiso con remuneración de maternidad o
+paternidad, estos valores serán entregados a partir del día 61 contados desde de la solicitud
+realizada.  
+
+En el caso de adopción, se aplicará para los afiliados las mismas reglas señaladas en el inciso
+anterior. 
+
+\textbf{Artículo 11}.-Derechohabientes de la Prestación de Cesantía.-De conformidad con lo
+establecido en el artículo 285 de la Ley de Seguridad Social, en caso de fallecimiento del afiliado
+tendrán derecho a la devolución del capital acumulado por el causante, en el siguiente orden
+excluyente: 
+\begin{enumerate}[label=\alph*)]
+\item Los hijos menores de dieciocho años y los hijos de cualquier edad con discapacidad para el
+	trabajo y el cónyuge sobreviviente o el conviviente en unión de hecho legalmente reconocida; 
+\item De no existir derechohabientes en los casos previstos en el literal anterior, corresponderá
+	dicho derecho, en su orden, a sus hijos o hijas; y,
+\item A falta de los derechohabientes anteriores, los padres, o uno de ellos, de ser el caso. 
+\end{enumerate}
+
+En caso de que concurran dos o más derechohabientes y observando el orden de exclusión, aquellos
+tendrán derecho a una distribución equitativa e igualitaria de dicho capital acumulado. 
+
+Cuando concurran como derechohabientes el cónyuge o el conviviente en unión de hecho legalmente
+reconocida y los hijos, se observarán las normas que sobre el derecho sucesorio se prevén para tales
+casos en el Código Civil.
+
+Perderá derecho a la cesantía el beneficiario que hubiere sido condenado como autor, cómplice o
+encubridor de la muerte del causante o de la del deudo o deudos que tuvieren derecho preferencial a
+la prestación. 
+
+Para el caso de que no concurrieren ante el IESS derechohabientes para el pago de Cesantía a la que
+tenía derecho el afiliado fallecido, en el orden de prelación establecido en el artículo 3 de este
+Reglamento, el saldo acumulado en la cuenta de cesantía del asegurado integrará el haber hereditario
+de dicho causante, y su distribución se sujetará a las normas del derecho sucesorio, debiendo para
+el efecto el o los solicitantes presentar una copia certificada de la posesión efectiva de los
+bienes del causante.
+
+(...)''
+
+También el afiliado puede retirar valores de su cuenta individual en el caso de aplicar al Seguro de
+Desempleo, tal como lo establece el artículo 16, De la solicitud del Seguro de Desempleo y Cesantía,
+de la Resolución No. C.D 518, el cual establece: 
+``Para aplicar a la prestación del seguro de desempleo, el afiliado realizará la solicitud a través
+de la página web \url{www.iess.gob.ec}, y podrá voluntariamente escoger una de las siguientes
+opciones excluyentes:
+
+\begin{enumerate}[label=\alph*.]
+\item Retirar los fondos de cesantía acumulados y disponibles en su cuenta individual;
+\item Acogerse al Seguro de Desempleo y Cesantía, manifestando su voluntad entre:
+\begin{enumerate}[{b.}1.]
+\item \label{b1} Recibir el valor correspondiente al fondo solidario más el monto disponible en la
+	cuenta individual de cesantía en la forma establecida por la ley; o, 
+\item \label{b2} Recibir únicamente el porcentaje correspondiente al fondo solidario. En ambos
+	casos, siempre que la prestación no haya terminado por las causas establecidas en el
+	artículo 19 del presente reglamento, al final de haberse escogido la opción b.1 o b.2, el
+	beneficiario podrá solicitar el retiro del saldo de los fondos de cesantía acumulados que
+	pudieran existir''.
+\end{enumerate}
+\end{enumerate}
+
+Además, de los motivos antes citados, existe el débito automático por ejecución de las garantías
+constituidas en créditos quirografarios en el BIESS, tal como ya lo establece la derogada Resolución
+No. C.D. 171 en su artículo 8, Garantías del crédito, que establece: ``El préstamo quirografario
+tendrá como garantía automática el Fondo de Reserva y el Fondo de Cesantía General y Adicional del
+afiliado, para los casos correspondientes. Para el efecto, el deudor autorizará la inmovilización de
+dicha garantía y el débito de esos fondos en caso de su ejecución''.
+
+\subsection{Rendimientos de la Cesantía}
+
+El artículo 6 de la Resolución No. C.D. 518, De los Rendimientos de la Cesantía, establece: ``En las
+cuentas individuales de los afiliados, los montos de cesantía rendirán el interés simple aplicado a
+los saldos mensuales de acuerdo a la tasa pasiva mensual de rendimiento referencial vigente,
+determinada por el Banco Central del Ecuador''.
+
+\subsection{Monto de la prestación}
+
+El monto de la prestación estará dado por los valores acumulados en la cuenta individual de cesantía
+del afiliado/a y podrá recibirse cuantas veces éste quede cesante, siempre que en cada oportunidad
+reúna los requisitos y condiciones señalados por la ley, tal como lo instituye la Ley de seguridad
+Social Art. 283.
+
+En caso de aplicar al Seguro de Desempleo, los valores percibidos por la parte variable provendrán
+de la cuenta individual del afiliado, tal como lo establece el literal b.1 del artículo 16 de la
+Resolución No. C.D. 518 que establece: literal b.1.- \textit{``recibir el valor correspondiente al
+fondo solidario más el monto disponible en la cuenta individual de cesantía en la forma establecida
+en la ley''}. El beneficiario recibirá hasta el saldo disponible en la cuenta individual de cesantía
+más el valor que corresponde al fondo solidario, tal como consta en la siguiente tabla (establecida
+en artículo 18 de la Resolución No. C.D. 518):
+
+%---------------------------------------------------------------------------------------------------
+\begin{table}[H]
+\centering
+\caption{Saldo individual de la cuenta de cesantía}
+\scalebox{0.8}{
+\begin{tabular}{@{}llllll@{}}
+\toprule
+\textbf{\begin{tabular}[c]{@{}l@{}}3\% Aporte personal y aporte \\ patronal\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}l@{}}Pago 1\\ (Mes 4)\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}l@{}}Pago 2\\ (Mes 5)\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}l@{}}Pago 3\\ (Mes 6)\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}l@{}}Pago 4\\ (Mes 7\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}l@{}}Pago 5\\ (Mes 8)\end{tabular}} \\ 
+\midrule
+
+\begin{tabular}[c]{@{}l@{}}Remuneración promedio (materia gravada) 12\\ meses, previo suscitado el
+evento.\end{tabular} & 
+\multicolumn{1}{c}{70\%} & \multicolumn{1}{c}{65\%} &
+\multicolumn{1}{c}{60\%} & \multicolumn{1}{c}{55\%} & 
+\multicolumn{1}{c}{50\%} \\ \bottomrule
+\end{tabular}}
+\caption*{\scriptsize Fuente: IESS - Resolución C.D.518\\ 
+Elaborado: DAIE.}
+\end{table}
+
+%---------------------------------------------------------------------------------------------------
+\section{Referencia a informes anteriores}
+
+%De acuerdo al archivo físico de la Dirección Actuarial, de Investigación y Estadística, no existen
+%estudios anteriores referentes al Seguro de Cesantía General y Adicional. 
+
+El Instituto Ecuatoriano de Seguridad Social en lo que respecta al Seguro de Cesantía, cuenta con el
+siguiente estudio:
+\begin{enumerate}[label=\alph*)]
+    \item El informe actuarial al 31 de diciembre de 2018, realizado por la Dirección Actuarial del
+	    IESS, cuyos estudios fueron realizados en base a los siguientes escenarios:
+	    
+	    \begin{enumerate}[1)]
+	    \item \textbf{Escenario Base:} Constituye el escenario más verosímil, aplicando parámetros
+financieros conservadores y realistas, en base a valores proyectados promedio. En este
+escenario se asume: tasa actuarial 6,25\%, tasa de crecimiento salarial de 2,15399 \%, tasa
+pasiva referencial 4,87892\% y aporte de los afiliados igual a 2,00 \%.
+\item \textbf{Escenario aumento de aporte a 3,00 \%:}  Escenario igual al base, pero con aumento de
+la tasa de aportación al seguro a 3,00 \%, tal como lo establecía \legalcite{ResIESS_CD501} y \legalcite{ResIESS_CD261}.
+	    \end{enumerate}
+	    
+Esto podemos resumirlo en la presente tabla, en donde el Escenario 1 corresponde al \textbf{Escenario Base} y el Escenario 2 corresponde al \textbf{Escenario aumento de aporte a 3,00\%}:	  
+
+\begin{table}[H]
+\centering
+\caption{Escenarios de análisis}
+\label{tab:iess_tasas_escenarios_2018rtr}
+%\scalebox{0.6}{
+{\fontsize{10}{12}\selectfont
+%\resizebox{\columnwidth}{!}{%
+\begin{tabular}{l|c|c}
+%\toprule
+\hline
+ Parámetros  & Escenario 1 (\%) & Escenario 2 (\%)\\ \hline
+Tasa actuarial ($i_{\alpha})$ & 6,250 & 6,250 \\ 
+Tasa crecimiento salarios ($i_{r}$) & 2,154 &2,154 \\ 
+Tasa rendimiento de las cuentas individuales ($i_{q}$) &4,879&4,879  \\
+Tasa aportación personal ($\pi^{2,per}$) & 2,000&2,000 \\ 
+Tasa aportación patronal ($\pi^{2,pat}$) & 0,000&1,000 \\
+Porcentaje gasto administrativo& 2,000&2,000 \\ \hline
+%\bottomrule
+\end{tabular}
+}
+
+\end{table} 
+	    
+Dentro de este estudio se describen las siguientes hipótesis reflejadas en las presentes tasas:
+
+\begin{table}[H]
+\centering
+\caption{Tasas utilizadas en el estudio (período 2021-2060)}
+\label{tab:iess_tasas_escenarios_2018rtr}
+%\scalebox{0.6}{
+{\fontsize{10}{12}\selectfont
+%\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lc}
+%\toprule
+\hline
+ Ítem:  & Tasa\\ \hline
+Tasa activa referencial & 8,615\%  \\ 
+Tasa pasiva referencial & 4,879\% \\ 
+Tasa actuarial & 6,250\%  \\
+Tasa variación salarial & 2,154\% \\
+Tasa variación SBU& 2,534\% \\ 
+Tasa variación PIB& 1,675\% \\
+Tasa inflación& 1,826\%\\
+\hline
+%\bottomrule
+\end{tabular}
+}
+
+\end{table}
+
+Una vez hecho el estudio actuarial se concluyeron los siguientes resultados, resumidos en la presente tabla:
+\begin{table}[H]
+\centering
+\caption{Resultado de los escenarios de la valuación actuarial (2021 a 2060)}
+\label{tab:iess_tasas_escenarios_2018rtr}
+%\scalebox{0.6}{
+{\fontsize{10}{12}\selectfont
+%\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrr}
+%\toprule
+\hline
+Parámetro o componente:  & \textbf{Escenario 1}& \textbf{Escenario 2}\\ \hline
+Tasa actuarial (\%) & 6,2500 &6,2500  \\ 
+Tasa de crecimiento salarial (\%) & 2,15399 &2,15399 \\ 
+Tasa pasiva referencial (\%) & 4,87892&4,87892  \\
+Patrimonio inicial (USD) & 431.431.492,30&431.431.492,30 \\
+Saldo inicial cuentas individuales (USD) & 6.716.416.966,13 & 6.716.416.966,13\\
+Aporte personal (USD)& 15.776.725.189,46& 15.776.725.189,46\\
+Aporte patronal (USD)& 0,00 &7.888.362.594,73\\
+Activo actuarial (USD)&  22.924.573.647,89& 30.812.936.242,61\\
+Beneficios totales (USD)& 15.085.614.204,82& 19.918.483.619,49\\
+Gastos administrativos(USD)& 315.534.503,79& 473.301.755,68\\
+Saldo al 2060 de las cuentas individuales (USD)&315.534.503,79 &473.301.755,68\\
+Pasivo actuarial (USD)& 19.655.580.976,22& 26.685.843.151,63\\
+Superávit actuarial (USD)&3.268.992.671,66& 4.127.093.090,98\\
+
+\hline
+%\bottomrule
+\end{tabular}
+}
+
+\end{table}  
+
+De donde pudimos obtener las siguientes conclusiones:
+\begin{enumerate}[1)]
+
+\item La población del estudio, con que se realiza la base demográfica y masa salarial correspondiente a los aportantes al IESS, no incluyen a los afiliados pertenecientes a los sectores de los trabajadores autónomos, TNRH, voluntarios y otros sectores señalados en la segunda disposición general de la \legalcite{ResIESS_CD518}, puesto que estos no cotizan al Seguro de Cesantía y Desempleo.
+
+\item Bajo el escenario base, se presenta un superávit igual a USD 3.268.992.671,66, en términos actuariales, en el año 2060, el cual se obtiene de la diferencia entre su activo actuarial (USD 22.924.573.647,89) y su pasivo actuarial (USD 19.655.580.976,22), en valor presente.
+Por último, el valor de las obligaciones por pagar por saldos de cuentas individuales de los afiliados es USD 4.254.432.267,61, en valor actual, al 2060.
+
+\item Si se regresa a la antigua prima (3,00 \%), se presenta un superávit igual a USD4.127.093.090,98, en términos actuariales, en el año 2060, el cual se obtiene de la diferencia entre su activo actuarial (USD 30.812.936.242,61) y su pasivo actuarial (USD
+26.685.843.151,63), en valor presente. Por último, el valor de las obligaciones por pagar por saldos de cuentas individuales de los afiliados es USD 6.294.057.776,46, en valor actual, al 2060.
+\item El monto desinvertido entre diciembre de 2014 a diciembre de 2020 es USD 114.230.513,00, por lo cual el IESS dejó de percibir USD 13.181.559,45 por lucro cesante por las desinversiones.
+\item Durante el período abril 2016 a diciembre de 2020, el Seguro de Cesantía ha dejado de percibir USD 648.661.026,21 por la reducción del aporte del 3 \% a 2 \%; tasa establecida en la \legalcite{ResIESS_CD501}. Esta reducción de ingresos produjo un lucro cesante de USD 76.033.282,28; por lo cual el perjuicio a este seguro ascendería a USD 724.694.308,49, valores que pasaron a formar el Fondo Solidario.
+
+\end{enumerate}
+
+Ante ello, las principales recomendaciones de esta Dirección son las siguientes:
+\begin{enumerate}[1)]
+\item Tomar las medidas necesarias de seguimiento al BIESS para que la tasa de rendimiento del Seguro de Cesantía no sea menor al de la tasa pasiva referencial, caso contrario el fondo no sería capaz de cumplir con sus obligaciones.
+\item Modificar el reglamento del seguro para que los rendimientos de los aportes extemporáneos sean cancelados por el patrono, de no ser así el IESS seguirá cubriendo estos rendimientos de valores que no están en sus arcas y no se perjudique al afiliado.
+\item Planificar los flujos de egresos e ingresos monetarios a este seguro, de modo que no se realicen desinversiones, lo cual produce un lucro cesante y, obviamente, reduce la tasa de rendimiento de las inversiones del fondo.
+\item Ejecutar las garantías hipotecarías de los préstamos considerados como incobrables, debido al alarmante aumento de la tasa de morosidad de estos créditos y que este seguro posee casi la mitad de esa cartera. Lo que producirá en los próximos años una drástica reducción de los ingresos financieros. Mejorar la gestión de cobranza de créditos vencidos para reducir la morosidad de las carteras de préstamos quirografarios e hipotecarios.
+\end{enumerate}
+
+\end{enumerate}
+
+%---------------------------------------------------------------------------------------------------
+\section{Horizonte del estudio}
+
+Para este estudio se ha considerado la base de datos entregada por la Subdirección Nacional de
+Fondos de Terceros y Seguro de Desempleo, con fecha de valoración al 31 de diciembre de 2020 y se
+utilizan proyecciones en un horizonte de 40 años. 
+
+%---------------------------------------------------------------------------------------------------
+\section{Estructura del informe}
+La estructura del presente estudio se encuentra conforme lo determinado en el artículo 9 del
+capítulo I: ``Norma para la calificación de los profesionales que realizan estudios actuariales y
+requisitos técnicos que deben constar en sus informes'', de la Resolución No. SB-2017-810, publicada
+en el Registro Oficial Edición Especial Nro. 123 de 31 de octubre de 2017.
+
+Se encuentra estructurado en trece capítulos y distribuidos de la siguiente manera:
+\begin{itemize}
+\item Capítulo 1: Resumen ejecutivo
+\item Capítulo 2: Introducción
+\item Capítulo 3: Reglamentación del fondo o seguro
+\item Capítulo 4: Análisis del contexto económico
+\item Capítulo 5: Análisis de la información financiera y contable 
+\item Capítulo 6: Análisis demográfico, de salarios y prestaciones
+\item Capítulo 7: Modelo actuarial
+\item Capítulo 8: Hipótesis actuariales
+\item Capítulo 9: Tablas demográficas y factores de riesgo 
+\item Capítulo 10: Valuación actuarial del Seguro de Cesantía
+\item Capítulo 11: Presentación de resultados 
+\item Capítulo 12: Conclusiones y recomendaciones 
+\item Capítulo 13: Opinión actuarial
+\end{itemize}
+
+La estructura del presente estudio se encuentra acorde con el artículo 9 del capítulo I ``Norma para
+la calificación de los profesionales que realizan estudios actuariales y requisitos técnicos que
+deben constar en sus informes'', de la Resolución No. SB-2017-810, publicada en el Registro Oficial
+Edición Especial No. 123 de 31 de octubre de 2017.
+
+%---------------------------------------------------------------------------------------------------
+\section{Nota aclaratoria recordando que los resultados dependen de la información, metodología e
+hipótesis subyacentes o utilizadas.}
+
+Los resultados de este estudio son inherentes a las metodologías establecidas para los trabajos
+actuariales, modelos e hipótesis utilizados, observando las Directrices para el Trabajo Actuarial
+para la Seguridad Social; y, Quantitative Methods in Social Protection Series, Actuarial Mathematics
+of Social Security Pensions de la Organización Internacional del Trabajo (OIT) y la Asociación
+Internacional de la Seguridad Social (ISSA).
+
+La información utilizada en el presente estudio fue proporcionada por la Dirección Nacional de
+Gestión Financiera y la Dirección de Fondos de Terceros y Seguro de Desempleo a través del memorando
+Nro. IESS-DNGF-2021-1497-M y Nro. IESS-DNFTSD-2021-1051-M, así como la registrada en los balances
+financieros del Instituto Ecuatoriano de Seguridad Social y del Banco del Instituto Ecuatoriano de
+Seguridad Social con corte al 31 de diciembre de cada año.
+

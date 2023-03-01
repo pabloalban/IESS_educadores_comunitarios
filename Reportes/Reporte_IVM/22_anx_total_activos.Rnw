@@ -1,0 +1,139 @@
+\begin{landscape}
+
+\chapter{Anexos: Total activos contables }
+\label{chap_activos_contables}
+
+
+En la tabla \ref{tab:iess_comp_activo_ivm}, se presentan los componentes del activo del Fondo de IVM para el período 2010 al 2020.
+
+% Componentes de los activos -----------------------------------------------------------------
+\vspace*{\fill}
+\begin{table}[H]
+\captionsetup{justification=centering}
+\caption{Componentes del activo del Fondo de IVM al 31 de diciembre de cada año (En millones de dólares)}
+\label{tab:iess_comp_activo_ivm}
+{\fontsize{7.5}{9.5}\selectfont
+\begin{tabular}{rrrrrrrrrrrr} %r right
+\toprule
+Descripción & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+    de las cuentas  &      &      &      &      &      &      &      &      &      &      &      \\
+    \midrule
+    \input{tablas/iess_comp_activo_ivm.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+  {\bf Elaborado:} DAIE.}
+\end{table}
+
+{\fontsize{9}{10}\selectfont
+\begin{quotation}
+\textbf{Nota:} Cabe mencionar que los balances del IESS correspondientes al período 2010 al 2020 han sufrido cambios en los códigos y creación de cuentas, por lo que se presenta la variación y optimización; un ejemplo de lo mencionado se encuentra en los componentes del activo, donde algunas partidas fueron afectadas de la siguiente manera: 
+
+\begin{itemize}
+\item Entre el 2010 al 2012 en los balances constan las cuentas: “Inversiones Deuda Renta Fija Sector Público” (7120), “Inversiones Privativas” (7130); a partir del 2014 dichas cuentas son optimizadas en una sola cuenta denominada “Inversiones”.
+\item A partir del año 2015 la cuenta “Inversiones” cambia de denominación a “Recursos/Administra x El BIESS” con el código 714.
+\item Desde el año 2013 al 2020 la cuenta “Deuda del Gobierno” pasa a ser una subcuenta de “Cuentas por Cobrar”, por tal motivo en la tabla \ref{tab:iess_comp_activo_ivm} no se refleja ningún valor por dicho concepto.
+ \end{itemize}
+\end{quotation}
+}
+\vspace*{\fill}
+\end{landscape}
+
+%---------------------------------------------------------------------------------------------------
+\begin{landscape}
+
+\subsection{Análisis horizontal y vertical del activo}
+\label{chp_infofinan:ana_hor_ver}
+
+En las tablas \ref{tab:iess_activo_horiz_ivm} y \ref{tab:iess_activo_vert_ivm},
+se presentan los análisis horizontal y vertical de los componentes del activo del Fondo de IVM para
+el período 2010--2020.
+
+% Analisis horizontal de los activos ------------------------------------------------------------------
+
+\begin{table}[H]
+\captionsetup{justification=centering}
+\caption{Análisis horizontal del activo del Fondo de IVM a 31 de diciembre de cada año con
+respecto al año anterior (Valores en \%)}
+\label{tab:iess_activo_horiz_ivm}
+{\fontsize{9}{10}\selectfont
+
+\begin{center}
+\begin{tabular}{rrrrrrrrrrr}
+\toprule
+Descripción & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020  \\
+de las cuentas  &       &         &      &      &      &      &      &      &      &   \\
+\midrule
+\input{tablas/iess_activo_horiz_ivm.tex}
+\bottomrule
+\end{tabular}
+\end{center}
+}
+\caption*{ \scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+{\bf Elaborado:} DAIE.}
+\end{table}
+
+El crecimiento de los componentes del activo para el período analizado fue variable, dicha cuenta ha crecido en promedio (geométrico) anual en 5,81\%. Se evidencia que la cuenta “Fondos Disponibles” presenta tasas de crecimiento positivas del 158,33\% y 1430,33\%, siendo la más significativa entre el año 2018 respecto al 2017; esto debido al incremento de USD. 217.798.437,80 en la subcuenta “Bancos”. Entre el año 2012 y 2015 existió un fuerte crecimiento de las inversiones, no obstante a partir del año 2016 comienza a disminuir llegando a una tasa de variación negativa de 0,13\% en el año 2020.
+
+Con respecto a las “Cuentas por cobrar”, se observa que estas han crecido en el período analizado (con excepción del año 2015 y 2020). Cabe señalar que entre el año 2013/2012 dicha partida presentó una tasa de variación del 3258,29\% y entre el año 2019/2018 es del 140,54\% debido a la inclusión de la cuenta “Deuda de Estado” siendo los más significativos. 
+
+\end{landscape}
+
+% Análisis vertical de los activos --------------------------------------------------------------------
+
+\begin{landscape}
+
+\begin{table}[H]
+\captionsetup{justification=centering}
+\caption{Análisis vertical del activo del Fondo de IVM a 31 de diciembre de cada año (Valores en \%)}
+\label{tab:iess_activo_vert_ivm}
+{\fontsize{9}{10}\selectfont
+\begin{center}
+\begin{tabular}{rrrrrrrrrrrr} %r right
+\toprule
+Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+de las cuentas  &      &      &      &      &      &      &      &      &      &      &     \\
+\midrule
+\input{tablas/iess_activo_vert_ivm.tex}
+\bottomrule
+\end{tabular}
+\end{center}
+}
+\caption*{ \scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+{\bf Elaborado:} DAIE.}
+\end{table}
+
+La cuenta “Inversiones” constituye la mayor representatividad respecto al total del activo en el período analizado, con un porcentaje promedio del 76,79\%. Dicha partida llego a su pico más alto en el año 2015 con un porcentaje del 88,92\%, a partir del 2016 esta cuenta disminuyó su importancia dentro del activo alcanzando el 68,85\% en el 2020; es decir pasó de USD. 7.468.154.202,9 a USD. 5.746.473.714,17 respectivamente.
+
+La cuenta “Deuda del Gobierno” represento hasta el año 2012 la segunda cuenta más representativa del total del activo con un porcentaje promedio de 24,60\%. El porcentaje más alto se evidencia en el 2010 con el 25,83\%, a partir del año 2013 dicha cuenta pasó a formar parte de las “Cuentas por Cobrar” manteniendo el segundo lugar con el porcentaje de representatividad promedio del 11,03\%; en el año 2019 alcanzó el porcentaje más elevado (27,58\%), mientras que en el 2020 decae aproximadamente en 2 puntos porcentuales.
+
+Finalmente el tercer y cuarto lugar lo ocupa las subcuentas “Propiedad Planta y Equipos” y “Fondos Disponibles” con una representatividad promedio de 3,61\% y 1,34” respectivamente. Cabe mencionar que los “Intereses por Cobrar” y “Otros Activos” apenas representan el 0,54\% en promedio, por tanto no es significativa.
+
+\end{landscape}
+
+% FIGURA DE BARRAS 5.2
+
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Porcentaje promedio de representatividad de los componentes del Activo correspondiente al período 2010 – 2020}
+% \label{fig:iess_porcent_prom_comp_activos_ivm}
+% \includegraphics[scale=1]{graficos/iess_porcent_prom_comp_activos_ivm.png}
+% \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+
+
+% %Inversiones ------------------------------------------------------
+% \subsection{Inversiones}
+% \label{chp_infofinan:inversiones}
+% 
+% La cuenta más representativa del activo son las inversiones, misma que representa en promedio el 76,79\% del total de los activos en el periodo analizado. Estos recursos son administrados por el BIESS cuyo análisis se presenta en la sección 5.8.
+
+% Cuentas por cobrar -----------------------------------------------------------------------------
+
+
+
+
+

@@ -1,0 +1,1753 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Análisis de la información financiera y contable}
+\label{chp_infofinanciero}
+
+El artículo 7 del capítulo II, los Requisitos Técnicos para la Elaboración, Presentación, Aprobación y Revisión de los Estudios Actuariales de las Entidades de la Seguridad Social, del Título IV, Actividad Actuarial, del Libro II, Normas de Control para las Entidades del Sistema de Seguridad Social, de la Codificación de las Normas de la Superintendencia de Bancos, Resolución Nro. SB-2020-0531 de 08 de mayo de 2020, dispone que los informes actuariales deberán contener como mínimo datos suficientes e información básica de respaldo de, entre otras, el análisis del contexto económico y financiero. El análisis del contexto económico y financiero debe contener por lo menos la evolución y tendencia financiera contable de al menos los últimos cinco años de, entre otros, las principales cuentas del balance general y del estado de resultados; y análisis de las reservas disponibles.
+
+La Auditoría Financiera DNA7-SySS-0006-2022 realizada por la Contraloría General del Estado a los estados financieros por el año terminado al 31 de diciembre de 2020, por el período comprendido entre el 1 de enero de 2020 y el 31 de diciembre de 2020 determinó que:
+
+\begin{itemize}
+ 
+\item Las Notas Explicativas de los Estados Financieros Consolidados de las Administradoras y Fondos Administrados de los Seguros Especializados y de la Dirección General, el 31 de diciembre de 2020, no contenían información íntegra, actualizada, desagregada y relevante de los hechos económicos, lo que ocasionó que la información que consta en las citadas notas, no permita una adecuada interpretación de los Estados Financieros Consolidados, para la toma de decisiones y acciones correctivas.
+\item El Estado de Flujo de Efectivo Consolidado de los Fondos Administrados de los Seguros Especializados, con corte al 31 de diciembre de 2020, fue presentado a la Superintendencia de Bancos y Seguros; y, al Consejo Directivo con errores en las Actividades de Operación e Inversión, lo que ocasionó que los saldos presentados en el Estado de Flujo de Efectivo Consolidado de los Fondos Administrados de los Seguros Especializados no sean razonables, lo que no permitió ver la capacidad de generación de efectivo y su equivalente, así como identificar las reales necesidades de liquidez, para la toma de decisiones.
+\item En los Estados Financieros del Fondo de Salud, con corte al 31 de diciembre de 2020, no se integró la información financiera de activos por 7 485 228 961, 48 USD, pasivos por 6 390 244 931, 18 USD y patrimonio por 1 094 984 030, 30 USD, de las Unidades Médicas del IESS, lo que ocasionó que los saldos de los Balances General del Fondo de Salud y de los Estados Financieros Consolidados de los Fondos Administrados de los Seguros Especializados no sean razonables.
+\item El saldo de la cuenta 110202 ``Bancos e Instituciones Financieras'', de la Administradora Dirección General, con corte al 31 de diciembre de 2020, incluyó valores registrados en la subcuenta 110202008 ``Valores Depositados'', que corresponden a saldos de años anteriores provenientes de recaudaciones de afiliados y clientes, que no han sido liquidados, lo que ocasionó que el saldo de la citada cuenta se encuentre sobrevalorado en 61 399 343, 44 USD y no sea razonable, por cuanto los registros no guardan coherencia con su naturaleza.
+\item Las cuentas 7150501 ``Deuda de Gobierno'' del Estado de Situación Financiera de los Fondos Administrados, presentó diferencias en la aplicación de la ``Trilogía Contable'', en las Coordinaciones Provinciales de Loja y Pichincha; las cuentas 715050153 ``A Jefas de Hogar'' y 715050154 ``Discapacitados'', no registraron movimientos contables; y, en las cuentas 715050152 ``Atención Med. A Jubilados'' y 715050155 ``Atención Médica Enfermedades Catastróficas''; así también, no se registró en el período sujeto a análisis 19 939 318, 24 USD y 17 566 002, 95 USD, información que constituye un insumo para el registro contable, lo que ocasionó que los saldos al 31 de diciembre de 2020 de las citadas cuentas se encuentren subestimados, no sean razonables; y, no se reflejen en los Estados Financieros Consolidados de los Fondos Administrados de los Seguros Especializados.
+\item El saldo al 31 de diciembre de 2020, de las subcuentas que conforman las cuentas 1201 ``Cuentas por Cobrar Planillas'' y 1202 ``Mora Patronal'', de la Administradora Dirección General, presentaron una variación porcentual en relación al año 2019 que superó el $100\%$, en el registro contable de glosas, intereses, títulos de crédito y planillas emitidas no se identificaron los valores que corresponden al período examinado y a años anteriores; y, no se registraron las panillas por aportes en mora de noviembre de 2020 por 38 932 934, 89 USD, lo que ocasionó que el saldo de la cuenta no sea razonable.
+\item Las cuentas 715909023 ``Responsabilidad Patronal'' y 715909048 ``Cxc Intereses x Respons. Patronal'', en los Estados Financieros Consolidados de los Fondos Administrados de los Seguros Especializados, presentaron saldos en cero al 31 de diciembre de 2020, debido a que no se registraron las obligaciones en estado de glosas por 3 792 524, 93 USD y títulos de crédito por 9 678 082, 83 USD generados por la unidad de negocio de salud, lo que ocasionó que el saldo de las cuentas no sea razonable.
+\item Los saldos de las cuentas 120601005 – 715060105 ``IVA Ministerio de Finanzas'', 120601002 – 715060102 ``IVA Por Cobar Años Anteriores'' y 120601001 – 715060101 ``IVA Por Cobrar'' de las Administradoras de los Seguros Especializados y Dirección General; y, de los Fondos Administrados de los Seguros Especializados, presentaron diferencias en comparación con el detalle extracontable de pedidos del IESS al Ministerio de Finanzas por 4 120 774, 74 USD; y, con lo certificado por el Ministerio de Economía y Finanzas por -6 171 867, 54 USD; además, el proceso de recuperación del IVA presentó un retraso en el año 2020, lo que ocasionó que lo saldos de las cuentas citadas carezcan de fiabilidad.
+\item El saldo al 31 de diciembre de 2020 de la cuenta 71403 ``Inversiones no Privativas Administradas por el BIESS'' POR 19 983 565 462, 79 USD, incluyó operaciones que debieron ser registradas en la cuenta 71402 ``Inversiones Privativas Administradas por el BIESS''; además, no se reclasificó la porción de cuentas de dudosa recuperación y no se realizó el registro contable de provisiones en el IESS, a pesar, que se revelaran operaciones vencidas hasta 3.024 días por 7 633 274, 52 USD y condiciones reveladas de riesgo de las empresas DELCORP S.A y ECUAGRAN S.A.; lo que ocasionó que los saldos presentados en las citadas cuentas no sean razonables.
+\item No se realizó actualización, análisis y cálculos por deterioro de valor de los equipos médicos, lo que ocasionó que el saldo de la cuenta 718030201 ``Equipos Médicos Fondos Especializados'' del Estado de Situación Financiera de los Fondos Administrados de los Seguros Especializados, no sea confiable.
+\item No se actualizó ni depuró la información del Catastro de Bienes Inmuebles de propiedad del IESS de: Azuay, Bolívar, Chimborazo, Cotopaxi, Esmeraldas, Guayas, Imbabura, Loja, Los Ríos, Manabí, Morona Santiago, Napo, Orellana, Santo Domingo de los Tsáchilas, Cañar, Galápagos, Pastaza, Tungurahua, Zamora Chinchipe y Pichincha, lo que ocasionó que los saldos de las cuentas 718 ``Propiedad y equipo'', por 669 678 537, 71 USD de los Estados Financieros Consolidados de los Fondos Administrados de los Seguros Especializados; y, 1501 ``Bienes Inmuebles'' por 45 693 349, 99 USD, 13 ``Activos no corrientes mantenidos para la venta'' por 8 781 787, 25 USD, de los Estados Financieros Consolidados de las Administradoras de los Seguros Especializados, Dirección General, no sean razonables.
+\item Los saldos de las cuentas 439905001 y 7439905 ``Gasto por Deterioro de Propiedad de inversión'' incluyeron registros de bienes que no fueron destinados para inversión, no se actualizó continuamente el catastro de Bienes inmuebles de propiedad del IESS; y, se contabilizó erróneamente los deterioros activos, sin documentación de respaldo; lo que ocasionó que los saldos de las citadas cuentas no sean razonables.
+\item Los saldos al 31 de diciembre de 2020 de las cuentas 718050001 ``Construcción Edificación y Remodelación Fondo'' y 718050002 ``Construc. Edif. Y Remod. Fdos.'', no se encuentran depurados, no fueron respaldados con los informes ``Control de avance de obra valorizado'' y no se concilió los bienes inmuebles y contrucciones de las jurisdicciones de Azuay, El Oro, Guayas, Manabí, Pichincha, Tungurahua, Santo Domingo de los Tsáchilas, Cañar, Los Ríos, Chimborazo, Imbabura y Loja; lo que ocasionó que los saldos de las citadas cuentas en el Estado de Situación Financiera de los Fondos Administrados de los Seguros Especializados, no sean razonables.
+\item No se realizaron registros contables ni se presentaron anexos integrales de la cuenta 721060001 ``Provisión Pagos Prestacionales'' de los Fondos del Seguro de Salud y Fondo del Seguro Social Campesino, lo que ocasionó que el saldo de la citada cuenta no sea confiable.
+\item El saldo al 31 de diciembre de 2020 de la cuenta 220101001 ``Jubilación Patronal'', fue -55 191 987, 27 USD en la Administradora Dirección General, sin que se registren movimientos en el ejercicio económico auditado; en las Administradoras de los Fondos de Salud, Campesino, Pensiones y Riesgos de Trabajo, respectivamente, presentó saldo cero; además, en los Estados Financieros de los Fondos Administrados de los Seguros Especializados, la cuenta 722010101 ``Provisión Jubilación Patronal'', correspondiente a los Fondos de Riesgos de Trabajo, presentó saldo por -54 722,50 USD; y, en el Seguro Social Campesino y Salud, reflejó saldo cero; en los que no se registró provisión por jubilación patronal de los servidores, lo que ocasionó que los saldos de las citadas cuentas no sean fiables.
+\item El saldo al 31 de diciembre de 2020 de la cuenta Fondos Acumulados de los Fondos Administrados de los Seguros Especializados por 1 993 531 979, 73 USD, contiene registros contrarios a la naturaleza de la cuenta, lo que ocasionó que el saldo de la cuenta no sea confiable.
+
+\end{itemize}
+
+El informe de Estados Financieros 2017 – 2020 del Fondo del Seguro de Salud Individual y Familiar, elaborado por la Subdirección Financiera Nacional del Seguro de Salud y revisado por la Dirección del Seguro General de Salud Individual y Familiar, en la pagina 4 indica que ``Entre este subgrupo, se registra los anticipos realizados a la ``Unidades Médicas'' para que puedan cubrir sus obligaciones por la compra de bienes y servicios; y, otorgar atención médica a los afiliados, los cuales al 2020 suman USD 6.350 millones y se liquidarán mediante la facturación con pertinencia médica proceso en el cual continúa con el retraso aproximado de 5 años, razón por la cual, no pueden ser liquidada esta cuenta por cobrar, con el correspondiente registro del gasto, siendo la ejecución presupuestaria irreal y los estados financieros no reflejan la verdadera situación patrimonial en cada ejercicio económico``.
+
+La Dirección Actuarial, de Investigación y Estadística informó a la Dirección General de IESS, mediante memorando Nro. IESS-DAIE-2021-0914-M de 19 de noviembre de 2021, que los Estados Financieros del Fondo del SGSIF no reflejan la situación real de dicho Fondo porque se alejan de los principios contables ``esencia sobre la forma'' y ``precio de intercambio''; las prestaciones médicas a jubilados y las prestaciones médicas por enfermedades catastróficas son registradas como gastos prestacionales, cuando en realidad son ingresos por servicios prestados a terceros; la cuenta contable Anticipo Unidades Médicas es considerada como cuenta por cobrar, cuando su esencia es ser un gasto prestacional en caso de afiliados, e ingresos por servicios prestados a terceros en caso de jubilados y enfermedades catastróficas; la auditoría médica de la calidad de la facturación, a más de terner un retraso de al menos cinco años, es un proceso lento, heterogéneo y poco transparente; la auditoría médica de la calidad de la facturación se basa en el Tarifario de Prestaciones para el Sistema Nacional de Salud emitido por el Ministero de Salud Pública, y actualizado en el año 2014, mismo que cataloga a ciertos procedimiento que para el IESS son de tercer nivel como de segundo nivel, y que no incluye a todos los procedimientos que realiza el IESS.
+
+A pesar de lo descrito, los análisis de esta sección se basan en los Estados Financieros proporcionados por la Dirección Nacional de Gestión Financiera, con memorandos Nro. IESS-DAIE-2021-0198-M de 18 de marzo de 2021, IESS-DSGSIF-2021-1874-M y IESS-SDNC-2021-0353-M de 22 de marzo de 2021, porque son los Estados Financieros oficiales.
+
+Las principales cuentas de los balances generales que se analizan son: Activo, Cuentas por Cobrar, Pasivo, Patrimonio. Mientras que, las principales cuentas de los estados de resultados que se analizan son: Ingresos y Egresos. Para el análisis los componentes han sido obtenidos agrupando subcuentas de acuerdo a la lógica del negocio y a su participación en los análisis verticales, que se muestran en las tablas \ref{tab:iess_vertical_activo_sal}, \ref{tab:iess_componentes_pasivo_sal}, \ref{tab:iess_componentes_pasivo_sal}.
+
+%===============================================================================
+%========================== Sección Activo =====================================
+%===============================================================================
+\section{Activo}
+
+Es importante mencionar que en septiembre del 2016, la Dirección General del IESS, mediante memorando Nro. IESS-DG-2016-0030-M-FDQ de 16 de septiembre de 2016, retiró aproximadamente USD. 2.506,7 millones de sus estados financieros, que estaban reportados como “Deuda del Gobierno”, al asegurar que la deuda era inexistente e incuantificable, al no haberse documentado las atenciones brindadas en administraciones pasadas y por la falta, o vigencia, de un Reglamento a la Ley de Seguridad Social, que permita determinar la deuda y establecer el cobro.
+
+Tras el examen especial DAAC-0059-2017 a los valores adeudados por el Estado al IESS, la Contraloría General del Estado determinó el 19 junio del 2017 que el Seguro Social debía restituir en sus balances la deuda del Estado; sin embargo, los balances financieros entregados a la Dirección Actuarial de Investigación y Estadística para la elaboración del presente estudio no cuenta con la restitución de valores en el año 2016; por tanto, se procede con el análisis según los Estados Financieros oficiales.
+
+% La tabla \ref{tab:iess_activo_fondo_sal} y la figura \ref{fig:iess_activo_fondo_sal} muestran la evolución histórica de la cuenta Activo del Fondo del SGSIF, según los Estados Financieros oficiales.
+
+La tabla \ref{tab:iess_activo_fondo_sal} y la figura \ref{fig:iess_activo_fondo_sal} muestran la evolución histórica de la cuenta Activo del Fondo del SGSIF, según los Estados Financieros auditados y presentados a la SB (oficiales).
+
+% %Tabla Activo
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Activo del Fondo del SGSIF al 31 de diciembre de cada año}
+
+\label{tab:iess_activo_fondo_sal}
+%{\fontsize{10}{12}\selectfont
+\scalebox{0.8}{
+%\resizebox{\columnwidth}{!}{%
+\begin{tabular}{*{4}{c}}
+\toprule
+\multirow{2}[0]{*}{Año} & \multirow{2}[0]{*}{Activo}        & Variación   & Variación \\
+    &                                   & Anual       & Porcentual Anual\\
+    & \small {USD}                      &\small{USD}  & \small{\%} \\
+\midrule
+\input{tablas/iess_activo_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{table}
+
+
+%Figura Activo
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Activo del Fondo del SGSIF al 31 de diciembre de cada año }
+\label{fig:iess_activo_fondo_sal}
+\includegraphics[scale=1.0]{graficos/iess_activo_fondo_sal.png}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{figure}
+
+En la tabla \ref{tab:iess_activo_fondo_sal} y la figura \ref{fig:iess_activo_fondo_sal} , se observa que los activos correspondientes al período 2010 al 2020 se incrementaron en un 24,46\% en promedio anual. Entre los años 2010 y 2015, el activo mantuvo un crecimiento constante en  USD. 2.965 millones, lo que evidencia un crecimiento promedio anual del 21,03\%. Sin embargo, en el año 2016, el activo sufre un decremento de USD. 893 millones representando una tasa de variación negativa del 18,31; ocasionado por no considerar en dicho año la cuenta “Deuda del Gobierno”, misma que en el 2015 registraba un valor de USD. 2.312 millones. A partir del 2017 se genera un incremento desacelerado en el activo hasta el año 2020, representando el 2017 la mayor tasa de crecimiento del período analizado con el 116,08\%, producto del incremento en las inversiones y en las cuentas por cobrar (incluye la deuda del Gobierno). El menor  incremento porcentual anual que se ha dado en el período analizado se establece en el año 2020 con el 8,31\%, lo que representa un valor de USD. 974.357.051,04 respecto al año anterior.
+
+% Es importante mencionar que en septiembre del 2016, el IESS, mediante memorando Nro. IESS-DG-2016-0030-M-FDQ de 16 de septiembre de 2016, retiró aproximadamente USD. 2.506,7 millones de sus estados financieros, que estaban reportados como “Deuda del Gobierno”, al asegurar que la deuda era inexistente e incuantificable, al no haberse documentado las atenciones brindadas en administraciones pasadas y por la falta, o vigencia, de un Reglamento a la Ley de Seguridad Social, que permita determinar la deuda y establecer el cobro.
+% 
+% Tras el examen especial DAAC-0059-2017 a los valores adeudados por el Estado a la entidad, la Contraloría General del Estado determinó el 19 junio del 2017 que el Seguro Social debía restituir en sus balances la deuda del Estado; sin embargo, los balances financieros entregados a la Dirección Actuarial de Investigación y Estadística para la elaboración del presente estudio no cuenta con la restitución de valores en el año 2016; por tanto, se procede con el análisis según datos oficiales al momento.
+
+%===============================================================================
+%=========== Análisis vertical y horizontal de los componentes del activo ======
+%===============================================================================
+
+\subsection{Análisis vertical y horizontal de los componentes del Activo}
+
+% En la tabla \ref{tab:iess_vertical_activo_sal}, se presenta la evolución histórica de los componentes del Activo del Fondo del SGSIF para el período 2010 al 2020, según los Estados Financieros oficiales.
+
+En la tabla \ref{tab:iess_vertical_activo_sal}, se presenta la evolución histórica de los componentes del Activo del Fondo del SGSIF para el período 2010 al 2020, según los Estados Financieros  auditados y presentados a la SB (oficiales).
+
+La cuenta agrupada “Anticipos” agrupa a las subcuentas:
+\begin{itemize}
+\item  7150701, Anticipo Unidades Médicas, y
+\item  7150704, Anticipo Contratistas;
+\end{itemize}
+
+Puesto que estos recursos son entregados a las unidades médicas y prestadoras para la entrega de prestaciones médicas.
+
+La cuenta agrupada “Otras Cuentas por Cobrar” agrupa a las subcuentas:
+
+\begin{itemize}
+\item 1306, Cuentas por Cobrar Empleados, utilizada en 2013 y 2014;
+\item 1304, Otras Cuentas por Cobrar de la Operación, utilizada en 2013 y 2014;
+\item 715010, Deudores Banca Cerrada, utilizada en los años 2010, 2011 y 2012;
+\item 715035, Por cobrar a la Administradora del Fondo, utilizada en el 2011 y 2012;
+\item 715040, Otras cuentas por cobrar, utilizada en el 2011 y 2012;
+\item 71506, Activos por impuestos corrientes, utilizada en 2015 y 2020;
+\item 71590, Cuentas por cobrar varias, utilizada en 2015 y 2020;
+\item 7165, Intereses por cobrar, utilizada en el 2010 y 2011.
+\end{itemize}
+
+La mayoría de ellas utilizadas esporádicamente en años anteriores.
+
+\begin{landscape}
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Análisis vertical de los componentes del Activo del Fondo del SGSIF al 31 de diciembre de cada año}
+\label{tab:iess_vertical_activo_sal}
+{\fontsize{5.5}{7.5}\selectfont
+\begin{tabular}{c*{12}{r}}
+\toprule
+Descripción de las cuentas	&  & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 &2019 &2020 \\
+\midrule
+\input{tablas/iess_vertical_activo_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{table}
+
+\end{landscape}
+
+La cuenta agrupada “Inversiones” agrupa a las subcuentas:
+
+\begin{itemize}
+\item 7110, Inversión Deuda Renta Fija Sector Privado, utilizada entre 2010 y 2011;
+\item 7120, Inversión Deuda Renta Fija Sector Público, utilizada entre 2010 y 2012; y
+\item 714, Recursos Administrados por el BIESS, utilizada entre 2013 y 2020.
+\end{itemize}
+
+La cuenta agrupada “Otros Activos” agrupa a las subcuentas:
+
+\begin{itemize}
+\item  717, Activos intangibles;
+\item  719, Otros activos;
+\end{itemize}
+
+Puesto que las subcuentas que son utilizadas desde el año 2015 al 2020. Cabe mencionar que las mismas, cuentan con los porcentajes más bajos en análisis vertical, tal como lo muestra la tabla \label{tab:iess_vertical_activo_sal}.
+
+% En las tablas \ref{tab:iess_vertical_activo_sal} y \ref{tab:iess_horiz_activo_sal}, se presenta el análisis vertical y horizontal de los componentes del Activo dell Fondo del SGSIF, según los Estados Financieros oficiales.
+
+En las tablas \ref{tab:iess_vertical_activo_sal} y \ref{tab:iess_horiz_activo_sal}, se presenta el análisis vertical y horizontal de los componentes del Activo del Fondo del SGSIF, según los Estados Financieros  auditados y presentados a la SB (oficiales).
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Análisis horizontal de los componentes del Activo del Fondo del SGSIF al 31 de diciembre de cada año}
+\label{tab:iess_horiz_activo_sal}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{c*{10}{r}}
+\toprule
+Descripción de las cuentas	& 2011/2010 & 2012/2011 & 2013/2012 & 2014/2013 & 2015/2014 & 2016/2015
+& 2017/2016 & 2018/2017 & 2019/2018 & 2020/2019 \\
+	& \% & \% & \% & \% & \% & \%
+& \% & \%& \% & \%\\
+\midrule
+\input{tablas/iess_horiz_activo_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{table}
+
+
+La cuenta agrupada “Anticipos” (7150701, 7150704) registra un crecimiento promedio (geométrico) de 25,01\% en el período analizado. En el año 2016 tuvo el incremento más significativo con una tasa de variación del 52,77\%, es decir, paso de USD. 1671,05 millones (2015) a USD. 2.552,92 millones (2016) con una diferencia de USD. 881,86 millones; caso contrario se evidencia en el año 2014 con la única variación negativa del -15,65\% en el período, debido a la disminución del anticipo a las unidades médicas en USD. 1.416,56 millones (ver tabla \ref{tab:iess_horiz_activo_sal}). Los Anticipos forman parte de las cuentas por cobrar y constituye la mayor representatividad respecto al total del activo en el período analizado, con una representatividad promedio anual de 41\%; en dicha cuenta se encuentran los anticipos a unidades médicas y contratistas, reflejando mayor participación en los años 2016 (64,06\%) y 2020 (50,01\%) (Ver tabla \ref{tab:iess_vertical_activo_sal}).  La subcuenta Anticipo a Unidades Médicas son recursos económicos que se entregan a los prestadores internos, misma que se devengan una vez que se concluya con el proceso correspondiente a la facturación y la pertinencia médica; por tanto, los valores de esta subcuenta mantienen una tendencia creciente, incrementándose en mayor medida a partir del año 2015 debido a la falta de ejecución del proceso de pertinencia médica. Cabe mencionar que en el 2020 dicha cuenta alcanzó el valor de USD. 6.333,38 millones, generando una tasa de crecimiento de 829,48\% respecto al 2010.
+
+La subcuenta Deuda del Gobierno (7150501) registra un crecimiento promedio (geométrico) de 29,45\% en el período analizado. El año 2011 tuvo la tasa de crecimiento más significativa del período con el 63,58\%, pasando de USD. 401,33 millones en el 2010 a USD. 656,50 millones en el 2011; sin embargo, la tasa de decrecimiento más baja del período se generó en el año 2016 (-100\%), debido a la eliminación del registro de la cuenta Deuda de Gobierno en los estados financieros del Fondo del SGSIF, cabe mencionar que a partir del 2018 dicha subcuenta creció en menor proporción hasta llegar al 2020 con una variación del 10,41\% (ver tabla \ref{tab:iess_horiz_activo_sal}). Dentro del análisis vertical se evidencia que la subcuenta Deuda del Gobierno ocupa el segundo lugar, misma que incrementó su representatividad en un 31\% en promedio en el período, siendo los años más significativos el 2014 y 2015 con un crecimiento del 47\%; cabe mencionar que el 2016 no registra valores en el balance general (ver tabla \ref{tab:iess_vertical_activo_sal}).  La subcuenta Deuda del Gobierno refleja los valores facturados y con pertinencia médica al 2020 por un valor de USD. 4.067.201.943,08, por concepto de la atención médica a jubilados y enfermedades catastróficas; se determina que esta subcuenta se ha incrementado constantemente debido que el Gobierno Central no ha realizado transferencia alguna del gasto médico que por ley le corresponde, por lo que la deuda sigue creciendo; adicionalmente se deberá considerar que dicha subcuenta podría incrementarse una vez que se culmine con el proceso de pertinencia médica,  y se realice los registros contables correspondientes.
+
+La cuenta agrupada “Inversiones” (7110, 7120, 714) registra un crecimiento promedio (geométrico) de 0,03\% en el período 2010 al 2020. El incremento más significativo se registró en el año 2016 con una tasa de 562,82\%, misma que pasó de USD. 33,32 millones (2015) a USD. 220,89 millones (2016), es decir una diferencia de 187,56 millones; caso contrario ocurre en el año 2013, el cual registra una tasa de decrecimiento del -81,98\%, cabe mencionar que el 2020 mantiene una variación negativa (-40,34\%) debido a la crisis sanitaria y económica vivida en el país (ver tabla \ref{tab:iess_horiz_activo_sal}). Con respecto a la tabla \ref{tab:iess_vertical_activo_sal}, la cuenta agrupada “Inversiones” ocupa el tercer lugar de representatividad del total del activo, en la cual se evidencia que en los años 2010 y 2011 representaron el 29,89\% y 23,24\% respectivamente; debido a las desinversiones realizadas durante los años posteriores.
+
+
+La subcuenta Propiedad, Planta y Equipo (718) presenta una tasa de crecimiento promedio (geométrico) de 17,05\% en el período analizado; el incremento más significativo se centra en el 2016 con el 105,15\% respecto al año anterior, la variación negativa más baja del período se presenta en el 2013 con el -5,18\%, pasando de USD 230.575.980 (2012) a USD.  218.634.529 (2013) (ver tabla \ref{tab:iess_horiz_activo_sal}). En la tabla \ref{tab:iess_vertical_activo_sal}., se observa que la subcuenta Propiedad, Planta y Equipo ocupó el cuarto lugar de representatividad dentro del activo, con el porcentaje promedio 7,92\% dentro del activo; en dicha cuenta se encuentran los bienes inmuebles de la aseguradora así como la infraestructura médica, construcciones en proceso de los nuevos hospitales o remodelaciones, equipos médicos, entre otros. Cabe mencionar que en el año 2020 se evidencia uno de los menores porcentajes (6,68\%) de la cuenta del activo, siendo similar a la establecida en el año 2013.
+
+Los valores que se registran en la cuenta agrupada “Otras Cuentas por Cobrar” (715010, 7165, 715035, 715040, 1304, 1306, 71506) sufrieron un incremento considerable a partir del año 2012 con una tasa de crecimiento del 1629,78\% respecto al 2011;  se determina que la cuenta agrupada “Cuentas por Cobrar Años Anteriores” es la de mayor representatividad en el período analizado. El 2020 representa una tasa de crecimiento del 8,19\% respecto al año anterior; es decir una diferencia de USD. 62.229.734.
+
+%Gráfico: Porcentaje promedio de representatividad de los componentes del activo correspondiente al período 2010-2020
+
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Porcentaje promedio de representatividad de los componentes del Activo correspondiente al período 2010 – 2020}
+\label{fig:iess_comp_activo}
+% \includegraphics[width=0.7\textwidth]{graficos/iess_comp_activo.png}
+\includegraphics[scale=1.0]{graficos/iess_comp_activo.png}
+%\vspace{10cm}
+\caption*{ \scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF.
+\\ {\bf Elaborado:} DAIE.}
+\end{figure}
+
+
+
+El análisis del portafolio de inversiones se analiza en la sección \ref{chp_infofinan:rentablidad}.
+
+%===============================================================================
+%============================ Cuentas por Cobrar ===============================
+%===============================================================================
+
+\section{Cuentas por cobrar}
+% De acuerdo al literal a la recomendación No. 4 del Informe No. DNA7-0036-2018 del Examen Especial “\textit{A la preparación, ejecución, aprobación y aplicación de los estudios actuariales en el Instituto Ecuatoriano de Seguridad Social IESS y entidades relacionadas}”, por el período comprendido entre el 1 de enero de 2012 y el 31 de diciembre de 2017, se procede analizar la cuenta Centas por Cobrar.
+
+De acuerdo a la recomendación No. 4 literal a del Informe No. DNA7-0036-2018 del Examen Especial “\textit{A la preparación, ejecución, aprobación y aplicación de los estudios actuariales en el Instituto Ecuatoriano de Seguridad Social IESS y entidades relacionadas}”, por el período comprendido entre el 1 de enero de 2012 y el 31 de diciembre de 2017, se procede analizar las cuentas por cobrar.
+
+% En la tabla \ref{tab:iess_cuentas_cobrar_sal} y figura \ref{fig:iess_cuentas_cobrar_salud_sal} se presenta la evolución histórica de la cuenta Cuentas por Cobrar del Fondo del SGSIF correspondiente al período 2010 al 2020, según los Estados Financieros oficiales.
+
+En la tabla \ref{tab:iess_cuentas_cobrar_sal} y figura \ref{fig:iess_cuentas_cobrar_salud_sal} se presenta la evolución histórica de las “\textit{Cuentas por Cobrar}” del Fondo del SGSIF correspondiente al período 2010 al 2020, según Estados Financieros  auditados y presentados a la SB (oficiales).
+
+%tabla de cuentas por cobrar
+
+\begin{table}[H]
+\centering
+
+\captionsetup{justification=centering}
+
+\caption{Evolución histórica de las Cuentas por Cobrar al 31 de diciembre de cada año}
+
+\label{tab:iess_cuentas_cobrar_sal}
+
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{*{4}{c}}
+\toprule
+\multirow{2}[0]{*}{Año}	& Cuentas &  Variación & Incremento \\
+                        & por Cobrar & Anual   & Porcentual Anual\\
+
+                        &  \small{USD}&\small{USD}& \small{\%}   \\
+\midrule
+\input{tablas/iess_cuentas_cobrar_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF. \\ {\bf Elaborado:} DAIE.}
+\end{table}
+
+
+%graficos de cuentas por cobrar
+
+
+\begin{figure}[H]
+\centering
+
+\captionsetup{justification=centering}
+
+\caption{Evolución histórica de la Cuentas por Cobrar}
+\label{fig:iess_cuentas_cobrar_salud_sal}
+\includegraphics[scale=1.0]{graficos/iess_cuentas_cobrar_salud_sal.png}
+\caption*{ \scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{figure}
+% La cuenta Cuentas por Cobrar en el período 2010-2020 paso de USD. 1.082.954.977,45 hasta alcanzar los USD. 11.240.168.413,65; es decir una tasa de variación de 938\%; siendo el año 2020 el punto más alto y el 2010 el más bajo de la cuenta. El promedio geométrico de las cuenta por cobrar correspondiente al período representó el 26,36\%.
+
+Las Cuentas por Cobrar en el período 2010-2020 paso de USD. 1.082.954.977,45 hasta alcanzar los USD. 11.240.168.413,65; es decir, una tasa de variación de 938\%; siendo el año 2020 el punto más alto y el 2010 el más bajo de la cuenta. El promedio geométrico de las cuenta por cobrar correspondiente al período representó el 26,36\%.
+
+Durante el 2010 al 2015 se muestra un crecimiento porcentual anual promedio de 34,62\%; en el año 2016 se evidencia un decrecimiento del -30,32\%, debido que no se consideró la subcuenta “Deuda  del Gobierno”. A partir del año 2017 hasta el 2020 con la restitución de la deuda, mantuvo un incremento porcentual promedio del 42,37\%; cabe mencionar que la mayor tasa de variación se presentó en el 2017 con 117,41\%, representando una diferencia de USD 3.758.726.021,16 respecto al año anterior.
+%
+% \section{Deuda de Gobierno}
+% %FALTA MANTENER REUNION CON SALUD
+%
+
+%===============================================================================
+%================================= Pasivo ======================================
+%===============================================================================
+
+\section{Pasivo}
+
+% En la tabla \ref{tab:iess_pasivo_sal} y figura \ref{fig:iess_pasivo_salud_sal} , se presenta la evolución histórica del Pasivo del Fondo del SGSIF por el período 2010 a 2020, según los Estados Financieros oficiales.
+
+En la tabla \ref{tab:iess_pasivo_sal} y figura \ref{fig:iess_pasivo_salud_sal}, se presenta la evolución histórica del Pasivo del Fondo del SGSIF por el período 2010 a 2020, según Estados Financieros  auditados y presentados a la SB (oficiales).
+
+% Total de Pasivos ---------------------------------------------------------------------------------
+\begin{table}[h]
+  \begin{center}
+  \captionsetup{justification=centering}
+  \caption{Evolución histórica del Pasivo del Fondo del SGSIF a 31 de diciembre de cada año}
+  \label{tab:iess_pasivo_sal}
+  {\fontsize{10}{12}\selectfont
+  \begin{tabular}{rrrr}
+    \toprule
+    Año	& Pasivo & Variación Anual  & Incremento \\
+        &    &              & porcentaje anual \\
+        &  \small{USD}&\small{USD}& \small{\%}   \\
+    \midrule
+    \input{tablas/iess_pasivo_sal.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\ {\bf Elaborado:} DAIE.}
+  \end{center}
+\end{table}
+
+% %Grafico de Pasivo
+
+ \begin{figure}[h]
+\begin{center}
+\captionsetup{justification=centering}
+\caption{Evolución histórica del Pasivo del Fondo del SGSIF a 31 de diciembre de cada año (En millones de dólares)}
+\label{fig:iess_pasivo_salud_sal}
+\includegraphics[scale=1]{graficos/iess_pasivo_salud_sal.png}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF \\ {\bf Elaborado:} DAIE}
+\end{center}
+\end{figure}
+
+Es relevante indicar que la facturación de los proveedores médicos externos que no cuentan con pertinencia médica no consta en los balances financieros del Fondo del SGSIF; es decir, el pasivo se encuentra subvalorado.
+
+Los pasivos correspondientes al 2020 con respecto al 2010 crecieron en un 1366,59\%, el incremento promedio anual geométrico fue del 30,81\%. Desde el 2010 se observa un incremento paulatino del pasivo, siendo el año 2017 donde existió un mayor crecimiento respecto al año anterior con una diferencia de USD. 1.800 millones (tasa de variación del 90,48\%). Sin embargo, en el 2016 y 2018 se registran tasas de decrecimiento del -24,64\% y -15,31\% respectivamente, debido a la disminución de la subcuenta “Pasivos No Corrientes”  (2016),  y “Pasivos Corrientes” (2018) donde se encuentran inmersas subcuentas como proveedores, retenciones SRI, prestadores médicos por pagar y valores recibidos en garantía. Cabe mencionar que en el año 2020 se evidencia una tasa de crecimiento del 12,14\% debido al incremento de la subcuenta “Prestadores Médicos por Pagar”, misma que refleja una tasa de crecimiento del 98,17\%  respecto al año pasado generando una diferencia de USD. 33.915.363,10.
+
+%===============================================================================
+%=======Análisis Vertical y horizontal de los componentes del pasivo ===========
+%===============================================================================
+
+\subsection{Análisis vertical y horizontal de los componentes del Pasivo}
+% Se presenta en la tabla \ref{tab:iess_componentes_pasivo_sal}, la evolución histórica de los componentes del Pasivo del Fondo de SGSIF, para el período comprendido entre el 2010 al 2020, según los Estados Financieros oficiales.
+
+Se presenta en la tabla \ref{tab:iess_componentes_pasivo_sal}, la evolución histórica de los componentes del Pasivo del Fondo de SGSIF, para el período comprendido entre el 2010 al 2020, según Estados Financieros  auditados y presentados a la SB (oficiales).
+
+Cabe mencionar que los planes de cuentas del período 2010 – 2014 no permiten identificar a las principales cuentas de los balances financieros.
+
+La cuenta agrupada “Otros Pasivos No Corrientes” agrupa a las subcuentas:
+
+ \begin{itemize}
+ \item 7220201, Depósitos no identificados, en la que se encuentran “Diferencias por Neteo Acreedores” y “Cuentas por Pagar años Anteriores”; mismas que fueron utilizada en los años 2015 al 2020.
+ \end{itemize}
+
+\begin{landscape}
+%Tabla: Análisis de los componentes del pasivo
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Análisis vertical de los componentes del Pasivo del Fondo del SGSIF al 31 de diciembre de cada año}
+\label{tab:iess_componentes_pasivo_sal}
+%\scalebox{0.5}{
+%{\fontsize{7}{9}\selectfont
+%\scalebox{0.8}{
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{cc*{12}{r}}
+\toprule
+%Tipo Pasivo & Descripción de las cuentas &	& 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020 \\
+Descripción de las cuentas &	Tipo & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020 \\
+\midrule
+\input{tablas/iess_componentes_pasivo_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF. \\ {\bf Elaborado:} DAIE.}
+\end{table}
+\end{landscape}
+
+ La cuenta agrupada “Otros Pasivos Corrientes” agrupa a las siguientes subcuentas:
+
+ \begin{itemize}
+ \item 22, Provisiones, utilizada en los años 2013 y 2014.
+ \item 7210, Prestaciones y Beneficios, utilizada en los años 2010 al 2012.
+ \item 72104, Proveedores, utilizada en los años 2015 al 2020. 
+ \item 72105, Retención en calidad de agente de retención, utilizada en los años 2015 al 2020.
+ \item 72190, Otras Cuentas por Pagar, utilizada en los años 2015 al 2020. 
+ \item 7225, Pasivo Diferido, utilizada en los años 2010 al 2012. 
+ \end{itemize}
+ % La tabla \ref{tab:iess_componentes_pasivo_sal} y \ref{tab:iess_horiz_pasivo_sal} , se presenta el análisis vertical y horizontal de los componentes del Pasivo del Fondo del SGSIF para el período 2010 al 2020, según los Estados Financieros oficiales.
+ 
+La tabla \ref{tab:iess_componentes_pasivo_sal} y \ref{tab:iess_horiz_pasivo_sal}, se presenta el análisis vertical y horizontal de los componentes del Pasivo del Fondo del SGSIF para el período 2010 al 2020, según Estados Financieros auditados y presentados a la SB (oficiales).
+
+ %Tabla: Análisis horizontal del pasivo
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Análisis horizontal de los componentes del Pasivo del Fondo del SGSIF al 31 de diciembre de cada año}
+\label{tab:iess_horiz_pasivo_sal}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{cc*{10}{l}}
+\toprule
+Descripción de las cuentas	& 2011/2010  & 2012/2011 & 2013/2012 & 2014/2013 & 2015/2014 & 2016/2015 & 2017/2016 & 2018/2017 & 2019/2018 & 2020/2019 \\
+&	& \% & \% & \%  & \% & \%  &\%  &\%  &\%  & \% & \\
+\midrule
+\input{tablas/iess_horiz_pasivo_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{table}
+
+En el año 2011 el Pasivo mantuvo una tasa de crecimiento del 201,30\% siendo la más alta del período, debido a la creación de la subcuenta “Cuentas por Pagar”. En el 2016 y 2018 se registraron variaciones negativas de -24,64\% y -15,31\% respectivamente, debido al no registro de las subcuentas “Atención Médica Jubilados” y “Atención Médica Enfermedades Catastróficas”; así como la disminución más significativa de la subcuenta “Prestadores Médicos por Pagar” en 99,62\%.
+
+La subcuentas Atención Médica a Jubilados (722020131) y Atención Médica Enfermedades Catastróficas (722020134) son registros contables que se realizan una vez que se ha determinado la facturación con pertinencia médica de prestadores internos y externos; la cual no constituye valores pendientes de pago, por cuanto el fondo realiza anticipos a las unidades médicas del IESS y cancelaciones a los prestadores externos.
+
+ La subcuenta Atención Médica Jubilados  (722020131) registra una tasa de variación positiva de 164,16\% en el período analizado, el incremento se dio debido que el Gobierno no ha cancelado valor alguno por dichas atenciones. El año 2016 fue el más significativo debido a la tasa de decrecimiento del 100\%, es decir paso de USD. 513.025.295 (2015) a USD. 0,00 (2016) ocasionado por el no registro de valores en los balances financieros de la subcuenta Deuda del Gobierno; sin embargo, a partir del 2018 dicha cuenta comienza a registrar una tasa de crecimiento del 17,56\%, 18,54\% y 16,93\% respectivamente (ver tabla \ref{tab:iess_horiz_pasivo_sal}). Las atenciones médicas a jubilados forman parte de los pasivos no corrientes y constituye una de las subcuentas con mayor representatividad del total del pasivo con el 28\% en promedio; cabe mencionar que el porcentaje más alto se evidencia en el 2020 con el 33.97\% y el más bajo en el 2015 con el 19,31\% (ver tabla \ref{tab:iess_componentes_pasivo_sal}).
+
+ La subcuenta Atención Médica Enfermedades Catastróficas (722020134) refleja una tasa de crecimiento del 228,66\% del período, el incremento se dio debido a que el Gobierno no ha cancelado valor alguno por dichas atenciones. La cuenta también mantiene una tasa de decrecimiento del 100\% ocasionado por el no registro de valores en los balances en el año 2016 de la subcuenta Deuda del Gobierno, pasando de USD. 398.801.612 (2015) a USD. 0,00 (2016); a partir del 2017 la subcuenta es considerada nuevamente en los estados financieros del Fondo del SGSIF generando tasas de crecimiento paulatinos en los años 2018, 2019 y 2020 con 22,03\%, 24,66\% y 16,69\% respectivamente (ver tabla \ref{tab:iess_horiz_pasivo_sal}). Dentro del análisis vertical atención médica enfermedades catastróficas ocupa el segundo lugar de representatividad con el 25\% en promedio, siendo el porcentaje más alto en el 2020 con 32,85\%  el más bajo en el 2015 con 15,01\% (ver tabla \ref{tab:iess_componentes_pasivo_sal}).
+
+ La cuenta agrupada “Otros Pasivos No Corrientes” refleja una tasa de decrecimiento del -9,38\% entre el 2010 al 2020. La cuenta mantiene un comportamiento variable, es así que el incremento más significativo se evidencia en el año 2017 con una variación positiva del 19,77\%, pasando del USD. 863.981.901 (2016) a USD. 1.034.784.777 (2017), generando un incremento de USD. 170.802.875; sin embargo el 2018 reflejó una tasa de decrecimiento del -18,99\% siendo las más representativa del período, pasando de USD. 1.034.784.777 (2017) a USD. 838.247.190; cabe mencionar que dentro de esta cuenta se encuentra “Diferencias por Neteo Acreedores” y “Cuentas por Pagar años Anteriores” (ver tabla \ref{tab:iess_horiz_pasivo_sal}). Otros pasivos no corrientes es una de las cuentas más representativas  del total del pasivo ocupando el 28\% en promedio, igual que atención médica jubilado; el año con mayor representatividad se encuentra en el 2016 con el 43,16\% y el más bajo en el 2020 con el 19,09\% (ver tabla \ref{tab:iess_componentes_pasivo_sal}).
+
+La subcuenta Cuentas por Pagar Años Anteriores (722020111) forma parte de los pasivos no corrientes, misma que refleja una tasa de variación positiva del 54,15\% en el período. Dicha cuenta mantiene tasas de crecimiento positivas desde el 2016 al 2020; el año más significativo fue el 2016 con un incremento del 35,93\%, a partir de cual se evidencia incrementos desacelerados en la cuenta llegando al 1\% en el 2020 (ver tabla \ref{tab:iess_horiz_pasivo_sal}). Cuentas por pagar de años anteriores se convierte en la tercera cuenta más representativa del total de los pasivos, siendo el año más significativo el 2016 con 19,67\% y el más bajo del período en el 2017 con el 10,86\% (ver tabla \ref{tab:iess_componentes_pasivo_sal}).
+
+% %Porcentaje promedio representatividad de los componentes del pasivo
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Porcentaje promedio de representatividad de los componentes del Pasivo correspondiente al período 2010 – 2020}
+\label{fig:iess_cotizantes_mascul_2}
+\includegraphics[width=0.7\textwidth]{graficos/iess_comp_pasivo.png}
+%\vspace{2cm}
+\caption*{ \scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF  \\ {\bf Elaborado:} DAIE.}
+\end{figure}
+
+
+
+%===============================================================================
+%=============================== Patrimonio ====================================
+%===============================================================================
+
+\section{Patrimonio}
+\label{chp_fianan_patrimonio} 
+
+Se presenta en  tabla  \ref{tab:iess_patrimonio_sal} y figura \ref{fig:iess_patrimonio_sal}  la evolución histórica del Patrimonio del Fondo del SGSIF para el período 2010 al 2020, según los Estados Financieros oficiales.
+
+ %Tabla patrimonio
+
+\begin{table}[h]
+  \begin{center}
+  \captionsetup{justification=centering}
+  \caption{Evolución histórica del Patrimonio del Fondo del SGSID a 31 de diciembre de cada año}
+  \label{tab:iess_patrimonio_sal}
+  {\fontsize{8}{10}\selectfont
+  \begin{tabular}{rrrr}
+    \toprule
+    Año	& Patrimonio	& Incremento anual	& Incremento  \\
+        &             &                   & porcentual anual \\
+        &  \small{USD}&   \small{USD}     & \small{\%}  \\
+    \midrule
+    \input{tablas/iess_patrimonio_sal.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{\scriptsize {\bf Fuente:} Balance general consolidado por fondos administrados de los fondos especializados-DNGF. \\ {\bf Elaborado:} DAIE.}
+  \end{center}
+\end{table}
+
+
+ %Grafico patrimonio
+
+ \begin{figure}[h]
+\begin{center}
+\captionsetup{justification=centering}
+\caption{Evolución histórica del Patrimonio del Fondo del SGSIF a 31 de diciembre de cada año (En millones de dólares)}
+\label{fig:iess_patrimonio_sal}
+\includegraphics[scale=1]{graficos/iess_patrimonio_sal.png}
+\caption*{\scriptsize {\bf Fuente:} Balance general consolidado por fondos administrados de los fondos especializados-DNGF. \\ {\bf Elaborado:} DAIE.}
+\end{center}
+\end{figure}
+
+
+El Patrimonio es constituido por la parte residual de los activos y una vez deducidos todos sus pasivos. El Patrimonio del Fondo del SGSIF aumentó en 430,95\%, con un incremento de USD. 7.068,60 millones en el período 2010 al 2020; en promedio (geométrico) anual creció en 18,17\%. El año 2016 tuvo una tasa de decrecimiento del -10,74\%, debido a la no consideración de la Deuda del Gobierno para el pago de las prestaciones. Adicionalmente, la cuenta analizada creció significativamente en los años 2017 (141,91\%) y 2018 (43,97\%) con un incremento anual de USD. 2.814,80 millones y USD. 2.109,87 millones respectivamente; a partir de aquello el Patrimonio mantiene un crecimiento desacelerado llegando al 6,6\% en el 2020.
+
+Si bien se observa un crecimiento del Patrimonio del Fondo de Salud, es importante considerar que tanto los activos como los pasivos que lo conforman no son consistentes para este estudio actuarial; pues la Deuda del Gobierno no está actualizada y sin certeza que sea cancelada, adicionalmente la facturación de los prestadores internos y externos de salud se encuentra pendiente de auditoría médica por lo que no están registrados contablemente; y, otras cuentas son registros contables sin que representen un activo o pasivo monetario para este fondo.
+El Patrimonio base de este estudio actuarial se presenta en la Sección \ref{chp_hipotesis_fondo_inicial}.
+
+
+%===============================================================================
+%===== Análisis vertica y horizontal de los componentes del patrimonio =========
+%===============================================================================
+
+\subsection{Análisis vertical y horizontal de los componentes del Patrimonio}
+ % En la siguiente tabla \ref{tab:iess_componentes_patrimonio_sal}, se presentan la evolución histórica de los componentes del Patrimonio del Fondo del SGSIF para el período comprendido entre el 2010 al 2020, según los Estados Financieros oficiales.
+ 
+En la siguiente tabla \ref{tab:iess_componentes_patrimonio_sal}, se presentan la evolución histórica de los componentes del Patrimonio del Fondo del SGSIF para el período comprendido entre el 2010 al 2020, según Estados Financieros  auditados y presentados a la SB (oficiales).
+
+\begin{landscape}
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Análisis vertical de los componentes del Patrimonio del Fondo del SGSIF al 31 de diciembre de cada año}
+\label{tab:iess_componentes_patrimonio_sal}
+\scalebox{0.5}{
+\begin{tabular}{cc*{11}{r}}
+\toprule
+Descripción de las cuentas	& & 2010  & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 &2019 &2020\\
+\midrule
+\input{tablas/iess_componentes_patrimonio_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{table}
+
+\end{landscape}
+
+La cuenta agrupada “Otros Patrimonios” agrupa las siguientes subcuentas:
+
+\begin {itemize}
+\item 33, Superávit Revaluación, utilizada entre los años 2010 y 2014.
+ \item 732, Aportes Patrimoniales, utilizada desde el 2015 al 2020.
+ \item 733, Reservas, utilizada desde el 2015 al 2020. 
+ \end{itemize}
+
+ % Las tablas \ref{tab:iess_componentes_patrimonio_sal} y \ref{tab:iess_horiz_patrimonio_sal} , se presenta el análisis vertical y horizontal de los componentes del Patrimonio del Fondo del SGSIF para el período analizado 2010 al 2020, según los Estados Financieros oficiales.
+Las tablas \ref{tab:iess_componentes_patrimonio_sal} y \ref{tab:iess_horiz_patrimonio_sal} , se presenta el análisis vertical y horizontal de los componentes del Patrimonio del Fondo del SGSIF para el período analizado 2010 al 2020, según Estados Financieros  auditados y presentados a la SB (oficiales).
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Análisis horizontal de los componentes del Patrimonio del Fondo del Seguro del SGSIF al 31 de  diciembre de cada año con respecto al año anterior (Valores en \%)}
+\label{tab:iess_horiz_patrimonio_sal}
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{c*{10}{r}}
+\toprule
+% Descripción de las cuentas	&2011 & 2012 & 2013 & 2014 & 2015 & 2016 &2017 & 2018 & 2019 & 2020\\
+Descripción de las cuentas	& 2011/2010 & 2012/2011 & 2013/2012 & 2014/2013 & 2015/2014 & 2016/2015 & 2017/2016 & 2018/2017 & 2019/2018 & 2020/2019 \\
+	& \% & \% & \% & \% & \% & \% & \% & \%& \% & \%\\
+\midrule
+\input{tablas/iess_horiz_patrimonio_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{table}
+
+En el año 2017 el Patrimonio mantuvo una tasa de crecimiento del 141,91\% siendo la más alta del período, debido al incremento de las subcuentas “Fondos Capitalizados” y “Reservas”. El 2014 registró una disminución  significativa del período con el -17,50\%, debido a las subcuentas “Resultados” y “Superávit por Revaluación”.
+
+Durante el período 2010 al 2020 el patrimonio se incrementó en 430,95\%, con excepción del 2014 y 2016 donde mantuvo una variación negativa de -17,50\% y -10,74\% respectivamente, debido al decremento de “Otros Patrimonios”.
+
+La subcuenta “Fondos Capitalizados” (731) registra una tasa de variación positiva de 452,41\% en el período analizado, es decir creció anualmente en promedio (geométrico) en 18,64\%, el mayor incremento se evidencia en el año 2017 con el 296,27\% mientras que el decrecimiento más significativo se dio en el 2016 con el -56,78\% pasando de USD. 1.969,10 millones a USD. 851,11 millones; cabe mencionar que a partir del 2018 los fondos crecen pero cada vez de manera desacelerada llegando al 2020 a 18,14\%. Los “Fondos Capitalizados” constituyen la subcuenta del patrimonio de mayor representatividad con el 85,49\% en promedio, en el año 2016 posee el porcentaje de representatividad más bajo del período con el 42,91\%; cabe mencionar que el año 2014 supera el 100\%, debido que el total del Patrimonio se netea con las pérdidas generadas en el año dentro de la cuenta Resultados (ver tabla \ref{tab:iess_componentes_patrimonio_sal}).
+La subcuenta “Resultados” registra una tasa de variación positiva de 247\% correspondiente al período 2010 al 2020; y el mayor incremento es en el año 2016 con el 332,15\%, mientras que el decrecimiento más significativo se evidencia en el 2014 con una variación negativa de -373,43\%. Dentro del análisis vertical se observa que la  segunda cuenta con mayor representatividad es la de “Resultados” con un porcentaje promedio anual de 14,22\%; a partir del 2016 dicha cuenta se incrementa  pero en menor proporción, representando al 2020 el 6,25\%, uno de los más bajos del período (ver tabla \ref{tab:iess_componentes_patrimonio_sal}).
+
+La cuenta agrupada “Otros Patrimonios” (33, 732, 733) agrupan tres subcuentas como son superávit revaluación, reservas y aportes patrimoniales, representando en promedio apenas el 0,28\% del total; el año con mayor representatividad se evidenció en el 2010 con el 0,71\%. Dicha subcuenta tiene una tasa de crecimiento del 193,30\% en el período; y el mayor crecimiento se dio en el 2017 con una tasa de 239,95\% debido al incremento de las reservas, pasando de USD. 6,71 millones (2016) a USD. 23,75\% millones (2017), sin embargo, el decrecimiento más significativo se generó en el 2013 con una tasa de -170,97\% debido a la disminución de la subcuenta superávit revaluación (ver tabla \ref{tab:iess_componentes_patrimonio_sal}  ).
+
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Porcentaje promedio de representatividad de los componentes del Patrimonio correspondiente al período 2010 – 2020}
+\label{fi
+  g:iess_cotizantes_mascul_2}
+\includegraphics[width=0.7\textwidth]{graficos/iess_comp_patrimonio.png}
+%\vspace{1cm}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE.}
+\end{figure}
+
+
+
+
+%===============================================================================
+%=============================== Ingresos ======================================
+%===============================================================================
+
+\section{Ingresos}
+ % En la tabla \ref{tab:iess_ingresos_sal}  y en la figura \ref{fig:iess_evol_ingr_salud} , se presenta la evolución histórica de los Ingresos del  Fondo del SGSIF para el período 2010 al 2020, según los Estados Financieros oficiales.
+
+En la tabla \ref{tab:iess_ingresos_sal} y en la figura \ref{fig:iess_evol_ingr_salud} , se presenta la evolución histórica de los Ingresos del Fondo del SGSIF para el período 2010 al 2020, según Estados Financieros  auditados y presentados a la SB (oficiales).
+
+ %Tabla de ingresos
+%
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución histórica de los Ingresos del Fondo del SGSIF. Al 31 de diciembre de cada año}
+\label{tab:iess_ingresos_sal}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{*{4}{r}}
+\toprule
+Año	& Ingresos   & Incremento  & Incremento  \\
+    &              & Anual       & Porcentual Anual\\
+\midrule
+\input{tablas/iess_ingresos_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{table}
+%
+
+ %Grafico de ingresos--------------------------------------------------------------------------------
+
+  \begin{figure}[h]
+\begin{center}
+\captionsetup{justification=centering}
+\caption{Evolución histórica de los Ingresos del Fondo del SGSIF a 31 de diciembre de cada año (En millones de dólares)}
+\label{fig:iess_evol_ingr_salud}
+\includegraphics[scale=1]{graficos/iess_evol_ingr_salud_sal.png}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{center}
+\end{figure}
+
+
+
+Los Ingresos del Fondo del SGSIF registran una tasa de crecimiento del 127,07\% en el período analizado; con una variación anual promedio (geométrico) de 8,55\%. El mayor incremento se evidencia en el año 2016 con el 64,76\%, debido al cambio de las tasas de aportación establecidas en la Resolución C.D. 501. Mientras que el decrecimiento más significativo se dio en el año 2020 con una tasa del -28,97\% respecto al año anterior, lo que significó una diferencia 677,75 millones; esto debido a la crisis sanitaria y económica vivida en el país, la recesión en el pago de aportes, adicionalmente no se evidencia ingresos por contribuciones del Estado.
+
+\subsection{Análisis vertical y horizontal de los componentes del Ingreso}
+% La evolución histórica de los componentes de los Ingresos del Fondo del SGSIF se presenta en la tabla \ref{tab:iess_componentes_pasivo_sal}, según los Estados Financieros oficiales.
+
+La evolución histórica de los componentes de los Ingresos del Fondo del SGSIF se presenta en la tabla \ref{tab:iess_componentes_pasivo_sal}, según Estados Financieros  auditados y presentados a la SB (oficiales).
+
+La cuenta agrupada “Otros Ingresos” agrupa las siguientes subcuentas:
+
+ \begin{itemize}
+  \item 53, Ingresos por Administración, utilizada en el año 2013.
+ \item 56, Otros resultados integrales, utilizada en los años 2013 y 2014.  
+ \item 75102, Ingresos Complementarios Operación, utilizada en los años 2015 al 2020.
+ \item 753, Ingresos por Arriendo, utilizada en los años 2018 al 2020.
+ \item 757, Ingresos Extraordinarios, utilizada en los años 2015 al 2020.
+ \end{itemize}
+
+
+\begin{landscape}
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{ Análisis vertical de los componentes de los Ingresos del Fondo del SGSIF al 31 de diciembre de cada año}
+\label{tab:iess_componentes_ingresos_sal}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{cc*{12}{r}}
+\toprule
+ Descripción de las cuentas &	& 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020 \\
+\midrule
+\input{tablas/iess_componentes_ingresoss1_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE.}
+\end{table}
+
+\end{landscape}
+% En las tablas \ref{tab:iess_componentes_ingresos_sal} y \ref{tab:iess_horiz_ingresos_sal}, se presenta el análisis vertical y horizontal de los Ingresos del Fondo del SGSIF, según los Estados Financieros oficiales.
+
+En las tablas \ref{tab:iess_componentes_ingresos_sal} y \ref{tab:iess_horiz_ingresos_sal}, se presenta el análisis vertical y horizontal de los Ingresos del Fondo del SGSIF, según Estados Financieros  auditados y presentados a la SB (oficiales).
+
+ \begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Análisis horizontal de los componentes de los Ingresos del Fondo del SGSIF}
+\label{tab:iess_horiz_ingresos_sal}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{c*{10}{r}}
+\toprule
+Descripción de las cuentas	& 2011/2010  & 2012/2011 & 2013/2012 & 2014/2013 & 2015/2014 & 2016/2015
+& 2017/2016 & 2018/2017 &2019/2018 &2020/2019 \\
+	& \% & \% & \% & \% & \% & \%
+& \% & \% & \% &\% \\
+\midrule
+\input{tablas/iess_horiz_ingresos_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{table}
+
+La subcuenta “Aportes Patronales” (751010102) registra una tasa de crecimiento del 22,58\% en el período analizado, con una variación anual promedio (geométrico) de 2,95\%; en el que el mayor incremento se dio en el año 2016 debido al aumento de las tasas de aportación, pasando de USD. 1619,36 millones (2015) a USD. 2302,46 millones (2016), caso contrario el decrecimiento más significativo se evidencia en el 2020 con una variación del -30,02 debido a la crisis sanitaria y económica vivida en el país (ver tabla \ref{tab:iess_horiz_ingresos_sal}); así como la disminución en la tasa de aportación patronal. En el análisis vertical la subcuenta antes mencionada cuenta con la mayor representatividad dentro del total de los ingresos con un promedio anual de 85,21\%; es así que el año con mayor porcentaje es el 2015 con el 95,04\%, mientras que el de menor representatividad fue en el 2013 con 74,36\% (ver tabla \ref{tab:iess_componentes_ingresos_sal}).
+
+La subcuenta “Ingresos Financieros” (752) mantiene una tasa de variación positiva del 83\% dentro del período 2010 al 2020, con una variación anual promedio (geométrico) de 6,22\%; el mayor incremento se dio en el año 2017 con una tasa del 1.182,28\%, pasando de USD. 2,58 millones en el 2016 a USD. 33,20 millones en el 2017, mientras que el decrecimiento más significativo represento -69,94\% en el año 2013, con una diferencia en valores monetario de USD. 17,76 millones (ver tabla \ref{tab:iess_horiz_ingresos_sal}  ). Dicha cuenta representó un promedio anual de 2,10\%, ocupando el cuarto puesto de representatividad; adicionalmente se observa que el año 2010 mantuvo el porcentaje más significativo del período analizado con el 5,57\%, a partir del 2011 su importancia se redujo debido a las desinversiones realizadas hasta el año 2015. Con la modificación de las tasas de aportación se creó un fondo, cuyo rendimiento financiero al 2020 representó el 4,49\% de los ingresos del Seguro de Salud (ver tabla \ref{tab:iess_componentes_ingresos_sal}).
+
+La cuenta agrupada “Otros Ingresos” (53,56,75102,753,757) en el período 2010 al 2020 ha decrecido en una tasa de -92\%, es decir una variación negativa anual promedio (geométrico) de -22,68\% . El mayor incremento se dio en el año 2014 con una tasa del 2454,81\% debido al incremento de “Ingresos Extraordinarios”, caso contario se observa en la tabla \ref{tab:iess_horiz_ingresos_sal} que la variación negativa más significativa está en el año 2013 con el -99,57\%. En el análisis vertical se observa que otros ingresos ocupa el segundo con un promedio anual de 29\%, el año 2013 refleja un porcentaje de representatividad del 0,28\% siendo el más bajo del período analizado; debido a los cambios en la dinámica contable, dicha cuenta al 2018 alcanzó el 20,20\%, sin embargo, en el 2020 decae a 3,18\% (ver tabla \ref{tab:iess_componentes_ingresos_sal} ).
+
+La subcuenta “Aportes Jubilados y Pensionista” (751010105) tiene un crecimiento del 138\% desde el año 2013 al 2020, con una variación anual promedio (geométrico) de 13,18\%; la tasa de variación más significativa del período se efectúo en el 2014 con el 26,93\% pasando del USD. 6,82 millones (2013) a USD. 8,66 millones (2014), a partir de entonces el crecimiento se torna desacelerado llegando al 2020 con un crecimiento del 3,79\% siendo en mas bajo del período (ver tabla \ref{tab:iess_horiz_ingresos_sal}). Dicha cuenta alcanzó el quinto lugar de representatividad del total de los ingresos con el 0,59\% en promedio, considerando el 2020 el año de mayor representatividad con el 0,98\% y el 2013 el de menor con 0,41\% (ver tabla \ref{tab:iess_componentes_ingresos_sal}).
+
+ La subcuenta “Aportes Personales” (751010101) refleja una tasa de crecimiento del 1.820\% correspondiente al período 2013 al 2020, con una variación anual promedio (geométrico) de 52,32\%; los aportes personales reflejan el mayor crecimiento en el 2014 con una tasa de 225,81\%, a partir de allí la cuenta ha crecido de manera desacelerada llegando al año 2020 con una variación negativa de -4,44\% (ver tabla \ref{tab:iess_horiz_ingresos_sal} ). La cuenta tiene una pequeña representatividad dentro de los ingresos totales del Fondo del Seguro de Salud con apenas el 0,43\% en promedio, durante el 2013 al 2020 no llega al 1\% por tanto ocupa el sexto lugar de representatividad (ver tabla \ref{tab:iess_componentes_ingresos_sal}).
+
+ La subcuenta “Contribución del Estado” (7510102) se considera desde el año 2011 al 2013, a partir del 2014 no se registra valores hasta el 2020.  La contribución mantiene una tasa de crecimiento del 59\%, con una variación anual promedio (geométrico) de 26,29\%; el año con mayor incremento fue el 2012 con una tasa de variación del 33,54\%, pasando de USD. 1.159,18 (2011) millones a USD. 1.440,85 millones (20112) (ver tabla \ref{tab:iess_horiz_ingresos_sal}). Dicha cuenta representó el tercer lugar del total de los ingresos con un porcentaje promedio de 23,20\%, siendo el año 2013 el más significativo del período analizado con un porcentaje de representatividad del 24,43\% (ver tabla \ref{tab:iess_componentes_ingresos_sal}).
+
+
+%Gráfico: Porcentaje de promeedo de representatividad de lso
+
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Porcentaje promedio de representatividad de los componentes del Ingreso correspondiente al período 2010–2020}
+\label{fi
+  g:iess_cotizantes_mascul_2}
+\includegraphics[width=0.7\textwidth]{graficos/iess_comp_ingreso.png}
+%\vspace{1cm}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{figure}
+
+
+
+
+%===============================================================================
+%================================= Egresos =====================================
+%===============================================================================
+
+
+\section{Egresos}
+
+ % En esta sección es de suma importancia indicar que los egresos reportados por los Estados Financieros oficiales del Fondo del SGSIF están subvalorados por las siguientes razones:
+ 
+En esta sección es de suma importancia indicar que los egresos reportados por los Estados Financieros auditados y presentados a la SB (oficiales) del Fondo del SGSIF están subvalorados por las siguientes razones:
+
+\begin{itemize}
+ \item La auditoría médica de la calidad de la facturación está atrasada; y para los últimos años que se ha realizado, no está al 100\%.
+ \item La auditoría médica de la calidad de la facturación se basa en el Tarifario Nacional de Prestaciones definido por el Ministerio de Salud, el cual no está alineado con la realidad del mercado, subvalora varios procedimientos y servicios de las unidades médicas del IESS al considerarlos de segundo nivel cuando en realidad son de tercer nivel, e incluye todos los procedimiento y servicios dados en las unidades médicas del IESS.
+ \item La facturación de los proveedores médicos externos que no cuentan con pertinencia médica no consta en los balances financieros del seguro de Salud.
+ \end{itemize}
+% En la tabla \ref{tab:iess_gastos_sal} y figura \ref{fig:iess_evol_gastos_sal}  se presenta la evolución histórica de los Egresos del Fondo del SGSIF correspondiente al período 2010-2020, según los Estados Financieros oficiales.
+
+En la tabla \ref{tab:iess_gastos_sal} y gura \ref{fig:iess_evol_gastos_sal} se presenta la evolución histórica de los Egresos del Fondo del SGSIF correspondiente al período 2010-2020, según Estados Financieros  auditados y presentados a la SB (oficiales).
+
+%Tabla de egresoso
+%
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución histórica de los Egresos del Fondo del SGSIF}
+\label{tab:iess_gastos_sal}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{*{4}{r}}
+\toprule
+Año	& Gastos    & Incremento  & Incremento  \\
+    &           & Anual       & Porcentual Anual\\
+\midrule
+\input{tablas/iess_gastos_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{table}
+
+%Gráfico de egresos
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{justification=centering}
+\caption{Evolución histórica de los Egresos del Fondo del SGSIF a 31 de diciembre de cada año (En millones de dólares)}
+\label{fig:iess_evol_gastos_sal}
+\includegraphics[scale=1]{graficos/iess_evol_gastos_sal.png}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF \\ {\bf Elaborado:} DAIE}
+\end{center}
+\end{figure}
+
+Los egresos del Fondo del SGSIF registran una tasa de crecimiento del 94,29\% en el período analizado; con una variación anual promedio (geométrico) de 6,87\%. En la tabla \ref{fig:iess_evol_gastos_sal} se aprecia que en desde el año 2010 al 2014 los egresos por salud se incrementó en 2,24 veces.
+
+Mientras que a partir del año 2015 el egreso mantuvo variaciones negativas hasta el 2018 donde la tasa de decrecimiento representó el -47,4\% siendo la más significativa del período analizado, con una reducción de USD. 758,90 millones debido al registro contable solo de la facturación por parte de los prestadores de salud que cuenten con pertinencia médica.
+
+El 2019 refleja una tasa de crecimiento de 30,81\% respecto al año anterior, aquello debido al incremento de las subcuentas “Gastos por Depreciaciones” (74303) y “Amortización de activos intangibles” (74304)  mismas que pasaron de USD. 1,6 millones en el 2018 a USD. 9,72 millones en el 2019; cabe mencionar que los egresos en el 2020 crecieron en menor proporción (1,38\%) respecto al año anterior; es decir, hubo un incremento de USD. 15,17 millones.
+
+%===============================================================================
+%==== Análisis vertical y horizontal de los componentes de los egresos =========
+%===============================================================================
+
+\subsection{Análisis vertical y horizontal de los componentes de los Egresos}
+% En la tabla \ref{tab:iess_componentes_gastos_sal}, se presenta la evolución histórica de los componentes de los Egresos del Fondo del SGSIF, según los Estados Financieros oficiales.
+
+En la tabla \ref{tab:iess_componentes_gastos_sal}, se presenta la evolución histórica de los componentes de los Egresos del Fondo del SGSIF, según Estados Financieros  auditados y presentados a la SB (oficiales).
+
+La cuenta agrupada “Egresos prestacionales por atención Médica” agrupa las siguientes subcuentas de los egresos:
+
+\begin{itemize}
+\item 7410301, Atención Médica y Hospitalaria, utilizada desde 2010 al 2020.
+\item 7410302, Serv. Prestados x Particulares, utilizada desde 2010 al 2020.
+\item 7410390, Otros Gastos Prestacionales por Atención Médica, utilizada desde 2013 al 2019.
+\end{itemize}
+
+\begin{landscape}
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Análisis vertical de los componentes de los Egresos del Fondo del SGSIF}
+\label{tab:iess_componentes_gastos_sal}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{cc*{12}{r}}
+\toprule
+Descripción de las cuentas	& & 2010  & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 &2017 &2018 &2019 &2020 \\
+\midrule
+\input{tablas/iess_componentes_gastos1_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Fondos Especializados - DNGF\\ {\bf Elaborado:} DAIE}
+\end{table}
+\vspace{-1cm}
+\end{landscape}
+
+La cuenta agrupada “Egresos prestacionales por subsidios” agrupa a las subcuentas:
+\begin{itemize}
+\item 7410201, Subsidios de Enfermedad, utilizada desde 2010 al 2020.
+\item 7410201, Subsidios de Enfermedad, utilizada desde 2010 al 2020.
+\end{itemize}
+
+La cuenta agrupada “Otros Egresos Operacionales Directos” agrupa a las subcuentas:
+
+\begin{itemize}
+\item 740570, Conv. Interinstitucionales, utilizada desde el año 2010 al 2012.
+\item 740575, Compensación Gastos Médicos, utilizada desde el año 2010 al 2012.
+\item 740585, Serv. Prestacionales U. Provinciales, utilizada desde el año 2010 al 2012.
+\item 740595, Otros Gastos en Afiliados, utilizada desde el año 2010 al 2014.
+\item 74105, Gastos Directos de Personal, utilizada desde el año 2013 al 2020.
+\item 74190, Otros Gastos Directos, utilizada desde el año 2013 al 2020.
+\end{itemize}
+%
+La cuenta agrupada “Otros Egresos” agrupa a las subcuentas:
+
+\begin{itemize}
+\item 7425, Pérdida Venta Activos, utilizada desde el año 2010 al 2011.
+\item 74303, Gastos por depreciaciones, utilizada desde el año 2013 al 2020.
+\item 74304, Gastos de activos intangibles, utilizada desde el año 2013 al 2020.
+\item 7430, Gastos Operación y Serv. Varios, utilizada desde el año 2010 al 2012.
+\item 744, Gastos Financieros, utilizada desde el año 2015 al 2020.
+\item 7450, Gastos Ejercicios Anteriores, utilizada desde el año 2010 al 2012.
+\item 7460, Deprec. Propiedades y Eq. Especial. utilizada desde el año 2010 al 2012.
+\end{itemize}
+
+Cabe mencionar que las cuentas antes mencionadas se agrupan debido a su bajo porcentaje de participación en los egresos.
+% En las tablas \ref{tab:iess_componentes_gastos_sal} y \ref{tab:iess_horiz_gastos_sal}, se presenta el análisis vertical y horizontal de los Egresos del Fondo del SGSIF correspondiente al período 2010-2020, según los Estados Financieros oficiales.
+
+En las tablas \ref{tab:iess_componentes_gastos_sal} y \ref{tab:iess_horiz_gastos_sal}, se presenta el análisis vertical y horizontal de los Egresos del Fondo del SGSIF correspondiente al período 2010-2020, según Estados Financieros  auditados y presentados a la SB (oficiales).
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Análisis horizontal de los componentes de los Egresos del Fondo del SGSIF}
+\label{tab:iess_horiz_gastos_sal}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{c*{10}{r}}
+\toprule
+Cuenta	& 2011/2010  & 2012/2011 & 2013/2012 & 2014/2013 & 2015/2014 & 2016/2015
+& 2017/2016 & 2018/2017 &2019/2018 & 2020/2019 \\
+& \% & \% & \%& \%& \%& \% & \% & \% &\%& \% \\
+\midrule
+\input{tablas/iess_horiz_gastos_sal.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF\\ {\bf Elaborado:} DAIE}
+\end{table}
+
+
+Se evidencia que en el período 2010 al 2020, el crecimiento interanual de los Egresos del Fondo del SGSIF es variable, sin embargo, en el período registra una tasa de crecimiento del 94\%; con una variación anual promedio (geométrico) de 6,87\%.
+
+La cuenta agrupada “Egresos prestacionales por Atención Médica” (7410301, 7410302, 7410390) registra una tasa de crecimiento del 83\% en el período analizado, con una variación anual promedio (geométrico) del 6,21\%; el mayor incremento se dio en el año 2011 con una tasa de 71,91\% debido al aumento de la subcuenta “Serv. Prestados x Particulares” particularmente por prestación de servicios de diálisis, enfermedades catastróficas y prestadores al exterior, pasando de USD. 143.687.320 (2010) a USD. 310.794.497 (2011), caso contrario el decrecimiento más significativo se evidencia en el 2018 con una variación del -51,65\% debido a la disminución de la subcuenta “Atención Médica y Hospital” en USD. 727.156.692 (ver tabla \ref{tab:iess_horiz_gastos_sal} ). En el análisis vertical la subcuenta antes mencionada cuenta con la mayor representatividad dentro del total de los egresos con un promedio anual de 87,66\%; es así que el año con mayor representación es el 2014 con el 93,54\%, mientras que el de menor representatividad fue en el 2018 con 80,47\% (ver tabla \ref{tab:iess_componentes_gastos_sal}).
+
+La cuenta agrupada “Otros Egresos Operacionales Directos” (740570, 740575, 740585, 740595, 74105, 74190) registra una tasa de crecimiento de 565\% en el período analizado, con una variación anual promedio (geométrico) de 20,86\%; en el que el mayor incremento se dio en el año 2016 con una tasa de 164,90\% debido al aumento de la subcuenta “Otras Gastos Directos”, pasando de USD. 15.784.350 (2015) a USD. 119.762.189 (2016), sin embargo la tasa decrecimiento más significativo se evidencia en el 2014 con una variación del -42,50\% debido a la disminución de la subcuenta “Compensación Gtos Médicos” en USD. 35.233.554 (ver tabla \ref{tab:iess_horiz_gastos_sal}  ). En el análisis vertical la subcuenta antes mencionada ocupa el tercer lugar  dentro del total de los egresos con un promedio anual de 5,35\%; es así que el año con mayor representación fue el 2016 con el 10,08\%, mientras que el de menor representatividad fue en el 2011 con 1,70\% (ver tabla \ref{tab:iess_componentes_gastos_sal}).
+
+La cuenta agrupada “Egresos Prestacionales por Subsidios” (7410201,7410202) registra una tasa de crecimiento de 115\% en el período analizado, con una variación anual promedio (geométrico) de 7,95\%; en el que el mayor incremento se dio en el año 2015 con una tasa de 39,98\% debido al aumento de la subcuenta “Subsidios de Enfermedad”, pasando de USD. 45.067.301,79 (2014) a USD. 67.342.357,75 (2015), sin embargo la tasa decrecimiento más representativa se evidencia en el 2020 con una variación del -13,13\% generado por la disminución de la subcuenta “Subsidios de Maternidad” en USD. 5.810.788 (ver tabla \ref{tab:iess_horiz_gastos_sal} ). En el análisis vertical la subcuenta antes mencionada ocupa el segundo lugar  dentro del total de los egresos con un promedio anual de 6,42\%; es así que el año con mayor representación fue el 2018 con el 9,93\%, mientras que el de menor representatividad fue en el 2014 con 4,10\% (ver tabla \ref{tab:iess_componentes_gastos_sal}).
+
+% %Grafico: Porcentaje promedio de representatividad de los componentes del Egreso correspondiente al período  2010-2020
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Porcentaje promedio de representatividad de los componentes del Egreso correspondiente al período 2010 – 2020}
+\label{fi
+  g:iess_cotizantes_mascul_2}
+\includegraphics[width=0.7\textwidth]{graficos/iess_comp_egresos.png}
+%\vspace{2cm}
+\caption*{ \scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{figure}
+
+\section{Comparación entre Ingresos versus Egresos}
+% El porcentaje de utilización de valores del Fondo del SGSIF en sus diferentes conceptos frente a los ingresos recibidos en este seguro para solventar las obligaciones se presenta en la tabla \ref{tab:iess_Ing_vs_Gas}, según los Estados Financieros oficiales.
+
+El porcentaje de utilización de valores del Fondo del SGSIF en sus diferentes conceptos frente a los ingresos recibidos en este seguro para solventar las obligaciones se presenta en la tabla \ref{tab:iess_Ing_vs_Gas}, según Estados Financieros  auditados y presentados a la SB (oficiales).
+
+%Tabla: Comparación entre Ingresos versus Egresos
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Comparación entre los Ingresos versus Egresos totales del Fondo del Seguro de Salud}
+\label{tab:iess_Ing_vs_Gas}
+\begin{tabular}{rrrrr}
+\toprule
+Año	& Ingresos & Egresos & Resultado &Utilización \\
+	&  &  &del Ejercicio  & Anual \%\\
+\midrule
+\input{tablas/iess_Ing_vs_Gas.tex}
+\bottomrule
+\end{tabular}
+%}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{table}
+% La utilización se obtiene como la relación entre los egresos totales y los ingresos totales, es decir refleja el porcentaje de participación de los egresos en los ingresos del Fondo del SGSIF. Es así que en el período de análisis la utilización promedio anual es de 74,18\%; siendo el más elevado en el año 2014, es decir que los gastos representaron el 126,85\% \footnote{Superando el total de los ingresos de ese año.} de los ingresos (USD. -393.679.424,45) debido a la ausencia de la contribución del 40\% del Estado. Mientras que el porcentaje más bajo se presenta en el 2018, lo que significa que los egresos representaron el 29,29\% de los ingresos (USD. 2.033.484.778,23), debido al incremento de los ingresos financieros.
+
+La utilización se obtiene como la relación entre los egresos totales y los ingresos totales; es decir, refleja el porcentaje de participación de los egresos en los ingresos del Fondo del SGSIF. Es así que en el período de análisis la utilización promedio anual es de 74,18\%; siendo el más elevado en el año 2014, es decir que los gastos representaron el 126,85\% 1 de los ingresos (USD. -393.679.424,45).
+
+Adicionalmente, se presenta el Resultado del Ejercicio correspondiente al período 2010 al 2020, el que se obtiene de la resta de los ingresos y los egresos. La tasa de crecimiento más alta del período se dio en el 2016 con el 332\%, es decir un incremento monetario de USD. 1.125,24 millones respecto al año anterior; mientras que, la tasa de decrecimiento más significativa se refleja en el 2014 con una variación del -374\%, lo que evidencia una disminución de USD. 393,67 millones.
+
+%===============================================================================
+%======Análisis de las reservas disponibles del fondo del seguro de salud=======
+%===============================================================================
+
+\section{Análisis de las reservas disponibles del Fondo del SGSIF}
+% Del análisis se observa un crecimiento en cada uno de los años del patrimonio del Fondo del SGSIF durante el período 2010 a 2020, con excepción del año 2014 mismo que disminuyo en 0,91 ocasionado por la eliminación de la contribución del estado. La reserva al año 2020 alcanzó USD 8.708,84 millones, lo que implica un crecimiento promedio del 3,42\% en el período analizado.
+
+Del análisis se observa un crecimiento en cada uno de los años del patrimonio del Fondo del SGSIF durante el período 2010 a 2020, con excepción del año 2014 mismo que disminuyo en 0,91 probablemente ocasionado por el aumento de las gastos operacionales directos. La reserva al año 2020 alcanzo USD 8.708,84 millones, lo que implica un crecimiento promedio del 3,42\% en el período analizado.
+
+%Tabla: Relación patrimonio gasto del Fondo del Seguro de Salud
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Relación Patrimonio-Egresos del Fondo del Seguro de Salud }
+\label{tab:iess_Rel_Pat_Gas}
+\begin{tabular}{rrrr}
+\toprule
+Año	& Egresos & Patrimonio & Patrimonio \\
+   	&         &            & Total/Egresos\\
+\midrule
+\input{tablas/iess_Rel_Pat_Gas.tex}
+\bottomrule
+\end{tabular}
+%}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{table}
+% El indicador patrimonio/Egresos revela la cantidad de dólares que tiene en el año de análisis, es decir por cada dólar de obligación por egresos. Esta relación es variable en el período 2010 al 2020, finalmente al 31 de diciembre de 2020 termina con USD. 7,80 disponibles por cada dólar de obligaciones, siendo uno de los más altos del período analizado.
+
+
+El indicador patrimonio/Egresos revela la cantidad de dólares que tiene en el año de análisis; es decir, por cada dólar de obligación por egresos. Esta relación es variable en el período 2010 al 2020.
+
+%Gráfico: Relación patrimonio gasto
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{justification=centering}
+\caption{Relación Patrimonio-Egresos }
+\label{fig:iess_Rel_Pat_Gas}
+\includegraphics[scale=1]{graficos/iess_Rel_Pat_Gas.png}
+\caption*{\scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Seguros Especializados - DNGF \\ {\bf Elaborado:} DAIE}
+\end{center}
+\end{figure}
+
+
+%===============================================================================
+%============ Ingresos por aportes versus egresos prestacionales ===============
+%===============================================================================
+\section{Ingresos por aportes versus egresos prestacionales}
+% Se presenta en la tabla \ref{tab:evoinvsegre} la evolución histórica de los ingresos por aportes (personal y patronal) de los afiliados activos versus los egresos pensionales de este fondo por cada año, según los Estados Financieros oficiales. El resultado corresponde a la diferencia entre los aportes de los afiliados y los egresos pensionales.
+
+Se presenta en la tabla \ref{tab:evoinvsegre} la evolución histórica de los ingresos por aportes (personal y patronal) de los afiliados activos versus los egresos prestacionales de este fondo por cada año, según los Estados Financieros auditados y presentados a la SB (oficiales). El resultado corresponde a la diferencia entre los aportes de los aliados y los egresos prestacionales.
+
+\begin{landscape}
+
+%------ inicio tabla
+{\fontsize{10}{12}\selectfont
+\begin{longtable}[H]{cccccccc}
+  \captionsetup{justification=centering}
+  \caption{Evolución de Ingresos por aportes vs los Egresos prestacionales del Fondo del SGSIF} \\
+  \label{tab:evoinvsegre} \\
+    \toprule
+  Año & Aportes de & Egresos  & 60\% Egresos & Resultado & Utilización & valor para  & Acumulación a la  \\
+      & Afiliados  & Prestacionales&          &           & anual       & acumulación & Reserva \\
+    \midrule
+\endfirsthead
+
+  \toprule
+  Año & Aportes de & Egresos  & 60\% Egresos & Resultado & Utilización & valor para  & Acumulación a la  \\
+      & Afiliados  & Prestacionales&                     & anual       & acumulación & Reserva \\
+  \midrule
+\endhead
+
+\bottomrule \multicolumn{2}{c}{continúa...} \\
+\endfoot
+\bottomrule
+  \caption*{\scriptsize {\bf Fuente:} Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados - DNGF.\\
+   {\bf Elaborado:} DAIE.}
+  \endlastfoot
+   \input{tablas/tabla_o5_14_IngresosAportesVSEgresos.tex}
+\end{longtable}
+  }
+
+\begin{quote}
+{\bf Nota Metodológica:} No se considera el 40\% de la Deuda de Gobierno, para el presente análisis se toma un supuesto solo del 60\% que le correspondería al IESS.
+\end{quote}
+% Al realizar una comparación entre las cuentas de ingresos por aportes sobre los egreso prestacionales correspondiente al 60\% de obligación del IESS, se observa que en todo el período los egresos no son superiores a los ingresos, por tanto se podría decir que no ha sido necesario recurrir ya sea al rendimiento o a la desinversión de la reserva, manteniendo en promedio un porcentaje de acumulación del 50\%. 
+
+Al realizar una comparación entre las cuentas de ingresos por aportes sobre los egreso prestacionales correspondiente al 60\% de obligación del IESS, se observa que en todo el período los egresos no son superiores a los ingresos, por tanto se podría decir que no ha sido necesario recurrir ya sea al rendimiento o a la desinversión de la reserva, manteniendo en promedio un porcentaje de acumulación del 50\% (según los Estados Financieros auditados y presentados a la SB oficiales).
+
+De tal manera que al año 2020 el Fondo del Seguro de Salud mantendría un superávit de USD. 919,11 millones. Finalmente, se evidencia que la acumulación de la reserva se encuentra al 31 de diciembre del 2020 en USD. 9.619,84 millones.
+
+\end{landscape}
+
+%===============================================================================
+%====================== Análisis de las Reservas Disponibles  ==================
+%===============================================================================
+
+% \section{Análisis de las Reservas Disponibles }
+% 
+% Del análisis se observa un crecimiento paulatino del patrimonio en el periodo 2010-2020 con excepción en los años 2014 y 2016 donde decrecen; la reserva al año 2020 alcanzó USD 8.708,84 millones.
+% 
+% %------ inicio tabla
+% {\fontsize{10}{12}\selectfont
+% \begin{longtable}[H]{cccc}
+%   \captionsetup{justification=centering}
+%   \caption{Relación patrimonio Egreso prestacional del Fondo del Seguro de Salud} \\
+%   \label{tablao516} \\
+%     \toprule
+%   Año & Egresos        & Patrimonio & Relación Patrimonio / \\
+%       & Prestacionales &            & Gastos  \\
+%     \midrule
+% \endfirsthead
+% 
+%   \toprule
+%   Año & Egresos        & Patrimonio & Relación Patrimonio / \\
+%       & Prestacionales &            & Gastos  \\
+%   \midrule
+% \endhead
+% 
+% \bottomrule \multicolumn{2}{c}{continúa...} \\
+% \endfoot
+% \bottomrule
+%   \caption*{\scriptsize {\bf Fuente:} Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados - DNGF.\\
+%    {\bf Elaborado:} DAIE.}
+%   \endlastfoot
+%    \input{tablas/tabla_o5_16_AnalisisReservasDisponibl.tex}
+% \end{longtable}
+%   }
+% %----- fin tabla
+% 
+% El indicador patrimonio/gasto revela la cantidad de dólares que tiene en el año de análisis, es decir cada dólar de obligación por gastos. Esta relación mantiene una tendencia decreciente en el periodo 2010 al 2020, con un porcentaje promedio del 3,69.
+% 
+% Finalmente al 31 de diciembre de 2020 termina con USD. 8,50 disponibles por cada dólar de obligación; cabe mencionar que el año 2018 registró la mayor relación con USD. 9,08 por cada dólar de obligación, mientras que el 2014 la más bajo del periodo con USD. 0,93.
+
+% %---------------------------------------------------------------------------------------------------
+% %---------------------------------------------------------------------------------------------------
+% %---------------------------------------------------------------------------------------------------
+\section{Descripción del portafolio de inversiones del fondo de salud}
+\label{chp_infofinan:rentablidad}
+
+
+El artículo 372 de la Constitución de la República del Ecuador establece: ``Los fondos y reservas del seguro universal obligatorio serán propios y distintos de los del fisco, y servirán para cumplir de forma adecuada los fines de su creación y sus funciones. Ninguna institución del Estado podrá intervenir o disponer de sus fondos y reservas, ni menoscabar su patrimonio. Los fondos provisionales (sic) públicos y sus inversiones se canalizarán a través de una institución financiera de propiedad del Instituto Ecuatoriano de Seguridad Social; su gestión se sujetará a los principios de seguridad, solvencia, eficiencia, rentabilidad y al control del órgano competente''.
+
+El artículo 54 de la Sección X: ``DEL BANCO DEL INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL" de la ``RESOLUCIÓN No. 385-2017-A CODIFICACIÓN DE RESOLUCIONES MONETARIAS, FINANCIERAS, DE VALORES Y SEGUROS'' de ``LA JUNTA DE POLÍTICA Y REGULACIÓN MONETARIA Y FINANCIERA'', publicada en el Segundo Suplemento del Registro Oficial No.22, de fecha 26 de Junio 2017, establece que se invertirán los valores del Fondo del \Sexpr{REP_seg} a corto plazo; es decir, a plazos menores de tres (3) años.
+
+Para medir la rentabilidad de las inversiones, se utilizarán dos indicadores: el rendimiento promedio ponderado y el rendimiento neto. El rendimiento promedio ponderado para cada instrumento financiero, con pesos iguales a los saldos en valor nominal, se calcula según el artículo 5.4.1.3 del Capítulo III ``Manual operativo para valoración a precios de mercado de valores de contenido crediticio y de participación y procedimiento'' del Título III ``De las operaciones del Instituto Ecuatoriano de Seguridad Social, del Instituto de Seguridad Social de las Fuerzas Armadas, del Instituto de Seguridad Social de la Policía Nacional, del Servicio de Cesantía de la Policía Nacional'' del  Libro II ``Normas de control para las entidades del sistema de seguridad
+social''\footnote{La normativa citada se encuentra derogada, pero se encontraba vigente en la
+mayoría del período de valuación.}, en el cual manifiesta que la fórmula para calcular el
+rendimiento efectivo promedio ponderado, $\overline{TIR}$, es:
+\begin{equation}
+\overline{TIR}=\frac{\sum^{K}_{1} TIR_{i}\cdot VP_{i}}{\sum^{k}_{1}VP_{i}},
+\end{equation}
+
+donde: $TIR_{i}$ es el rendimiento efectivo de la operación de contado $i$, $VP_{i}$ es el valor nominal residual o valor parcial de la inversión y $k$ es el número de operaciones a tener en cuenta.
+
+El rendimiento neto de cada fondo se calcula según la metodología expuesta en el informe ``Cálculo de rendimientos financieros de los Fondos Previsionales administrados por el Banco del Instituto
+Ecuatoriano de Seguridad Social''. El rendimiento neto, $R_{i}$, del fondo $i$, se estiman a través
+de la siguiente fórmula:
+\begin{equation}
+R_{i}=\frac{\left(I_{i}-Gop_{i}-GAdm_{i}\right)\cdot \left(12/j\right)}{\overline{FA_{i}}}, \qquad
+para\; \; i=1,2,3,\ldots,9,
+\end{equation}
+donde: $I_{t}$ es el ingreso acumulado del fondo $i$, $Gop_{t}$ es el gasto operativo acumulado del
+fondo $i$, $GAdm_{i}$ es el Gasto administrativo acumulado del fondo $i$ y $\overline{FA_{i}}$ es el
+fondo administrativo promedio del fondo $i$.
+
+$\overline{FA_{i}}$ hace referencia al promedio del saldo del fondo registrado el último día de cada
+mes, desde el 31 de diciembre del año anterior hasta el último día del mes considerando para el
+cálculo. Específicamente, la fórmula  de cálculo es la siguiente:
+\begin{equation}
+\overline{FA_{i}}=\frac{FA_{i,dic}+FA_{i,ene}+FA_{i,feb}+FA_{i,mar}+\cdots+FA_{i,actual}}{j+1},
+\end{equation} donde: $j+1$ es el número total de observaciones para ser consideradas en el promedio móvil del
+fondo administrado.
+
+A partir de la información recopilada de los siguientes documentos: memorando Nro.
+IESS-DNGF-2018-0859-M de 2 de octubre de 2018, oficio Nro. BIESS-OF-GGEN-0315-2019, de fecha 28 de marzo de 2019, y oficio  Nro. BIESS-GGEN-2021-1165-OF, de fecha 08 de septiembre de 2021, se presenta la siguiente información respecto a los fondos y reservas del \Sexpr{REP_seg}.
+
+
+Al 31 de diciembre de 2020, el BIESS administra USD 489.002.157,62 del Fondo \Sexpr{REP_seg}, de los cuales USD 55.880.792,77 se encuentran en caja y son fondos de libre disponibilidad, y USD 433.121.183,40 se encuentran invertidos a una tasa de rendimiento promedio ponderado igual a 8,65\% a un plazo promedio de 417,34 días.
+
+
+A la fecha de corte de este estudio, el portafolio de inversiones posee inversiones por USD 105.730.706,13 (participación del 21,62\%) en Bonos del Estado, USD 65.920.029,67 (13,48\%) en Cupones de Capital de Bonos del Estado, en obligaciones por USD 5.413.868,57 (1,11\%), USD 234.950.265,80 (48,05\%) en préstamos quirografarios y USD 21.106.313,23 (4,32\%) en préstamos prendarios, en valor nominal.
+
+En la tabla \ref{tab:iess_inv_corte}, se presentan las inversiones del Fondo del \Sexpr{REP_seg} al 31 de diciembre de 2020, en valor nominal con su respectivo rendimiento neto y plazo promedio ponderado.
+\begin{table}[H]
+  \begin{center}
+  \caption{Portafolio de inversiones del Fondo del \Sexpr{REP_seg} administrados del BIESS al corte}
+  \label{tab:iess_inv_corte}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{lrccr}
+    \toprule
+ \multicolumn{1}{c}{Instrumento:} & \multicolumn{1}{c}{Saldo Valor}   &
+ \multicolumn{1}{c}{Rendimiento Promedio}  & \multicolumn{1}{c}{Rendimiento Promedio}  &
+ \multicolumn{1}{c}{Plazo Promedio}  \\
+ &  \multicolumn{1}{c}{Nominal (USD.)}& \multicolumn{1}{c}{Ponderado (\%)}        &
+ \multicolumn{1}{c}{Ponderado Real (\%)}&\multicolumn{1}{c}{Remanente (días)} \\ \midrule
+    \input{tablas/iess_inv_corte.tex}
+    \bottomrule
+  \end{tabular}
+    }
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Dirección de Tesorería - BIESS.\\
+Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+
+En la tabla \ref{tab:iess_total_inv} y figura \ref{fig:iess_inv_tot}, se muestra la evolución histórica de las inversiones, en valor nominal con su respectivo rendimiento neto y plazo promedio ponderado, además, los valores registrados en la caja del Seguro de Salud, durante el período 2011 a 2020.
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica del saldo en valor nominal de las inversiones del Fondo del  \Sexpr{REP_seg}
+y su rendimiento neto}
+\label{fig:iess_inv_tot}
+\includegraphics[scale=1]{graficos/iess_inv_tot.png}
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Dirección de Tesorería - BIESS. \\
+Elaborado: DAIE}
+\end{figure}
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de los Fondos del \Sexpr{REP_seg} administrados por el BIESS}
+  \label{tab:iess_total_inv}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{rrrrcrrc}
+    \toprule
+ \multicolumn{1}{c}{Año} & \multicolumn{1}{c}{Inversiones} & \multicolumn{1}{c}{Caja} &
+ \multicolumn{1}{c}{Fondo total} & \multicolumn{1}{c}{Rendimiento Promedio}&
+ \multicolumn{1}{c}{Rendimiento} & \multicolumn{1}{c}{Rendimiento Neto} & \multicolumn{1}{c}{Plazo
+ Promedio}  \\
+ &  \multicolumn{1}{c}{(USD.)}           &\multicolumn{1}{c}{(USD.)} & \multicolumn{1}{c}{administrado
+ (USD.)}&  \multicolumn{1}{c}{Ponderado (\%)}    & \multicolumn{1}{c}{Neto (\%)}   &
+ \multicolumn{1}{c}{Real (\%)}  & \multicolumn{1}{c}{Ponderado (días)}  \\
+    \midrule
+    \input{tablas/iess_total_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Dirección de Tesorería - BIESS. \\
+Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+El portafolio de inversiones del Fondo del \Sexpr{REP_seg} alcanzó USD 810.457.587,05 durante el 2019, siendo este año con mayores reservas de este fondo; durante un año (año 2020), las reservas se redujeron en un 40,64\% (USD 489.002.157,62), causado por la pandemia y en mayor medida en la reducción de la tasa de aportación al \Sexpr{REP_seg} se redujo del 6,94\% al 5,94\%, según lo establecido en la \legalcite{ResIESS_CD515}. Y se espera, según la recuperación de bonos del estado, que en mayo de 2022 sea la fecha de vencimiento de los últimos bonos del Estado por lo que el fondo recibirá USD 91.664.560,29 de capital y USD 2.260.750,00 de intereses, terminando con sus inversiones en renta fija en el sector público y dejando solo con un portafolio en inversiones privativas, a menos que reciba más Bonos del Estado por pago de las obligaciones del Estado con el IESS.
+
+% --------------------------------------------------------------------------------------------------
+\subsection{Rendimiento neto de las inversiones del fondo}
+
+
+Para el cálculo de los rendimientos netos, se utilizaron\footnote{La Dirección de Tesorería del BIESS envió a través del Oficio Nro. BIESS-OF-GGEN-0591-2019 de 17 de junio de 2019, los resultados de la metodología: ``Cálculo de rendimientos financieros de los Fondos Previsionales administrados por el Banco del Instituto Ecuatoriano de Seguridad Social''.}: los ingresos, gastos operativos y gastos administrativos, el fondo administrado promedio ( de los últimos 12 meses). Además, en la tabla \ref{tab:iess_rend_inv}, se presentan la tasa de rendimiento bruta antes de gastos y la tasa de rendimiento neta, la cual es el rendimiento después de gastos. Los ingresos se detallan más tarde en la tabla \ref{tab:iess_ingre_inv} y los egresos en la tabla \ref{tab:iess_gastos_inv}.
+
+Para el año 2020, el BIESS arbitrariamente no consideró los gastos administrativos para el cálculo de los rendimientos netos, cuando el BIESS registró USD 27.939.924,67 en gastos administrativos durante el 2019 en el manejo de inversiones.
+
+El rendimiento neto, después de gastos, de las inversiones del Fondo es 4,92\% (no confundir con el rendimiento promedio ponderado) en el año 2020 (sin contar que el BIESS no tomó en cuenta los gastos administrativos en el año 2020), lo que representa 1,48\% menos que el año 2019; es decir, una reducción del 23,15\%. Esta disminución de la rentabilidad se explica por el aumento de USD 8.440.704,86 a USD 15.469.671,48 de los gastos operativos del Fondo entre el año 2019 y 2020, lo que significa que los gastos operativos crecieron en 83,27\% y que están detallados en la tabla \ref{tab:iess_gastos_inv}; por lo cual, no alcanzó la tasa actuarial vigente.
+
+En promedio la diferencia entre rendimientos brutos y netos de este fondo es 2,56\%; es decir, los gastos (operativos y administrativos) producen una reducción del 2,56\% de los ingresos brutos y, además, presentan una alta volatilidad (desviación estándar igual a 2,01\%). La reducción del rendimiento neto en el año 2020 (6,73\%) se debe por el ajuste de provisiones por USD 3.379.835,65 de la cartera vencida de los préstamos prendarios y USD 4.505.267,48 en el pago de intereses acumulados en ejercicios anteriores y USD 4.496.539,32 en provisiones por mora patronal.
+
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de los ingresos, gastos operativos, gastos administrativos, rendimiento bruto y
+  rendimiento neto del portafolio de inversiones del Fondo del \Sexpr{REP_seg}}
+  \label{tab:iess_rend_inv}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{lrrrrrr}
+    \toprule
+   \multicolumn{1}{c}{Corte a:} & \multicolumn{1}{c}{Ingresos} & \multicolumn{1}{c}{Gastos}&
+   \multicolumn{1}{c}{Gastos} & \multicolumn{1}{c}{Fondo Administrado} &
+   \multicolumn{1}{c}{Rendimiento}  & \multicolumn{1}{c}{Rendimiento} \\
+   & \multicolumn{1}{c}{(USD)} &\multicolumn{1}{c}{Operativos (USD)} &
+   \multicolumn{1}{c}{Administrativos (USD)} &\multicolumn{1}{c}{Promedio (USD)}     &
+   \multicolumn{1}{c}{Bruto (\%)}   & \multicolumn{1}{c}{Neto (\%)} \\
+    \midrule
+    \input{tablas/iess_rend_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Dirección de Tesorería -
+BIESS. \\ Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+
+
+\begin{landscape}
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de los ingresos financieros generados por las inversiones del Fondo del \Sexpr{REP_seg}}
+  \label{tab:iess_ingre_inv}
+  {\fontsize{8}{9}\selectfont
+  %\resizebox{\columnwidth}{!}{%
+  \begin{tabular}{{l}r*{9}{r}}
+    \toprule
+  \multicolumn{1}{c}{Ingresos:} &
+  \multicolumn{1}{c}{2012} &
+  \multicolumn{1}{c}{2013} &
+  \multicolumn{1}{c}{2014} &
+  \multicolumn{1}{c}{2015} &
+  \multicolumn{1}{c}{2016} &
+  \multicolumn{1}{c}{2017} &
+  \multicolumn{1}{c}{2018} &
+  \multicolumn{1}{c}{2019} &
+  \multicolumn{1}{c}{2020} \\
+    \midrule
+    \input{tablas/iess_ingre_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Dirección de Tesorería - BIESS. \\
+Elaborado: DAIE}
+  \end{center}
+\end{table}
+
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de los gastos operativos producidos por las inversiones del Fondo del \Sexpr{REP_seg}}
+  \label{tab:iess_gastos_inv}
+{\fontsize{8}{9}\selectfont
+ % \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{{l}r*{9}{r}}
+    \toprule
+    \multicolumn{1}{c}{Gastos:} &
+    \multicolumn{1}{c}{2012} &
+    \multicolumn{1}{c}{2013} &
+    \multicolumn{1}{c}{2014} &
+    \multicolumn{1}{c}{2015} &
+    \multicolumn{1}{c}{2016} &
+    \multicolumn{1}{c}{2017} &
+    \multicolumn{1}{c}{2018} &
+    \multicolumn{1}{c}{2019} &
+    \multicolumn{1}{c}{2020}\\
+    \midrule
+    \input{tablas/iess_gastos_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Dirección de Tesorería - BIESS y Balances Financieros del BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+\end{landscape}
+
+En el año 2020, los ingresos por inversiones del Fondo del \Sexpr{REP_seg} se componen, en su mayoría (54,56\%), de las inversiones privativas en préstamos quirografarios por USD 31.483.532,22. En segundo lugar, de las inversiones en renta fija en el sector público con USD 14.633.868,86, que representa el 25,36\% de sus ingresos. En tercer lugar, representado el 10,37\% de los ingresos, se encuentran los ingresos de inversiones privativas en préstamos prendarios. En cambio, solo el 1,97\% (USD 1.137.469,57) de los ingresos provienen de las inversiones en renta fija del sector privado.
+Respecto a su evolución histórica, los ingresos decrecieron en 16,30\% de USD 68.940.811,45 en 2019 a USD 57.700.352,07 en 2020, debido al aumento de la morosidad de los créditos quirografarios y a la disminución de la cartera quirografaria; en cambio, los ingresos de las inversiones de renta fija en el sector público crecieron en 71,67\% entre el 2019 y 2020, debido a que la que la mayoría de los bonos del Estado tenían fecha de vencimiento entre 2020 y mayo de 2022. En la tabla \ref{tab:iess_ingre_inv}, se detallan la composición de los ingresos de las inversiones del Fondo.
+
+Los gastos operativos de las inversiones del portafolio de inversiones del Fondo del \Sexpr{REP_seg} se detallan en la tabla \ref{tab:iess_gastos_inv}. En el año 2020, se registró un aumento igual al 83,27\% en los gastos operativos, de USD 8.440.704,86 en 2019 a USD 15.469.671,48 en 2020. Los gastos operativos en el 2020 se componen: USD 4.505.267,48 en intereses acumulados de ejercicios anteriores y representan el 29,12\% de los gastos operativos; USD 4.496.539,32 (29,07\%)en gastos provisión mora patronal préstamos quirografarios; USD 3.379.835,65 (21,85\%) en provisiones de préstamos prendarios y USD 2.540.359,74 en valuación valor de mercado de las inversiones, entre los principales. El detalle de los gastos operativos se presentan en la tabla \ref{tab:iess_gastos_inv}.
+%---------------------------------------------------------------------------------------------------
+\subsection{Inversiones privativas (préstamos quirografarios y prendarios)}
+
+La evolución histórica de las inversiones del \Sexpr{REP_seg} en créditos otorgados por el BIESS a diciembre de cada año, y los rendimientos (líneas) durante el período 2011 a 2020 se puede ver en la figura \ref{fig:iess_creditos_inv} y tabla \ref{tab:iess_creditos_inv}.
+
+Se registró el máximo de inversiones privativas del \Sexpr{REP_seg} al 31 de diciembre de 2018 con USD 390.221.331,49, con la reducción de los aportes al este seguro por la \legalcite{ResIESS_CD515} (8,14\% de la materia gravada en 2018, 6,94\% en 2019, 5,94\% en 2020 y 5,16\% en 2021 en adelante), se redujo la cartera de créditos quirografarios a USD 256.056.579,03 en 2020, lo que representa una disminución del 28,03\% respecto al 31 de diciembre del 2019. Por otro lado, la tasa se rendimiento promedio ponderada en 2020 fue 12,06\% y el promedio durante el período 2012 a 2020 es 12,08\%, con una baja volatilidad (1,24\% de desviación estándar) y la cartera de inversiones está a 497 días en promedio.
+
+Al 31 de diciembre de 2020, la cartera de USD 256.056.579,03 en inversiones privativas, casi su totalidad (91,76\%) se encuentra en préstamos quirografarios y el resto en prendarios. La cartera vencida en los quirografarios representa el 0,74\%; mientras que en los préstamos prendarios representa el 17,65\% (alta morosidad que conlleva el incremento de las provisiones por USD 3.379.835,65).
+
+\begin{table}[H]
+\centering
+\caption{Evolución al 31 de diciembre de la cartera de préstamos quirografarios y prendarios del portafolio de inversiones del \Sexpr{REP_seg} y su rendimiento promedio ponderado}
+\label{tab:iess_creditos_inv}
+\scalebox{0.85}{
+{\fontsize{10}{12}\selectfont
+%\scalebox{0.6}{
+%\resizebox{\columnwidth}{!}{%
+\begin{tabular}{*{7}{r}}
+\toprule
+\multicolumn{1}{c}{Año}    & \multicolumn{1}{c}{Préstamos quirografarios} &
+\multicolumn{1}{c}{Préstamos prendarios} & \multicolumn{1}{c}{Total} &
+\multicolumn{1}{c}{Rendimiento} & \multicolumn{1}{c}{Rendimiento}&\multicolumn{1}{c}{Plazo}\\ &
+\multicolumn{1}{c}{(USD)}                      & \multicolumn{1}{c}{(USD)}
+&\multicolumn{1}{c}{(USD)}    &\multicolumn{1}{c}{promedio (\%)} & \multicolumn{1}{c}{promedio
+(\%)}& \multicolumn{1}{c}{promedio (días)}\\
+\midrule
+\input{tablas/iess_creditos_inv.tex}
+\bottomrule
+\end{tabular}
+}
+}
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión del BIESS. \\
+Elaborado: DAIE.}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica de las inversiones del \Sexpr{REP_seg} en préstamos y su rendimiento durante el período 2011 a 2020}
+\label{fig:iess_creditos_inv}
+\includegraphics[scale=0.8]{graficos/iess_creditos_inv.png}
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión del BIESS. \\
+Elaborado: DAIE.}
+\end{figure}
+
+
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Inversiones no privativas con renta fija en el sector público}
+
+El articulo 54 de la Sección X: ``DEL BANCO DEL INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL'' de la ``RESOLUCIÓN No. 385-2017-A CODIFICACIÓN DE RESOLUCIONES MONETARIAS, FINANCIERAS, DE VALORES Y SEGUROS'', publicado en el Segundo Suplemento del Registro Oficial No.22, de fecha 26 de Junio 2017, establece que las inversiones permitas no privativas en renta fija del sector público a corto plazo son bonos del Estado y cupones de interés.
+
+En la figura \ref{fig:iess_bonos_hist_inv} y tablas \ref{tab:iess_sp_saldo_inv}, \ref{tab:iess_sp_rendimiento_inv} y \ref{tab:iess_sp_saldo_inv} se presenta la evolución histórica del saldo, rendimiento y plazo promedio de las inversiones del \Sexpr{REP_seg} en bonos del Estado y cupones, durante el período 2011 a 2020.
+
+Debido a la reducción de los aportes a este Seguro, las inversiones en bonos, CETES y cupones ha reducido en el 2020 a USD 171.650.735,80 de USD 358.648.368,36 en el 2019; es decir, una reducción del 52,14\%. La extinción de estas inversiones se debe a que estaban a plazos cortos (319,23 días promedio en 2019) y se alcanzó su fecha de vencimiento y la falta de recursos no permitió al BIESS colocar nuevos bonos.
+
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Saldo a 31 de diciembre de las inversiones no privativas con renta fija en el sector público del Fondo del \Sexpr{REP_seg}}
+  \label{tab:iess_sp_saldo_inv}
+  {\fontsize{9}{11}\selectfont
+  \begin{tabular}{lrrrrr}
+    \toprule
+   \multicolumn{1}{c}{Año} &
+   \multicolumn{1}{c}{2011} &
+   \multicolumn{1}{c}{2017} &
+   \multicolumn{1}{c}{2018} &
+   \multicolumn{1}{c}{2019}  &
+   \multicolumn{1}{c}{2020}\\
+    \midrule
+    \input{tablas/iess_sp_saldo_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Balances Financieros del
+  BIESS. \\ Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Rendimiento promedio de las inversiones no privativas con renta fija en el sector público del Fondo del \Sexpr{REP_seg}}
+  \label{tab:iess_sp_rendimiento_inv}
+  {\fontsize{11}{11}\selectfont
+  \begin{tabular}{lrrrrr}
+    \toprule
+   \multicolumn{1}{c}{Año} &
+   \multicolumn{1}{c}{2011} &
+   \multicolumn{1}{c}{2017} &
+   \multicolumn{1}{c}{2018} &
+   \multicolumn{1}{c}{2019}  &
+   \multicolumn{1}{c}{2020}\\
+    \midrule
+    \input{tablas/iess_sp_rendimiento_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Balances Financieros del
+  BIESS. \\ Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Plazo promedio (días) de las inversiones no privativas con renta fija en el sector público del Fondo del \Sexpr{REP_seg}}
+  \label{tab:iess_sp_saldo_inv}
+  {\fontsize{11}{11}\selectfont
+  \begin{tabular}{lrrrrr}
+    \toprule
+   \multicolumn{1}{c}{Año} &
+   \multicolumn{1}{c}{2011} &
+   \multicolumn{1}{c}{2017} &
+   \multicolumn{1}{c}{2018} &
+   \multicolumn{1}{c}{2019}  &
+   \multicolumn{1}{c}{2020}\\
+    \midrule
+    \input{tablas/iess_sp_plazo_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Balances Financieros del
+  BIESS. \\ Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica del saldo, en valor nominal, y rendimiento de las inversiones no privativas con renta fija en el sector público del Fondo del \Sexpr{REP_seg}}
+\label{fig:iess_bonos_hist_inv}
+\includegraphics[scale=1]{graficos/iess_sector_publico_hist_inv.png}
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+\end{figure}
+
+Al 31 de diciembre de 2020, el portafolio del Fondo del \Sexpr{REP_seg} dispone de inversiones por USD 171.650.735,80, de los cuales USD 105.730.706,13 están en bonos del Estado a plazo promedio de 500,24 días y rendimiento promedio ponderado igual a 5,39\% y USD 65.920.029,67 en cupones de capital de bonos del Estado a un plazo promedio de 310,53 días y rendimiento promedio ponderado igual a 7,94\%.
+
+En la tabla \ref{tab:iess_bonos_detalle_inv}, se enumeran todos los bonos y cupones del portafolio de inversiones del Fondo, todos emitidos por el Ministerio de Economía y Finanzas, y se detalla su código referencial, saldo nominal remanente, tasa de rendimiento, plazo remanente, fecha de vencimiento, método de amortización e indica los cupones recibidos por concepto del pago del 40\% de la aportación del estado u otras obligaciones del Estado con el IEES.
+
+{\fontsize{7.3}{9}\selectfont
+\begin{longtable}[H]{lrrcrccl}
+\caption{Detalle de las inversiones del Fondo del \Sexpr{REP_seg} en Bonos del Estado Ecuatoriano a
+31 de diciembre de 2020} \\
+\label{tab:iess_bonos_detalle_inv} \\
+\toprule
+   \multicolumn{1}{c}{Referencia} &
+   \multicolumn{1}{c}{Tipo de} &
+   \multicolumn{1}{c}{Saldo Valor}  &
+   \multicolumn{1}{c}{Tasa de } &
+   \multicolumn{1}{c}{Plazo} &
+      \multicolumn{1}{c}{Fecha de} &
+   \multicolumn{1}{c}{Amortización} &
+      \multicolumn{1}{c}{Observación}
+   \\
+
+   \multicolumn{1}{c}{del título}  &
+   \multicolumn{1}{c}{título} &
+   \multicolumn{1}{c}{nominal (USD)} &
+   \multicolumn{1}{c}{(rendimiento \%)}  &
+   \multicolumn{1}{c}{remanente (días)} &
+   \multicolumn{1}{c}{vencimiento} &
+
+   \\
+\midrule
+\endfirsthead
+
+\toprule
+     \multicolumn{1}{c}{Referencia } &
+   \multicolumn{1}{l}{Tipo de} &
+   \multicolumn{1}{c}{Saldo Valor}  &
+   \multicolumn{1}{c}{Tasa de } &
+   \multicolumn{1}{c}{Plazo} &
+      \multicolumn{1}{c}{Fecha de} &
+   \multicolumn{1}{c}{Amortización} &
+      \multicolumn{1}{c}{Observación}
+   \\
+
+   \multicolumn{1}{c}{del título}  &
+   \multicolumn{1}{l}{título} &
+   \multicolumn{1}{c}{nominal (USD)} &
+   \multicolumn{1}{c}{(rendimiento \%)}  &
+   \multicolumn{1}{c}{remanente (días)} &
+   \multicolumn{1}{c}{vencimiento} &
+
+   \\
+\midrule
+\endhead
+\bottomrule \multicolumn{8}{c}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Balances Financieros del BIESS. \\
+  Elaborado: DAIE.}
+\endlastfoot
+  \input{tablas/iess_bonos_detalle_inv.tex}
+\end{longtable}
+}
+
+%---------------------------------------------------------------------------------------------------
+\subsubsection{Recuperación de bonos y cupones del Estado}
+
+Según la información, adjunta en el Oficio Nro. BIESS-GGEN-2021-0152-OF, de la Subgerencia de Banca de Inversiones del BIESS, se espera recuperar en bonos y cupones del Estado USD 85.627.675,51 en el 2021, de los cuales USD 79.986.175,51 son de la recuperación del capital y USD 5.641.500,00 en los intereses pagados en cupones. En el año 2022, se espera recuperar USD 93.925.310,29, de los cuales USD 91.664.560,29 son recuperación del capital y USD 2.260.750,00 en intereses. Por lo tanto, hasta el 23 de mayo de 2022, fecha de vencimiento del último bono del Estado, se ingresará al Fondo USD 179.552.985,80, de los cuales USD 171.650.735,80 es recuperación del capital y USD 7.902.250,00 en intereses.
+
+
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Detalle de las inversiones del Fondo del \Sexpr{REP_seg} en bonos y cupones del Estado Ecuatoriano a
+%  31 de diciembre de 2020}
+%   %\label{tab:iess_bonos_recuperacion_inv}
+%   {\fontsize{10}{12}\selectfont
+%   \begin{tabular}{lcrrcc}
+%     \toprule
+%    \multicolumn{1}{c}{Referencia} &
+%    \multicolumn{1}{c}{Emisor} &
+%    \multicolumn{1}{c}{Capital}  &
+%    \multicolumn{1}{c}{Intereses} &
+%    \multicolumn{1}{c}{Fecha de} &
+%    \multicolumn{1}{c}{Fecha de}   \\
+% 
+%    \multicolumn{1}{c}{del título}  &
+%    \multicolumn{1}{c}{} &
+%    \multicolumn{1}{c}{remanente (USD)} &
+%    \multicolumn{1}{c}{(USD)}  &
+%    \multicolumn{1}{c}{de cupón} &
+%    \multicolumn{1}{c}{vencimiento}
+%    \\
+%     \midrule
+%     %\input{tablas/iess_bonos_recuperacion_inv.tex}
+%     \bottomrule
+%   \end{tabular}
+%    }
+%   \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Balances Financieros del BIESS. \\
+%    Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+
+{\fontsize{10}{11}\selectfont
+\begin{longtable}[H]{lcrrcc}
+\caption{Detalle de las inversiones del Fondo del \Sexpr{REP_seg} en bonos y cupones del Estado Ecuatoriano a
+31 de diciembre de 2020} \\
+\label{tab:iess_bonos_recuperacion_inv} \\
+\toprule
+   \multicolumn{1}{c}{Referencia} &
+   \multicolumn{1}{c}{Emisor} &
+   \multicolumn{1}{c}{Capital}  &
+   \multicolumn{1}{c}{Intereses} &
+   \multicolumn{1}{c}{Fecha de} &
+   \multicolumn{1}{c}{Fecha de}   \\
+
+   \multicolumn{1}{c}{del título}  &
+   \multicolumn{1}{c}{} &
+   \multicolumn{1}{c}{remanente (USD)} &
+   \multicolumn{1}{c}{(USD)}  &
+   \multicolumn{1}{c}{de cupón} &
+   \multicolumn{1}{c}{vencimiento}
+   \\
+\midrule
+\endfirsthead
+
+\toprule
+   \multicolumn{1}{c}{Referencia} &
+   \multicolumn{1}{c}{Emisor} &
+   \multicolumn{1}{c}{Capital}  &
+   \multicolumn{1}{c}{Intereses} &
+   \multicolumn{1}{c}{Fecha de} &
+   \multicolumn{1}{c}{Fecha de}   \\
+
+   \multicolumn{1}{c}{del título}  &
+   \multicolumn{1}{c}{} &
+   \multicolumn{1}{c}{remanente (USD)} &
+   \multicolumn{1}{c}{(USD)}  &
+   \multicolumn{1}{c}{de cupón} &
+   \multicolumn{1}{c}{vencimiento}
+   \\
+\midrule
+\endhead
+\bottomrule \multicolumn{6}{c}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Balances Financieros del BIESS. \\
+  Elaborado: DAIE.}
+\endlastfoot
+  \input{tablas/iess_bonos_recuperacion_inv.tex}
+\end{longtable}
+}
+
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Inversiones no privativas con renta fija en el sector privado}
+
+%---------------------------------------------------------------------------------------------------
+\subsubsection{Inversiones en Obligaciones en renta fija}
+
+En la tabla \ref{tab:iess_obligaciones_hist_inv} y figura \ref{fig:iess_obligaciones_hist_inv},se presenta la evolución histórica del saldo remanente de las inversiones en obligaciones en renta fija (barras), en valor nominal, y sus rendimientos (líneas) durante el período 2011 a 2020. En cambio, en la tabla \ref{tab:iess_oblig_detalle_inv}, se detallan las inversiones en obligaciones del Fondo del \Sexpr{REP_seg} al 31 de diciembre de 2020.
+
+Al 31 de diciembre de 2020, se registra USD 5.435.136,20 invertidos en obligaciones, con un rendimiento promedio ponderado igual a 9,03\% a un plazo promedio de 638,99 días. Respecto al 2019, las inversiones del Fondo en obligaciones crecieron en 89,53\%, de USD 2.867.713,33 a USD 5.435.136,20. Igualmente, su tasa de rendimiento promedio ponderado creció de 8,71\% a 9,03\% entre el 2019 y 2020. A pesar de este aumento de inversiones en obligaciones, no se alcanza a los USD 21.331.554,21 invertidos al 31 de diciembre de 2016. Cabe indicar que, durante los años 2013, 2014 y 2015, no se registraron inversiones en obligaciones y su tasa de rendimiento promedio durante el período 2011 a 2020 es 8,09\%.
+
+
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de las inversiones del Fondo del \Sexpr{REP_seg} en Obligaciones en renta fija}
+  \label{tab:iess_obligaciones_hist_inv}
+  {\fontsize{10}{12}\selectfont
+  \begin{tabular}{crccr}
+    \toprule
+  \multicolumn{1}{c}{Año} &  \multicolumn{1}{c}{Saldo} &  \multicolumn{1}{c}{Rendimiento Promedio} &
+  \multicolumn{1}{c}{Rendimiento Promedio}&  \multicolumn{1}{c}{Plazo} \\
+  &  \multicolumn{1}{c}{Valor Nominal (USD)} &  \multicolumn{1}{c}{Ponderado (\%)} &
+  \multicolumn{1}{c}{Ponderado Real (\%)} &  \multicolumn{1}{c}{(días)}\\
+    \midrule
+    \input{tablas/iess_obligaciones_hist_inv.tex}
+    \bottomrule
+  \end{tabular}
+   }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica nominal del saldo remanente de las inversiones en obligaciones en renta fija del Fondo del \Sexpr{REP_seg} y su rendimiento promedio ponderado}
+\label{fig:iess_obligaciones_hist_inv}
+\includegraphics[scale=1]{graficos/iess_obligaciones_hist_inv.png}
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS.\\
+  Elaborado: DAIE.}
+\end{figure}
+
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Detalle de las inversiones del Fondo del \Sexpr{REP_seg} en obligaciones en renta fija a 31
+  de diciembre de 2020}
+  \label{tab:iess_oblig_detalle_inv}
+    \resizebox{\columnwidth}{!}{%
+   \begin{tabular}{lrrccccc}
+    \toprule
+ \multicolumn{1}{l}{Emisor:} &
+ \multicolumn{1}{c}{Valor Nominal} &
+ \multicolumn{1}{c}{Saldo Valor} &
+ \multicolumn{1}{c}{Tasa Cupón} &
+  \multicolumn{1}{c}{Rendimiento} &
+ \multicolumn{1}{c}{Plazo Remanente} &
+ \multicolumn{1}{c}{Amortización}\\
+
+ &
+ \multicolumn{1}{c}{de Compra (USD)} &
+ \multicolumn{1}{c}{Nominal (USD)} &
+ \multicolumn{1}{c}{(\%)}      &
+  \multicolumn{1}{c}{(\%)}      &
+ \multicolumn{1}{c}{(días)} &
+ \multicolumn{1}{c}{Amortización} \\
+
+    \midrule
+    \input{tablas/iess_oblig_detalle_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+% --------------------------------------------------------------------------------------------------
+\subsubsection{Inversiones en titularizaciones}
+
+En la figura \ref{fig:iess_titularizaciones_hist_inv} y la tabla \ref{tab:iess_titularizaciones_hist_inv}, se muestra la evolución histórica del saldo (barras), en valor nominal, de las inversiones del Fondo del \Sexpr{REP_seg} en titularizaciones a 31 diciembre de cada año y su rendimiento promedio ponderado (líneas) durante el período 2011 a 2020.
+
+Las inversiones en titularizaciones decrecieron de 46.220.907,24 en diciembre de 2011 hasta desaparecer en diciembre de 2015; más tarde, las inversiones en titularizaciones decrecieron de USD 13.402.853,98 a USD 2.783.904,23 entre 2016 y 2018, respectivamente. En cambio, su rendimiento tuvo una tendencia a la baja entre los años 2011 y 2015 y, más tarde, ha tenido un leve crecimiento de 7,51\% a 8,26\% entre los años 2016 y 2018, respectivamente. Para el año 2019 solamente se registró USD 60.649,00 en inversiones en titularizaciones; y por último para el 2020, no se registran inversiones en inversiones. Por último, la serie cronología compuesta con sus rendimientos tiene una media igual a 6,49\% y una desviación estándar igual a 2,68\%.
+
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de las inversiones del Fondo del \Sexpr{REP_seg} en titularizaciones en renta fija}
+  \label{tab:iess_titularizaciones_hist_inv}
+  {\fontsize{10}{12}\selectfont
+  \begin{tabular}{crccr}
+    \toprule
+ \multicolumn{1}{c}{Año} & \multicolumn{1}{c}{Saldo} & \multicolumn{1}{c}{Rendimiento Promedio} &
+ \multicolumn{1}{c}{Rendimiento  Promedio}& \multicolumn{1}{c}{Plazo} \\
+  & \multicolumn{1}{c}{Valor Nominal (USD)} & \multicolumn{1}{c}{Ponderado (\%)} &
+  \multicolumn{1}{c}{Ponderado Real (\%)} & \multicolumn{1}{c}{(días)}   \\
+    \midrule
+    \input{tablas/iess_titularizaciones_hist_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica del saldo remanente, en valor nominal, de las inversiones en
+titularizaciones en renta fija del Fondo del \Sexpr{REP_seg} y su rendimiento promedio ponderado}
+\label{fig:iess_titularizaciones_hist_inv}
+\includegraphics[scale=1]{graficos/iess_titularizaciones_hist_inv.png}
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+\end{figure}
+
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Otras inversiones}
+El portafolio de inversiones del \Sexpr{REP_seg} también registró otras inversiones (al 31 de diciembre de cada año mencionado), además de las expuestas anteriormente, que se enumeran a continuación:
+\begin{itemize}
+\item Inversiones en Certificados de Depósito por USD 5.000.000,00 a 178 días con rendimiento del 3\%; en el año 2011, USD 23.285.312,50 a 81 días con rendimiento 3,50\% y; en el 2018, USD 151.932.291,70 en plazo de 170 con rendimiento igual 4,92\%.
+\item Al 31 de diciembre de 2019, se registró USD 86.900.000,00 con un rendimiento igual a 6,33\% a un plazo de 29 días.
+\item Inversiones en Papeles Comerciales por 300.000, 600.000 y 588.000 dólares a plazos de 48; 343 y 314 días, en los años 2011, 2012 y 2018, con rendimientos iguales a 4,85\%; 7,25\% y 7,75\% respectivamente en ese período. Finalmente, en el 2019, se registró USD 6.200.000,00, con un rendimiento igual a 7,50\% con un plazo de 117 días.
+\item Reportos por 2.066.500,00 millones de dólares a plazo de 69 días y rendimiento igual a 6,76\% en el año 2011.
+\end{itemize}
+
+%---------------------------------------------------------------------------------------------------
+\section{Causas de desfinanciamiento del fondo de salud}
+
+En esta sección se aborda las principales causas que pueden influir en el desfinanciamiento del
+fondo de salud.
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Cambio de primas de aportes por aplicación de la Resolución No. C.D. 501}
+
+La  evolución de la tasa de aportación para este seguro se presenta en la tabla
+\ref{tab:iess_primas_aporte_sal} y figura \ref{fig:iess_primas_aporte_sal_graf}.
+
+\begin{table}[H]
+\centering
+\caption{Comparación de las primas de aportes: Resolución C.D.501 - Resolución C.D.261}
+\label{tab:iess_primas_aporte_sal}
+%\scalebox{0.7}{
+{\fontsize{10}{12}\selectfont
+%\scalebox{0.6}{
+%\resizebox{\columnwidth}{!}{%
+\begin{tabular}{*{3}{r}}
+\toprule
+Año & C.D.501 (\%) & C.D.261 (\%)\\
+\midrule
+\input{tablas/iess_primas_aporte_sal.tex}
+\bottomrule
+\end{tabular}}
+\caption*{\scriptsize Elaborado: DAIE.}
+\end{table}
+
+Se observa un incremento en la tasa de aportación a partir del mes de octubre del
+2015, fijándose inicialmente en 9,94\%, la misma que disminuye año tras año
+hasta establecerse en 5,16\% a partir del año 2021, siendo ésta más baja a la determinada en la
+Resolución No. C.D. 261.
+
+El cambio de la tasa de aportación trajo más ingresos por aportes al fondo de salud desde octubre
+de 2015 hasta diciembre de 2020, no obstante no contribuyó para mejorar el déficit actuarial, por
+cuanto sus ingresos menoran a partir del 2021.
+
+% La diferencia de aporte entre las dos resoluciones se presenta en la tabla
+% \ref{fig:iess_primas_aporte_sal_graf}.
+
+\begin{figure}[H]
+\centering
+\caption{Comparación de las primas de aportes:Resolución C.D.501-Resolución C.D.261.}
+\label{fig:iess_primas_aporte_sal_graf}
+\includegraphics[scale=1.0]{graficos/iess_primas_aporte_sal.png}
+\caption*{\scriptsize Fuente: Resolución C.D.501-Resolución C.D.261. \\
+Elaborado: DAIE.}
+\end{figure}
+
+
+% \begin{table}[H]
+% \centering
+% \caption{Impacto de la aplicación de la Resolución No. C.D. 501}
+% \label{tab:iess_impac_app_501}
+% %\scalebox{0.7}{
+% {\fontsize{10}{12}\selectfont
+% %\scalebox{0.6}{
+% %\resizebox{\columnwidth}{!}{%
+% \begin{tabular}{*{5}{r}}
+% \toprule
+% \multirow{2}[0]{*}{Año} & C.D.261 & SGSIF & \multirow{2}[0]{*}{Diferencia}\\
+% & (SGSIF 5,71\%) & C.D.501 & \\
+% \midrule
+% \input{tablas/iess_comp_cds_sal.tex}
+% \bottomrule
+% \end{tabular}}
+% \caption*{\scriptsize Fuente: \\
+% Elaborado: DAIE.}
+% \end{table}
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Entrega de prestaciones médicas sin financiamiento}
+
+Por un lado, este seguro ha brindado atención médica a los jubilados y por enfermedades
+catastróficas, sin que exista la contribución del Estado, ocasionando que los ingresos por concepto
+de aportes sea la principal fuente de financiamiento para cubrir esta prestación, restando liquidez
+y acortando la vida del fondo.
+
+Conforme a los estados financieros del 2018, se determina que el costo acumulado por atención médica
+de jubilados alcanzó los USD 2.083.220.722,37 y de enfermedades catastróficas el valor de USD
+1.133.865.638,82, dando un total de USD 3.217.086.361,19; valor que no contempla la facturación
+pendiente de auditoría médica, por lo que se estima que este valor pueda ser superior.
+
+Por otro lado, a esta situación se sumó el gasto por la atención médica de los hijos menores de 18
+años de los afiliados, que se ha venido efectuando a pesar que este beneficio fue creado sin el
+sustento técnico ni el financiamiento adecuado.
+
+
+

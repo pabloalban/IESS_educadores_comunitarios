@@ -1,0 +1,30 @@
+% --------------------------------------------------------------------------------------------------
+\chapter{Conclusiones y recomendaciones}
+\label{chp_conclusion}
+
+Conforme los estados financieros con corte al 31 de diciembre de 2020, el \Sexpr{REP_seg} cuenta con un patrimonio de  USD \Sexpr{REP$cap_ini}, el mismo que crece a partir del 2011 hasta el 2020; excepto el año 2014. Parte de este patrimonio está considerando contablemente a los dispensarios.
+
+Dentro del análisis de ingresos y egresos, se puede observar que los ingresos por aportes son superiores al gasto prestacional; sin embargo, es necesario aclarar que en los estados financieros con corte a diciembre de 2020, no consta la deuda del \Sexpr{REP_seg} con el SGSIF por las atenciones médicas. 
+
+A la fecha de la valuación actuarial de este seguro, no se entrega la prestación de montepío y el Estado no cumple en su totalidad con sus obligaciones.
+
+Con la sentencia emitida por la Corte Constitucional, donde se restituye la contribución del 40\% para el pago de pensiones por parte del Estado, desde el año 2019 se observa que estos ingresos contribuyen a la sostenibilidad del fondo. Sin embargo, en cumplimiento de lo estipulado por la Sentencia de la Corte Constitucional del Ecuador No.
+83-16-IN/21 de 10 de marzo de 2021, que declara la inconstitucionalidad de varias
+disposiciones legales constantes en la Ley de Fortalecimiento a los Regímenes Especiales de Seguridad
+Social de las Fuerzas Armadas y de la Policía Nacional, entre ellas la que disponía que del aporte
+individual y patronal se tenía que tomar en consideración el valor proporcional del aporte solidario
+para el fondo del Seguro Social Campesino, la falta de ingreso de este valor afectará en el corto, mediano y largo plazo al fondo del SSC.
+
+% La población beneficiaria de este seguro se encuentra detallada en las secciones \ref{chp:sec:afi_ssc} y \ref{chp_demog:pob_beneficiaria}, desglosada por edad y género; y, considerando la pensión pagada anualmente. 
+
+
+\section{Conclusiones}
+
+\Sexpr{ knit_child( 'texto_conclusiones.Rnw' )}
+
+\section{Recomendaciones}
+\label{chp_conclusion:recomendacion}
+
+En base a los análisis efectuados y a los resultados obtenidos en el presente estudio, se realizan las siguientes sugerencias con la finalidad de que se adopten las medidas correctivas.
+
+\Sexpr{ knit_child( 'texto_recomendaciones.Rnw' )}

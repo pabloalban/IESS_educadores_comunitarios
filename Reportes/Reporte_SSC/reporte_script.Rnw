@@ -1,0 +1,21 @@
+\documentclass[12pt, a4paper, twoside, openany]{book}
+\input{\Sexpr{REP_style}}
+%\input{\Sexpr{REP_style_math}}
+%---------------------------------------------------------------------------------------------------
+\SetWatermarkText{\Sexpr{REP_watermark}}
+% \SetWatermarkText{}
+\SetWatermarkScale{0.30}
+\SetWatermarkColor[gray]{0.9}
+\begin{document}
+\pagestyle{empty}
+\newgeometry{hmargin=0.15in,vmargin=0.25in}
+\makeatletter
+%\lst@AddToHook{OnEmptyLine}{\vspace{-0.7\baselineskip}}
+
+\input{ tablas/iess_input_script.tex }
+\newgeometry{a3paper,left=1cm,right=1.0cm,top=1.0cm,bottom=1cm}
+\input{ tablas/iess_input_script_sql.tex }
+\restoregeometry
+\makeatother
+
+\end{document}

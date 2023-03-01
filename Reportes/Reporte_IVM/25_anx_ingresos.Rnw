@@ -1,0 +1,312 @@
+% INGRESOS   ---------------------------------------------------------------------------------------
+\begin{landscape}
+
+\chapter{Anexos: Ingresos }
+\label{chap_ingresos}
+
+% -------------------------------------------------------------------------------------------------
+A continuación, en la tabla \ref{tab:iess_comp_ingreso_ivm} se presenta los componentes de los ingresos del Fondo de IVM.
+
+\vspace*{\fill}
+\begin{table}[H]
+  \begin{center}
+  \captionsetup{justification=centering}
+  \caption{Evolución de los componentes del ingreso del IVM}
+  \label{tab:iess_comp_ingreso_ivm}
+  {\fontsize{7.5}{9.5}\selectfont
+  \begin{tabular}{rrrrrrrrrrrr}
+    \toprule
+        Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\            de las cuentas  &      &      &      &      &      &      &      &      &      &      &     \\
+    \midrule
+    \input{tablas/iess_comp_ingreso_ivm.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{\scriptsize {Fuente:} Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+ {\bf Elaborado:} DAIE.}
+  \end{center}
+\end{table}
+
+% Los ingresos del fondo disminuyeron a partir del 2015, por el impacto de la eliminación del 40\% de la contribución del Estado para el pago de las pensiones, el cambio de la tasa de aportación y la situación económica. Sin embargo a partir del año 2019 se visualiza un incremento significativo del total de los ingresos en USD. 2.284.625.779,33 respecto al año anterior, en gran medida debido al aumento de la subcuenta “Contribuciones del Estado” en USD. 1.622.279.982,49.
+
+{\fontsize{9}{11}\selectfont
+\begin{quotation}
+\textbf{Nota:} Cabe mencionar que los balances del IESS en el periodo 2010 al 2020 han sufrido cambios en los códigos de cuentas, creación de cuentas, por lo que presenta variación y optimización en las siguientes partidas:
+\begin{itemize}
+\item A partir del año 2015 hasta el 2020 se crea como cuenta principal los “Ingresos por Arriendo”, anteriormente los mismo se encentraban como parte de “Intereses, tasas y contribuciones”.
+\item La subcuenta “Ingresos Extraordinarios” aparece a partir del año 2013, cabe mencionar que en los años 2013 y 2014 la misma se denominaba como intereses, tasas y contribuciones.
+
+\end{itemize}
+\end{quotation}
+}
+\vspace*{\fill}
+\end{landscape}
+
+% Analisis horizontal y vertical del ingreso ------------------------------------------------------------------------
+\begin{landscape}
+\subsection{Análisis horizontal y vertical del ingreso}
+\label{chp_infofinan:ana_horiz_vert}
+
+En las siguientes tablas \ref{tab:iess_ingreso_horiz_ivm} y \ref{tab:iess_ingreso_vert_ivm}, se presentan los análisis horizontal y vertical de los ingresos del Fondo de IVM del período 2010 a 2020.
+
+% % Analisis horizontal --------------------------------------------
+
+\begin{table}[H]
+  \begin{center}
+  \captionsetup{justification=centering}
+  \caption{Análisis horizontal de los ingresos por aportes del IVM. Porcentaje de variación de cada año con respecto al año anterior. }
+  \label{tab:iess_ingreso_horiz_ivm}
+  {\fontsize{6.9}{8}\selectfont
+  \begin{tabular}{rrrrrrrrrrr}
+    \toprule
+        Descripción & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020  \\
+     de las cuentas  &       &         &      &      &      &      &      &      &      &   \\
+    \midrule
+    \input{tablas/iess_ingreso_horiz_ivm.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{\scriptsize {\bf Fuente:} Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+  {\bf Elaborado:} DAIE.}
+  \end{center}
+\end{table}
+
+La evolución de los aportes al Fondo de IVM se puede dividir en tres períodos:
+\begin{enumerate}
+\item Entre 2010 y el 2014 se caracterizó por un fuerte crecimiento de los aportes, en promedio el ingreso total se incrementó un 17,09\% anual;
+\item En el 2015 y 2016 decrecieron los aportes debido al cambio de las tasas de aportación; siendo el más significativo del periodo analizado (2016/2015) con una variación negativa del -34,20\%, representando una disminución de USD. 1.168.892.173,29.
+\item Entre los años del 2017 al 2020 se evidencia una variabilidad en el total de los ingresos, misma que en el 2020 obtuvo la tasa de decrecimiento (-4,45\%) más significativa debido a la disminución de USD. 20.457.695,27 en la subcuenta “Intereses Ganados” (considerando la crisis sanitaria y económica vivida); a diferencia del año 2019 en la que los ingresos aumentan en 79,52\% respecto al año anterior.
+\end{enumerate}
+\end{landscape}
+% Analisis vertical ------------------------------------------------------------
+
+\begin{landscape}
+
+\begin{table}[H]
+  \begin{center}
+  \captionsetup{justification=centering}
+  \caption{Análisis vertical de los ingresos por aportes del IVM. Valores en porcentaje}
+  \label{tab:iess_ingreso_vert_ivm}
+  {\fontsize{6.9}{8}\selectfont
+  \begin{tabular}{rrrrrrrrrrrr}
+    \toprule
+     Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+     de las cuentas  &      &      &      &      &      &      &      &      &      &      &     \\
+    \midrule
+    \input{tablas/iess_ingreso_vert_ivm.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{\scriptsize {\bf Fuente:} Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+  {\bf Elaborado:} DAIE.}
+  \end{center}
+\end{table}
+
+
+La cuenta con mayor representatividad es “Ingresos de la Operación (Aportes IESS)”, en promedio esta constituyó el 85,02\% del total de ingresos percibidos en el período 2010 al 2020; la cual está conformada por el aporte de afiliados y empleadores, además de la contribución del Estado para el pago de pensiones.
+
+En segundo lugar se posiciona la cuenta “Ingresos Financieros”, en promedio representó el 14,32\% del total de ingresos analizados en el período. En los años 2016 y 2017 representó el 26,09\% y 31,11\% de los ingresos; siendo los porcentajes más altos del período debido a la subcuenta “Inversi No Privativa Admi BIES”; mientras que en el 2011 su representatividad fue la más baja con un 6,69\%.
+
+\end{landscape}
+% FIGURA DE BARRAS 5.10
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Porcentaje promedio de representatividad de los componentes del Ingreso correspondiente al período 2010 – 2020}
+% \label{fig:iess_porcent_prom_comp_ingres_ivm}
+% \includegraphics[scale=1]{graficos/iess_porcent_prom_comp_ingres_ivm.png}
+% \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+
+
+% Ingresos por aportes -----------------------------------------------------------------------------
+% \subsection{Ingresos por aportes}
+% 
+% A continuación en la tabla \ref{tab:iess_ingresosxaportes_ivm} y en la figura \ref{fig:iess_ingresosxaportes_ivm} se presenta la evolución de los ingresos a este fondo por concepto de aportes de los afiliados, de los jubilados, el aporte del 0,10\% por la Ley Orgánica de Discapacidades, Aporte personal Amas de Casa y Aporte ley de Discapacidad ISSPOL.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de ingresos por aportes del IVM}
+%   \label{tab:iess_ingresosxaportes_ivm}
+%   {\fontsize{7}{8}\selectfont
+%   \begin{tabular}{rrrrrrrrr}
+%  \toprule
+%     Año  &  Aportes   &  Aportes   &     Aportes     &  Aportes     &  Aporte ley   & Aporte personal  & Aporte Ley           & Aportes \\
+%          & personales & patronales &    jubilados    & adicionales  & Discapacidad  & Amas de Casa     &  Discapacidad ISSPOL & afiliados \\
+%          &            &            & y pensionistas  & magisterio   &               &                  &                      &          \\
+% 
+%     \midrule
+%     \input{tablas/iess_ingresosxaportes_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% 
+% 
+% % \begin{figure}[H]
+% % \begin{center}
+% % \caption{Evolución de los ingresos por aportes del IVM (En millones de dólares)}
+% % \label{fig:iess_ingresosxaportes_ivm}
+% % \includegraphics[scale=1]{graficos/iess_ingresosxaportes_ivm.png}
+% %   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+% %   Elaborado: DAIE.}
+% % \end{center}
+% % \end{figure}
+% 
+% \begin{quotation}
+% \textbf{Nota:} A partir del año 2017 los aportes de los jubilados para decimotercera y decimocuarta pensiones, así como los aportes de los perteneciente a la Ley Orgánica de Discapacidades se incluyen en el aporte general de afiliados en los estados financieros.
+% \end{quotation}
+% 
+% % ???? Que pasa luego de la nota
+% 
+% En la tabla \ref{tab:iess_ingresosxaportes_ivm} se observa que los ingresos por aportes en el periodo analizado tuvieron una tasa de crecimiento positiva de 103\%, pasando de USD. 1.217.079.611,96 en el 2010 a USD. 2.466.058.036,86 en el 2020.
+% 
+% Los ingresos por aportes se duplican entre los años 2010 hasta el 2015; sin embargo, para el año 2016 se observa un decrecimiento (siendo el más significativo) del 38,62\% (950.928.834 millones de dólares) por la aplicación de la Resolución No. C.D. 501 de 13 de noviembre de 2015, reformada por la Resolución No. C.D. 515 de 30 de marzo de 2016.
+% 
+% A partir del año 2017 hasta el 2019 los aportes mantienen un crecimiento paulatino del 22,70\%; sin embargo, en el año 2020 se observa una tasa de decrecimiento del 11,61\%, representando una disminución de USD. 323.990.723,23 respecto al año pasado, esto debido a la crisis sanitaria vivida en el país y por ende una disminución de todos los aportes con excepción de los Aportes Patronales que tuvieron un incremento del 38\%. Finalmente, el aporte de los afiliados activos y empleadores representó el 97\% del total.
+% 
+% 
+% %Otros ingresos---------------------------------------------------------------------
+% \subsection{Otros ingresos}
+% \label{chp_infofinan:ingresos_contrib_estado}
+% 
+% Para este análisis se ha considerado la cuenta más importante que es la ``Contribución del Estado'', cuya evolución histórica se presenta en la tabla \ref{tab:iess_contribucion_estado_ivm} y figura \ref{fig:iess_contribucion_estado_ivm}.
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Evolución de la contribución del Estado (En millones de dólares)}
+% \label{fig:iess_contribucion_estado_ivm}
+% \includegraphics[scale=1]{graficos/iess_contribucion_estado_ivm.png}
+%  \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% Mediante la expedición de la Ley Orgánica para la Justicia Laboral y Reconocimiento del Trabajo en el Hogar, publicado en el Tercer Suplemento del Registro Oficial No. 483 de 20 de abril de 2015, el Estado deja de contribuir con el 40\% para el pago de las pensiones.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución histórica de la contribución del Estado.\\
+%   Valores en porcentaje. }
+%   \label{tab:iess_contribucion_estado_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{rrrr}
+%   \toprule
+%   Año & Contribución del & Pensiones pagadas & Participación del Estado \\
+%       &           Estado & de invalidez,     & en el pago de \\
+%       &                  & Vejez y Montepío  & pensiones \\
+%   \midrule
+%   \input{tablas/iess_contribEstadovsPensPag_ivm.tex}
+%   \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% En los años 2015, 2016, 2017 y 2018 la cuenta “Contribución del Estado” sufre una disminución drástica, con una tasa de variación negativa del 61\% (2018/2015).
+% 
+% A partir del año 2019 al 2020 se evidencia un crecimiento de la contribución del estado por USD. 124.727.419,62; con una tasa de variación del 7\%. Con respecto a la participación del pago de pensiones, se evidencia que en los dos últimos años incrementa en 42\%, siendo igual al año 2013 y 2014 previo a la expedición de la Ley Orgánica para la Justicia Laboral y Reconocimiento del Trabajo en el Hogar.
+
+% % Ingresos por aportes -----------------------------------------------------------------------------
+% \subsection{Ingresos por aportes}
+% 
+% A continuación en la tabla \ref{tab:iess_ingresosxaportes_ivm} y en la figura \ref{fig:iess_ingresosxaportes_ivm} se presenta la evolución de los ingresos a este fondo por concepto de aportes de los afiliados, de los jubilados, el aporte del 0,10\% por la Ley Orgánica de Discapacidades, Aporte personal Amas de Casa y Aporte ley de Discapacidad ISSPOL.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de ingresos por aportes del IVM}
+%   \label{tab:iess_ingresosxaportes_ivm}
+%   {\fontsize{7}{8}\selectfont
+%   \begin{tabular}{rrrrrrrrr}
+%  \toprule
+%     Año  &  Aportes   &  Aportes   &     Aportes     &  Aportes     &  Aporte ley   & Aporte personal  & Aporte Ley           & Aportes \\
+%          & personales & patronales &    jubilados    & adicionales  & Discapacidad  & Amas de Casa     &  Discapacidad ISSPOL & afiliados \\
+%          &            &            & y pensionistas  & magisterio   &               &                  &                      &          \\
+% 
+%     \midrule
+%     \input{tablas/iess_ingresosxaportes_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% % Nota de pie
+% Es preciso señalar que la Resolución No. C.D. 460 de 12 de diciembre de 2013 determinó el aporte del 0,10\% para financiar las prestaciones previstas en la Ley Orgánica de Discapacidades. En la Resolución No. C.D. 463 de 28 de enero de 2014, se establece su aplicación a partir del 1 de marzo del 2014.
+% %
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Evolución de los ingresos por aportes del IVM (En millones de dólares)}
+% \label{fig:iess_ingresosxaportes_ivm}
+% \includegraphics[scale=1]{graficos/iess_ingresosxaportes_ivm.png}
+%   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% \begin{quotation}
+% \textbf{Nota:} A partir del año 2017 los aportes de los jubilados para decimotercera y decimocuarta pensiones, así como los aportes de los perteneciente a la Ley Orgánica de Discapacidades se incluyen en el aporte general de afiliados en los estados financieros.
+% \end{quotation}
+% 
+% % ???? Que pasa luego de la nota
+% 
+% En la tabla \ref{tab:iess_ingresosxaportes_ivm} se observa que los ingresos por aportes en el periodo analizado tuvieron una tasa de crecimiento positiva de 103\%, pasando de USD. 1.217.079.611,96 en el 2010 a USD. 2.466.058.036,86 en el 2020.
+% 
+% Los ingresos por aportes se duplican entre los años 2010 hasta el 2015; sin embargo, para el año 2016 se observa un decrecimiento (siendo el más significativo) del 38,62\% (950.928.834 millones de dólares) por la aplicación de la Resolución No. C.D. 501 de 13 de noviembre de 2015, reformada por la Resolución No. C.D. 515 de 30 de marzo de 2016.
+% 
+% A partir del año 2017 hasta el 2019 los aportes mantienen un crecimiento paulatino del 22,70\%; sin embargo en el 2020 se observa una tasa de decrecimiento del 11,61\%, representando una disminución de USD. 323.990.723,23 respecto al año pasado, esto debido a la crisis sanitaria vivida en el país y por ende una disminución de todos los aportes con excepción de los Aportes Patronales que tuvieron un incremento del 38\%. Finalmente el aporte de los afiliados activos y empleadores representó el 97\% del total.
+% 
+% 
+% %Otros ingresos---------------------------------------------------------------------
+% \subsection{Otros ingresos}
+% \label{chp_infofinan:ingresos_contrib_estado}
+% 
+% Para este análisis se ha considerado la cuenta más importante que es la ``Contribución del Estado'', cuya evolución histórica se presenta en la tabla \ref{tab:iess_contribucion_estado_ivm} y figura \ref{fig:iess_contribucion_estado_ivm}.
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Evolución de la contribución del Estado (En millones de dólares)}
+% \label{fig:iess_contribucion_estado_ivm}
+% \includegraphics[scale=1]{graficos/iess_contribucion_estado_ivm.png}
+%  \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% Mediante la expedición de la Ley Orgánica para la Justicia Laboral y Reconocimiento del Trabajo en el Hogar, publicado en el Tercer Suplemento del Registro Oficial No. 483 de 20 de abril de 2015, el Estado deja de contribuir con el 40\% para el pago de las pensiones.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución histórica de la contribución del Estado.\\
+%   Valores en porcentaje. }
+%   \label{tab:iess_contribucion_estado_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{rrrr}
+%   \toprule
+%   Año & Contribución del & Pensiones pagadas & Participación del Estado \\
+%       &           Estado & de invalidez,     & en el pago de \\
+%       &                  & Vejez y Montepío  & pensiones \\
+%   \midrule
+%   \input{tablas/iess_contribEstadovsPensPag_ivm.tex}
+%   \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% En los años 2015, 2016, 2017 y 2018 la cuenta “Contribución del Estado” sufre una disminución drástica, con una tasa de variación negativa del 61\% (2018/2015); cabe mencionar que los valores que aparecen en dichos años se dan por concepto del pago de las reservas de los seguros adicionales e intereses que son manejados por el IVM.
+% 
+% A partir del año 2019 al 2020 se evidencia un crecimiento de la contribución del estado por USD. 124.727.419,62; con una tasa de variación del 7\%. Con respecto a la participación del pago de pensiones, se evidencia que en los dos últimos años incrementa en 42\%, siendo igual al año 2013 y 2014 previo a la expedición de la Ley Orgánica para la Justicia Laboral y Reconocimiento del Trabajo en el Hogar.

@@ -1,0 +1,24 @@
+\chapter{Anexos}
+\label{chap_anexos}
+
+\section{Modelo Actuarial para Pensiones}\label{anx:sec_modelo_actuarial}
+La formulación matemática del modelo actuarial utilizado para el componente de pensiones es el mismo que se utilizó en la realización de la \estcite{iess_val_act_ivm_2020}  (Véase el capítulo 14 Anexos: Modelo Actuarial). Para el componente de salud del SSC se utilizó la formulación matemática de la \estcite{iess_val_act_sal_2020} (Véase el capítulo 6 Modelo actuarial), adaptada a las necesidades del SSC.
+
+% A continuación se presenta la formulación matemática del modelo actuarial ILO Actuarial Pension Model.
+% 
+% \includepdf[pages={1-22},noautoscale]{graficos/modelo.pdf}
+% 
+% \begin{landscape}
+% \includepdf[pages={23-36},noautoscale,angle=90]{graficos/modelo.pdf}
+% \end{landscape}
+% 
+% 
+% \includepdf[pages={37-48},noautoscale]{graficos/modelo.pdf}
+% 
+% 
+% \begin{landscape}
+% \includepdf[pages={49-53},noautoscale,angle=90]{graficos/modelo.pdf}
+% \end{landscape}
+% 
+% \includepdf[pages={54-55},noautoscale]{graficos/modelo.pdf}
+

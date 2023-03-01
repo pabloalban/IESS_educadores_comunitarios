@@ -1,0 +1,1763 @@
+\chapter{Nota Técnica}
+
+\section{Base de Datos}
+
+Las bases de datos utilizadas en la elaboración de la Valuación Actuarial del Seguro Social Campesino con fecha de corte al 31 de diciembre de 2020 es una copia de las tablas de la base de datos transaccional del IESS de fecha de extracción 29 de enero 2021.
+
+
+Los esquemas de las tablas utilizadas son:
+
+\begin{enumerate}
+\item Esquema \textbf{IESS\_OWNER}
+
+\begin{itemize}
+
+\item KSPCOTREGCIV 
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\fontsize{6}{7}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      R{7.5cm} }
+%\caption{Atenciones médicas de los dispensarios del SSC por año, mes y día}
+\label{tab:info_KSPCOTREGCIV} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE REGISTRO CIVIL}\\
+
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS \\
+
+
+  \midrule
+  \endfirsthead
+
+  \toprule
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE REGISTRO CIVIL}\\
+COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS \\
+  \midrule
+  \endhead
+
+  \hline \multicolumn{6}{r}{continúa...} \\
+  \endfoot
+
+  \bottomrule
+  %\caption*{\scriptsize \textbf{Fuente}: Datos administrativos del IESS.\\\textbf{Elaborado}: DAIE.}
+  \endlastfoot
+
+  1 & CEDIDEUSU & CHAR(10 BYTE)  & No &  & Número de cedula de la persona \\
+  2 & NOMPER & VARCHAR2(64 BYTE) & No &  & Nombres de la persona \\
+  3 & GENPER & CHAR(1 BYTE)      & No &  & Género de la persona: 1 Masculino, 2 Femenino \\
+  4 & FECNACPER & DATE           & No &  & Fecha de nacimiento de la persona \\
+  5 & NACPER & VARCHAR2(3 BYTE)  & Yes &  & Código de la nacionalidad \\
+  6 & ESTCIVPER & CHAR(1 BYTE)   & Yes &  & Código de estado civil: 1 Soltero, 2 Casado, 3 Divorciado, 4 Viudo, 5 Union de hecho \\
+  7 & FECDEFPER & DATE           & Yes &  & Fecha de defunción de la persona \\
+  8 & CONPER & VARCHAR2(64 BYTE) & Yes &  & Cónyuge de la persona \\
+  9 & PROPER & VARCHAR2(8 BYTE)  & Yes &  & Profesión de la persona \\
+  10 & ORIDAT & CHAR(1 BYTE)     & Yes &  & Indicador Origen del dato ``I`` Interno, ``E`` externo \\
+  11 & ESTACT & CHAR(1 BYTE)     & Yes &  &  \\
+  12    & FECCAR & DATE  & Yes   &       & Fecha de carga \\
+  13    & ESTMIG & VARCHAR2(1 BYTE) & Yes   &       &  \\
+  14    & NOVEDAD & VARCHAR2(1 BYTE) & Yes   &       &  \\
+  15 & FECMATPER & DATE & Yes &  & Fecha de matrimonio de la persona \\
+  16    & CONCIUPER & VARCHAR2(2 BYTE) & Yes   &       &  \\
+  17    & APEMATAFI & VARCHAR2(32 BYTE) & Yes   &       & Apellido materno del afiliado \\
+  18    & APEPATAFI & VARCHAR2(32 BYTE) & Yes   &       & Apellido paterno del afiliado \\
+  19    & NOMAFI & VARCHAR2(80 BYTE) & Yes   &       & Apellido y nombre compuesto del afiliado. \\
+
+
+\end{longtable}
+\endgroup
+
+\item KSPCOTEMPTIP 
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\fontsize{6}{7}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      R{7.5cm} }
+%\caption{Atenciones médicas de los dispensarios del SSC por año, mes y día}
+\label{tab:info_KSPCOTEMPTIP} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE TIPO EMPLEADOR}\\
+
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS  \\
+
+
+  \midrule
+  \endfirsthead
+
+  \toprule
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE REGISTRO CIVIL}\\
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS \\
+  \midrule
+  \endhead
+
+  \hline \multicolumn{6}{r}{continúa...} \\
+  \endfoot
+
+  \bottomrule
+  %\caption*{\scriptsize \textbf{Fuente}: Datos administrativos del IESS.\\\textbf{Elaborado}: DAIE.}
+  \endlastfoot
+
+1 & CODSEGSOC & VARCHAR2(1 BYTE)  & No & & Codigo del sistema de seguridad social \\
+2 & CODTIPEMP & VARCHAR2(3 BYTE) & No & & Codigo del tipo de empleadores  \\
+3 & CODSEC    & VARCHAR2(1 BYTE)  & No & & Codigo de seccion o sector      \\
+4 & DESTIPEMP & VARCHAR2(64 BYTE) & No & & Descripcion del tipo de empleadores   \\
+5 & BASLEG & VARCHAR2(4000 BYTE)  & Yes& & Base legal que soporta la operacion del empleador \\
+6 & CODSEGGRP & NUMBER(2,0)       & No & &  \\
+7 & ESTTIPEMP & CHAR(1 BYTE)      & Yes  &  & Indicador para establecer si el tipo de empleador es activo: S/N \\
+8 & FUEVAL & CHAR(1 BYTE)         & No   &  & Fuente para la Validacion \\
+
+
+\end{longtable}
+\endgroup
+
+\item KSRECTPLADET 
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\fontsize{6}{7}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      R{7.5cm} }
+%\caption{Atenciones médicas de los dispensarios del SSC por año, mes y día}
+\label{tab:info_KSRECTPLADET} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE DETALLE DE PLANILLA}\\
+
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS \\
+
+
+  \midrule
+  \endfirsthead
+
+  \toprule
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE REGISTRO CIVIL}\\
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS  \\
+  \midrule
+  \endhead
+
+  \hline \multicolumn{6}{r}{continúa...} \\
+  \endfoot
+
+  \bottomrule
+  %\caption*{\scriptsize \textbf{Fuente}: Datos administrativos del IESS.\\\textbf{Elaborado}: DAIE.}
+  \endlastfoot
+
+1 & CODSUC & VARCHAR2(4 BYTE)    & No & & Codigo de la sucursal \\
+2 & RUCEMP & VARCHAR2(13 BYTE)   & No & & Ruc del empleador\\
+3 & CODTIPPLA & VARCHAR2(3 BYTE) & No & & Codigo del tipo de planilla \\
+4 & TIPPER & VARCHAR2(1 BYTE)    & No & & Codigo del periodo \\
+5 & ANIPER & NUMBER(4,0)         & No & & Año del periodo \\
+6 & MESPER & NUMBER(2,0)         & No & & Mes del periodo \\
+7 & SECPLA & NUMBER(20,0)        & No & & Secuencial de Planilla \\
+8 & CODTIPNOVHISLAB & VARCHAR2(3 BYTE)& No & & Codigo del Tipo de Novedad de Historia Laboral \\
+9 & NUMAFI & CHAR(10 BYTE)       & No & & Numero de afiliacion unico del afiliado \\
+10 & NUMDIALAB & NUMBER(2,0)     & No & & Numero de dias laborados \\
+11 & VALSUE & NUMBER(12,2)       & No & & alor del sueldo declarado \\
+12 & VALAPONOR & NUMBER(12,2)    & No &0& Valor del Aporte Normal\\
+24 & CODTIPEMP & VARCHAR2(3 BYTE)& Yes& &  \\
+25 & CODRELTRA & VARCHAR2(2 BYTE)& Yes& &  \\
+26 & VALAPOPAT & NUMBER(12,2)    & Yes& & Valor de aporte por empleador \\
+27 & VALAPOIND & NUMBER(12,2)    & Yes& & Valor de aporte por afiliado \\
+
+
+
+\end{longtable}
+\endgroup
+
+\item KSRECTPLANILLAS
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\fontsize{6}{7}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      R{6.5cm} }
+%\caption{Atenciones médicas de los dispensarios del SSC por año, mes y día}
+\label{tab:info_KSRECTPLANILLAS} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE PLANILLA}\\
+
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS \\
+
+
+  \midrule
+  \endfirsthead
+
+  \toprule
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE REGISTRO CIVIL}\\
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS  \\
+  \midrule
+  \endhead
+
+  \hline \multicolumn{6}{r}{continúa...} \\
+  \endfoot
+
+  \bottomrule
+  %\caption*{\scriptsize \textbf{Fuente}: Datos administrativos del IESS.\\\textbf{Elaborado}: DAIE.}
+  \endlastfoot
+
+
+3 & CODTIPPLA & VARCHAR2(3 BYTE) & No & & Codigo del tipo de planilla \\
+4 & CODSUC & VARCHAR2(4 BYTE)    & No & & Codigo de la sucursal\\
+5 & RUCEMP & VARCHAR2(13 BYTE)   & No & & Ruc del empleador \\
+6 & TIPPER & VARCHAR2(1 BYTE)    & No & & Codigo del periodo \\
+7 & ANIPER & NUMBER(4,0)         & No & & Anio del periodo \\
+8 & MESPER & NUMBER(2,0)         & No & & Mes del periodo \\
+9 & SECPLA & NUMBER(20,0)        & No & & Secuencial de Planilla\\
+10 & NUMDETPLA & NUMBER(6,0)     & No & & Numero de Detalles de la planilla \\
+14 & VALNORPLA & NUMBER(12,2)    & No &0& Valor Normal de la Planilla \\
+15 & VALADIPLA & NUMBER(12,2)    & No &0& Valor Adicional de la Planilla \\
+
+
+\end{longtable}
+\endgroup
+
+\end{itemize}
+
+\item Esquema \textbf{PENSIONES\_OWNER}
+
+
+\begin{itemize}
+
+\item PRESTACIONES
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\fontsize{6}{7}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      R{5.5cm} }
+%\caption{Atenciones médicas de los dispensarios del SSC por año, mes y día}
+\label{tab:info_PRESTACIONES} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE PRESTACIONES}\\
+
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS \\
+
+
+  \midrule
+  \endfirsthead
+
+  \toprule
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE REGISTRO CIVIL}\\
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS  \\
+  \midrule
+  \endhead
+
+  \hline \multicolumn{6}{r}{continúa...} \\
+  \endfoot
+
+  \bottomrule
+  %\caption*{\scriptsize \textbf{Fuente}: Datos administrativos del IESS.\\\textbf{Elaborado}: DAIE.}
+  \endlastfoot
+
+
+1 & ACUMULADO\_MES\_INICIAL & NUMBER(2,0)& Yes & & Define el mes del periodo inicial de los acumulados calculados \\
+2 & COEFICIENTE\_TEORICO & NUMBER(10,8) & No &  & Coeficiente para calculo de pensión, incluido pagos extemporaneos \\
+3 & COEFICIENTE\_REAL & NUMBER(10,8) & No & & Coeficiente para calculo de pensión, sin pagos extemporáneos \\
+4 & ACUMULADO\_MES\_FINAL & NUMBER(2,0)&Yes& & Define el mes del periodo final de los acumulados calculados \\
+5 & ACUMULADO\_ANO\_INICIAL & NUMBER(4,0) &Yes& & Define el año del periodo inicial de los acumulados calculados \\
+6 & ACUMULADO\_ANO\_FINAL & NUMBER(4,0) &Yes& & Define el año del periodo final de los acumulados calculados \\
+7 & SECUENCIAL\_PRESTACION & NUMBER(10,0) & No & & Define el secuencial de la prestación \\
+8 & TIPO\_SEGURO & VARCHAR2(2 BYTE) & No&  & Define el código del tipo de seguro \\
+9 & TIPO\_PRESTACION & VARCHAR2(2 BYTE) & No& & Define la clave primaria de los tipos de prestación \\
+10& ASEGURADO & VARCHAR2(10 BYTE) & No & & Define una identificacion única para el asegurado \\
+11& NUMERO\_ACUERDO & NUMBER(7,0) & No & & Define el número del acuerdo \\
+12& FECHA\_ACUERDO & DATE         & No & & Define la fecha del acuerdo \\
+
+
+\end{longtable}
+\endgroup
+
+\item BENEFICIARIOS
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\fontsize{4.5}{6}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      R{7.5cm} }
+%\caption{Atenciones médicas de los dispensarios del SSC por año, mes y día}
+\label{tab:info_BENEFICIARIOS} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE BENEFICIARIOS DE PENSIONES}\\
+
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS \\
+
+
+  \midrule
+  \endfirsthead
+
+  \toprule
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE REGISTRO CIVIL}\\
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS  \\
+  \midrule
+  \endhead
+
+  \hline \multicolumn{6}{r}{continúa...} \\
+  \endfoot
+
+  \bottomrule
+  %\caption*{\scriptsize \textbf{Fuente}: Datos administrativos del IESS.\\\textbf{Elaborado}: DAIE.}
+  \endlastfoot
+
+1 & SECUENCIAL\_PRESTACION & NUMBER(10,0)            & No & &  \\
+2 & IDENTIFICACION\_BENEFICIARIO & VARCHAR2(10 BYTE) & No & & Define la identificacion del beneficiario de la pension \\
+3 & NOMBRES\_APELLIDOS & VARCHAR2(80 BYTE) & No & & Define el nombre y apellidos del beneficiario de pension \\
+4 & TIPO\_BENEFICIARIO & VARCHAR2(6 BYTE) & No& & Define el tipo de parentezco, el dominio del parentezco sera la familia \\
+5 & FECHA\_NACIMIENTO\_CONCESION & DATE & No & & Defin la fecha de nacimiento que el asegurado tenia registrado en el Registro Civil, el momento de la concesion \\
+6 & ESTADO\_CIVIL\_CONCESION & VARCHAR2(3 BYTE) &Yes & & Define el estado civil que el asegurado tenia el momento de la concesion. \\
+7 & ESTADO\_VIGENCIA & CHAR(1 BYTE) & No& & Define el estado de vigencia del beneficiario para recibir la pension \\
+8 & FECHA\_INICIAL\_PENSION & DATE& No& & Define la fecha inicial desde que se pagaria la pension \\
+9 & FECHA\_FINAL\_PENSION & DATE& Yes  & & Define la fecha final hasta cuando se pagaria la pension \\
+10& VALOR\_PENSION & NUMBER(12,2) & No&  & Define el valor de la pension a ser pagada mensualmente \\
+11& VALOR\_PENSION\_SUSPENSO & NUMBER(12,2) & Yes& & Define el valor de pension que queda suspensa de ser pagada por diferentes causas \\
+12& VALOR\_AUMENTOS & NUMBER(12,2) & No & & Define el valor acumulado de los aumentos que se han realizado a lo largo del tiempo \\
+13 & VALOR\_ULTIMO\_AUMENTO & NUMBER(12,2) & No & & Define el valor del ultimo aumento que fue realizado. \\
+14 & VALOR\_COMPENSACION & NUMBER(12,2) & No& & Define el valor de la compensacion en la concesion. \\
+
+
+\end{longtable}
+\endgroup
+
+\item ROL\_PERIODO
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\fontsize{6}{7}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      R{5.5cm} }
+%\caption{Atenciones médicas de los dispensarios del SSC por año, mes y día}
+\label{tab:info_ROL_PERIODO} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DEL NOMINA}\\
+
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS \\
+
+
+  \midrule
+  \endfirsthead
+
+  \toprule
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE REGISTRO CIVIL}\\
+ COLUMN\_ID
+& COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COMMENTS  \\
+  \midrule
+  \endhead
+
+  \hline \multicolumn{6}{r}{continúa...} \\
+  \endfoot
+
+  \bottomrule
+  %\caption*{\scriptsize \textbf{Fuente}: Datos administrativos del IESS.\\\textbf{Elaborado}: DAIE.}
+  \endlastfoot
+
+1 & VALOR\_ACOBRAR & NUMBER(12,2) &No & & Define el valor a cobrar por parte del pensionista \\
+2 & FECHA\_COBRO & DATE           &Yes& & Define la fecha de cobro del rol. \\
+3 & TOTAL\_DESCUENTOS & NUMBER(12,2) &No& & Define el valor total de descuentos para el rol \\
+4 & TOTAL\_INGRESOS & NUMBER(12,2) &No& & Define el valor total de ingresos para el rol \\
+5 & FECHA\_GENERACION & DATE      &No& & Define la fecha de generación del rol \\
+6 & IDENTIFICACION\_BENEFICIARIO & VARCHAR2(10 BYTE) &No&& Define la identificación del beneficiario de la pensión \\
+7 & TIPO& VARCHAR2(1 BYTE)       &No& & Define el tipo del periodo \\
+8 & ANO   & NUMBER(4,0)         &No& & Define el año del periodo \\
+9 & MES   & NUMBER(2,0)         &No& & Define el mes del periodo \\
+10& ESTADO\_ROL & VARCHAR2(1 BYTE) &No& & Define el código del estado del rol \\
+11& SECUENCIAL\_PRESTACION & NUMBER(10,0) &No& & Define el secuencial de la prestación \\
+
+
+\end{longtable}
+\endgroup
+
+\end{itemize}
+
+\item Esquema \textbf{HIST\_IESSMIGRA}
+
+\begin{itemize}
+
+\item KSMIGTAPORTES
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\fontsize{6}{7}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      R{5.5cm} }
+%\caption{Atenciones médicas de los dispensarios del SSC por año, mes y día}
+\label{tab:info_KSMIGTAPORTES} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION SISTEMA HOST}\\
+
+COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COLUMN\_ID
+& COMMENTS  \\
+
+
+  \midrule
+  \endfirsthead
+
+  \toprule
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c}{INFORMACION DE REGISTRO CIVIL}\\
+COLUMN\_NAME
+& DATA\_TYPE
+& NULLABLE
+& DATA\_DEFAULT
+& COLUMN\_ID
+& COMMENTS  \\
+  \midrule
+  \endhead
+
+  \hline \multicolumn{6}{r}{continúa...} \\
+  \endfoot
+
+  \bottomrule
+  %\caption*{\scriptsize \textbf{Fuente}: Datos administrativos del IESS.\\\textbf{Elaborado}: DAIE.}
+  \endlastfoot
+
+CEDIDEUSU & VARCHAR2(10 BYTE) & No & & 1 & \\ 
+NUMPAT    & VARCHAR2(13 BYTE) & No & & 2 & \\
+CODSEC    & CHAR(1 BYTE)      & No & & 3 & \\
+CODTIPSEG & VARCHAR2(3 BYTE)  & No & & 4 & \\
+CODANI    & NUMBER(4,0)       & No & & 5 & \\
+CODMES    & NUMBER(2,0)       & No & & 6 & \\
+TIPPLA    & CHAR(1 BYTE)      & No & & 7 & \\
+CODREG    & VARCHAR2(2 BYTE)  & Yes & & 8 & \\
+FECREGAPO & VARCHAR2(8 BYTE)  & Yes & & 9 & \\
+VALDIV    & NUMBER(10,4)      & Yes & & 10 & \\
+NUMDIATRA & VARCHAR2(2 BYTE)  & Yes & & 11 & \\
+
+
+
+\end{longtable}
+\endgroup
+
+\end{itemize}
+
+
+
+\end{enumerate}
+
+\section{Fuentes de Información}
+
+\subsection{CELADE - División de Población de la CEPAL. Revisión 2019 y Naciones Unidas, Departamento de Asuntos Económicos y Sociales, División de Población (2019). World Population Prospects, 2019, edición online}
+\begin{itemize}
+\item Población Rural
+\item Población económicamente activa rural
+\end{itemize}
+
+\subsection{Organización de Naciones Unidas}
+\begin{itemize}
+\item Life table survivors at exact age, $l(x)$ by region, subregion and country, 1950-2100.
+\end{itemize}
+
+\subsection{Instituto Nacional de Estadísticas y Censo}
+
+\begin{itemize}
+\item Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU)
+\item Índice de precios al consumidor
+\item Inflación acumulada anual
+\end{itemize}
+
+\subsection{Ministerio del Trabajo}
+\begin{itemize}
+\item Salario Básico Unificado
+\end{itemize}
+
+\subsection{Banco Mundial}
+\begin{itemize}
+\item Producto Interno Bruto
+\end{itemize}
+
+\subsection{Instituto de Seguridad Social de la Policía Nacional}
+\begin{itemize}
+\item Aporte al SSC
+\end{itemize}
+
+\subsection{Instituto de Seguridad Social de las Fuerzas Armadas }
+\begin{itemize}
+\item Aporte al SSC
+\end{itemize}
+
+\subsection{Instituto Ecuatoriano de Seguridad Social}
+\begin{itemize}
+\item Registros administrativos
+\end{itemize}
+
+\subsection{Registro Civil}
+
+\section{Metodología}
+\subsection{Tablas Biométricas} \label{anx:sec_met_tabla_biometricas}
+% Las fuentes de datos utilizados para la construcción de las tablas biométricas de los jefes de familia, dependientes (hijos y cónyuges) y pensionistas del Régimen Especial del Seguro Social Campesino del Instituto Ecuatoriano de Seguridad Social (IESS) son historia laboral, expedientes del Sistema de Pensiones, Registro Civil y, la ONU. Los primeros tres sistemas tienen fecha de corte al 29 de enero de 2021.
+% 
+% En la construcción de las tablas biométricas de este grupo poblacional, para el período de observación 2012-2020, primero se estimó la probabilidad de muerte de cada población, luego se suavizó las estimaciones resultantes utilizando funciones B-Splines por medio del método de mínimos cuadrados ponderados.
+
+En esta sección se presenta la metodología utilizada en la construcción de las tablas biométricas estáticas y dinámicas del Régimen Especial del Seguro Social Campesino. Se comienza presentando el análisis de supervivencia, en donde se hace la diferencia entre un recién nacido y un individuo de una determinada edad. A continuación, se muestra el método empleado en la estimación de las probabilidades brutas, luego se presenta el proceso de suavizado de éstas probabilidades, obteniendose así las probabilidades suavizadas. Seguidamente se exhibe la estructura y pasos para la construcción de una tabla estática. 
+Finalmente, se presenta el proceso considerado para proyectar la mortalidad, lo que permite construir las tablas biométricas dinámicas.
+
+\textbf{Análisis de supervivencia}
+
+\textit{\textbf{La función de supervivencia}}
+
+Considerando a un recién nacido, sea $\xi$ su tiempo futuro de vida, tiempo que se considera una variable aleatoria que toma valores en $[0, +\infty)$. Si $f$ es la función de densidad de $\xi$, su función de distribución acumulada $F$ se define por:
+\begin{align*}
+    F(x) = P(\xi \leq x), && \text{para cada }x \geq 0
+\end{align*}
+que se interpreta como la probabilidad de morir antes de $x$ años. A partir de $F$ se define a la función de supervivencia $S$ por:
+\begin{align*}
+    S(x) = P(\xi > x) = 1 - F(x), && \text{para cada }x \geq 0
+\end{align*}
+que se interpreta como la probabilidad de que un recién nacido sobreviva a la edad $x$. Nótese que $S(0)=1$ y $S(\omega) = 0$, dónde $\omega$ representa a la máxima edad a la que una persona sobrevive.
+
+Se define a la fuerza de mortalidad, o densidad condicional de fallar en $x$ dado que se sobrevive a la edad $x$, por:
+\begin{align*}
+    \mu(x) = \dfrac{f(x)}{S(x)} = - \dfrac{1}{S(x)}\dfrac{d}{dx}S(x) = - \dfrac{d}{dx}\ln(S(x)) &&, \text{para cada }x \geq 0.
+\end{align*}
+Dadas las funciones de supervivencia y la fuerza de mortalidad se verifica que:
+\begin{align*}
+    S(x) = \exp{\left(- \int_{0}^{x}{\mu_ydy}\right)}, && \text{para cada }x \geq 0.
+\end{align*}
+Que se interpreta como la probabilidad de morir entre las edades $x$ y $x + \Delta t$ dado que se tiene edad $x$, esto es, de morir en un tiempo infinitesimal, razón por la cual se la denomina por probabilidad instantánea de muerte.
+
+\textit{\textbf{Probabilidades condicionales}}
+
+Dado un individuo de edad $x$, se define a su tiempo de vida futura $T(x)$ por:
+\begin{align*}
+    T(x) = \xi - x && \text{para cada }x \geq 0.
+\end{align*}
+Nótese que $T(x)$ representa un tiempo vivido por el individuo que alcanza edad $x$ o equivalentemente, el tiempo que le resta para alcanzar la muerte.
+
+La probabilidad de sobrevivir $t$ años más dado que ha sobrevivido a la edad $x$ se denota por $\px[t]{x}$ y se define por:
+\begin{align*}
+    \px[t]{x} = P(T(x) > t), && \text{para cada }t\geq0.
+\end{align*}
+Para su deducción se tiene que:
+\begin{equation*}
+    \px[t]{x} = P(\xi > x + t| \xi > x) = S(x+t|\xi > x) = \dfrac{S(x + t)}{S(x)}.
+\end{equation*}
+La probabilidad de muerte antes de $t$ años, dado que ha sobrevivido a la edad $x$ se denota por $\qx[t]{x}$ y se define por:
+\begin{align*}
+    \qx[t]{x} = P(T(x) \leq t), && \text{para cada }t\geq0.
+\end{align*}
+Para su deducción se tiene que:
+\begin{equation*}
+    \qx[t]{x} = P(\xi \leq x| \xi > x) = \dfrac{P(x < \xi \leq x + t)}{P(\xi > x)} = \dfrac{S(x) - S(x + t)}{S(x)}
+\end{equation*}
+de lo cual se sigue que $\qx[t]{x} = 1 - \px[t]{x}$.
+
+\textbf{Estimación de probabilidades brutas}
+
+\textit{\textbf{Exposición al riesgo y número de muertes}}
+
+Considerando el intervalo de edad $[x,x+1)$ de cual suponemos que se compone de $n_x$ individuos, dado un individuo $i$, para determinar su aporte individual a la exposición al riesgo de muerte el individuo es observado desde la edad $x + a_i$ hasta la edad $x+b_i$, donde $0 \leq a_i < b_i \leq 1$, su exposición al riesgo de muerte es la amplitud del período en el que se encuentra en observación, es decir, la exposición al riesgo de cada individuo se calcula por $b_i - a_i$. De esta forma, la exposición total al riesgo de muerte de todo el colectivo se denota por $E_x$ y se calcula como:
+\begin{equation}\label{exposicion}
+    E_x = \sum_{i = 1}^{n_x}{(b_i - a_i)}.
+\end{equation}
+Denotemos por $d_x$ el número de muertes observadas de los $n_x$ individuos que componen el intervalo de edad durante el período de observación. Finalmente, notemos que si se supone que $a_i = 0$ y $b_i = 1$ para cada individuo $i$, entonces $E_x = n_x$.
+
+\textit{\textbf{Estimación de probabilidades brutas}}
+
+Dados $n_x$ individuos independientes dentro del intervalo de edad $[x, x+1)$. Sea $D_x$ la variable aleatoria que representa el número de personas que mueren dentro del período de observación en el intervalo de edad. Dado que cada individuo $i$ se encuentra expuesto al riesgo de muerte, se define a $D_i$ como:
+\[
+    D_i =
+    \begin{cases}
+    1 & \text{ si el individuo muere}\\
+    0 & \text{ si el individuo sobrevive.}
+    \end{cases}
+\]
+Notemos que $D_i$ es una variable aleatoria tal que $D_i \sim \text{Bernoulli}(q_x)$, es decir, $q_x$ es la probabilidad de éxito. Notemos que $D_x = \sum_{i=i}^{n_x}{D_i}$, lo que implica que $D_x \sim \text{Bin}(n_x, q_x)$, es decir, $D_x$ sigue una distribución binomial con parámetros $n_x$ y $q_x$. De esta forma, si se han observado $d_x$ muertes, la función de verosimilitud $\mathscr{L}$ para todo el colectivo se define por:
+\begin{align*}
+    \mathscr{L}(q_x) = \binom{n_x}{d_x}(q_x)^{d_x}(1-q_x)^{n_x-d_x}
+\end{align*}
+y la función log-verosimilitud es:
+\begin{align*}
+    \ln(\mathscr{L}(q_x)) = d_x \ln(q_x) + (n_x - d_x) \ln(1 - q_x) + \ln\binom{n_x}{d_x}.
+\end{align*}
+El estimador de máxima verosimilitud $\hat{q}_x$ de $q_x$ está dado por:
+\begin{align*}
+    \hat{q}_x = \dfrac{d_x}{n_x}.
+\end{align*}
+Una propiedad interesante del estimador encontrado es que para un valor grande de $n_x$ se tiene que $\hat{q}_x$ se aproxima a una distribución Normal con media $q_x$ y varianza
+$\dfrac{q_x}{n_x}(1-q_x)$, es decir, $\hat{q}_x \sim \mathcal{N}\left(q_x,\dfrac{q_x}{n_x}(1-q_x)\right)$.
+En estas condiciones un intervalo de confianza $100(1 - 2\alpha)$ para $q_x$ viene dado por:
+\begin{equation*}
+    \left[ \hat{q}_x -
+    z_{\alpha}\left(\dfrac{\hat{q}_x (1 - \hat{q}_x)}{n_x}\right)^{1/2},
+    \hat{q}_x +
+    z_{\alpha}\left(\dfrac{\hat{q}_x (1 - \hat{q}_x)}{n_x}\right)^{1/2}\right]
+\end{equation*}
+donde $z_{\alpha}$ es tal que $P[z \leq z_{\alpha}] = \alpha$. Cuando $d_x$ es muy pequeño o muy grande respecto de $n_x$ esta aproximación no es buena y deberíamos obtener el intervalo exacto, $q_x^{\inf}\leq q_x \leq q_x^{\sup}$ con:
+\begin{equation*}
+    q_x^{\inf} \text{ tal que } \sum_{d=d_x}^{n_x}{\binom{n_x}{d} \left(q_x^{\inf}\right)^d \left(1 - q_x^{\inf}\right)^{n_x - d}} = \alpha
+\end{equation*}
+y
+\begin{equation*}
+    q_x^{\sup} \text{ tal que } \sum_{d=0}^{d_x}{\binom{n_x}{d} \left(q_x^{\sup}\right)^d \left(1 - q_x^{\sup}\right)^{n_x - d}} = \alpha
+\end{equation*}
+
+\textit{\textbf{Suavizado de probabilidades brutas}}
+
+Para el suavizado de las probabilidades brutas se considera un ajuste a través de funciones B-Splines utilizando el método de mínimos cuadrados ponderados para la obtención de los parámetros.
+
+Dada una sucesión de $m$ valores reales $x_i$, denominados nodos, tales que:
+\[
+    x_0 \leq x_1 \leq \cdots \leq x_{m-1}
+\]
+se define un B-Spline de grado $n$ como:
+\[
+     \funcion{S}{[x_0, x_{m-1}]}{\R^{2}}{x}{\sum_{i=0}^{m-n-2}{\alpha_{i} B_{i,n}(x)}}
+\]
+donde los $\alpha_i$ se denominan puntos de control o puntos de Boor y los $B_{i,n}$ se denominan B-Splines básicos de grado $n$ para cada $i\in\{0, 1, \ldots, m-n-2\}$.
+
+Para determinar a los B-Splines básicos de grado $n$ se considera la fórmula de recursión de Cox-de Boor, dada por:
+\begin{align*}
+    B_{i,0}(x) &=
+    \begin{cases}
+        1 & \text{si } x_i \leq x < x_i\\
+        0 & \text{caso contrario}
+    \end{cases}\\
+    B_{i,n}(x) &= \dfrac{x - x_i}{x_{i+n} - x_i}B_{i,n-1}(x) + \dfrac{x_{j+n+1}-x}{x_{i+n+1} - x_{i+1}}B_{i+1,n-1}(x)
+\end{align*}
+para cada $i\in\{0, 1, \ldots, m-n-2\}$. Se puede demostrar que los B-Splines básicos forman una base para el espacio de funciones Spline.
+
+Considerando las edades simples $x$ para obtener una curva suavizada para las probabilidades brutas $q_x$ se considera la función B-Spline $S$ definida como:
+\[
+    S(x) = \sum_{i=0}^{n-1}{\alpha_{i} B_{i,n}(x)}
+\]
+para todo $x \in \{x_o, \cdots, x_f\}$, dada la versatilidad que presentan los B-Splines para ajustar y suavizar a series de datos observadas.
+
+Para la estimación de los parámetros se consideró el método de los mínimos cuadrados ponderados, que minimiza las distancias entre los valores observados y la fórmula matemática elegida para la graduación, además, dado que el valor de la varianza de $q_x$ varía con la edad, se busca que la curva se acerque a las edades con menor valor de varianza, para lograrlo se utiliza un ponderador $w_x$ inversamente proporcional a la varianza, es decir,
+\[
+   \sum_{x=x_o}^{x_f}{\dfrac{1}{w_x}\left(q_x - S(x)\right)^2}.
+\]
+Para evaluar el ajuste y seleccionar al modelo que presenta el mejor ajuste se considerará el coeficiente $R^2$.
+
+
+\textit{\textbf{Construcción de tablas biométricas}}
+
+\textbf{Estructura de una tabla de mortalidad}
+
+Dado un grupo de recién nacidos ficticio de tamaño $l_0$, denominado cohorte inicial, la estructura considerada para una tabla de mortalidad es la siguiente:
+
+\begin{description}
+\item[] $x:$ representa a la edad que toma valores $\{x_0, x_0 + 1, x_0 + 2, \ldots, x_f\}$.
+\item[] $l_x:$ representa el número de sobrevivientes a la edad $x$, determinadas a partir de una cohorte inicial de $l_0$ recién nacidos, por lo general la cohorte inicial toma como valor una potencia de 10,
+\begin{align*}
+    l_{x+1} = l_x - d_x, &&  \text{para cada }x \in \{x_0, x_0 + 1, x_0 + 2, \ldots, x_f\}.
+\end{align*}
+\item[] $d_x:$ representa el número de personas que fallecen entre las edades $x$ y $x + 1$ a partir de los $l_0$ individuos iniciales,
+\begin{align*}
+    d_x = l_x q_x, && \text{para cada }x \in\{x_0, x_0 + 1, x_0 + 2, \ldots, x_f\}.
+\end{align*}
+\item[] $q_x:$ representa la probabilidad de que un individuo de edad $x$ muera antes de la edad $x + 1$,
+\begin{align*}
+    q_x = \dfrac{d_x}{l_x}, && \text{para cada }x \in\{x_0, x_0 + 1, x_0 + 2, \ldots, x_f\}.
+\end{align*}
+\item[] $p_x:$ representa la probabilidad de que un individuo de edad $x$ sobreviva hasta la edad $x + 1$,
+\begin{align*}
+    p_x = 1 - q_x, && \text{para cada }x\in\{x_0,x_0 + 1, x_0 + 2, \ldots, x_f\}.
+\end{align*}
+\item[] $e_x:$ representa la esperanza de vida a la edad $x$,
+\begin{align*}
+    e_x = \dfrac{\displaystyle{\sum_{y=x}^{x_f}{l_y}}}{l_x} - \dfrac{1}{2}, && \text{para cada }x \in\{x_0, x_0 + 1, x_0 + 2, \ldots, x_f\}.
+\end{align*}
+\end{description}
+
+\textbf{Sobre la construcción de la tabla biométrica estática}
+
+De forma más general se pueden considerar diferentes salidas ajenas a la muerte, como alcanzar la mayoría de edad para el caso de orfandad o el contraer matrimonio en el caso de viudedad, entre otros. Por lo tanto, nos referiremos a la contingencia de muerte o muerte y otras salidas; y, a su la tabla resultante como tabla biométrica.
+
+La construcción de la tabla biométrica estática que cubre un período de observación mayor a un año considera lo siquiente:
+
+\begin{description}
+\item[$n:$] el número de años considerados para el período de observación.
+\item[$t_i:$] el $i$-ésimo año del período de observación con $i\in\lbrace 1, \ldots, n\}$.
+\item[$E_{x,t_i}:$] la exposición al riesgo para el $i$-ésimo año del período de observación con $i\in\{1,\ldots,n\}$ con $x \in\{x_0, x_0 + 1, x_0 + 2, \ldots, x_f\}$.
+\item[$d_{x,t_i}:$] el número de contingencias observadas para el $i$-ésimo año del período de observación con $i\in\{1,\ldots,n\}$ con $x \in\{x_0, x_0 + 1, x_0 + 2, \ldots, x_f\}$.
+\end{description}
+
+Si para todo el período de observación $EP_{x}$ es la exposición al riesgo, definida como:
+\begin{align*}
+    EP_{x} = \sum_{i=1}^{n}{E_{x,t_i}}\hspace{0.1cm},
+\end{align*}
+$DP_{x}$ el número de contingencias observadas igual a:
+\begin{align*}
+    DP_{x} = \sum_{i=1}^{n}{d_{x,t_i}}
+\end{align*}
+para cada $x \in\{x_0, x_0 + 1, x_0 + 2, \ldots, x_f\}$, entonces las probabilidades brutas denotadas por $qp_{x}$ se obtienen como:
+\begin{align*}
+    qp_{x} = \dfrac{DP_{x}}{EP_{x}}.
+\end{align*}
+
+Notemos que gracias a lo expuesto previamente se puede considerar a la exposición al riesgo como el número de individuos expuestos al riesgo, y, por tanto, tener el mismo resultado sobre el estimador previamente mostrado. Adicionalmente, se notará por $E_x$ a $EP_{x}$, por $d_x$ a $DP_{x}$ y por $\hat{q}_x$ a $qp_{x}$ para representar a la exposición al riesgo, el número de contingencias observadas y la probabilidad bruta para el período de observación considerado.
+
+\textit{\textbf{Construcción de tablas dinámicas}}
+
+A partir de este punto se incorpora el efecto del tiempo cronológico en las funciones biométricas consideradas, para esto se aumenta un subíndice denotado por $t$ que representa el año para el que se hace referencia, por ejemplo: $l_{60, 2020}$ representa el número de supervivientes con edad exacta $60$ para el año 2020.
+
+Para proyectar la mortalidad  se utilizan las tablas de mortalidad dinámicas construidas previamente por la Organización de las Naciones Unidas (ONU). En específico, se consideran los valores de $l_{x,t}$ para cada $x\in\{0, 1, 5, 10, \cdots, 95, 100\}$ y $t\in\{2020, \ldots, 2099\}$ por sexo y de manera específica para el caso ecuatoriano. Estos valores deben ser interpolados para obtener sus correspondientes valores para edades y años cronológicos simples.
+
+\textbf{Interpolación por el método de Kriging}
+
+Para llevar a cabo la interpolación por edades y años cronológicos simples se usó el método de interpolación por Kriging (para cada sexo y para cada año $t\in\{2020,\ldots,2099\}$), mismo que ejecuta los siguientes pasos:
+
+\begin{enumerate}
+\item Se crea la variable $ls_{x,t}$ realizando un salto hacia adelante de los valores de $l_{x,t}$ para todo $x\in\{1, 5, 10, \ldots, 95, 100\}$, con la consideración de que $ls_{0,t} = 0$.
+\item Se realiza un ajuste para las edades 105 y 110 utilizando la siguiente regla:
+\[
+    l_{105,t} = \dfrac{1}{2}\l(\dfrac{l_{105,t}}{ls_{105,t}}\r) l_{105,t}
+    \texty
+    l_{110,t} = \dfrac{1}{8} \l(\dfrac{l_{110,t}}{ls_{110,t}}\r)^2 l_{110,t}
+\]
+donde $ls_{105,t} = ls_{110,t} = l_{100,t}$ (regla conocida como la condición de máxima entropía).
+\item Se crean las variables $p0_{x,t}$, $\mu0_{x,t}$ y  $\ln(\mu0_{x,t})$ como:
+\[
+    p0_{x,t} = \dfrac{l_{x,t}}{100000}, \quad \mu0_{x,t} = -\ln(p0_{x,t}) \texty \ln(\mu0_{x,t}) = \ln(\mu0_{x,t})
+\]
+para cada $x\in\{0, 1, 5, 10, \ldots, 95, 100\}$.
+\item Se crea un variograma empírico considerando como variable a $\ln(\mu0_{x,t})$ y como coordenadas a $t$ y $x$, junto con la distancia dada por la norma $L_1$.
+\item Se ajusta el variograma empírico como un variograma gaussiano, considerando el valor inicial de coordenadas junto con la distancia y el valor estimado por el variograma empírico.
+\item Se realiza la interpolación por Kriging simple utilizando los resultados dados por el variograma ajustado. La interpolación se renombra como $\ln(\mu_{x,t})$, con valores para todo $x\in\{0,\ldots,110\}$ y para todo $t\in\{2020,\ldots,2099\}$.
+\end{enumerate}
+
+\textbf{Cálculo de la variación de la probabilidad de muerte}
+
+En la necesidad de generar proyecciones de población que contemplen el incremento de la esperanza de
+vida se consideró ajustar las probabilidades de mortalidad tomando en cuenta la información provista
+por la ONU. La metodología consiste en aplicar el proceso de interpolación por Kriging simple a las tablas de mortalidad dinámicas construidas previamente por la ONU y luego utilizar las variaciones de mortalidad definidas como:
+
+\begin{equation}
+\zeta_{t,g,x} = \frac{ q^{onu}_{t+1,g,x} }{ q^{onu}_{t,g,x} }
+\end{equation}
+
+
+\textbf{Proyección de la mortalidad}
+
+Se utiliza las variaciones $\zeta_{t,g,x}$ para afectar las probabilidades de mortalidad resultantes
+de la estimación inicial. Para tiempos futuros $t > 0$ se realiza el siguiente cálculo para
+actualizar la probabilidad de muerte.
+\begin{equation}
+q^{i,5}_{t,g,x} = \zeta_{t,g,x}\, q^{i,5}_{t-1,g,x}, \qquad \forall t > 0
+\end{equation}
+ donde $i$ son los estados que tienen transición a muerte.
+
+\textit{\textbf{Tablas Estáticas}}
+
+En esta parte se presentan las tablas biométricas de los jefes de familia y pensionistas del Régimen Especial del Seguro Social Campesino del Instituto Ecuatoriano de Seguridad Social, resultantes de la metodología expuesta anteriormente, para el período de observación del 1 de enero del 2012 al 31 de diciembre de 2020. 
+
+\textbf{Contingencias consideradas y fuente de información}
+
+Para afiliados se han considerado a las poblaciones de jefes de familia activos e inactivos, mientras que para los pensionistas se analiza solo las prestaciones de vejez e invalidez, pues para orfandad y viudedad no se disponde de la información necesaria. Sin embargo, en un sentido de tener esta estimación se considera la mortalidad de orfandad y viudedad de la \estcite{iess_val_act_ivm_2020}.
+
+Así, las contingencias consideradas son las siguientes:
+
+\begin{itemize}
+\item Muerte para jefes de hogar activos.
+\item Muerte para jefes de hogar inactivos.
+\item Muerte para pensionistas por vejez.
+\item Muerte para pensionistas por vejez y jefes de hogar inactivos.
+\item Muerte para pensionistas por invalidez.
+\end{itemize}
+
+Las fuenes de información consideradas para el determinar el valor de la exposición al riesgo, el número de contingencias tanto para afiliados como para pensionistas son \textit{Planillas de afiliados}, \textit{Detalle de planillas, Base histórica de pensiones} y \textit{Registro Civil}. La fecha corte de extracción de la infomación es al 29 de enero de 2021.
+
+Para cada contingencia se presenta la exposición consolidada, el número de contingencias observadas, las probabilidades brutas y las tablas biométricas por edades simples y sexo.
+
+Debido al tamaño de las poblaciones estudiadas o al sub-registro, es necesario llevar a cabo un suavizado de las probabilidades brutas, que se lo realiza a través de la utilización de mínimos cuadrados ponderados con funciones B-Splines. En los casos de pensionistas por vejez y jefes de hogar inactivos no se considera ponderación, en el resto de los casos la ponderación fue igual al valor de la exposición al riesgo.
+
+\textbf{Muerte para jefes de hogar activos por sexo}
+
+En la tabla \ref{tab:expo_sini_prob_b_jefes_act_ssc} se presenta la exposición al riesgo de muerte, número de muertes observadas y las probabilidades de mortalidad bruta para jefes y jefas de hogar activos durante el período de observación 2012-2020, por edades simples y sexo. 
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+%\fontsize{9}{10.5}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}|
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r}
+\captionsetup{width=1\textwidth}                      
+\caption{Exposición, muertes y probabilidad bruta para jefes de familia activos por sexo}
+\label{tab:expo_sini_prob_b_jefes_act_ssc} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{4}{c|}{Mujeres} & \multicolumn{4}{c}{Hombres} \\
+\midrule
+ $x$ & $E_x$ & $d_x$ & $\hat{q}_x$ & $x$ & $E_x$ & $d_x$ & $\hat{q}_x$\\
+ \midrule
+\endfirsthead
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{4}{c|}{Mujeres} & \multicolumn{4}{c}{Hombres} \\
+\midrule
+ $x$ & $E_x$ & $d_x$ & $\hat{q}_x$ & $x$ & $E_x$ & $d_x$ & $\hat{q}_x$\\
+ \midrule
+\endhead
+
+\hline \multicolumn{8}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\endlastfoot
+
+\input tablas/iess_tab_biom_bruta_est_ssc.tex
+
+
+\end{longtable}
+\endgroup
+
+A continuación, en la figura \ref{fig:iess_pir_exp_ssc} se observa la distribución de la exposición al riesgo de muerte consolidada para jefes de hogar activos por sexo. En ambos casos, en el rango de edad de 35 a 65 años se encuentra la mayor exposición, siendo la edad de 52 años de mayor exposición tanto para hombres como para mujeres con un 2,12\% y 2,06\%, respectivamente.
+
+\begin{figure}[H]
+\centering
+\captionsetup{width=1\textwidth}
+\caption{Distribución de la exposición al riesgo de muerte por edad y sexo para jefes activos}
+\label{fig:iess_pir_exp_ssc}
+\includegraphics[scale=0.7]{graficos/iess_pir_exp_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+En lo referente al número de muertes en la población activa mencionada anteriormente (Véase la figura \ref{fig:iess_pir_mue_ssc}), se observa que el mayor número de muertes se da en personas cuya edad está entre 60 a 90 años . Para el caso de los hombres, la edad con el mayor número de muertes es 79 años (2,997\%), mientras que, para las mujeres es 72 años (3,03\%).
+
+\begin{figure}[H]
+\centering
+\captionsetup{width=1\textwidth}
+\caption{Distribución del número de muertes observadas por edad y sexo para jefes activos}
+\label{fig:iess_pir_mue_ssc}
+\includegraphics[scale=0.7]{graficos/iess_pir_mue_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+El mejor ajuste de las probabilidades de mortalidad bruta para las mujeres se da con nueve términos, con coeficientes iguales a $\alpha_0 = 0.001490$, $\alpha_1 = -0.001567$, $\alpha_2 = -0.001020$, $\alpha_3 = 0.001716$, $\alpha_4 = -0.006452$, $\alpha_5 = 0.016276$, $\alpha_6 = 0.016084$, $\alpha_7 = 0.120910$ y $\alpha_8 = 1.018685$, utilizado B-Splines básicos de grado 6, con un valor de $R^2$ igual a  61,60\%. Para el caso de hombres el mejor ajuste se obtuvo para nueve términos, con coeficientes iguales a $\alpha_0 = 0.02034$, $\alpha_1 = -0.04413$, $\alpha_2 = 0.04392$, $\alpha_3 = -0.14384$, $\alpha_4 = 0.17982$, $\alpha_5 = -0.26172$, $\alpha_6 = 0.24825$, $\alpha_7 = -0.06341$ y $\alpha_8 = 1.83491$, utilizando B-Splines básicos de grado 7, con un valor de $R^2$ igual a  60,78\%.
+
+En las figuras \ref{fig:iess_plt_qx_afi_f_ssc} y \ref{fig:iess_plt_qx_afi_m_ssc} se observan las probabilidades brutas y suavizadas para jefes de hogar activos
+mujeres y hombres, respectivamente. En el suavizado, a partir de los 65 para el caso de los
+hombres se realiza un ajuste que permite obtener el comportamiento típico que siguen las
+probabilidades de muerte, un crecimiento para edades longevas con un valor final de 1 para la última edad considerada.
+
+\begin{figure}[H]
+\centering
+\caption{Probabilidades brutas y suavizadas para jefas de hogar activas}
+\label{fig:iess_plt_qx_afi_f_ssc}
+\includegraphics[scale=0.7]{graficos/iess_plt_qx_afi_f_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\caption{Probabilidades brutas y suavizadas para jefes de hogar activos}
+\label{fig:iess_plt_qx_afi_m_ssc}
+\includegraphics[scale=0.7]{graficos/iess_plt_qx_afi_m_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\textbf{Tablas biométricas para jefes y jefas de hogar activos}
+
+En la tabla \ref{tab:variables_biometricas_jefes_act_ssc} se presentan las variables biométricas de los jefes de hogar del SSC activos, para el período de observación 2012-2020, por edades simples y sexo.
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+%\fontsize{9}{10.5}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}|
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r}
+\caption{Tablas biométricas para jefes y jefas de familia activas}
+\label{tab:variables_biometricas_jefes_act_ssc} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+\midrule
+ $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$ 
+ & $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$\\
+ \midrule
+\endfirsthead
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+\midrule
+ $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$ 
+ & $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$\\
+ \midrule
+\endhead
+
+\hline \multicolumn{12}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\endlastfoot
+
+\input tablas/iess_tab_biom_est_variables_ssc.tex
+
+
+\end{longtable}
+\endgroup
+
+\textbf{Muerte para jefes de hogar inactivos por sexo}
+
+En la tabla \ref{tab:expo_sini_prob_b_jefes_inact_ssc} se presenta la exposición al riesgo de muerte, número de muertes observadas y
+las probabilidades de mortalidad bruta para jefes y jefas de hogar inactivos durante el período de
+observación 2012-2020 por edades simples y sexo.
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+%\fontsize{9}{10.5}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}|
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r}
+\captionsetup{width=1\textwidth}
+\caption{Exposición, muertes y probabilidad bruta para jefes de familia inactivos por sexo}
+\label{tab:expo_sini_prob_b_jefes_inact_ssc} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{4}{c|}{Mujeres} & \multicolumn{4}{c}{Hombres} \\
+\midrule
+ $x$ & $E_x$ & $d_x$ & $\hat{q}_x$ & $x$ & $E_x$ & $d_x$ & $\hat{q}_x$\\
+ \midrule
+\endfirsthead
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{4}{c|}{Mujeres} & \multicolumn{4}{c}{Hombres} \\
+\midrule
+ $x$ & $E_x$ & $d_x$ & $q_x$ & $x$ & $E_x$ & $d_x$ & $q_x$\\
+ \midrule
+\endhead
+
+\hline \multicolumn{8}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\endlastfoot
+
+\input tablas/iess_tab_biom_bruta_est_inac_ssc.tex
+
+
+\end{longtable}
+\endgroup
+
+A continuación, en la figura \ref{fig:iess_pir_exp_inac_ssc} se observa la distribución de la exposición al riesgo de muerte consolidada para jefes de hogar inactivos por sexo. Aproximadamente, entre los 30 y 65 años se encuentra la mayor exposición para hombres y mujeres; en el caso de las mujeres la edad de mayor exposición es 49 años con un 2,04\%; por otro lado, en el caso de los hombres a una edad de 52 años con un 2,32\%.
+
+\begin{figure}[H]
+\centering
+\captionsetup{width=1\textwidth}
+\caption{Distribución de la exposición al riesgo de muerte por edad y sexo para jefes de familia inactivos}
+\label{fig:iess_pir_exp_inac_ssc}
+\includegraphics[scale=0.7]{graficos/iess_pir_exp_inac_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+En lo referente al número de muertes en la población inactiva (Véase la figura \ref{fig:iess_pir_mue_inac_ssc}), se observa que el mayor número de muertes en mujeres es a la edad de 83 años con un porcentaje de 3,58\%; y, en los hombres a la edad de 82 años con un porcentaje de 2,78\%.
+
+\begin{figure}[H]
+\centering
+\caption{Distribución del número de muertes observadas por edad y sexo para jefes inactivos del SSC}
+\label{fig:iess_pir_mue_inac_ssc}
+\includegraphics[scale=0.7]{graficos/iess_pir_mue_inac_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+El mejor ajuste de las probabilidades de mortalidad bruta para las mujeres se da con seis términos, con coeficientes iguales a $\alpha_0 = 0.007231$, $\alpha_1 = -0.018466$, $\alpha_2 = 0.012680$, $\alpha_3 = -0.023194$, $\alpha_4 = 0.049683$ y $\alpha_5 = 0.058391$, utilizado B-Splines básicos de grado 4, con un valor de $R^2$ igual a  96,36\%. Para el caso de hombres el mejor ajuste se obtuvo para cuatro términos, con coeficientes iguales a $\alpha_0 = 0.010404$, $\alpha_1 = -0.022529$, $\alpha_2 = 0.029569$ y $\alpha_3 = 0.043809$, utilizado B-Splines básicos de grado 2, con un valor de $R^2$ igual a  97,39\%.
+
+En las figuras \ref{fig:iess_plt_qx_afi_f_inac_ssc} y \ref{fig:iess_plt_qx_afi_m_inac_ssc} se observan las probabilidades brutas y suavizadas para jefes de hogar inactivos
+mujeres y hombres, respectivamente. A partir de los 85 para el caso de las mujeres y a partir de los 84 para el caso de los hombres se realiza un ajuste que permite obtener el comportamiento típico que siguen las probabilidades de muerte, un crecimiento para edades longevas con un valor final de 1 para la última edad considerada.
+
+\begin{figure}[H]
+\centering
+\caption{Probabilidades brutas y suavizadas para jefas de hogar inactivas}
+\label{fig:iess_plt_qx_afi_f_inac_ssc}
+\includegraphics[scale=0.65]{graficos/iess_plt_afi_inac_f_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\caption{Probabilidades brutas y suavizadas para jefes de hogar inactivos}
+\label{fig:iess_plt_qx_afi_m_inac_ssc}
+\includegraphics[scale=0.65]{graficos/iess_plt_afi_inac_m_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\textbf{Tablas biométricas para jefas y jefas de hogar inactivos}
+
+En la tabla \ref{tab:variables_biometricas_jefes_inact_ssc} se presentan las variables biométrica de los jefes de hogar del SSC inactivos, para el período de observación 2012-2020, por edades simples y sexo.
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+%\fontsize{9}{10.5}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}|
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r}
+\caption{Tablas biométricas para jefes y jefas de familia inactivas}
+\label{tab:variables_biometricas_jefes_inact_ssc} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+\midrule
+ $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$ 
+ & $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$\\
+ \midrule
+\endfirsthead
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+\midrule
+ $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$ 
+ & $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$\\
+ \midrule
+\endhead
+
+\hline \multicolumn{12}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\endlastfoot
+
+\input tablas/iess_tab_biom_est_variables_inac_ssc.tex
+
+
+\end{longtable}
+\endgroup
+
+\textbf{Muerte para pensionistas de vejez por sexo}
+
+En la tabla \ref{tab:iess_tab_biom_bruta_est_vejez_ssc} se presenta la exposición al riesgo de muerte, número de muertes observadas y las probabilidades de mortalidad bruta para pensionistas de vejez durante el período de observación 2012-2020 por edades simples y sexo. 
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+%\fontsize{9}{10.5}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}|
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r}
+\caption{Exposición, muertes y probabilidad bruta para pensionistas de vejez}
+\label{tab:iess_tab_biom_bruta_est_vejez_ssc} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{4}{c|}{Mujeres} & \multicolumn{4}{c}{Hombres} \\
+\midrule
+ $x$ & $E_x$ & $d_x$ & $\hat{q}_x$ & $x$ & $E_x$ & $d_x$ & $\hat{q}_x$\\
+ \midrule
+\endfirsthead
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{4}{c|}{Mujeres} & \multicolumn{4}{c}{Hombres} \\
+\midrule
+ $x$ & $E_x$ & $d_x$ & $\hat{q}_x$ & $x$ & $E_x$ & $d_x$ & $\hat{q}_x$\\
+ \midrule
+\endhead
+
+\hline \multicolumn{8}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\endlastfoot
+
+\input tablas/iess_tab_biom_bruta_est_vejez_ssc.tex
+
+
+\end{longtable}
+\endgroup
+
+A continuación, en la figura \ref{fig:iess_pir_exp_vej_ssc} se observa la distribución de la exposición al riesgo de muerte consolidada para pensionistas de vejez por sexo. Aproximadamente en el rango de edad de 65 a 90 años se encuentra la mayor exposición para ambos casos, con la edad de mayor exposición igual a los 76 años para mujeres y  75 años para los hombres con un 5,18\% y 4,99\%, respectivamente.
+
+\begin{figure}[H]
+\centering
+\captionsetup{width=1\textwidth}
+\caption{Distribución de la exposición al riesgo de muerte por edad y sexo para pensionistas de vejez}
+\label{fig:iess_pir_exp_vej_ssc}
+\includegraphics[scale=0.7]{graficos/iess_pir_exp_vej_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+En lo referente al número de muertes de la población de vejez (Véase la figura \ref{fig:iess_pir_mue_vejez_ssc}), se observa que a los 86 años las mujeres alcanzan el
+mayor número de muertes con un porcentaje de 5,24\%; por otro lado, en el caso de los hombres a la edad
+de 84 años se tiene el mayor número de muertes con un porcentaje de 4,70\%.
+
+\begin{figure}[H]
+\centering
+\captionsetup{width=1\textwidth}
+\caption{Distribución del número de muertes observadas por edad y sexo para pensionistas de vejez}
+\label{fig:iess_pir_mue_vejez_ssc}
+\includegraphics[scale=0.7]{graficos/iess_pir_mue_vejez_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+El mejor ajuste de las probabilidades de mortalidad bruta para las mujeres se da con nueve términos, con coeficientes iguales a $\alpha_0 = 0.003023$, $\alpha_1 = 0.001846$, $\alpha_2 = 0.008701$, $\alpha_3 = 0.004592$, $\alpha_4 = 0.021548$, $\alpha_5 = 0.031733$, $\alpha_6 = 0.074974$, $\alpha_7 = 0.100956$ y $\alpha_8 = 0.131382$, utilizado B-Splines básicos de grado 5, con un valor de $R^2$ igual a  98,97\%. Para el caso de hombres el mejor ajuste se obtuvo para nueve términos, con coeficientes iguales a $\alpha_0 = 0.01780$, $\alpha_1 = -0.14612$, $\alpha_2 = 0.23980$, $\alpha_3 = -0.28636$, $\alpha_4 = 0.21563$, $\alpha_5 = -0.14140$, $\alpha_6 = 0.09396$, $\alpha_7 = 0.08288$ y $\alpha_8 = 0.15293$, utilizado B-Splines básicos de grado 7, con un valor de $R^2$ igual a  99,71\%.
+
+En las figuras \ref{fig:iess_plt_qx_f_vejez_ssc} y \ref{fig:iess_plt_qx_m_vejez_ssc} se observan las probabilidades brutas y suavizadas para los pensionistas de vejez
+mujeres y hombres, respectivamente.
+
+\begin{figure}[H]
+\centering
+\caption{Probabilidades brutas y suavizadas para pensionistas de vejez mujeres}
+\label{fig:iess_plt_qx_f_vejez_ssc}
+\includegraphics[scale=0.7]{graficos/iess_plt_qx_f_vejez_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\caption{Probabilidades brutas y suavizadas para pensionistas de vejez hombres}
+\label{fig:iess_plt_qx_m_vejez_ssc}
+\includegraphics[scale=0.7]{graficos/iess_plt_qx_m_vejez_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\textbf{Tablas biométricas para pensionistas de vejez}
+
+En la tabla \ref{tab:iess_tab_biom_est_variables_vejez_ssc} se presentan las variables biométricas para los pensionistas de vejez, para el período de observación 2012-2020, por edades simples y sexo.
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+%\fontsize{9}{10.5}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}|
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r}
+\caption{Tablas biométricas para pensionistas de vejez}
+\label{tab:iess_tab_biom_est_variables_vejez_ssc} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+\midrule
+ $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$
+ & $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$\\
+ \midrule
+\endfirsthead
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+\midrule
+ $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$
+ & $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$\\
+ \midrule
+\endhead
+
+\hline \multicolumn{12}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\endlastfoot
+
+\input tablas/iess_tab_biom_est_variables_vejez_ssc.tex
+
+
+\end{longtable}
+\endgroup
+ 
+\textbf{Muerte para pensionistas de vejez y jefes de hogar inactivos por sexo}
+
+En la tabla \ref{tab:iess_tab_biom_bruta_est_vejez_inactivos_ssc} se presenta la exposición al riesgo de muerte, número de muertes observadas y las probabilidades de mortalidad bruta para pensionistas de vejez y jefes de hogar inactivos durante el período de observación 2012-2020 por edades simples y sexo.
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+%\fontsize{9}{10.5}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}|
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r}
+\captionsetup{width=1\textwidth}
+\caption{Exposición, muertes y probabilidad bruta para pensionistas de vejez y jefes de familia inactivos}
+\label{tab:iess_tab_biom_bruta_est_vejez_inactivos_ssc} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{4}{c|}{Mujeres} & \multicolumn{4}{c}{Hombres} \\
+\midrule
+ $x$ & $E_x$ & $d_x$ & $\hat{q}_x$ & $x$ & $E_x$ & $d_x$ & $\hat{q}_x$\\
+ \midrule
+\endfirsthead
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{4}{c|}{Mujeres} & \multicolumn{4}{c}{Hombres} \\
+\midrule
+  $x$ & $E_x$ & $d_x$ & $\hat{q}_x$ & $x$ & $E_x$ & $d_x$ & $\hat{q}_x$\\
+ \midrule
+\endhead
+
+\hline \multicolumn{8}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\endlastfoot
+
+\input tablas/iess_tab_biom_bruta_est_vejez_inactivos_ssc.tex
+
+
+\end{longtable}
+\endgroup
+
+A continuación, en la figura \ref{fig:iess_pir_exp_vej_inac_ssc} se observa la distribución de la exposición al riesgo de muerte consolidada para los pensionistas de vejez y jefes de hogar inactivos por sexo. Aproximadamente en el rango de edad de 65 a 90 años se encuentra la mayor exposición para
+ambos casos; en el caso de mujeres la edad de mayor exposición es 76 años con un 2,61\%, por otro lado,  la edad de mayor exposición para hombres es de 75 años con un porcentaje de 3,12\%.
+
+\begin{figure}[H]
+\centering
+\captionsetup{width=1\textwidth}
+\caption{Distribución de la exposición al riesgo de muerte por edad y sexo para pensionistas de vejez y jefes de familia inactivos}
+\label{fig:iess_pir_exp_vej_inac_ssc}
+\includegraphics[scale=0.7]{graficos/iess_pir_exp_vej_inac_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+En lo referente al número de muertes de la población de vejez y jefes inactivos (Véase la figura \ref{fig:iess_pir_mue_vejez_inac_ssc}), se observa que para el caso de mujeres en la edad de 85 años  alcanzan el mayor número de muertes con un porcentaje de 4,37\%, mientras que, para el caso de hombres en la edad de 84 años alcanzan el mayor número de muertes con un porcentaje de 6,09\%.
+
+\begin{figure}[H]
+\centering
+\captionsetup{width=1\textwidth}
+\caption{Distribución del número de muertes observadas por edad y sexo para pensionistas de vejez y  jefes inactivos}
+\label{fig:iess_pir_mue_vejez_inac_ssc}
+\includegraphics[scale=0.7]{graficos/iess_pir_mue_vejez_inac_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+El mejor ajuste de las probabilidades de mortalidad bruta para las mujeres se da con siete términos, con coeficientes iguales a $\alpha_0 = 0.0004221$, $\alpha_1 = 0.0020902$, $\alpha_2 = -0.0054141$, $\alpha_3 = 0.0244210$, $\alpha_4 = -0.0312727$, $\alpha_5 = 0.1138696$ y $\alpha_6 = 0.1440684$, utilizado B-Splines básicos de grado 5, con un valor de $R^2$ igual a  99,27\%. Para el caso de hombres el mejor ajuste se obtuvo para seis términos, con coeficientes iguales a $\alpha_0 = 0.0006031$, $\alpha_1 = 0.0005048$, $\alpha_2 = 0.0237976$, $\alpha_3 = -0.0365622$, $\alpha_4 = 0.1075523$ y $\alpha_5 = 0.1127907$, utilizado B-Splines básicos de grado 4, con un valor de $R^2$ igual a  99,43\%.
+
+En las figuras \ref{fig:iess_plt_qx_f_vejez_inac_ssc} y \ref{fig:iess_plt_qx_m_vejez_inac_ssc} se observan las probabilidades brutas y suavizadas para los pensionistas de vejez jefes de hogar inactivos
+mujeres y hombres, respectivamente. A partir de los 90 para el caso de las
+mujeres y a partir de los 91 para el caso de los hombres se realiza un ajuste que permite obtener
+el comportamiento típico que siguen las probabilidades de muerte, un crecimiento para edades longevas con un valor final de 1 para la última edad considerada.
+
+\begin{figure}[H]
+\centering
+\captionsetup{width=1\textwidth}
+\caption{Probabilidades brutas y suavizadas para pensionistas de vejez  mujeres y jefas de hogar inactivas}
+\label{fig:iess_plt_qx_f_vejez_inac_ssc}
+\includegraphics[scale=0.7]{graficos/iess_plt_qx_f_vejez_inac_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\captionsetup{width=1\textwidth}
+\caption{Probabilidades brutas y suavizadas para pensionistas de vejez hombres y jefes de hogar inactivos}
+\label{fig:iess_plt_qx_m_vejez_inac_ssc}
+\includegraphics[scale=0.65]{graficos/iess_plt_qx_m_vejez_inac_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\textbf{Tablas biométricas para pensionistas de vejez y jefes de hogar inactivos}
+
+En la tabla \ref{tab:variables_biometricas_vejez_jefes_inact_ssc} se presentan las variables biométricas para pensionistas de vejez y jefes de hogar inactivos, para el período de observación 2012-2020, por edades simples y sexo.
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+%\fontsize{9}{10.5}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}|
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r}
+\caption{Tablas biométricas para pensionistas de vejez y jefes de familia inactivos}
+\label{tab:variables_biometricas_vejez_jefes_inact_ssc} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+\midrule
+ $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$
+ & $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$\\
+ \midrule
+\endfirsthead
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+\midrule
+ $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$
+ & $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$\\
+ \midrule
+\endhead
+
+\hline \multicolumn{12}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\endlastfoot
+
+\input tablas/iess_tab_biom_est_variables_vejez_inact_ssc.tex
+
+
+\end{longtable}
+\endgroup
+
+
+\textbf{Muerte para pensionistas de invalidez por sexo}
+
+En vista del comportamiento y limitación del registro administrativo de los pensionistas por invalidez del sexo femenino, se considera oportuno trabajar solo con los datos referentes a la población inválida masculina. Así, en la tabla \ref{tab:iess_tab_biom_bruta_est_invalidez_ssc} se presenta la exposición al riesgo de muerte, número de muertes observadas y las probabilidades de mortalidad bruta para población de pensionistas de invalidez durante el período de observación 2012-2020 por edades simples. 
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+%\fontsize{9}{10.5}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      % r!{\color{white}\vrule}|
+                      % r!{\color{white}\vrule}
+                      % r!{\color{white}\vrule}
+                      % r!{\color{white}\vrule}
+                      r}
+\caption{Exposición, muertes y probabilidad bruta para pensionistas de invalidez}
+\label{tab:iess_tab_biom_bruta_est_invalidez_ssc} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{4}{c}{Hombres} \\
+\midrule
+ $x$ & $E_x$ & $d_x$ & $\hat{q}_x$\\
+ \midrule
+\endfirsthead
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{4}{c}{Hombres} \\
+\midrule
+ $x$ & $E_x$ & $d_x$ & $\hat{q}_x$\\
+ \midrule
+\endhead
+
+\hline \multicolumn{4}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\endlastfoot
+
+\input tablas/iess_tab_biom_bruta_est_invalidez_ssc.tex
+
+
+\end{longtable}
+\endgroup
+
+Bajo las consideraciones expuestas anteriormente, a continuación en la figura \ref{fig:iess_pir_exp_inv_ssc} se presenta la distribución de la exposición al riesgo de muerte consolidada para pensionistas por invalidez. Aproximadamente en el rango de edad de 50 a 71 años se encuentra la mayor exposición, con la edad de mayor exposición igual a los 65 años con un porcentaje de 5,20\%.
+
+\begin{figure}[H]
+\centering
+\captionsetup{width=1\textwidth}
+\caption{Distribución de la exposición al riesgo de muerte por edad para pensionistas de invalidez}
+\label{fig:iess_pir_exp_inv_ssc}
+\includegraphics[scale=0.7]{graficos/iess_pir_exp_inv_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+En lo referente al número de muertes de la población de invalidez mencionada anteriormente (Véase la figura \ref{fig:iess_pir_mue_invalidez_ssc}), a la edad de 64 años se alcanza el mayor número de muertes con un 8,82\%.
+
+\begin{figure}[H]
+\centering
+\captionsetup{width=1\textwidth}
+\caption{Distribución del número de muertes observadas por edad para pensionistas de invalidez}
+\label{fig:iess_pir_mue_invalidez_ssc}
+\includegraphics[scale=0.7]{graficos/iess_pir_mue_invalidez_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+El mejor ajuste de las probabilidades de mortalidad bruta se obtuvo para seis términos, con coeficientes iguales a $\alpha_0 = 0.032147$, $\alpha_1 = -0.002797$, $\alpha_2 = -0.020099$, $\alpha_3 = 0.074124$, $\alpha_4 = -0.012321$ y $\alpha_5 = 0.743764$, utilizado B-Splines básicos de grado 3.
+
+En las figuras \ref{fig:iess_plt_qx_f_invalidez_ssc} y \ref{fig:iess_plt_qx_m_invalidez_ssc} se observan las probabilidades brutas y suavizadas para los pensionistas de invalidez mujeres y hombres respectivamente.
+
+\begin{figure}[H]
+\centering
+\caption{Probabilidades brutas y suavizadas para pensionistas de invalidez mujeres}
+\label{fig:iess_plt_qx_f_invalidez_ssc}
+\includegraphics[scale=0.7]{graficos/iess_plt_qx_f_invalidez_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\caption{Probabilidades brutas y suavizadas para pensionistas de invalidez hombres}
+\label{fig:iess_plt_qx_m_invalidez_ssc}
+\includegraphics[scale=0.7]{graficos/iess_plt_qx_m_invalidez_ssc.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\textbf{Tablas biométricas para pensionistas de invalidez}
+
+En la tabla \ref{tab:iess_tab_biom_est_variables_invalidez_ssc} se presentan las variables biométricas  para los pensionistas de invalidez, para el período de observación 2012-2020, por edades simples y sexo.
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+%\fontsize{9}{10.5}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}|
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r}
+\caption{Tablas biométricas para pensionistas de invalidez}
+\label{tab:iess_tab_biom_est_variables_invalidez_ssc} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+\midrule
+ $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$
+ & $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$\\
+ \midrule
+\endfirsthead
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+\midrule
+ $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$
+ & $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$\\
+ \midrule
+\endhead
+
+\hline \multicolumn{12}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\endlastfoot
+
+\input tablas/iess_tab_biom_est_variables_invalidez_ssc.tex
+
+
+\end{longtable}
+\endgroup
+
+\subsection{Interpolación por el método Kriging}
+
+En el enlace \url{https://population.un.org/wpp/Download/Standard/Mortality/} se puede acceder a la información de supervivientes por edad y sexo. Esta información contiene los valores del número de sobrevivientes ($l_x$) por edad simple $x$ y sexo de una cohorte hipotética de $100.000$ recién nacidos que estarían sujetos durante toda su vida a las tasas de mortalidad de un período determinado.
+
+Los archivos para supervivientes 
+de la tabla de vida cuentan con 10 campos, siendo los que se utilizaron los siguientes:
+\begin{itemize}
+\item \verb+country_code:+ una variable numérica con 255 valores distintos.
+\item \verb+period:+ una variable tipo carácter con valores para períodos de cinco años desde 1950 hasta 2020.
+\item \verb+sexo:+ una variable tipo carácter con dos valores F y M.
+\item \verb+x:+ una variable tipo numérica con valores 0, 1, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100.
+\item \verb+lx:+ una variable tipo numérica con observaciones para cada uno de los valores de los presentados para la variable \verb+x+.
+\end{itemize}
+
+Para el caso del Ecuador se tomó \verb+country_code+ igual a 218 y se procedió a seleccionar a las variables \verb+period+, \verb+sexo+, \verb+x+ y \verb+lx+. Se renombraron a las variables \verb+period+ como $t$ y \verb+lx+ como $l_{x,t}$ para considerar el efecto tanto de la edad $x$ como del tiempo $t$ en el número de supervivientes.
+
+El rango de edad disponible para los datos de la ONU es $\{0, 1, 5, 10, \ldots, 95, 100\}$, la interpolación por Kriging permite obtener una estimación de $\ln(\mu_{x,t})$ para edades simples  $x\in\{0, 1, 2, \ldots, 110\}$ y para cada $t\in\{2021, \ldots, 2099\}$. 
+
+Obtenida la variable $\ln(\mu_{x,t})$ para cada $x\in\{0, 1, 2, \ldots, 110\}$ y para cada $t\in\{2021, \ldots, 2099\}$, se procedió a realizar la obtención de la variación de la probabilidad de muerte por género a partir de las estimaciones de la ONU.
+
+\subsection{Probabilidades de muerte para no afiliados al IESS}
+
+Considerando la interpolación por medio de Kriging a los datos de la ONU, se define a la probabilidad de muerte para los no afiliados (dependientes hijos y cónyuges), denotada por $q_x$, como:
+\[
+    q_x=qonu_x
+\]
+donde $qonu_x$ son los valores obtenidos de la interpolación de los datos de la ONU para todo el período de proyección.
+
+A continuación, en la tabla \ref{tab:iess_tab_biom_est_variables_dependientes_ssc} se presentan las variables biométricas para los dependientes hijos y cónyuges de los jefes de familia del SSC.
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+%\fontsize{9}{10.5}\selectfont
+\begin{longtable}[H]{ r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}|
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r!{\color{white}\vrule}
+                      r}
+\caption{Tablas biométricas para no afiliados hijos y cónyuges de los jefes de familia}
+\label{tab:iess_tab_biom_est_variables_dependientes_ssc} \\
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+\midrule
+ $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$
+ & $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$\\
+ \midrule
+\endfirsthead
+
+\toprule
+
+\arrayrulecolor{black}\rowcolor{iess_green!60}
+\multicolumn{6}{c|}{Mujeres} & \multicolumn{6}{c}{Hombres} \\
+\midrule
+ $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$
+ & $x$ & $q_x$ & $p_x$ & $l_x$ & $dx$ & $e_x$\\
+ \midrule
+\endhead
+
+\hline \multicolumn{12}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\endlastfoot
+
+\input tablas/iess_tab_biom_est_variables_dependientes_ssc.tex
+
+
+\end{longtable}
+\endgroup

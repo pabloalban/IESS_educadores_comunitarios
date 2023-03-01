@@ -1,0 +1,104 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Conclusiones y recomendaciones}
+\label{chp_conclusion}
+
+%---------------------------------------------------------------------------------------------------
+\section{Situación actual}
+\label{chp_conclusion:sitactual}
+
+Conforme a los estados financieros con corte al 31 de diciembre de 2020, el \Sexpr{REP_seg} cuenta con un patrimonio de USD \Sexpr{REP$cap_ini_esc_1} y el saldo de las cuentas individuales es USD 8.132.243.390,63.
+
+La creación del Seguro de Desempleo redujo la tasa de aportación del \Sexpr{REP_seg}  del 3\% al 2\%, afectando directamente a las cuentas individuales de los afiliados que no recibieron los depósitos de USD 648.661.026,21. En la actualidad este seguro goza de un patrimonio de USD 431.431.492,30 generado por el superávit de resultados financieros de sus inversiones y se provee que este siga creciendo en el tiempo, debido que en el año 2020 los afiliados retiraron solo el 5\% de los valores depositados en sus cuentas individuales de cesantía.
+%---------------------------------------------------------------------------------------------------
+\section{Conclusiones}
+\label{chp_conclusion:conclusiones}
+Del presente estudio se obtienen las siguientes conclusiones:
+\begin{enumerate}[itemsep=0mm, topsep=0pt]
+
+\item La población del estudio, con que se realiza la base demográfica y masa salarial correspondiente a los aportantes al IESS, no incluyen a los afiliados pertenecientes a los sectores de los trabajadores autónomos, TNRH, voluntarios y otros sectores señalados en la segunda disposición general de la \legalcite{ResIESS_CD518}, puesto que estos no cotizan al Seguro de Cesantía y Desempleo.
+
+\item Bajo el escenario base, se presenta un superávit igual a USD \Sexpr{REP$bal_act_esc_1}, en
+términos actuariales, en el año 2058, el cual se obtiene de la diferencia entre su activo actuarial
+(USD \Sexpr{REP$Act_vap_esc_1}) y su pasivo actuarial (USD \Sexpr{REP$Pas_vap_esc_1}), en valor
+presente. Por último, el valor de las obligaciones por pagar por saldos de cuentas individuales de los afiliados es USD \Sexpr{REP$S_vap_esc_1}, en valor actual, al 2058.
+
+% \item Si se regresa a la antigua prima (\Sexpr{REP$aporte_esc_2}\%), se presenta un superávit igual a USD \Sexpr{REP$bal_act_esc_2}, en términos actuariales, en el año 2058, el cual se obtiene de la diferencia entre su activo actuarial (USD \Sexpr{REP$Act_vap_esc_2}) y su pasivo actuarial (USD \Sexpr{REP$Pas_vap_esc_2}), en valor
+% presente. Por último, el valor de las obligaciones por pagar por saldos de cuentas individuales de los afiliados es USD \Sexpr{REP$S_vap_esc_2}, en valor actual, al 2058.
+% 
+% \item El monto desinvertido entre diciembre de 2014 a diciembre de 2018 es USD 114.230.513,00, por lo cual el IESS dejó de percibir USD 13.181.559,45 por lucro cesante por las desinversiones.
+% 
+% \item Durante el período abril 2016 a diciembre de 2018, el \Sexpr{REP_seg} ha dejado de percibir
+% USD 648.661.026,21 por la reducción del aporte del 3\% a 2\%; tasa establecida en la
+% \legalcite{ResIESS_CD515}. Esta reducción de ingresos produjo un lucro cesante de USD 76.033.282,28;
+% por lo cual el perjuicio al Fondo ascendería a USD 724.694.308,49, valores que pasaron a formar el Fondo Solidario del Seguro de Desempleo.
+% 
+% \item Del análisis de los estados financieros, se detectan que existen USD 41.772.454,52 por depósitos ``No Identificados''. 
+% 
+% \item Apenas 4.319 afiliados se beneficiaron de la parte variable del Seguro de Desempleo durante el año 2018. Lo cual significó un número cinco (5) veces menor a la cantidad de beneficiarios de la parte fija. 
+% 
+% \item Apenas 17 afiliados retiraron su cesantía por licencia de maternidad o paternidad, de los cuales solo uno (1) es de sexo masculino. 
+% 
+% \item Al 31 de diciembre de 2018, se registran USD 6.716.416.966,13 como pasivo de este seguro, de los cuales USD 6.091.110.336,90 son los valores depositados por la cesantía general; USD 581.855.174,78 por la cesantía adicional; USD 1.678.999,93 en provedores y USD 41.772.454,52 en depósitos no identificados.
+
+\item  Las tasas de interés utilizadas tanto para la entrega de beneficios como para la inversión de los capitales que pertenecen a este seguro son diferentes, para la entrega de beneficios se capitaliza utilizando la tasa pasiva referencial; en cambio, para la acumulación de capitales es una tasa de rendimiento del fondo; y el excedente de rendimiento que procede la diferencia de estas tasas forma parte del patrimonio del fondo.
+
+% \item En la actualidad no se pueden formar estadísticas de los afiliados que fallecen, ya que no se guarda el número de cédula de identidad de los fallecidos, se archiva el número de cedula de los beneficiarios.
+% 
+% \item No se distingue en los estados financieros los capitales e intereses pertenecientes tanto al Seguro de Desempleo como a la Cesantía.
+% 
+% \item La remisión de intereses por parte de las autoridades gubernamentales causa efectos negativos en el crecimiento de tanto de los capitales como de sus rendimientos. 
+% 
+% \item En el año 2016, se registraron en el Balance del Seguro de Cesantía los valores correspondientes al Seguro de Desempleo, debido a que no existía un plan de cuentas aprobado por la Super Intendencia de Bancos para este último.
+% 
+% \item Se registran USD 7.428.197.432,49 en inversiones del Fondo del \Sexpr{REP_seg} y otros USD 131.425.076,74 en caja; ambos recursos administrados por el BIESS al 31 de diciembre de 2018. Pero solo se contabilizan USD 7.147.848.458,43 de activos en los balances contables del Fondo, debido a que las inversiones del \Sexpr{REP_seg} y el Seguro de Desempleo no están separadas a la fecha de este estudio.
+% 
+% \item Para octubre del año 2018, de acuerdo con la disposición normativa del organismo de control, se registraron gastos por provisiones del Fideicomiso Toachi Pilaton por USD 145.862.306,53, lo que ocasionó una caída en el rendimiento de 7,23\% a 5,29\% en el año 2018; pero para el año 2019 la deuda pendiente fue cancelada.
+% 
+% \item Las provisiones por valuación de inversiones privativas hipotecarias crecieron de USD 23.284.378,88 a USD 53.898.937,99 entre los años 2016 y 2018, lo que significa un crecimiento de 131,48\% en ese período de tiempo. Esto es debido al preocupante crecimiento de la tasa de morosidad de los préstamos hipotecarios en el BIESS.
+
+\item No existen oficios o memorandos que demuestren las gestiones del BIESS para ejecutar las garantías hipotecarias a las operaciones calificadas como “Perdida – Categoría E”.
+
+% \item Los aportes de los afiliados depositados en las cuentas individuales rinden interés compuesto, según la tasa pasiva referencial establecida; y no interés simple como lo indica el artículo 6 de la \legalcite{ResIESS_CD518}.
+
+\end{enumerate}
+
+%---------------------------------------------------------------------------------------------------
+\section{Recomendaciones}
+\label{chp_conclusion:recomendacion}
+Sobre la base del análisis efectuado y los resultados obtenidos en el presente estudio, se emiten
+las siguientes recomendaciones, con la finalidad de que se adopten las medidas correctivas.
+
+\begin{enumerate}
+\item Tomar las medidas necesarias de seguimiento al BIESS para que la tasa de rendimiento del Seguro de Cesantía no sea menor al de la tasa pasiva referencial, caso contrario el fondo no sería capaz de cumplir con sus obligaciones.
+
+\item Modificar el reglamento del seguro para que los rendimientos de los aportes extemporáneos sean cancelados por el patrono, de no ser así el IESS seguirá cubriendo estos rendimientos de valores que no están en sus arcas y no se perjudique al afiliado.
+
+% \item No se debe aceptar la “remisión de intereses” para este seguro, en razón de que es en base a los rendimientos que se otorgan los beneficios de cesantía.
+
+% \item Recolectar los números de cedula de los afiliados fallecidos por los cuales se ha retirado su cesantía, ya que a la fecha la DNTI solo guarda la cedula del derechohabiente, lo que no facilita el trabajo actuarial ni tampoco a las auditorias en curso o futuras, a las prestaciones por este motivo.
+% 
+% \item Planificar los flujos de egresos e ingresos monetarios a este seguro, de modo que no se realicen desinversiones, lo cual produce un lucro cesante y, obviamente, reduce la tasa de rendimiento de las inversiones del fondo.
+
+\item No otorgar créditos de vivienda de interés público con menor tasa de interés que la tasa pasiva referencial.
+
+% \item Establecer una comisión para separar las inversiones del Seguro de Desempleo del de Cesantía que a la fecha no se encuentran separadas.
+
+% \item Establecer una comisión en la que participen la DNTI, la Dirección de Fondos de Terceros y Seguro de Desempleo, y la Dirección Nacional de Gestión Financiera, con la finalidad de determinar las cuentas individuales de afiliados fallecidos que no han sido retiradas a la fecha, a pesar de no haber un claro impedimento, y calcular sus correspondientes valores.
+% 
+% \item Identificar a los dueños o derechohabientes de las cuentas señaladas como depósitos ``No Identificados'', las cuales son USD 41.772.454,52  al 31 de diciembre de 2018.
+
+% \item En caso de reducir la prima o eliminar el Seguro de Desempleo, este excedente de aportes debe ingresar al Fondo de Cesantía, luego del estudio actuarial realizado una vez que se supere la pandemia.
+
+% \item Establecer la tasa de rendimiento de los depósitos de las cuentas individuales igual a la tasa de rendimiento neto del Fondo.
+% 
+% \item Crear un fondo complementario con la Cesantía Adicional separado del Fondo de Cesantía General con contabilidad propia y que su aporte sea voluntario.
+% 
+% \item Reglamentar el destino de los valores depositados en las cuentas individuales de los afiliados fallecidos, en el caso que sus derechohabientes no hayan reclamado sus fondos por más de 10 años después de la muerte de su titular.
+% 
+% \item Ejecutar las garantías hipotecarías de los préstamos considerados como incobrables, debido al alarmante aumento de la tasa de morosidad de estos créditos y que este seguro posee casi la mitad de esa cartera. Lo que producirá en los próximos años una drástica reducción de los ingresos financieros.
+% Mejorar la gestión de cobranza de créditos vencidos para reducir la morosidad de las carteras de préstamos quirografarios e hipotecarios.
+% 
+% \item Establecer una comisión encargada de identificar y separar las inversiones pertenecientes al Seguro de Desempleo, y cuantificar los rendimientos financieros generados por estas inversiones en los años 2016, 2017 y 2018. En caso de que no fuese posible identificar las inversiones y rendimientos de los años citados, se sugiere separar las inversiones del Seguro de Desempleo y Seguro de Cesantía de manera proporcional a cada uno de los aportes de estos seguros, utilizando los ingresos registrados por la Dirección Nacional de Recaudación y Gestión de Cartera y a la vez determinar los rendimientos, basándose en la rentabilidad obtenida del Seguro de Cesantía.
+
+\end{enumerate}
+

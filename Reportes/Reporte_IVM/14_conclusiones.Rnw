@@ -1,0 +1,77 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Conclusiones y recomendaciones}
+\label{chp_conclusion}
+
+%-------------------------------------------------------------------------------------------------
+\section{Situación actual}
+\label{chp_conclusion:sitactual}
+
+Conforme a los estados financieros con corte al 31 de diciembre de 2020, el Fondo IVM cuenta con un patrimonio de USD \Sexpr{ REP$cap_ini}. Dentro del análisis de ingresos y egresos, se puede observar que el gasto total de las prestaciones es superior a los ingresos por aportes.
+
+\begin{enumerate}
+
+\item Del escenario base se concluye que aún cuando el Estado haga un esfuerzo por cumplir con el aporte legal del 
+$\Sexpr{REP$apo_est_esc_1}\%$, el sistema no podrá hacer frente a sus obligaciones, puesto que desde el año \Sexpr{REP$moment_crit2_esc_1} los ingresos totales no cubren el gasto prestacional; además, después del año \Sexpr{REP$duracion_esc_1} el fondo ha consumido toda su reserva. 
+
+% Los flujos financieros proyectados de ingresos y gastos del escenario base, indican que el año a partir del cual la reserva comenzará a disminuir gradualmente será el 2021 hasta agotarse en el año  \Sexpr{REP$duracion_esc_1} (último año de reserva positiva); es decir, que los recursos ya no son suficientes en este escenario. La tasa suficiente de aporte para obtener el equilibrio financiero actuarial bajo este escenario es de \Sexpr{REP$pri_med_niv_esc_1}\%.
+% %\textbf{18,84\%.}
+%   
+
+\item Si el Gobierno no contribuye ($0\%$ del gasto pensional) con su obligación, el fondo se encontraría en una situación crítica, los ingresos totales no podrían hacer frente al gasto pensional desde el año \Sexpr{REP$moment_crit2_esc_1}; año a partir del cual la reserva comenzará a disminuir gradualmente hasta agotarse en el año \Sexpr{REP$duracion_esc_2}.
+
+ % \item Los flujos financieros proyectados de ingresos y gastos del escenario 2, indican que el año a partir del cual la reserva comenzará a disminuir gradualmente será el 2021 hasta agotarse en el año  \Sexpr{REP$duracion_esc_2} (último año de reserva positiva); es decir, que los recursos ya no son suficientes en este escenario. La tasa suficiente de aporte para obtener el equilibrio financiero actuarial bajo este escenario es de \Sexpr{REP$pri_med_niv_esc_2}\%.
+
+\item De acuerdo al escenario 3, si el Estado aportaría con el \Sexpr{REP$apo_est_esc_3}\%, como lo ha hecho hasta el año 2020, los ingresos totales no solventan el gasto pensional a partir del año \Sexpr{REP$moment_crit2_esc_3}, así también, el último año de reserva positiva será el \Sexpr{REP$duracion_esc_3}.
+
+% \item Los flujos financieros proyectados de ingresos y gastos del escenario 3, indican que el año a partir del cual la reserva comenzará a disminuir gradualmente será el 2021 hasta agotarse en el año  \Sexpr{REP$duracion_esc_3} (último año de reserva positiva); es decir, que los recursos ya no son suficientes en este escenario. La tasa suficiente de aporte para obtener el equilibrio financiero actuarial bajo este escenario es de \Sexpr{REP$pri_med_niv_esc_3}\%.
+
+\item El escenario reforma 1 (cálculo de la pensión utilizando el promedio de los diez mejores años en lugar de los cinco utilizados actualmente) produce resultados similares al escenario de reforma 2 (cambian las condiciones de elegibilidad: 65 años de edad y 20 años de imposiciones, en lugar de 65 años de edad y 15 años de imposiciones; y, 70 años de edad y 15 años de imposiciones, en vez de 70 años de edad y 10 años de imposiciones); es decir que los ingresos totales no cubren el gasto pensional a partir del año 2044; así mismo, el año último de reserva positiva será el \Sexpr{REP$duracion_esc_4}. 
+ 
+\item El escenario reforma 3 que une los supuestos de reforma 1 y 2; (modifica las condiciones del salario usado de referencia para el cálculo de pensiones; y, las reformas relacionadas a la edad de jubilación e imposición) produce resultados similares al escenario de reforma 4  (prima escalonada en decenios: 11,06\% hasta el 2029; del 12,81\% entre el 2030 y el 2039; 14,57\% entre el 2040 y el 2049; y del 16,32\% desde el 2050 en adelante); es decir, que si bien desde el año 2056 los ingresos no serán suficientes para cubrir los gastos, en todo el período de proyección la reserva se mantiene positiva.
+
+\item El escenario de reforma 5 que aplica las modificaciones de los escenarios reforma 3 y 4, presenta resultados alentadores en el horizonte del estudio; es decir que la reserva se mantiene positiva en todo el período de proyección.
+
+ \item La Ley de Seguridad Social así como la normativa interna del IESS no determinan el sistema financiero del Fondo del Invalidez, Vejez y Muerte; a pesar de que así lo disponen los estándares internacionales. Dadas las condiciones actuariales del fondo como la falta de una reserva importante, en un esquema de capitalización completa con prima media general, la prima del IVM tendría que subir al 21.84\%. Es importante mencionar que dicha tasa equilibra ingresos y gastos en el período de proyección; sin embargo, se llega con reserva cero al final del período.
+ 
+\item La cobertura del Seguro de Pensiones al año base alcanza menos del 40\% de la fuerza del trabajo, es decir, que existe un buen margen para incrementarla. La cobertura respecto a la población asalariada es del 73\%. Se concluye que existe una oportunidad de cumplir con los objetivos sociales y la normativa vigente incrementando la cobertura.
+  
+\item Al 2020 existen 5,87 afiliados activos por cada pensionista. Se espera que el crecimiento del número de pensionistas sea más acelerado que el de los afiliados activos dentro del
+ 
+horizonte del estudio, al 2060 se estima que habrá apenas 2,16 afiliados financiando las pensiones. Esta situación significa una presión importante sobre las finanzas del fondo.
+
+    
+\item No existen mecanismos eficientes para identificar los tipos de invalidez y discapacidad resultado de accidentes laborales y enfermedades profesionales; afectando al Fondo de Invalidez, Vejez y Muerte que asume estos costos.
+
+\item A partir de la vigencia de la jubilación especial de vejez por discapacidad se observa un crecimiento significativo del 55.98\% del número de pensionistas desde el 2014 al 2020. Este impacto actuarial resulta difícil medirlo en el presente estudio al tener pocos años de observación.
+  
+\item Se observa que el Estado ha contribuido con el 31.33\% por concepto de su contribución para el pago de las pensiones, en lugar del 40 \% al que está obligado conforme lo determina la Constitución de la República del Ecuador y la Ley de Seguridad Social.
+  
+\item De los estados financieros del Fondo del IVM se concluye que el valor de los bienes inmuebles de propiedad del fondo no se encuentra actualizado a precios del mercado; por lo que la reserva del fondo podría estar sustancialmente subvalorada.
+Además, dentro del Estado de Pérdidas y Ganancias del Fondo de IVM se observa que se
+registran subcuentas que no son un gasto prestacional del Fondo; como por ejemplo el pago de pensiones a héroes y heroínas.
+
+\end{enumerate}
+
+%---------------------------------------------------------------------------------------------------
+\section{Recomendaciones}
+\label{chp_conclusion:recomendacion}
+
+\begin{enumerate}
+ \item Considerando las características del Fondo del IVM, se recomienda que se defina en norma la adopción del sistema financiero de capitalización parcial con prima escalonada.
+ 
+ \item Con el fin de cumplir el principio de universalidad, se recomienda adoptar una política de extensión de cobertura del Seguro de IVM, la misma que debe incluir al sector de los trabajadores independientes; y, fortalecer los procesos de afiliación y recaudación para disminuir la evasión, subdeclaración de aportes y la mora patronal.
+ 
+ \item El BIESS debe transparentar las políticas de administración de portafolio, incluyendo mejoras en la gestión del riesgo y diversificación del mismo, para así asegurar rendimientos óptimos acorde a la tasa de rendimiento definida anualmente por la Dirección Actuarial, de Investigación y Estadística. Las inversiones del BIESS deberían ser consistentes con las proyecciones de gasto, de manera que se garantice la liquidez necesaria. 
+
+ \item Actualizar el valor de los bienes inmuebles de propiedad del fondo a precios del mercado, de tal forma que en los estados financieros se refleje el verdadero valor; y, proceder a la venta inmediata de aquellos bienes improductivos. Esto permitirá actualizar el valor de la reserva de IVM lo cual podría tener un impacto positivo en el equilibrio financiero esperado. 
+ 
+
+
+  \item Exigir que el Estado cumpla el artículo 371 de la Constitución de la República del Ecuador y transfiera en forma oportuna y total los valores por concepto de contribución del 40\% para el pago de las pensiones, evitando impactar al equilibrio financiero del sistema en el mediano y largo plazo.
+  
+ \item Generar un mecanismo eficiente para identificar los tipos de invalidez y discapacidad resultado de accidentes laborales y enfermedades profesionales, para que sus beneficios sean entregados por el seguro correspondiente. Con este fin, el IESS debería fortalecer los mecanismos de notificación y registro de los accidentes y enfermedades de origen laboral, con objeto de que los costos sean asumidos por el seguro correspondiente y no por el seguro de IVM. 
+ 
+ \item Analizar reformas paramétricas para procurar la sostenibilidad del fondo. Se recomienda considerar los escenarios de reforma 3, 4 o 5 que mantiene reservas positivas en el horizonte del estudio.
+ \item Las jubilaciones especiales deben ser administradas de forma separada del IVM; y, contar con su propia fuente de financiamiento, asegurando su solvencia y sostenibilidad en el tiempo.
+
+\end{enumerate}

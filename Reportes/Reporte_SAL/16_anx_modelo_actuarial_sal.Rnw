@@ -1,0 +1,15 @@
+\chapter{Anexos: Modelo Actuarial}
+\label{chap_modelo}
+
+A continuación se presenta la formulación matemática del modelo actuarial de Salud OIT ILO/HEALTH.
+
+\includepdf[pages={1-22},noautoscale]{graficos/modelo_sal.pdf}
+
+\begin{landscape}
+\includepdf[pages={23-36},noautoscale,angle=90]{graficos/modelo_sal.pdf}
+\end{landscape}
+
+
+\includepdf[pages={37-42},noautoscale]{graficos/modelo_sal.pdf}
+
+

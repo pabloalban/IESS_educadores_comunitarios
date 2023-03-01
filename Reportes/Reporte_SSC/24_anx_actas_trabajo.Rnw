@@ -1,0 +1,125 @@
+\pagestyle{repchapstyle_acta}
+\newgeometry{top=2cm, bottom=2.5cm, left=2cm, right=2cm}
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\tabcolsep{2pt}
+\setlength\aboverulesep{-0.5pt} % para colorear sobre la linea y celda
+\setlength\belowrulesep{0pt}
+%\setlength\LTright{-0.2in}
+%\fontsize{8}{12}\selectfont
+\begin{longtable}[H]{R{2cm}!{\color{white}\vrule}
+                     R{4cm}!{\color{white}\vrule}
+                     R{6cm}!{\color{white}\vrule}
+                     R{4cm}}
+%\caption{Evolución Histórica de Asegurados por Tipo}\\
+
+%\label{tab:iess_daie_asegurados_evo_hist_2021} \\
+
+\toprule\arrayrulecolor{black}
+& 
+\multicolumn{3}{c!{\color{white}\vrule}}{\bfseries\parbox{10cm}{\centering \vspace{1mm} INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL\\DIRECCIÓN ACTUARIAL, DE INVESTIGACIÓN Y ESTADÍSTICA\vspace{1mm} }}\\
+
+\cmidrule{2-4}
+&
+\multicolumn{3}{c!{\color{white}\vrule}}{\bfseries\parbox{10cm}{\centering \vspace{1mm} VALUACIÓN ACTUARIAL DEL SEGURO SOCIAL CAMPESINO AL 31/12/2020\vspace{1mm} }}\\
+
+\cmidrule{2-4}
+% \parbox{2cm}{\centering\vspace{-1.2cm}\includegraphics[width=0.055\textwidth]{graficos/logo_iess_azul.png}}
+% & \multicolumn{3}{c!{\color{white}\vrule}}{\bfseries\parbox{10cm}{\centering \vspace{1mm} ACTA DE TRABAJO \\ Nro. IESS-DAIE-2021-001\vspace{1mm} }}\\
+\input{tablas/iess_acta_num.tex}
+
+\bottomrule
+\endfirsthead
+
+\toprule
+
+\toprule
+& 
+\multicolumn{3}{c!{\color{white}\vrule}}{\bfseries\parbox{10cm}{\centering \vspace{1mm} INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL\\DIRECCIÓN ACTUARIAL, DE INVESTIGACIÓN Y ESTADÍSTICA\vspace{1mm} }}\\
+
+\cmidrule{2-4}
+&
+\multicolumn{3}{c!{\color{white}\vrule}}{\bfseries\parbox{10cm}{\centering \vspace{1mm} VALUACIÓN ACTUARIAL DEL SEGURO SOCIAL CAMPESINO AL 31/12/2020\vspace{1mm} }}\\
+
+\cmidrule{2-4}
+\parbox{2cm}{\centering\vspace{-1.2cm}\includegraphics[width=0.055\textwidth]{graficos/logo_iess_azul.png}}
+& \multicolumn{3}{c!{\color{white}\vrule}}{\bfseries\parbox{10cm}{\centering \vspace{1mm} ACTA DE TRABAJO \\ Nro. IESS-DAIE-2022-001\vspace{1mm} }}\\
+
+\bottomrule
+\endhead
+
+\bottomrule
+%\multicolumn{14}{r}{continúa en la página siguiente...} \\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+&&&\\
+\arrayrulecolor{black}
+\toprule\rowcolor{iess_green!60}
+\multicolumn{4}{c!{\color{white}\vrule}}{\textbf{INFORMACIÓN GENERAL}}\\
+
+\hline
+\input{tablas/iess_acta_linea1.tex}
+
+\hline
+\input{tablas/iess_acta_linea2.tex}
+
+\hline
+\textbf{Tema:} \input{tablas/iess_acta_tema.tex}
+\bottomrule
+
+&&&\\
+
+\toprule\rowcolor{iess_green!60}
+  \textbf{Nro}
+& \textbf{Nombre}
+& \textbf{Dependencia}
+& \textbf{Cargo} \\
+
+\hline 
+\input{tablas/iess_acta_participantes.tex}
+
+\bottomrule
+&&&\\
+ 
+\toprule\rowcolor{iess_green!60}
+% \multicolumn{4}{c!{\color{iess_green!60}\vrule}}{\textbf{AGENDA}}\\
+% \hline
+% \input{tablas/iess_acta_agenda.tex}
+% \hline\rowcolor{iess_green!60}
+\multicolumn{4}{c!{\color{iess_green!60}\vrule}}{\textbf{RESUMEN DE LA REUNIÓN}}\\
+\hline
+\input{tablas/iess_acta_resumen.tex}
+\bottomrule
+
+&&&\\
+\toprule\rowcolor{iess_green!60}
+\multicolumn{4}{c!{\color{iess_green!60}\vrule}}{\textbf{COMPROMISOS}}\\
+\hline
+\textbf{Nro.}
+& \textbf{Actividad}
+& \textbf{Responsables}
+& \textbf{Fecha Tentativa}\\
+\hline
+\input{tablas/iess_acta_compromisos.tex}
+\bottomrule
+
+&&&\\
+\toprule\rowcolor{iess_green!60}
+\multicolumn{4}{c!{\color{iess_green!60}\vrule}}{\textbf{FIRMAS DE ASISTENCIA}}\\
+\hline
+\textbf{Nro.}
+& \textbf{Nombres}
+& \textbf{Correo}
+& \textbf{Firma}\\
+\hline
+\input{tablas/iess_acta_firma.tex}
+\bottomrule
+
+
+
+
+\end{longtable}
+\endgroup

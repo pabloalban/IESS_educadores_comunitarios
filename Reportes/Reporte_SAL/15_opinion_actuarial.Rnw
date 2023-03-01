@@ -1,0 +1,28 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Responsabilidad actuarial}
+\label{chp_opinion}
+
+
+La fecha corte del estudio es al 31 de diciembre de 2020, con un periodo de proyección de \Sexpr{REP$horizonte} años, 
+hasta el 2030.
+
+El presente estudio es responsabilidad del Director Actuarial, de Investigación y Estadística.
+
+
+Quito, \Sexpr{REP_fec_dia_corre} de \Sexpr{REP_fec_mes_corre_l} de \Sexpr{REP_fec_anio_corre} \\
+
+\vspace{2cm}
+Atentamente,
+
+
+\vspace{2cm}
+% \begin{figure}[H]
+% 	\centering
+% 		\includegraphics[scale=0.28]{graficos/firma_actuario.png}
+% 	\end{figure}
+\vspace{-2cm}
+\begin{center}
+\textbf{Ramiro Vega Suárez, Lic.} \\
+Director Actuarial, de Investigación y Estadística \\
+Instituto Ecuatoriano de Seguridad Social
+\end{center}

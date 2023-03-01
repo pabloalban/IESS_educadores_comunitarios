@@ -1,0 +1,21 @@
+\chapter{Anexos: Modelo Actuarial}
+\label{chap_modelo}
+
+A continuación se presenta la formulación matemática del modelo actuarial ILO Actuarial Pension Model.
+
+\includepdf[pages={1-22},noautoscale]{graficos/modelo.pdf}
+
+\begin{landscape}
+\includepdf[pages={23-36},noautoscale,angle=90]{graficos/modelo.pdf}
+\end{landscape}
+
+
+\includepdf[pages={37-48},noautoscale]{graficos/modelo.pdf}
+
+
+\begin{landscape}
+\includepdf[pages={49-53},noautoscale,angle=90]{graficos/modelo.pdf}
+\end{landscape}
+
+\includepdf[pages={54-55},noautoscale]{graficos/modelo.pdf}
+

@@ -1,0 +1,98 @@
+\pagestyle{repstyle}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+%---------------------------------------------------------------------------------------------------
+\chapter{Resumen ejecutivo}
+\label{chp_res_ejec}
+
+El artículo 45 de la Ley de Seguridad Social establece que la Dirección Actuarial, de Investigación y Estadística tiene a su cargo la preparación de los balances actuariales de cada uno de los regímenes de protección del Seguro General Obligatorio. Mientras que, el artículo 1 del Capítulo V, Normas para la Presentación de Balances Actuariales del IESS, del Título III, Operaciones del IESS, ISSFA, ISSPOL, del Libro II, Normas de Control para la Entidades del Sistema de Seguridad Social, de la Codificación de las Normas de la Superintendencia de Bancos, Resolución de la Superintendencia de Bancos Nro. SB-2017-810, establece que el Director General del IESS presentará a la Superintendencia de Bancos, por lo menos cada tres años, o cuando se requieran ampliar coberturas o mejorar prestaciones, los balances actuariales por régimen o seguros elaborados por el Director Actuarial del IESS y aprobados previamente por actuarios externos independientes calificados por la Superintendencia de Bancos.
+
+La valuación actuarial del Fondo del Seguro General de Salud Individual y Familiar (SGSIF) con fecha de corte al 31 de diciembre de 2020 y horizonte de análisis de \Sexpr{REP_hor} años, se basó en los estados financieros oficiales del Fondo del SGSIF y determinó que el modelo de negocio del Seguro de Salud es como el de una prestadora de servicios de salud con recursos ilimitados, donde la estructura de la información de las prestaciones médicas es como la de un gran hospital centrada en resaltar la producción del mismo; la Auditoría Financiera DNA7-SySS-0006-2022 realizada por la Contraloría General del Estado a los estados financieros por el año terminado al 31 de diciembre de 2020, por el período comprendido entre el 1 de enero de 2020 y el 31 de diciembre de 2020 determinó que no permiten una adecuada interpretación para la toma de decisiones y acciones correctivas; el Informe de Estados Financieros 2017 – 2020 del Fondo del Seguro de Salud Individual y Familiar, elaborado por la Subdirección Financiera Nacional del Seguro de Salud y revisado por la Dirección del Seguro General de Salud Individual y Familiar, en la pagina 4 indica que ``Entre este subgrupo, se registra los anticipos realizados a la ``Unidades Médicas'' para que puedan cubrir sus obligaciones por la compra de bienes y servicios; y, otorgar atención médica a los afiliados, los cuales al 2020 suman USD 6.350 millones y se liquidarán mediante la facturación con pertinencia médica proceso en el cual continúa con el retraso aproximado de 5c años, razón por la cual, no pueden ser liquidada esta cuenta por cobrar, con el correspondiente registro del gasto, siendo la ejecución presupuestaria irreal y los estados financieros no reflejan la verdadera situación patrimonial en cada ejercicio económico''; que los estados financieros oficiales del Fondo del SGSIF no muestran la situación real de este fondo puesto que los recursos destinados para la atención médica de pensionistas del Seguro General Obligatorio, de asegurados del Seguro Social Campesino, de enfermedades catastróficas y otros se registran como gastos prestacionales del Fondo del SGSIF, cuando deben ser registrados como cuentas por cobrar al Estado, al Seguro Social Campesino y otros; y, cuando éstos transfieran los recursos por dichos rubros, se debe registrar como ingresos por servicios prestados; que los estados financieros del Fondo del SGSIF se alejan de los principios contables “esencia sobre la forma” y “precio de intercambio” establecidos en el Catálogo Único de Cuentas emitido por la Superintendencia de Bancos; que los estados financieros del Fondo del SGSIF consideran a la cuenta Anticipo Unidades Médicas como una cuenta por cobrar, cuando su esencia es ser un gasto prestacional en caso de afiliados, e ingresos por servicios prestados a terceros en caso de jubilados y enfermedades catastróficas; que la auditoría médica de la calidad de la facturación tiene retraso de varios años, es un proceso lento, heterogéneo y poco transparente; que el Tarifario emitido por el Ministerio de Salud Pública subfactura varios procedimientos y servicios médicos realizados en las unidades médicas del IESS, a muchos de los cuales los considera como de segundo nivel cuando en la realidad son de tercer nivel; que varios procedimientos y servicios médicos realizados en las unidades médicas del IESS no están incluídos en el Tarifario emitido por el Ministerio de Salud Pública; que los estados financieros de las unidades médicas y del Fondo del SGSIF se realizan en sistemas diferentes que utilizan catálogos de cuentas diferentes, que imposibilitan su homologación y desagregar los gastos por prestaciones médicas por tipo de seguro y tipo de asegurado; que la información histórica de las prestaciones médicas entregadas se almacenan en tres bases de datos con estructuras diferentes, con múltiples errores  e incongruencias, lo que complica su consolidación y procesamiento; que el Ministerio de Salud Pública, el Ministerio de Economía y Finanzas y el IESS no han definido el listado de diagnósticos CIE10 considerados como enfermedades catastróficas y no han definido la metodología para establecer qué prestaciones médicas son consideradas como enfermedades catastróficas en función de los diagnósticos definitivos, presuntivos y procedimientos asociados con enfermedades catastróficas; que el IESS no ha cobrado al Ministerio de Salud Pública por las prestaciones médicas auditadas por enfermedades catastróficas y por las prestaciones médicas auditadas a personas no aseguradas al IESS; que los seguros de Salud y de Riesgos del Trabajo no han definido la metodología para identificar las prestaciones médicas que tienen origen en accidentes laborales y enfermedades profesionales. Adicionalmente, esta valuación actuarial evaluó dos escenarios, denominados Pesimista y Legal.
+
+Se valuaron cuatro escenarios suponiendo que en los próximos diez años la dolarización se mantendrá, que no habrá pandemias de ningún tipo, una inflación de \Sexpr{REP$inflacion}\%, una tasa de crecimiento de los salarios de \Sexpr{REP$cre_salarios}\%, una tasa de crecimiento del salario básico unificado de \Sexpr{REP$cre_sbu}\% y una tasa actuarial de \Sexpr{REP$tasa_act}\%:
+
+\begin{itemize}
+\item Escenario Pesimista: suponiendo además que el Estado no cubrirá todas las prestaciones médicas de pensionistas, tanto catastróficas como no catastróficas, y las prestaciones médicas por enfermedades catastróficas de afiliados, hijos menores de 18 años y extensión de cobertura; y que el patrimonio incial es el reportado por los estados financieros oficiales de UDS. 8.708.847.481. En este escenario se determinó que:
+
+\begin{enumerate}
+\item Que el último año con reserva positiva sería el año 2030;
+
+\item El superávit actuarial de los próximos diez años alcanza los USD \Sexpr{REP$bal_act_esc_1}.%, es decir, un $21,53\%$ del PIB del año 2020;
+
+\item la prima media nivelada para cubrir los gastos por prestaciones médicas en los próximos 10 años es de \Sexpr{REP$total_esc_1}\%, distribuida de la siguiente manera:
+
+\begin{enumerate}
+
+\item \Sexpr{REP$jubilados_esc_1}\% por prestaciones médicas a pensionsitas del SGO, donde \Sexpr{REP$jubilados_cat_esc_1}\% corresponde a enfermedades catastróficas y \Sexpr{REP$jubilados_nocat_esc_1}\% a enfermedades no catastróficas;
+\item \Sexpr{REP$hijos_esc_1}\% por prestaciones médicas a hijos menores de 18 años, donde \Sexpr{REP$hijos_cat_esc_1}\% corresponde a enfermedades catastróficas y \Sexpr{REP$hijos_nocat_esc_1}\% a enfermedades no catastróficas;
+\item \Sexpr{REP$afi_otros_cat_esc_1}\% por prestaciones médicas por enfermedades catastróficas de afiliados activos, extensión de cobertura y montepío por viudedad; y
+\item \Sexpr{REP$afi_otros_nocat_esc_1}\% por prestaciones médicas por enfermedades no catastróficas de afiliados activos, extensión de cobertura y montepío por viudedad.
+
+\end{enumerate}
+
+\end{enumerate}
+
+\item Escenario Legal: suponiendo además que el Estado cubrirá todas las prestaciones médicas de pensionistas, tanto catastróficas como no catastróficas, y las prestaciones médicas por enfermedades catastróficas de afiliados, hijos menores de 18 años y extensión de cobertura; y que el patrimonio incial es el reportado por los estados financieros oficiales de UDS. 8.708.847.481. En este escenario se determinó que:
+
+\begin{enumerate}
+\item Que el último año con reserva positiva sería el año 2030;
+
+\item El superávit actuarial de los próximos diez años alcanza los USD \Sexpr{REP$bal_act_esc_2}. %, es decir, un $21,53\%$ del PIB del año 2020;
+
+\item la prima media nivelada para cubrir los gastos por prestaciones médicas en los próximos 10 años es de \Sexpr{REP$total_legal_esc_2}\%, distribuida de la siguiente manera:
+
+\begin{enumerate}
+
+\item \Sexpr{REP$hijos_nocat_esc_2}\% por prestaciones médicas por enfermedades no catastróficas a hijos menores de 18 años; y
+\item \Sexpr{REP$afi_otros_nocat_esc_1}\% por prestaciones médicas por enfermedades no catastróficas de afiliados activos, hijos menores de edad, extensión de cobertura y montepío por viudedad.
+
+\end{enumerate}
+
+\end{enumerate}
+
+\item Escenario alternativo I: suponiendo además que el Estado no cubrirá todas las prestaciones médicas de pensionistas, tanto catastróficas como no catastróficas, y las prestaciones médicas por enfermedades catastróficas de afiliados, hijos menores de 18 años y extensión de cobertura; y que el patrimonio incial es el saldo registrado en el BIESS de USd. 489.002.158. En este escenario se determinó que:
+
+\begin{enumerate}
+\item Que el último año con reserva positiva sería el año 2020;
+
+\item El déficit actuarial de los próximos diez años alcanza los USD \Sexpr{REP$bal_act_esc_3}., es decir, un $7,19\%$ del PIB del año 2020;
+
+\item la prima media nivelada para los próximos 10 años es de \Sexpr{REP$total_esc_3}\%, distribuida de la siguiente manera:
+
+\begin{enumerate}
+
+\item \Sexpr{REP$jubilados_esc_3}\% por prestaciones médicas a pensionsitas del SGO, donde \Sexpr{REP$jubilados_cat_esc_3}\% corresponde a enfermedades catastróficas y \Sexpr{REP$jubilados_nocat_esc_3}\% a enfermedades no catastróficas;
+\item \Sexpr{REP$hijos_esc_3}\% por prestaciones médicas a hijos menores de 18 años, donde \Sexpr{REP$hijos_cat_esc_3}\% corresponde a enfermedades catastróficas y \Sexpr{REP$hijos_nocat_esc_3}\% a enfermedades no catasatróficas;
+\item \Sexpr{REP$afi_otros_cat_esc_3}\% por prestaciones médicas por enfermedades catastróficas de afiliados activos, extensión de cobertura y montepío por viudedad; y
+\item \Sexpr{REP$afi_otros_nocat_esc_3}\% por prestaciones médicas por enfermedades no catastróficas de afiliados activos, extensión de cobertura y montepío por viudedad.
+
+\end{enumerate}
+
+\end{enumerate}
+
+\item Escenario alternativo II: suponiendo además que el Estado cubrirá todas las prestaciones médicas de pensionistas, tanto catastróficas como no catastróficas, y las prestaciones médicas por enfermedades catastróficas de afiliados, hijos menores de 18 años y extensión de cobertura; y que el patrimonio incial es el saldo registrado en el BIESS de USd. 489.002.158. En este escenario se determinó que:
+
+\begin{enumerate}
+\item Que el último año con reserva positiva sería el año 2030;
+
+\item El superávit actuarial de los próximos diez años alcanza los USD \Sexpr{REP$bal_act_esc_4}. %, es decir, un $21,53\%$ del PIB del año 2020;
+
+\item la prima media nivelada para cubrir los gastos por prestaciones médicas en los próximos 10 años es de \Sexpr{REP$total_legal_esc_4}\%, distribuida de la siguiente manera:
+
+\begin{enumerate}
+
+\item \Sexpr{REP$hijos_nocat_esc_4}\% por prestaciones médicas por enfermedades no catastróficas a hijos menores de 18 años; y
+\item \Sexpr{REP$afi_otros_nocat_esc_4}\% por prestaciones médicas por enfermedades no catastróficas de afiliados activos, extensión de cobertura y montepío por viudedad.
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{itemize}
+
+Esta valuación actuarial recomienda que el modelo de negocio del Seguro de Salud pase de un modelo de prestadora de servicios de salud con recursos ilimitados a un modelo de aseguradora pública guiada por una gestión periódica de riesgos; clasificar anualmente a los asegurados en grupos de riesgos mediante la evaluación anual de factores de riesgo como, por ejemplo, peso, estatura, presión arterial, si fuma, si hace ejercicio regularmente, colesterol, azucar en la sangre, etc.; definir políticas que eviten que asegurados clasificados en grupos de riesgos bajos pasen a grupos de riesgos altos y políticas que hagan que asegurados clasificados en grupos de riesgos altos pasen a grupos de riesgos bajos; establecer primas diferenciadas de tal manera que la prima que coticen los asegurados clasificados en grupos de riesgos altos sea mayor a la prima que coticen los asegurados clasificados en grupos de riesgos bajos; limitar beneficios en base a métodos estadísticos en las enfermedades que sea factible; que la estructura de las bases de datos que almacenan el histórico de prestaciones médicas entregadas pase de una estructura de base de datos de un gran hospital, centrada en resaltar la producción de este gran hospital, a una estructura de base de datos de una aseguradora pública, centrada en los asegurados, su siniestralidad y la severidad de los siniestros; asignar a los contactos de salud que hacen los asegurados con las unidades médicas, tanto internas como externas, un código único, y registrar los procedimientos médicos que surgen de estos contactos de salud con este código único; que tanto las unidades médicas, internas como externas, y el Fondo del SGSIF utilicen el mismo sistema contable y el mismo catálogo de cuentas que permitan conocer las prestaciones médicas por tipo de seguro y tipo de asegurado; registrar en los estados financieros oficiales del Fondo del SGSIF los recursos destinados para la atención médica de pensionistas del Seguro General Obligatorio, de asegurados del Seguro Social Campesino, de enfermedades catastróficas y otros como cuentas por cobrar al Estado, al Seguro Social Campesino y otros; y, cuando éstos transfieran los recursos por dichos rubros, se debe registrar estas transferencias como ingresos por servicios prestados; que los balances financieros del Fondo del SGSIF sigan los principios contables “esencia sobre la forma” y “precio de intercambio” establecidos en el catálogo de Cuentas emitido por la Superintendencia de Bancos; los estados financieros del Fondo del SGSIF deben ser reexpresados, y la contabilidad debe ser mejorada y especializada; realizar la auditoría de la calidad de la facturación utilizando métodos estadísticos de tal manera que este proceso sea más rápido, eficiente y transparente; cambiar la modalidad de pago del Estado por primas por atenciones médicas a pensionsitas y por atenciones médicas por enfermedades catastróficas; gestionar con el Ministerio de Salud Pública un Tarifario propio del IESS en función de su realidad; gestionar con el Ministerio de Finanzas y el Ministerio de Salud Pública la definición del listado de códigos CIE10 de enfermedades catastróficas, y la metodología para establecer las prestaciones médicas consideradas como enfermedades catastróficas en base a los tres diagnósticos definitivos, los tres diagnósticos presuntivos, y los procedimientos asociados con enfermedades catastróficas; que sean las máximas autoridades del IESS las que gestionen con el Ministerio de Salud Pública el pago de las prestaciones médicas auditadas por enfermedades catastróficas y por prestaciones médicas auditadas a personas que no son aseguradas del IESS, y no las propias unidades médicas; definir, junto con el Seguro de Riesgos del Trabajo, un mecanismo para identificar los procedimientos médicos que tienen origen en accidentes laborales y enfermedades profesionales, para que el Seguro General de Riesgos del Trabajo cubra estas atenciones; coordinar con el Ministerio de Salud Pública la incorporación dentro del tarifario de 
+procedimientos o servicios médicos no contemplados actualmente como son exámenes de biología 
+molecular, genética, tomografía con emisión de positrones, etc., que son de alta complejidad y costo; 
+esto permitirá la facturación y pago de estos servicios; implementar un control continuo de las enfermedades de alto costo como cáncer, enfermedades coronarias, insuficiencia renal crónica, trasplantes, etc., puesto que gran parte de la facturación corresponde a estas entidades nosológicas y muchos pacientes son referidos a unidades externas para su manejo, lo que provoca la erogación de ingentes recursos para su tratamiento.
+
+

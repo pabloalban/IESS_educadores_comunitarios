@@ -1,0 +1,1242 @@
+\restoregeometry
+%---------------------------------------------------------------------------------------------------
+\chapter{Modelo actuarial}
+\label{chp_modelo}
+
+El 12 de octubre del 2018, el Instituto Ecuatoriano de Seguridad Social (IESS) y la Organización Internacional del Trabajo (OIT), suscribieron un convenio de Cooperación Interinstitucional con el objetivo de establecer un mecanismo de cooperación técnica especializada para la ejecución de un “Programa de Asistencia Técnica para la Seguridad Social – PATSS”.
+
+Dicho programa contempla varios objetivos para mejorar los principales procesos del sistema de seguridad social, entre ellos la Gestión Actuarial, de Investigación y Estadística.
+
+En este marco, el módulo 4 del PATSS, brindó la asistencia técnica de la OIT en la elaboración de los estudios actuariales de los fondos de pensiones y de salud, implementando las metodologías ILO/PENSIONS en el Estudio Actuarial del Seguro de IVM y el modelo ILO/HEALTH en el Estudio Actuarial del fondo de Salud Individual y Familiar.
+
+Por lo anterior, con el fin de emplear la metodología aprendida, se ha utilizado el modelo ILO/PENSIONS para obtener las proyecciones demográficas y financieras del componente de pensiones para el Estudio Actuarial del Seguro Social Campesino. Sin embargo, el modelo ILO/HEALTH no puede ser utilizado para analizar la parte referente a salud, debido a que el horizonte de proyección es solo a 10 años, cuando el horizonte requerido en esta valuación actuarial es a \Sexpr{REP_hor} años.
+
+\section{Principales notaciones}\label{chp:notacion}
+
+Antes de proceder con los análisis, es necesario consolidar la notación que se utilizará a lo largo
+del presente documento.  Muchos de los símbolos aquí presentados, son parte de la notación actuarial
+aceptada a nivel internacional\footnote{Más detalles al respecto se pueden consultar en obras como
+\textcite{ActMath:1997, ActMathLifContRisk:2013, MLCManual:2014, Prob:Ross:2015} o
+\textcite{ReaAnaProb:1972}.}.
+\begingroup
+\hspace*{1cm}
+\renewcommand\arraystretch{1.5}
+\begin{longtable}{rp{12cm}}
+\endfirsthead
+
+\endhead
+
+\endfoot
+
+\endlastfoot
+% $\sum\limits_{i=1}^n x_i$ & Sumatoria de los objetos $x_i$ indexados por $i$ desde $1$ hasta $n$.\\
+% 
+% $X$, $Y$ & Variables aleatorias a valores reales.\\
+% 
+% $U'$ & Traspuesta de la matriz $U$. \\
+% 
+% $\mathbb{E}[X]$ & Esperanza matemática de la variable aleatoria $X$.\\
+% 
+% $\mathbb{E}[X \mid Y]$ & Esperanza matemática condicional de $X$ dado $Y$.\\
+% 
+% $\mathbb{V}[X]$ & Varianza matemática de la variable aleatoria $X$.\\
+% 
+% $\mathbb{V}[X \mid Y]$ & Varianza matemática condicional de $X$ dado $Y$.\\
+% 
+% $\mathbb{P}(A)$ & Medida de probabilidad del evento $A$.\\
+% 
+% $\overline{X}$ & Esperanza empírica (valor promedio) de las observaciones de la variable 
+% aleatoria $X$. \\
+% 
+% $\sigma^2_X$ & Varianza empírica de las observaciones de la variable aleatoria $X$. \\
+% 
+% $X_{pn}$ & Percentíl $n$-ésimo de las observaciones de la variable aleatoria $X$. \\
+% 
+% $\mathds{1}_A(u)$ & Función indicatriz que toma el valor 1 cuando 
+% $u \in A$ y 0 cuando $u \notin A$.\\
+% 
+$x$ & Edad de una persona.\\
+
+$\omega$ & Edad máxima que puede alcanzar cualquier persona considerada en el análisis.\\
+
+$g$ & Variable indicadora del sexo de una persona: mujer = 1, hombre = 2.\\
+
+$t$ & Variable que representa el tiempo, usualmente medido en años. \\
+
+$T$ & Horizonte de proyección, usualmente medido en años.\\
+
+% $\mu^{i,j}_{t,g,x}$ & Fuerza de transición inmediata desde el estado $i$ hacia el estado $j$, 
+% en el tiempo $t$, para una persona de sexo $g$ y edad $x$. \\
+% 
+% $U_{t,g,x}$ & Matriz compuesta por las fuerzas de transición inmediata en el 
+% tiempo $t$, para una persona de sexo $g$ y edad $x$: \\ 
+% & \multicolumn{1}{c}{$U_{t,g,x} = [\mu^{i,j}_{t,g,x}]$} \\
+% 
+% $p^{i,j}_{t,g,x}(s)$ & Probabilidad de transición del estado $i$ al estado $j$ en $s$ años, medida 
+% en el tiempo $t$ para una persona de sexo $g$ y edad $x$. \\
+% 
+% $N^{i,j}_{t,g,x}$ & Número de transiciones del estado $i$ al estado $j$ en el año $t$, de las 
+% personas de sexo $g$ y edad $x$. \\
+% 
+% $P_{t,g,x}(s)$ & Matriz de probabilidades de transición en $s$ años, medida en el 
+% tiempo $t$ para una persona de sexo $g$ con edad $x$. \\
+% & \multicolumn{1}{c}{$P_{t,g,x}(s) = [p^{i,j}_{t,g,x}(s)]$} \\
+
+$l^i_{t,g,x}$ & Número de personas de sexo $g$ y edad $x$, en el estado $i$ en el tiempo $t$, .\\
+
+% $l_{t,g,x}$ & Vector del número de personas de sexo $g$ y edad $x$, en el estado $i$, en el 
+% tiempo $t$.\\
+% & \multicolumn{1}{c}{$l_{t,g,x} = (l^1_{t,g,x}, \ldots, l^n_{t,g,x})'$} \\
+
+% $ER^i_{t,g,x}$ & Número de personas expuestas al riesgo de sexo $g$ y edad $x$, en el estado $i$ en
+% el tiempo $t$.\\
+
+% $S_{t,g,x}$ & Salario de personas de sexo $g$ y edad $x$ en el tiempo $t$.\\
+
+$i_a$ & Tasa actuarial utilizada para el cálculo de los factores de actualización 
+financiera--actuarial, considerando la ley de interés compuesto.\\
+
+$i_r$ & Tasa de crecimiento de salarios. \\
+
+$i_s$ & Tasa de crecimiento del salario básico unificado. \\
+
+$i_p$ & Tasa de crecimiento de las pensiones. \\
+
+$i_f$ & Tasa de crecimiento auxilio para funerales. \\
+
+$v$ & Factor anual de actualización financiera. \\
+& \multicolumn{1}{c}{$v = \frac{1}{1+i_a}$} \\
+
+$u$ & Factor anual de capitalización financiera. \\
+& \multicolumn{1}{c}{$u = 1+i_a$} \\
+
+$A_t$ & Total de ingresos por aportes en el tiempo $t$.\\
+
+$B_t$ & Total de egresos por pago de beneficios en el tiempo $t$.\\
+
+$G_t$ & Total de egresos por gastos administrativos en el tiempo $t$.\\
+
+$V_t$ & Balance actuarial en el tiempo $t$. \\
+
+\end{longtable}
+\endgroup
+
+\section{Selección del modelo actuarial}\label{chap_modelo:sel_modelo}
+Durante el transcurso natural de la vida, la población amparada por el \Sexpr{REP_seg} puede
+atravesar diferentes situaciones que denominamos \emph{estados}, tales como afiliación,
+no-afiliación, jubilación por vejez, jubilación por invalidez y muerte. 
+
+El cambio de un individuo desde un estado a otro, lo denominamos \textit{transición} y el proceso se
+realiza con la \textit{salida} de un estado y \textit{entrada} a otro. El paso de un estado a otro se mide mediante las \textit{tasas de transición}, mismas que permiten cuantificar el número aleatorio de entradas y salidas de cada estado considerado.  
+
+Las tasas de transición están principalmente determinadas por tres variables:
+\vspace{-0.3cm}
+\begin{itemize}
+\item tiempo en el cual ocurre el evento, % (e.g. hoy vs. 20 años después)
+\item sexo, y
+\item edad.
+\end{itemize}
+\vspace{-0.3cm}
+Con base en las tasas de transición, el modelo utilizado para el componente de pensiones del \Sexpr{REP_seg} corresponde al proporcionado dentro de la plataforma ILO/PENSIONS, de conformidad con el módulo 4 del PATSS (Véase el anexo \ref{anx:sec_modelo_actuarial}).
+
+Los \emph{estados} que describirán nuestro modelo, los definimos y notamos de la manera siguiente:
+\begin{itemize}
+\item 1 = fuerza laboral empleada no afiliada
+\item 2 = afiliado activo
+\item 3 = jubilado por vejez
+\item 4 = jubilado por invalidez
+\item 5 = muerte
+\item 6 = dependientes hijos
+\item 7 = dependientes cónyuges
+\item 8 = pensionista de montepío por orfandad
+\item 9 = pensionista de montepío por viudez
+\end{itemize}
+
+Y por lo tanto, las \emph{transiciones} que definirán el modelo son las siguientes:
+\begin{itemize}
+\item $1 \rightarrow 2$: Transición desde fuerza laboral empleada no afiliada hacia 
+afiliado activo.
+\item $1 \rightarrow 5$: Transición desde fuerza laboral empleada no afiliada hacia muerto.
+\item $2 \rightarrow 3$: Transición desde afiliado hacia pensionado por vejez.
+\item $2 \rightarrow 4$: Transición desde afiliado hacia pensionado por invalidez.
+\item $2 \rightarrow 5$: Transición desde afiliado hacia muerto.
+\item $3 \rightarrow 5$: Transición desde pensionado por vejez hacia muerto.
+\item $4 \rightarrow 5$: Transición desde pensionado por invalidez hacia muerto.
+\item $6 \rightarrow 5$: Transición desde dependientes hijos hacia muerto.
+\item $7 \rightarrow 5$: Transición desde dependientes cónyuges hacia muerto.
+\item $8 \rightarrow 5$: Transición desde pensionado de montepío por orfandad hacia muerto.
+\item $9 \rightarrow 5$: Transición desde pensionado de montepío por viudedad hacia muerto.
+\end{itemize}
+
+
+\section{Supuestos demográficos}
+De una población total por sexo, la fuerza de trabajo se extrae mediante la aplicación de la tasa de participación\footnote{La tasa de participación se define como la PEA rural sobre la Población rural}. La fuerza de trabajo comprende dos grupos: los empleados y desempleados. La multiplicación de la fuerza de trabajo por uno menos la tasa de desempleo\footnote{La tasa de desempleo se define como la mediana de los registros históricos de las tasas de desempleo rural, a diciembre de cada año, disponible en el INEC} da como resultado la población empleada. Finalmente, la proporción de la población empleada con cobertura para vejez o invalidez por parte del \Sexpr{REP_seg}  es la tasa de cobertura (Véase la tabla \ref{tab:iess_pop_cov_pob_total}).
+
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \captionsetup{justification=centering, width=1\textwidth}
+  \caption{Población con cobertura como grupo de un subconjunto de la población total rural}
+  \label{tab:iess_pop_cov_pob_total}
+  {\fontsize{6.5}{7}\selectfont
+
+  \arrayrulecolor{black}
+  \begin{tabular}{R{2.0cm}!{\color{white}\vrule width 5pt}
+                  r!{\color{white}\vrule width 5pt}
+                  r!{\color{white}\vrule width 5pt}
+                  r!{\color{white}\vrule width 5pt}
+                  r}
+    \toprule \rowcolor{iess_green!80}
+     \multicolumn{5}{c}{} \\[-1.5ex]
+     \rowcolor{iess_green!80}
+     \multicolumn{5}{c}{Población Nacional Rural} \\[1.5ex]
+     
+     \arrayrulecolor{white}
+     \rowcolor{iess_green!70} \hline\hline
+     
+     \cellcolor{gray!40}& \multicolumn{4}{c}{} \\[-1.5ex]
+     \rowcolor{iess_green!70}
+     \cellcolor{gray!40}& \multicolumn{4}{c}{Población en edad de trabajar rural} \\[2ex]
+     \cmidrule{2-5}\rowcolor{white}
+     \cellcolor{gray!40}& \multicolumn{4}{c}{} \\[-2ex]
+    
+     
+     \cmidrule{2-5}\rowcolor{iess_green!60}
+     \cellcolor{gray!40}&\cellcolor{gray!40} & \multicolumn{3}{c}{} \\[-1.5ex]
+     \rowcolor{iess_green!60}
+     \cellcolor{gray!40}&\cellcolor{gray!40} & \multicolumn{3}{c}{Fuerza de trabajo rural} \\[2ex]
+     \cmidrule{3-5}\rowcolor{white}
+     \cellcolor{gray!40}&\cellcolor{gray!40} & \multicolumn{3}{c}{} \\[-2ex]
+     
+     \cmidrule{3-5}\rowcolor{iess_green!40}
+     \cellcolor{gray!40}&\cellcolor{gray!40} &\cellcolor{gray!40} & \multicolumn{2}{c}{} \\[-1.5ex]
+     \rowcolor{iess_green!40}
+     \cellcolor{gray!40}&\cellcolor{gray!40} &\cellcolor{gray!40} & \multicolumn{2}{c}{Empleados} \\[2ex]
+     \cmidrule{4-5}\rowcolor{white}
+     \cellcolor{gray!40}&\cellcolor{gray!40} &\cellcolor{gray!40} & \multicolumn{2}{c}{} \\[-2ex]
+     
+     \cmidrule{4-5}\rowcolor{iess_green!20}
+     \cellcolor{gray!40}&\cellcolor{gray!40} &\cellcolor{gray!40} &\cellcolor{gray!40} &\cellcolor{iess_blue!30} \\[-1.5ex]
+     \rowcolor{iess_green!20}
+      \cellcolor{gray!40}\parbox{2.0cm}{\vspace{-2.0cm}\centering Edad no laboral } 
+     & \cellcolor{gray!40}\parbox{2.0cm}{\vspace{-1.5cm}\centering Inactivos } 
+     & \cellcolor{gray!40} \parbox{2.0cm}{\vspace{-0.7cm}\centering Desempleados} 
+     & \cellcolor{gray!40} Sin Cobertura
+     & \cellcolor{iess_blue!30}Con Cobertura \\[2ex]
+     
+  \arrayrulecolor{black} \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Fuente:} User Manual ILO/PENSIONS Actuarial Model. \\
+  \textbf{Elaborado:} DAIE.}
+\endgroup
+\end{table}
+
+
+%La proyección de la población rural y población economicamente activa rural se  sigue de las estimaciones elaboradas por el CELADE\footnote{https://www.cepal.org/es/temas/proyecciones-demograficas/estimaciones-proyecciones-excel}.
+
+A continuación, en la figura \ref{fig:iess_tcv} se presenta la  tasa de cobertura (histórica y su respectiva proyección) sobre la fuerza laboral empleada para la población del \Sexpr{REP_seg}.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Tasa de cobertura histórica y su proyección para el SSC ambos sexos}
+\label{fig:iess_tcv}
+\includegraphics[ scale = 0.65 ]{graficos/iess_tc_ssc.png}
+\caption*{\scriptsize \hspace{1cm}
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+Desde el año \Sexpr{REP_anio_ini} hasta el \Sexpr{REP_anio_fin} se propone que la tasa de cobertura para ambos sexos aumente de manera lineal y llega a ser del \Sexpr{REP$tc}\% en promedio geométrico. Esta tasa permitirá
+estimar un crecimiento promedio geométrico anual en el número de jefes de familia igual al \Sexpr{REP$cre_ssc}\% durante todo el período de proyección.
+
+\girarpagina
+\section{Modelo demográfico para afiliados y pensionistas}\label{chp_modelo:mod_demog}
+Empleando el modelo actuarial provisto en la plataforma ILO/PENSIONS, de conformidad con el módulo 4 del PATSS (Véase el anexo \ref{anx:sec_modelo_actuarial}), en la tabla \ref{tab:iess_tab_pob_proy_ssc} y figura \ref{fig:iess_pob_proy_ssc} se muestra la proyección de la población\footnote{A pesar que dentro de los registros administrativos del SSC no se dispone de la información de los potenciales beneficiarios de montepío (orfandad y viudedad), la DAIE ha procedio a obtener una estimación de la misma para realizar las respectivas proyecciones.} protegida por el \Sexpr{REP_seg} desagregada por sexo para cada uno de los estados. Adicionalmente, se presentan las transiciones anuales de un estado a otro en la tabla \ref{tab:iess_tab_trans_pob_proy_ssc}. 
+
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{ Proyección de la población desagregada por sexo en cada estado}
+  \label{tab:iess_tab_pob_proy_ssc}
+  {\fontsize{10}{11}\selectfont
+
+  \arrayrulecolor{black}
+  \begin{tabular}{R{0.8cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.2cm}!{\color{black}\vrule\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}}
+    \toprule \rowcolor{iess_green!60}
+
+     & \multicolumn{6}{c!{\color{black}\vrule\vrule}}{Mujeres} 
+     & \multicolumn{6}{c!}{Hombres} \\
+
+  \arrayrulecolor{white}\cmidrule{2-13}\rowcolor{iess_green!60}
+  \parbox{0.8cm}{\vspace{-0.5cm}\centering Año }
+    & $l_{t,1}^{1}$
+    & $l_{t,1}^{2}$
+    & $l_{t,1}^{3}$
+    & $l_{t,1}^{4}$
+    & $l_{t,1}^{8}$
+    & $l_{t,1}^{9}$
+    & $l_{t,2}^{1}$
+    & $l_{t,2}^{2}$
+    & $l_{t,2}^{3}$
+    & $l_{t,2}^{4}$
+    & $l_{t,2}^{8}$
+    & $l_{t,2}^{9}$\\
+
+
+  \arrayrulecolor{black}\midrule
+    \input{tablas/iess_tab_pob_proy_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Elaborado:} DAIE.}
+\endgroup
+\end{table}
+
+% \footnotetext[4]{Si bien dentro de la información que mantiene el SSC no se disponde de los registros de los potenciales beneficiarios de montepío, la DAIE ha procedio a obtener una estimación del mismo para realizar las respectivas proyecciones}
+
+\begin{figure}[H]
+\caption{Proyección de la población\protect\footnotemark desagregada por sexo en cada estado}
+\label{fig:iess_pob_proy_ssc}
+\centering
+\includegraphics[scale=0.85]{graficos/iess_pob_proy_ssc.png}
+\caption*{\scriptsize  \textbf{Elaborado}: DAIE.}
+\end{figure}
+\footnotetext{Se considera como hipótesis que la edad máxima de afiliación es a los 80 años.}
+
+\begin{figure}[H]
+\caption{Proyección de la población de montepío\protect\footnotemark desagregada por sexo}
+\label{fig:iess_pob_proy_mont_ssc}
+\centering
+\includegraphics[scale=1.0]{graficos/iess_pob_proy_mont_ssc.png}
+\caption*{\scriptsize  \textbf{Elaborado}: DAIE.}
+\end{figure}
+\footnotetext{Son considerados como pensionistas por orfandad aquellas personas menores de 18 años de edad.}
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{3pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{Proyección de las transiciones anuales entre estados, desagregada por sexo}
+  \label{tab:iess_tab_trans_pob_proy_ssc}
+  {\fontsize{10}{12}\selectfont
+
+  \arrayrulecolor{black}
+  \begin{tabular}{R{0.6cm}!{\color{white}\vrule}
+                  R{1.3cm}!{\color{white}\vrule}
+                  R{1.2cm}!{\color{white}\vrule}
+                  R{0.8cm}!{\color{white}\vrule}
+                  R{0.8cm}!{\color{white}\vrule}
+                  R{1.2cm}!{\color{white}\vrule}
+                  R{0.6cm}!{\color{white}\vrule}
+                  R{0.6cm}!{\color{white}\vrule}
+                  R{1.2cm}!{\color{black}\vrule\vrule}
+                  R{1.3cm}!{\color{white}\vrule}
+                  R{1.2cm}!{\color{white}\vrule}
+                  R{0.8cm}!{\color{white}\vrule}
+                  R{1.0cm}!{\color{white}\vrule}
+                  R{1.2cm}!{\color{white}\vrule}
+                  R{0.6cm}!{\color{white}\vrule}
+                  R{0.6cm}!{\color{white}\vrule}
+                  R{1.2cm}}
+    \toprule \rowcolor{iess_green!60}
+
+     & \multicolumn{8}{c!{\color{black}\vrule\vrule}}{Mujeres} 
+     & \multicolumn{8}{c!}{Hombres} \\
+
+  \arrayrulecolor{white}\cmidrule{2-17}\rowcolor{iess_green!60}
+  \parbox{0.6cm}{\vspace{-0.5cm}\centering Año }
+    & $l_{t,1}^{1,2}$
+    & $l_{t,1}^{2,3}$
+    & $l_{t,1}^{2,4}$
+    & $l_{t,1}^{2,5}$
+    & $l_{t,1}^{3,5}$
+    & $l_{t,1}^{4,5}$
+    & $l_{t,1}^{8,5}$
+    & $l_{t,1}^{9,5}$
+    & $l_{t,2}^{1,2}$
+    & $l_{t,2}^{2,3}$
+    & $l_{t,2}^{2,4}$
+    & $l_{t,2}^{2,5}$
+    & $l_{t,2}^{3,5}$
+    & $l_{t,2}^{4,5}$
+    & $l_{t,2}^{8,5}$
+    & $l_{t,2}^{9,5}$\\
+
+
+  \arrayrulecolor{black}\midrule
+    \input{tablas/iess_tab_new_pob_proy_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Elaborado:} DAIE.}
+\endgroup
+\end{table}
+
+\regresargirar
+
+\section{Modelo demográfico para dependientes}
+\label{chp_modelo:mod_demog_dep}
+De conformidad con la tabla \ref{tab:prest_salud_SSC}, el SSC ofrece prestaciones de salud al jefe de familia asegurado o jubilado y los miembros de familia protegidos. No obstante, la población cubierta tiene naturaleza incierta, pues a la fecha de corte, el IESS no dispone de registros claros sobre los dependientes de los afiliados. Es por ello que, con la finalidad de facilitar las respectivas proyecciones, solo se procede a estimar la proyección de los dependientes hijos y dependientes cónyuges.
+
+\subsection{Modelo demográfico para hijos dependientes}
+\label{chp_modelo:mod_demog_hij_dep}
+En adición a las proyecciones demográficas ya establecidas en la 
+sección \ref{chp_modelo:mod_demog}, se requiere se realicen proyecciones de los posibles hijos dependientes  de la población de activos cotizantes, aumentando así el nivel de complejidad del estudio del  \Sexpr{REP_seg}.
+
+A falta de información consistente, sobre el número probable de hijos de un cotizante, se decidió
+emplear la información disponible en el Censo Nacional de Población del año 2010. A partir de esta 
+información se logró estimar la probabilidad de que una persona afiliada de un determinado sexo,  
+tenga un hijo de una determinada edad.
+
+La probabilidad que un asegurado con sexo $j$ y edad $x$ tenga un hijo de sexo $g$ y edad $z$ es 
+estimada a partir de conteos por sexo y edad, considerando el número $n_{j,x}$ de 
+afiliados con sexo $j$ y edad $x$, y el número $n_{j,x,g,z}$ de hijos con sexo $g$ y edad $z$ de los 
+afiliados con sexo $j$ y edad $x$.
+\begin{equation}
+\hat{h}_{j,x,g,z} = \frac{n_{j,x,g,z}}{n_{j,x}}
+\end{equation}
+
+El estimador anterior está sujeto a variaciones debidas a la falta de información en edades atípicas, 
+como por ejemplo cuando la edad del padre y la del hijo son muy alejadas, o la edad de inicio de la 
+paternidad es muy baja o alta. Por tanto, alisamos los resultados aplicando una regresión local. 
+
+Considerando los valores observados para el estimador, i.e. $\hat{h}_{j_1,x_1,g_1,z_1}, \ldots, 
+\hat{h}_{j_n,x_n,g_n,z_n}$, para cada punto de estimación $(x,z)$ se optimiza la siguiente función
+objetivo para el parámetro $\beta$.
+\begin{equation}
+\underset{\beta}{\inf} \sum\limits_{i=1}^n w_i( x, z ) 
+\left( \ln\frac{\hat{h}_{j_i,x_i,g_i,z_i}}{1 - \hat{h}_{j_i,x_i,g_i,z_i}} - f( x_i, z_i, x, z, \beta
+) \right)^2
+\end{equation}
+
+Donde la función $f$ es dada por el orden de aproximación local, usualmente orden cuadrático. El 
+orden de aproximación determina la dimensión del vector $\beta$.
+{\fontsize{9}{9}\selectfont
+\begin{equation}
+f( x', z', x, z, \beta ) = \beta_0 - \beta_1 ( x' - x ) - \beta_2 ( z' - z ) - \beta_3 ( x' - x ) ( z' - z ) - 
+\frac{1}{2} \beta_4 ( x' - x )^2 - \frac{1}{2} \beta_5 ( z' - z )^2
+\end{equation}
+}
+
+Las funciones peso $w_i$, penalizan las observaciones $( x_i, z_i )$ según su distancia del valor 
+$(x,z)$ donde se realiza la regresión local.
+
+El alisamiento es realizado para las cuatro combinaciones posibles de sexos de padres e hijos. En 
+los gráficos siguientes se presenta las superficies alisadas para cada uno de los casos.
+
+\girarpagina
+
+\begin{figure}[p]
+\caption{Probabilidad para una mujer de tener un hijo mujer}
+\centering
+\includegraphics[scale=1.0]{graficos/iess_probabilidades_hijos_mm.png}
+\caption*{\scriptsize  \textbf{Elaborado}: DAIE.}
+\end{figure}
+% \begin{figure}[p]
+% \caption{Probabilidad para una mujer de tener un hijo mujer}
+% \centering
+% \includegraphics[scale=1.0]{graficos/iess_probabilidades_hijos_mm.png}
+% \caption*{\scriptsize  \textbf{Elaborado}: DAIE.}
+% \end{figure}
+
+\begin{figure}[p]
+\caption{Probabilidad para una mujer de tener un hijo hombre}
+\centering
+\includegraphics[scale=1.0]{graficos/iess_probabilidades_hijos_mh.png}
+\caption*{\scriptsize  \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\begin{figure}[p]
+\caption{Probabilidad para un hombre de tener un hijo mujer}
+\centering
+\includegraphics[scale=1.0]{graficos/iess_probabilidades_hijos_hm.png}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\begin{figure}[p]
+\caption{Probabilidad para un hombre de tener un hijo hombre}
+\centering
+\includegraphics[scale=1.0]{graficos/iess_probabilidades_hijos_hh.png}
+\caption*{\scriptsize  \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\regresargirar
+
+\subsection{Modelo demográfico para cónyuges}
+\label{chp_modelo:mod_demog_hij_cony}
+
+Al igual de lo que sucede con la población de hijos dependientes, el IESS no  dispone de registros 
+adecuados para dimensionar el tamaño de esta población, sin embargo se puede hacer uso del censo de 
+población del 2010 para dimensionar el tamaño de la población de cónyuges.
+
+El estimador de una tasa de nupcialidad viene dado por conteos simples del número $n_x$ de 
+afiliados de edad $x$ y el número de $n_{x,y}$ de afiliados de edad $x$ con un cónyuge de edad $y$.
+El presente estimador por facilidad no toma en cuenta el sexo de los cónyuges:
+\begin{equation}
+\hat{c}_{x,y} = \frac{ n_{x,y} }{ n_x }
+\end{equation}
+
+Como sucede en el caso de hijos, el estimador anterior está sujeto a valores atípicos debidos a 
+diferencias grandes entres edades de cónyuges o pocas observaciones en edades extremas, por tanto
+se alisa las tasas anteriores aplicando una regresión local. Se considera los valores observados 
+para el estimador, i.e. $\hat{c}_{x_1,y_1}, \ldots, \hat{c}_{x_n,y_n}$, para cada punto de 
+estimación $(x,y)$ se optimiza la siguiente función objetivo para el parámetro $\beta$.
+\begin{equation}
+\underset{\beta}{\inf} \sum\limits_{i=1}^n w_i( x, y ) 
+\left( \ln\frac{\hat{c}_{x_i,y_i}}{1 - \hat{c}_{x_i,y_i}} - f( x_i, y_i, x, y, \beta ) \right)^2
+\end{equation}
+
+Donde $f$ se escoge según el orden de aproximación como ya se describió en la sección anterior 
+\ref{chp_modelo:mod_demog_hij_dep}.
+
+Con la estimación anterior se proyecta la población de cónyuges de los afiliados cotizantes.
+
+\girarpagina
+\begin{figure}[p]
+\caption{Superficie de probabilidad de que un cotizante tenga cónyuge cotizando}
+\centering
+\includegraphics[scale=1.0]{graficos/iess_probabilidades_conyuge.png}
+\caption*{\scriptsize  \textbf{Elaborado}: DAIE.}
+\end{figure}
+\regresargirar
+
+\subsection{Proyección de dependientes}
+\label{chp_modelo:mod_proy_dep}
+A partir de las probabilidades anteriores se puede realizar una proyección utilizando el valor 
+proyectado de asegurados cotizantes $l^{2}_{t,g,x}$, así la proyección de dependientes 
+está basada en la siguiente expresión para cada tiempo $t$, sexo $g$ y edad $z$. Para fines de 
+la estimación de beneficios se tomará solo los dependientes hijos de edad $z \leq 18$ años.
+
+La proyección de hijos en cada instante $t$ se realiza a partir de la población de cotizantes
+en el mismo instante y la probabilidad de que junto con su cónyuge tengan un hijo de cierta edad,
+descontando la probabilidad de que ambos cónyuges estén afiliados, para así no considerar hijos
+cuyos padres estén cotizando al mismo tiempo.
+\begin{equation}
+l^6_{t,g,z} = \sum\limits_{j = 1}^2 \sum\limits_{x = 0}^\omega \sum\limits_{y = 0}^\omega 
+h^g_{x,z} h^g_{y,z} \left( 1 - \frac{1}{2} c_{x,y} \right) l^{2}_{t,j,x}
+\end{equation}
+
+Por otra parte, la proyección de dependientes cónyuges se realiza como:
+\begin{equation}
+l^7_{t,g,y} = \sum\limits_{x = 0}^\omega c_{x,y} l^{2}_{t,g,x}
+\end{equation}
+
+A continuación, en la tabla \ref{tab:iess_tab_pob_proy_dep_ssc} se presenta la proyección de las poblaciones descritas anteriormente. Adicionalmente, se presentan las transiciones anuales hacia muerto.
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{3pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+  \caption{ Proyección de la población dependiente desagregada por sexo en cada estado}
+  \label{tab:iess_tab_pob_proy_dep_ssc}
+  {\fontsize{10}{10}\selectfont
+
+  \arrayrulecolor{black}
+  \begin{tabular}{R{0.8cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{black}\vrule\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}!{\color{white}\vrule}
+                  R{1.5cm}}
+    \toprule \rowcolor{iess_green!60}
+
+     & \multicolumn{4}{c!{\color{black}\vrule\vrule}}{Mujeres} 
+     & \multicolumn{4}{c!}{Hombres} \\
+
+  \arrayrulecolor{white}\cmidrule{2-9}\rowcolor{iess_green!60}
+  \parbox{0.8cm}{\vspace{-0.5cm}\centering Año }
+    & $l_{t,1}^{6}$
+    & $l_{t,1}^{6,5}$
+    & $l_{t,1}^{7}$
+    & $l_{t,1}^{7,5}$
+    & $l_{t,2}^{6}$
+    & $l_{t,2}^{6,5}$
+    & $l_{t,2}^{7}$
+    & $l_{t,2}^{7,5}$\\
+
+
+  \arrayrulecolor{black}\midrule
+    \input{tablas/iess_tab_dep_proy_ssc.tex}
+    \bottomrule
+  \end{tabular}
+  }
+  \caption*{ \scriptsize \textbf{Elaborado:} DAIE.}
+\endgroup
+\end{table}
+
+\begin{figure}[H]
+\caption{Proyección de la población de dependientes desagregada por sexo}
+\label{fig:iess_pob_proy_mont_ssc}
+\centering
+\includegraphics[scale=0.8]{graficos/iess_pob_proy_dep_ssc.png}
+\caption*{\scriptsize \hspace{1cm} \textbf{Elaborado}: DAIE.}
+\end{figure}
+
+\section{Proyecciones demográficas}
+En la figura \ref{fig:iess_cpt_ssc}, la carga pensional para el \Sexpr{REP_seg} en el año 2020 toma el valor de \Sexpr{REP$cpti} y baja gradualmente hasta \Sexpr{REP$cptf} al final del horizonte de proyección.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución de la carga pensional}
+\label{fig:iess_cpt_ssc}
+\includegraphics[ scale = 0.8 ]{graficos/iess_cp_ssc.png}
+\caption*{\scriptsize \hspace{1cm}
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+En las figuras \ref{fig:iess_act_inac_male}, \ref{fig:iess_act_inac_female} y \ref{fig:iess_act_lf}
+se muestran las proyecciones de los afiliados activos e inactivos, por sexo a lo largo del período de análisis. 
+Se observa que, tanto para los hombres como para las mujeres, el número de afiliados activos es superior
+al de los inactivos. En el año 2020, del total de afiliados que cotizaron al menos una vez, la proporción de afiliados activos fue del \Sexpr{REP$por_act_inac}\% y la de inactivos del \Sexpr{REP$por_inac_act}\%. Para el año 2040, estas proporciones cambian al \Sexpr{REP$por_act_inac_f}\% y al \Sexpr{REP$por_inac_act_f}\% para activos e inactivos respectivamente.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Número proyectado de jefes activos e inactivos por año-sexo masculino}
+\label{fig:iess_act_inac_male}
+\includegraphics[ scale = 0.8 ]{graficos/iess_act_inac_male.png}
+\caption*{\scriptsize \hspace{1.5cm}
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Número proyectado de jefes activos e inactivos por año-sexo femenino}
+\label{fig:iess_act_inac_female}
+\includegraphics[ scale = 0.8]{graficos/iess_act_inac_female.png}
+\caption*{\scriptsize \hspace{1.5cm}
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+La evolución de la fuerza laboral empleada y el total de afiliados activos, para ambos sexos, se presenta en la figura \ref{fig:iess_act_lf}. En esta figura se observa un crecimiento constante de las proyecciones. La fuerza laboral empleada en el año 2020 toma un valor de \Sexpr{REP$lfe_i} y el total de jefes de familia un valor de \Sexpr{REP$act_i}. Para el final del horizonte de proyección, estas cifras cambian a \Sexpr{REP$lfe_f} y a \Sexpr{REP$act_f} respectivamente.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección de la fuerza de trabajo empleada y total de jefes de familia activos por año-ambos sexos}
+\label{fig:iess_act_lf}
+\includegraphics[ scale = 0.8 ]{graficos/iess_act_lf.png}
+\caption*{\scriptsize \hspace{1.5cm}
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+La proyección del número de pensionistas de vejez (Véase la figura \ref{fig:iess_pen_vej}) muestra un crecimiento gradual, con un ligero incremento al final del horizonte de proyección. Los pensionistas hombres en el año base llegan a ser \Sexpr{REP$pen_vej_m_i} y pasan a ser \Sexpr{REP$pen_vej_m_f} al final del período; para el caso de las mujeres, en el año 2020 llegan a ser \Sexpr{REP$pen_vej_f_i} y luego pasan a ser de \Sexpr{REP$pen_vej_f_f} en el año 2040.
+ 
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección del número de pensionistas de vejez por año-ambos sexos}
+\label{fig:iess_pen_vej}
+\includegraphics[ scale = 0.8 ]{graficos/iess_pen_vej.png}
+\caption*{\scriptsize \hspace{1.5cm}
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+En la figura \ref{fig:iess_pen_inv} se muestra la evolución del número de pensionistas por invalidez del \Sexpr{REP_seg}, observándose que los pensionistas hombres siempre son mayores a las mujeres a lo largo del período de análisis. El número de pensionistas hombres bajo esta prestación en el año base toma el valor de \Sexpr{REP$pen_inv_m_i} y un valor de \Sexpr{REP$pen_inv_m_f} al final del período de proyección; para el caso de las mujeres se tiene que, en el año 2020 llegan a ser \Sexpr{REP$pen_inv_f_i} pensionistas, para pasar a \Sexpr{REP$pen_inv_f_f} en el año 2040.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección del número de pensionistas de invalidez por año-ambos sexos}
+\label{fig:iess_pen_inv}
+\includegraphics[ scale = 0.8 ]{graficos/iess_pen_inv.png}
+\caption*{\scriptsize \hspace{1.5cm}
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+En el caso de los pensionistas por viudedad, en el año base no se dispone de esta información. No obstante, para el año 2040 llegan a tomar las cifras de \Sexpr{REP$pen_viu_m_f} y de \Sexpr{REP$pen_viu_f_f} para hombres y mujeres respectivamente.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección del número de pensionistas de viudedad por año-ambos sexos.}
+\label{fig:iess_pen_viu}
+\includegraphics[ scale = 0.8 ]{graficos/iess_pen_viu.png}
+\caption*{\scriptsize \hspace{1.5cm}
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+De igual manera que con los pensionistas por viudedad, para orfandad no se dispone de información histórica, pero para el final del horizonte de proyección se esperaría que los pensionistas de esta prestación sean \Sexpr{REP$pen_orf_m_f} hombres y \Sexpr{REP$pen_orf_f_f} mujeres.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección del número de pensionistas de orfandad, por año, ambos sexos.}
+\label{fig:iess_pen_orf}
+\includegraphics[ scale = 0.8 ]{graficos/iess_pen_orf.png}
+\caption*{\scriptsize \hspace{1.5cm}
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+Finalmente, en la figura \ref{fig:iess_nuevos_pensi} se muestra la evolución del número de nuevos pensionistas por tipo de pensión. Se observa que el número de nuevos pensionistas de vejez representa alrededor del  \Sexpr{REP$pen_com_vej_i}\% del total de pensionistas en el año base, para el año 2040 llega a ser del \Sexpr{REP$pen_com_vej_f}\% (sin considerar a los pensionistas de montepío).
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Proyección del número de nuevos pensionistas por tipo-ambos sexos}
+\label{fig:iess_nuevos_pensi}
+\includegraphics[ scale = 0.8 ]{graficos/iess_nuevos_pensi.png}
+\caption*{\scriptsize \hspace{1.5cm}
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+\section{Modelo de beneficios por asistencia médica}
+\label{chp_modelo:ben_sal}
+
+El beneficio por asistencia médica se caracteriza por tener mayor complejidad, no solo depende de 
+las características demográficas de los asegurados y de las proyecciones macroeconómicas, sino que 
+tiene una dimensión extra de aleatoriedad, producida por el perfil epidemiológico de los asegurados.
+
+Además, por la naturaleza variada y basta de los beneficios, es difícil llegar a una 
+caracterización total de todos ellos, siendo necesario agrupar los beneficios para poder generar 
+estimaciones más robustas de estos.
+
+Por otra parte, las atenciones médicas de los asegurados al \Sexpr{REP_seg} son soportadas por
+el Seguro General de Salud, Individual y Familiar, haciendo uso de toda su capacidad instalada.
+Al momento, no es completamente factible hacer una clasificación de todas las atenciones médicas
+por cada grupo y en la práctica han funcionado como uno solo, por tanto mucha de la información 
+extraída del Seguro General de Salud, Individual y Familiar y sus estimaciones, son ampliamente
+aplicables para estimar los beneficios por atenciones médicas del \Sexpr{REP_seg}.
+
+El número de atenciones de salud es grande y con un buen nivel de heterogeneidad, ello conlleva a
+manejar gran cantidad de datos de los cuales se debe extraer información que caracterice el riesgo
+cubierto. Para comprender el riesgo cubierto se toma en cuenta variables relevantes que, desde un
+punto de vista conceptual, permiten diferenciar de forma adecuada tanto el tipo como el costo de las
+atenciones de salud. Estas variables claramente identificadas 
+son las siguientes:
+\begin{enumerate}
+\item el estado $i$ con $i \in \{2,3,4,5,6,7,8, 9\}$ descrito en la sección \ref{chap_modelo:sel_modelo}
+   \item el sexo $g \in \{1,2\}$,
+    \begin{itemize}
+      \item 1 = femenino
+      \item 2 = masculino
+    \end{itemize}
+\item la gravedad $j$ de la enfermedad asociada a la atención de salud $j \in \{1,2\}$:
+    \begin{itemize}
+      \item 1 = no castastróficas
+      \item 2 = castastróficas
+    \end{itemize}
+\item la edad $x \in [0, \omega]$, siendo $\omega$ la máxima edad teórica que se considera que 
+puede alcanzar una persona en este estudio.
+\end{enumerate}
+
+El modelo que presentaremos para la estimación de los beneficios de asistencia médica es el mismo 
+empleado para \estcite{iess_val_act_sal_2019}, claramente hemos tomando en cuenta el contexto del 
+\Sexpr{REP_seg}, con mejoras necesarias que se ha considerado pertinentes en la presentación
+de las formulaciones matemáticas.
+
+Para generar estadísticas más robustas de las atenciones de salud, se ha considerado conveniente
+agrupar algunas de las variables que las caracterizan, por grupos de edad.
+
+Primeramente, según la gravedad de la enfermedad, para enfermedades no catastróficas, se ha tomado
+grupos de edades por períodos de 5 años:
+\begin{equation}
+\mathbf{U}_1 = \bigg\{ [0, 5), [5, 10), [10, 15), \ldots, [70, 75), [75, 80), [80, 105) \bigg\}
+\end{equation}
+
+En segundo lugar, para el caso de enfermedades catastróficas, se presenta poca cantidad de
+atenciones de salud, por lo cual se considera grupos de edades más amplios, por períodos de
+20 años, que ayudan a considerar más valores observados por cada grupo:
+\begin{equation}
+\mathbf{U}_2 = \bigg\{ [0, 20), [20, 40), [40, 60), [60, 80), [80, 110) \bigg\}
+\end{equation}
+
+Además, en lo que continúa del desarrollo del modelo actuarial, simplificamos los índices mediante
+el uso de un multíndice $\alpha = (i,g,x)$ compuesto por: el estado del afiliado $i \in
+\{2,3,4,6,7,8,9\}$, el sexo $g \in \{1,2\}$ y una edad $x$ en un grupo de edad según la gravedad 
+$u \in \mathbf{U}_j$.
+
+Para la proyección de beneficios en cada grupo, se hará uso de las proyecciones demográficas
+descritas en la sección \ref{chp_modelo:mod_demog} y \ref{chp_modelo:mod_demog_dep}.
+
+El modelo que se utilizará es un \emph{modelo agregado de pérdidas}, como se lo describe en 
+\textcite{LossMod:2012, ModHealthCare:1999} así, para cada grupo de
+clasificación dado por le multiíndice $\alpha$, se establece la suma total de costos de beneficios
+del grupo $i$, de sexo $g$, de edad $x$, en el tiempo $t$:
+\begin{equation}
+\label{chp_modelo:mod_ben}
+Z_{t,i,g,x} = Z_\alpha = \sum\limits_{n=1}^{l^i_{t,g,x}} \sum\limits_{m=1}^{N_{\alpha,n}}
+D_{\alpha,n,m} X_{\alpha,n,m}
+\end{equation}
+
+que depende de: el número total de asegurados $l^i_{t,g,x}$; el número de atenciones de salud 
+anuales del $n$-ésimo asegurado del grupo $\alpha$ denotado $N_{\alpha,n}$;
+el número total de días de duración de la $m$-ésima atención, del $n$-ésimo asegurado del grupo
+$\alpha$ denotado $D_{\alpha,n,m}$; y, el costo aleatorio de la atención, denotado $X_{\alpha,n,m}$.
+
+Entre las hipótesis del modelo se considera que las variables aleatorias para cada multíndice
+$\alpha$ tienen la misma ley de probabilidad, es decir que las variables aleatorias de conteo
+$\{N_{\alpha,n} \mid n = 1,\ldots,l^i_{t,g,x}\}$ son independientes e idénticamente distribuidas
+$(i.i.d)$; las variables aleatorias de tiempo de estadía $\{D_{\alpha,n,m} \mid n = 1,\ldots,
+l^i_{t,g,x}\}$ también son independientes e idénticamente distribuidas $(i.i.d)$; y de igual manera,
+las variables aleatorias del costo o severidad por día, de las atenciones de salud $\{X_{\alpha,n,m}
+\mid n = 1,\ldots,l^i_{t,g,x}\}$ son independientes e idénticamente distribuidas $(i.i.d)$.
+
+Por lo tanto, la distribución de las variables aleatorias antes señaladas, son independientes del
+número de atenciones $m$ y de la persona en específico que está enferma $n$.
+
+Adicionalmente, se considera como hipótesis que las variables aleatorias de frecuencia
+$N_{\alpha,n}$, duración $D_{\alpha,n,m}$ y costo $X_{\alpha,n,m}$ son independientes entre sí.
+
+Las siguientes variables aleatorias componen el modelo estocástico para los beneficios.
+\begin{enumerate}
+\item Variable aleatoria discreta $Y_{\alpha, e}$ que indica el estado de salud del
+asegurado, con dos posibles valores:
+\begin{itemize}
+\item Saludable: $Y_{\alpha, e} = 0$; y,
+\item Enfermo: $Y_{\alpha, e} = 1$.
+\end{itemize}
+
+\item Variable aleatoria discreta $Y_{\alpha, c}$ que toma valores entre los posibles niveles de
+gravedad de la enfermedad, clasificados en dos:
+\begin{itemize}
+\item Enfermedad no catastrófica: $Y_{\alpha, c} = 1$ y
+\item Enfermedad catastrófica: $Y_{\alpha, c} = 2$.
+\end{itemize}
+
+\item Variable aleatoria discreta $Y_{\alpha, s}$ que toma valores entre las posibles servicios
+médicos que puede requerir el asegurado, clasificados en:
+\begin{itemize}
+\item Consulta externa: $Y_{\alpha, s} = 1$,
+\item Hospitalización: $Y_{\alpha, s} = 2$ y
+\item Emergencia: $Y_{\alpha, s} = 3$.
+\end{itemize}
+
+\item Variable aleatoria discreta $Y_{\alpha, p}$ que permite codificar las principales
+patologías.
+\end{enumerate}
+
+A partir de las variables aleatorias antes descritas $Y_{\alpha,e}, Y_{\alpha,c}, Y_{\alpha,s},
+Y_{\alpha,p}$ que caracterizan bajo que circunstancia se produce una enfermedad, consideramos
+el evento asociado:
+\begin{equation}
+C^\alpha_{j,k,l} = \left\{ Y_{\alpha,p} = l, Y_{\alpha,s} = k, Y_{\alpha,c} = j, Y_{\alpha,e} = 1 \right\}
+\end{equation}
+
+La probabilidad de este evento puede ser descompuesto en probabilidades condicionales.
+\begin{equation}
+P( C^\alpha_{j,k,l} ) = P( Y_{\alpha,p} = l \mid Y_{\alpha,s} = k )
+P( Y_{\alpha,s} = k \mid Y_{\alpha,c} = j )
+P( Y_{\alpha,c} = j \mid Y_{\alpha,e} = 1 )
+P( Y_{\alpha,e} = 1 )
+\end{equation}
+
+Empleando algunas de las propiedades de la esperanza condicional, ver por ejemplo 
+\textcite{Prob:1995, ReaAnaProb:1972}, se establece la siguiente relación para estimar el valor 
+promedio del total de beneficios de salud otorgados a cada grupo de asegurados con características 
+definidas por $\alpha$:
+\begin{equation}
+\mathbb{E}\left[Z_\alpha \right] =
+\sum\limits_{j = 1}^2 \sum\limits_{k = 1}^3 \sum\limits_{l \in P_{i,j}}
+\mathbb{E}\left[ N_\alpha \mid C^\alpha_{j,k,l} \right]
+\mathbb{E}\left[ D_\alpha \mid C^\alpha_{j,k,l} \right]
+\mathbb{E}\left[ X_\alpha \mid C^\alpha_{j,k,l} \right]
+P( C^\alpha_{j,k,l} )\ l^i_{t,g,u}
+\end{equation}
+
+Los términos que intervienen en la expresión anterior están indexados la gravedad, el servicio, y
+la patología que presenta una persona atendida, para su uso los simplificamos utilizando la 
+siguiente notación:
+\begin{enumerate}
+\item la frecuencia $\eta^\alpha_{j,k,l} = \mathbb{E}\left[ N_\alpha \mid C^\alpha_{j,k,l} \right]$,
+\item la duración $ \tau^\alpha_{j,k,l} = \mathbb{E}\left[ D_\alpha \mid C^\alpha_{j,k,l} \right]$,
+\item el costo $\mu^\alpha_{j,k,l} = \mathbb{E}\left[ X_\alpha \mid C^\alpha_{j,k,l} \right]$ y
+\item la probabilidad de enfermar $p^\alpha_{j,k,l} = P\left( C^\alpha_{j,k,l} \right)$
+\end{enumerate}
+
+Utilizando las expresiones anteriores para simplificar la fórmula del beneficio para el grupo 
+indexado por $\alpha$ y separando las enfermedades no catastróficas $j= 1$ de las catastróficas 
+$j= 2$.
+\begin{eqnarray}
+B^{i,sal}_{t,g,x} 
+& = & \mathbb{E}\left[ Z_{t,i,g,x} \middle| Y_{\alpha,c} = 1 \right] 
+P( Y_{\alpha,c} = 1 \mid Y_{\alpha,e} = 1 ) P( Y_{\alpha,e} = 1 ) \nonumber \\
+& = & \sum\limits_{k = 1}^3 \sum\limits_{l \in P_{i,1}}
+\eta^\alpha_{1,k,l}\ \tau^\alpha_{1,k,l}\ \mu^\alpha_{1,k,l}\ p^\alpha_{1,k,l}\ l^i_{t,g,u}
+\end{eqnarray}
+
+\begin{eqnarray}
+B^{i,cat}_{t,g,x}
+& = & \mathbb{E}\left[ Z_{t,i,g,x} \middle| Y_{\alpha,c} = 2 \right]
+P( Y_{\alpha,c} = 2 \mid Y_{\alpha,e} = 1 ) P( Y_{\alpha,e} = 1 ) \nonumber \\
+& = & \sum\limits_{k = 1}^3 \sum\limits_{l \in P_{i,2}}
+\eta^\alpha_{2,k,l}\ \tau^\alpha_{2,k,l}\ \mu^\alpha_{2,k,l}\ p^\alpha_{2,k,l}\ l^i_{t,g,u}
+\end{eqnarray}
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Estimación de parámetros para el modelo de beneficios}
+
+Estimación del proceso de Poisson: %\textcite{MathStaStoPro:2012, LossMod:2012, LossModFur:2013}
+
+\begin{enumerate}
+\item $q^\alpha_{p,s,l,k} = P( Y_{\alpha,p} = l \mid Y_{\alpha,s} = k )$
+\item $q^\alpha_{s,c,k,j} = P( Y_{\alpha,s} = k \mid Y_{\alpha,c} = j )$
+\item $q^\alpha_{c,e,j} = P( Y_{\alpha,c} = j \mid Y_{\alpha,e} = 1 ) $
+\item $q^\alpha_{e} = P( Y_{\alpha,e} = 1 )$
+\end{enumerate}
+
+La estimación del modelo puede ser realizada aplicando el método de máxima verosimilitud.
+Notando $\#\{\cdot\}$ el número de elementos de un conjunto, tenemos:
+\begin{equation}
+q^\beta_{e} = \frac{\#\{ \text{Atenciones del grupo $\beta$}\}}{\#\{ \text{Asegurados del grupo
+$\beta$}\}}
+\end{equation}
+
+\begin{equation}
+q^\beta_{c,e,j} = \frac{\#\{ \text{Atenciones que tienen nivel de gravedad $j$ del grupo $\beta$}\}}
+{\#\{ \text{Atenciones del grupo $\beta$}\}}
+\end{equation}
+
+\begin{equation}
+q^\beta_{s,c,k,j} =
+\frac{ \#\left\{ \parbox{7.5cm}{Atenciones que tienen nivel de gravedad $j$\\ que requieren el
+servicio $k$ del grupo $\beta$} \right\}  }{\#\{ \text{Atenciones que tienen nivel de
+gravedad $j$ del grupo $\beta$}\}}
+\end{equation}
+
+\begin{equation}
+q^\beta_{p,s,l,k} = \frac{ \#\left\{ \parbox{8cm}{Atenciones que presentan la patología $l$
+bajo\\ un nivel de gravedad $j$ y requieren el servicio\\ $k$ del grupo $\beta$} \right\} }
+{ \#\left\{ \parbox{7.5cm}{Atenciones que tienen nivel de gravedad $j$\\ que requieren el
+servicio $k$ del grupo $\beta$} \right\}  }
+\end{equation}
+
+\section{Estructura actuarial}
+\label{chp_modelo:actu}
+Para realizar los cálculos actuariales que nos permitan evaluar la situación financiera del
+\Sexpr{REP_seg}, en el horizonte de estudio, definimos primeramente la estructura actuarial
+sustentada en tres componentes:
+\begin{enumerate}
+\item Sistema de financiamiento,
+\item Esquema de prestaciones; y,
+\item Régimen demográfico.
+\end{enumerate}
+
+A continuación se detalla cada uno de estos componentes.
+
+%---------------------------------------------------------------------------------------------------
+\subsection[Sistema de financiamiento]{Sistema de financiamiento}
+\label{chp_modelo:sis_fin}
+A partir del análisis de los estados financieros del \Sexpr{REP_seg} (Véase capítulo
+\ref{chp_infofinan}), se evidencia que los aportes de un ejercicio económico cualquiera, no son
+destinados de manera obligatoria a conformar la reservas, sino que pueden ser utilizados, total o
+parcialmente, para honrar el pago de pensiones en curso (y entrega de las otras prestaciones).
+Inclusive, en casos necesarios, se ha hecho uso de la misma reserva con el fin de disponer los
+recursos suficientes que permitan cumplir con las obligaciones de pago de los beneficios.
+
+Por otra parte, a pesar que las atenciones médicas no son cubiertas por el \Sexpr{REP_seg}, hasta la
+fecha el seguro de salud del SGO se encarga de cubrir estos beneficios con los actuales aportes de
+los cotizantes del SGO.
+
+Podemos así concluir que el funcionamiento financiero real del \Sexpr{REP_seg} está basado en un
+sistema de reparto el mismo que ha mantenido niveles de cotizaciones estable por varios años, este
+análisis nos permite establecer como sistema de financiamiento adecuado para este seguro, un
+\emph{\textbf{sistema de capitalización parcial}} en el horizonte de análisis.
+
+%---------------------------------------------------------------------------------------------------
+\subsection[Esquema de prestaciones]{Esquema de prestaciones}
+\label{chp_modelo:esq_pres}
+De acuerdo a la Ley de Seguridad Social, el \Sexpr{REP_seg} entrega prestaciones definidas.  
+
+Los beneficios por pensiones y auxilio de funerales dependen del crecimiento del Salario Básico 
+Unificado. Para el caso de las pensiones, el beneficio jamás será inferior a cien dólares (USD 100,00),
+valor que se incrementa en el mismo porcentaje que el SBU.
+
+Por otra parte, las prestaciones por atenciones médicas incluyen un nivel adicional de aleatoriedad
+que está sujeto al perfil epidemiológico de la población. Se estipula que toda atención médica 
+será cubierta, definiendo así por tanto el beneficio a ser cubierto, incluso si este es de
+naturaleza aleatoria.
+
+En los dos casos anteriores los beneficios están claramente identificados y por tanto son los
+aportes que deben ser estimados para financiar los beneficios; claramente, esto sitúa al 
+\Sexpr{REP_seg} en un esquema de \textit{\textbf{beneficio definido}} o 
+\textit{\textbf{prestaciones definidas}}. 
+
+%---------------------------------------------------------------------------------------------------
+\subsection[Régimen demográfico]{Régimen demográfico}
+\label{chp_modelo:reg_dem}
+Siendo la seguridad social un derecho irrenunciable de todas las personas, se puede afirmar que su
+acceso es libre, estableciendo por tanto un \textit{\textbf{régimen demográfico de grupo abierto}},
+por lo que, además de las disposiciones del \textit{``Art.2.''} de la sección
+\ref{chp_reglamentacion:pob:pobasegurada} no existen restricciones para afiliarse dentro de este
+régimen . 
+
+Por lo tanto, el sistema a considerarse está sujeto a las variaciones de la demografía, influyendo
+así las tasas de natalidad, nupcialidad, mortalidad y rotación.
+
+
+\section{Flujo de ingresos por aportaciones}
+\label{chp_modelo:aport}
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Aportes afiliados}
+\label{chp_modelo:aport_afil}
+
+Primero tenemos en cuenta el aporte de la población asegurada correspondiente a los jefes de
+familia, esta es la aportación propiamente del \Sexpr{REP_seg}. Este aporte será representado por $A_t^{2}$ y será igual a la suma por sexo de la expresión $SALg^{s}_{g,t}$ (Salary mass of group $g$ of sex $s$ and time $t$) presentado en la ecuación 40 dentro del anexo \ref{anx:sec_modelo_actuarial}, multiplicado por el porcentaje de aportación (representado por $\pi_t^{2}$) mensual de la familia asegurada incluyendo la cotización por
+concepto de discapacidad. En otras palabras:
+\begin{equation}
+A^{2}_t = \sum\limits_{g=1}^2\pi_t^{2}SALg^{g}_{t},
+\end{equation}
+bajo la consideración de que group $g$ es único y sex $s$ será representado siguiendo la notación de la sección \ref{chp:notacion}, como $g$.
+
+
+A la aportación anterior se añade el aporte solidario de los afiliados al SGO\footnote{Obtenido de la proyección de masa salarial por edad y sexo de la \estcite{iess_val_act_ivm_2020}}, el cual viene
+calculado en función de la masa salarial y su porcentaje total de aporte, $\pi_t^{sgo}$.
+\begin{equation}
+A^{sgo}_t = \sum\limits_{g=1}^2 \sum\limits_{x=0}^\omega \pi_t^{sgo}M_{t,g,x}^{sgo}
+\end{equation}
+\vspace{-0.3cm}
+Agregamos los dos aportes anteriores en una variable que denominamos \emph{aporte de afiliación}.
+\begin{equation}
+A^{afi}_t = A^{2}_t + A^{sgo}_t
+\end{equation}
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Aportes del Estado}
+Las contribuciones por parte del Estado están dadas por el 0,40  en función del monto total de
+beneficios por concepto de pensiones $A^{est,pen}_t$, el 0,003 sobre la materia gravada de los
+afiliados al Seguro General Obligatorio bajo relación de dependencia $A^{est,red}_t$, una
+contribución fija $A^{est,fij}_t$ equivalente a USD 288.000 anuales, contribución del Estado para
+enfermedades catastróficas $A^{est,cat}_t$ y contribución del Estado para la atención médica de
+jubilados $A^{est,sap}_t$. Así, la contribución por parte del Estado será:
+\begin{equation}
+A^{est}_t = A^{est,red}_t + A^{est,pen}_t + A^{est,cat}_t + A^{est,sap}_t + A^{est,fij}_t
+\end{equation}
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Aportes otros}
+Estos aportes son tomados según los porcentajes de contribución previamente determinados en la sección
+\ref{chp_reglamentacion:fuentes_ing_egr}. En la siguiente expresión se incluye los aportes de los
+% afiliados activos al Seguro Social Campesino (Véase sección \ref{chp_reglamentacion:calc_aport}), de
+% los afiliados activos al Seguro General Obligatorio (Véase tabla \ref{tab:apo_2015_2016}), de los
+afiliados al ISSFA\footnote{De ser el caso, se incluirán o valdrán cero.}, afiliados al ISSPOL\footnote{De ser el caso, se incluirán o valdrán cero.}  y de los
+afiliados a los Seguros Privados en conjunto con Medicina Prepagada. 
+\begin{equation}
+A^{otr}_t = A^{issfa}_t + A^{isspol}_t + A^{segpri}_t
+\end{equation}
+Sus valores corresponden a los presentados en las tablas \ref{tab:iess_tab_proy_aporte_issfa_isspol_ssc} y 
+\ref{tab:iess_tab_proy_aporte_seguros_privados_ssc}.
+%---------------------------------------------------------------------------------------------------
+\subsection{Aporte total}
+El aporte total, incluyendo las contribuciones del Estado es: 
+\begin{equation}
+A_t  = A^{afi}_t + A^{est}_t + A^{otr}_t
+\end{equation}
+
+Para efectos de los cálculos anteriores y otros como se verá más adelante, es importante mantener un
+registro de la evolución de la masa salarial de los cotizantes del \Sexpr{REP_seg}, la masa salarial de los cotizantes del SGO; y, la masa salarial de los afiliados al SGO bajo relación de dependencia al tiempo $t$, los cuales están dados por:
+
+Para el \Sexpr{REP_seg}
+\begin{equation}
+M_t = SALM_t^s \hspace{1cm} (\text{Ecuación 40 en el anexo \ref{anx:sec_modelo_actuarial}})
+\end{equation}
+
+Para el SGO\footnote{ Obtenido de la proyección de masa salarial por edad y sexo de la \estcite{iess_val_act_ivm_2020}}
+\begin{equation}
+M^{sgo}_t =  \sum\limits_{g=1}^2 \sum\limits_{x=0}^\omega M_{t,g,x}^{sgo}
+\end{equation}
+
+Para el SGO bajo relación de dependencia
+\begin{equation} \label{eq: masa_salrial_dep}
+M^{red}_t = \pi^{red}_{g,x}\ M_{t,g,x}^{sgo}
+\end{equation}
+donde $\pi^{red}_{g,x}$ corresponde a la densidad de cotización del año 2020 definida
+como la relación entre la masa salarial de los afiliados al SGO bajo relación de dependencia sobre la
+masa salarial total, por edad y sexo.
+
+Es preciso señalar que los valores $A^{sgo}_t$, $M^{sgo}_t$ y $M^{red}_t$ son obtenidos a partir de 
+los resultados proporcionados por la \estcite{iess_val_act_ivm_2019}.
+
+%---------------------------------------------------------------------------------------------------
+\section{Flujo de egresos por pago de beneficios}
+\label{chp_modelo:benef}
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Beneficios por pensiones}
+
+El \Sexpr{REP_seg}, tal como fue descrito en las secciones \ref{chap_Intro:programa} y
+\ref{chp_reglamentacion:calc_benef}, otorga pensiones vitalicias de vejez, invalidez, montepío
+(viudedad y orfandad), así como un beneficio por la transición a muerto, que es el auxilio de
+funerales.
+
+Los beneficios de pensiones son proporcionales al número de pensionistas de vejez, invalidez,
+montepío y son determinados de la siguiente manera:
+
+\begin{align} 
+B^3_{t,g,x}&= TOldAge_{x,t}^s \hspace{0.5cm} (\text{ecuación 56 del anexo \ref{anx:sec_modelo_actuarial}})\\
+B^4_{t,g,x}&= TDis_{x,t}^s \hspace{0.5cm} (\text{ecuación 57 del anexo \ref{anx:sec_modelo_actuarial}})\\
+B^8_{t,g,x}&= TOrph_{x,t}^s \hspace{0.5cm} (\text{ecuación 59 del anexo \ref{anx:sec_modelo_actuarial}})\\
+B^9_{t,g,x}&= TWid_{x,t}^s \hspace{0.5cm} (\text{ecuación 58 del anexo \ref{anx:sec_modelo_actuarial}})
+\end{align}
+
+Así, el gasto total por concepto de pensiones sera igual a:
+\begin{equation}
+B^{pen}_t = 
+B^3_{t,g,x}+ 
+B^4_{t,g,x}+ 
+B^8_{t,g,x}+
+B^9_{t,g,x}
+\end{equation}
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Beneficios por auxilios de funerales}
+Por su parte, el beneficio de transición por auxilio de funerales (Véase la tabla
+\ref{tab:prest_ivm_SSC}) se paga a cualquier individuo dentro del grupo familiar
+incluyendo así a jefes de familia, dependientes y pensionistas por vejez, invalidez o montepío.
+\begin{eqnarray}
+B^{aux}_t & = & \sum\limits_{g=1}^2 \sum\limits_{x=0}^\omega 
+B^{2,5}_{t,g,x}\, l^{2,5}_{t,g,x} 
++ B^{3,5}_{t,g,x}\, l^{3,5}_{t,g,x} 
++ B^{4,5}_{t,g,x}\, l^{4,5}_{t,g,x} 
++ B^{6,5}_{t,g,x}\, l^{6,5}_{t,g,x}
++ B^{7,5}_{t,g,x}\, l^{7,5}_{t,g,x} \nonumber \\
+& & + B^{8,5}_{t,g,x}\, l^{8,5}_{t,g,x}
++ B^{9,5}_{t,g,x}\, l^{9,5}_{t,g,x} 
+\end{eqnarray}
+
+Cada uno de los beneficios de auxilio de funerales son estimados de la misma forma indistintamente
+del grupo al cual pertenece el asegurado.
+\begin{equation}
+B^{k,5}_{t,g,x} = \pi^{aux}_t\ SBU_t
+\end{equation}
+donde tomamos por $\pi^{aux}_t = 0,25\ \text{BR}$, $k\in\{2,3,4,6,7,8,9\}$ y $\text{BR}=0,225$
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Beneficios por atenciones médicas}
+Según lo ya desarrollado en la sección \ref{chp_modelo:ben_sal}, los flujos de asistencia médica son estimados
+primeramente por el grupo del afiliado y su gravedad, detallamos a continuación cada uno de los
+mismos.
+
+El total esperado de beneficios de asistencia médica por enfermedades no catastróficas $j = 1$ para
+cada grupo de afiliados $i \in \{2,3,4,6,7,8,9\}$ en cualquier tiempo $t$ está dado por la siguiente
+expresión.
+\begin{equation}
+B^{i,sal}_t =
+\sum\limits_{g=1}^{2} 
+\sum\limits_{x=0}^\omega 
+B^{i,sal}_{t,g,x}
+\end{equation}
+
+Agrupando lo anterior obtenemos el total esperado de beneficios de asistencia médica por 
+enfermedades no catastróficas $j = 1$.
+\begin{equation}
+B^{sal}_t = 
+B^{2,sal}_t + B^{3,sal}_t + B^{4,sal}_t + B^{6,sal}_t + B^{7,sal}_t + B^{8,sal}_t + B^{9,sal}_t
+\end{equation}
+
+El total esperado de beneficios de asistencia médica por enfermedades catastróficas $j = 2$
+para cada grupo de afiliados $i \in \{2,3,4,6,7,8,9\}$ en cualquier tiempo $t$ está dado por la 
+siguiente expresión.
+\begin{equation}
+B^{i,cat}_t = 
+\sum\limits_{g=1}^{2} 
+\sum\limits_{x=0}^\omega 
+B^{i,cat}_{t,g,x}
+\end{equation}
+
+Agrupando lo anterior obtenemos el total esperado de beneficios de asistencia médica por 
+enfermedades catastróficas $j = 2$.
+\begin{equation}
+B^{cat}_t = 
+B^{2,cat}_t + B^{3,cat}_t + B^{4,cat}_t + B^{6,cat}_t + B^{7,cat}_t + B^{8,cat}_t + B^{9,cat}_t
+\end{equation}
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Beneficio total}
+Así, el total de gasto prestacional viene dado por la suma de cada uno de los beneficios antes
+descritos.
+\begin{equation}
+B_t = B^{pen}_t + B^{aux}_t + B^{sal}_t + B^{cat}_t
+\end{equation}
+
+%---------------------------------------------------------------------------------------------------
+\section{Flujo de gastos administrativos}
+\label{chp_modelo:gasto}
+Tal como se lo ha establecido en la sección \ref{chp_reglamentacion:egresos:gadmin}, el gasto
+administrativo es calculado a partir de los ingresos anuales por aportes de la siguiente manera:
+\begin{equation}
+G_t = \gamma_M M_t^{sgo} + \gamma_A A^{2}_t
+\end{equation}
+con $\gamma_M = 0,0005$ y $\gamma_A = 0,03$.
+
+%---------------------------------------------------------------------------------------------------
+\section{Balance actuarial}
+\label{chp_modelo:bal_act}
+
+Con el objeto de construir el balance actuarial del \Sexpr{REP_seg}, primeramente definimos su
+reserva inicial a la fecha de corte, que notamos $V_0$ y que equivale al saldo de la cuenta de
+patrimonio a esa fecha.
+
+En segundo lugar, desarrollamos una proyección del balance corriente $V^{cor}_t$, que corresponde a
+la diferencia de los ingresos (sumado el interés de la reserva $Int_t$) menos los egresos de cada año $t>0$:
+\begin{equation}
+V^{cor}_t = A_t + Int_t - B_t - G_t
+\end{equation}
+
+Para $t=0$, definimos el balance $V^{cor}_0 = 0$, pues a la fecha de corte nos interesamos solamente
+en la reserva inicial $V_0$.
+
+% En tercer lugar, calculamos el balance capitalizado $V^{cap}_t$ para cada año $t$ del horizonte de
+% análisis. Este balance representa la evolución proyectada de la reserva actual hasta el final del
+% horizonte de análisis. Por lo tanto $V^{cap}_0=V_0$ y utilizando el factor de capitalización $u$,
+% para $t>0$ obtenemos:
+% \begin{equation}
+% V^{cap}_t = u\, V^{cap}_{t-1} + V^{cor}_t 
+% \end{equation}
+% o de manera equivalente:
+% \begin{equation}
+% V^{cap}_t = u^t\, V_0 + \sum\limits_{s=1}^t u^{t-s} \left( A_s - B_s - G_s \right) 
+% \end{equation}
+
+Finalmente, el balance actuarial del fondo, calculado en la fecha de corte $t=0$ y con un horizonte
+de proyección $T$, lo notaremos $V_T$, y corresponde a la reserva inicial más el valor actuarial
+presente de los ingresos futuros y menos el valor actuarial presente de los egresos futuros.  En
+consecuencia tenemos que:
+\begin{equation}
+V_T = V_0 + \sum\limits_{t=0}^T v^t \left( A_t + Int_t - B_t - G_t \right)
+\end{equation}
+
+Esta formulación corresponde a la reserva matemática prospectiva que permite determinar la situación
+actuarial del \Sexpr{REP_seg} hasta el horizonte $T$.  El valor $V_T$ se expresa en valor actuarial
+presente (VAP), haciendo uso del factor de actualización $v$, que a su vez está determinado por la
+tasa actuarial.
+
+En base a lo anterior, la situación actuarial del \Sexpr{REP_seg}, se establece como sigue:
+\begin{itemize}
+\item Si el balance actuarial $V_T<0$, concluiremos que a la fecha de corte, el \Sexpr{REP_seg}
+presenta un déficit actuarial en el horizonte $T$;
+\item Si por el contrario, $V_T>0$, entonces, a la fecha de corte, el seguro presenta un
+superávit actuarial con horizonte $T$; y,  
+\item Si $V_T=0$, a la fecha de corte, el seguro está en una situación de equilibrio actuarial
+con horizonte $T$.
+\end{itemize}
+
+En este estudio nos interesa determinar la situación actuarial del \Sexpr{REP_seg} hasta el
+horizonte $T = \Sexpr{REP_hor}$.

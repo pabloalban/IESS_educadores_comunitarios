@@ -1,0 +1,146 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Presentación de resultados}
+\label{chp_resultados}
+
+\section{Resultados de la evaluación actuarial}
+\label{chp_valuacionactu:est_apo}
+
+La Dirección Actuarial, de Investigación y Estadística efectuó cinco (5) escenarios para realizar las 
+proyecciones actuariales para el período de evaluación.
+
+Los resultados del balance actuarial de estos cinco escenarios: base, pesimista, legal, alternativo primero y alternativo segundo se encuentran descritos en las tablas \ref{tab:iess_bal_act_vap_escenario_1},
+\ref{tab:iess_bal_act_vap_escenario_2}, \ref{tab:iess_bal_act_vap_escenario_3}, \ref{tab:iess_bal_act_vap_escenario_4} y \ref{tab:iess_bal_act_vap_escenario_5} respectivamente.
+
+%---------------------------------------------------------------------------------------------------
+\section{Estimación del nivel suficiente de aportes}
+\label{chp_valuacionactu:est_apo}
+
+Mediante el análisis establecido en las secciones \ref{chp_modelo:sis_fin}, \ref{chp_modelo:aport},
+\ref{chp_modelo:benef} y \ref{chp_modelo:gasto}, determinamos cada uno de los flujos financieros
+del \Sexpr{REP_seg}. En las mismas secciones evidenciamos que existe cuatro fuentes de origen de 
+aportes; estos son debidos a los cotizantes del \Sexpr{REP_seg}, los cotizantes del SGO, el Estado 
+y el grupo de otros aportantes conformado por las empresas del mercado 
+asegurador. 
+
+A continuación, presentamos la prima suficiente teórica reglamentaria a cargo de cada una de las familias aseguradas, si se consideran los ingresos por contribuciones, aportes de los otros sectores y las contribuciones del Estado, definida como:
+
+\begin{equation}
+\hat{\pi}^{2}_T = \frac{ \sum\limits_{t=0}^T v^t \left( B_t + G_t - A^{otr}_t - A^{est}_t - A^{sgo}_t -
+V_0 \right) }{ \sum\limits_{t=0}^T v^t\ M_t }
+\end{equation}
+
+% aplicable sobre la base referencial de aportaciones del SSC, si se consideran los ingresos por 
+% contribuciones y aportes de otros sectores y las contribuciones del Estado definidas en cada 
+% escenario, se define como sigue:
+
+% Presentamos las diferentes primas según se considere los aportes de los diferentes grupos 
+% involucrados, tomando siempre en cuenta que el horizonte de estudio es $T = \Sexpr{REP_hor}$:
+% \begin{enumerate}
+% \item Prima suficiente teórica a cargo de cada una de las familias aseguradas, aplicable sobre
+% la base referencial de aportaciones del SSC, si no se consideran los ingresos por contribuciones y 
+% aportes de otros sectores, ni del Estado, se define como sigue:
+% \begin{equation}
+% \hat{\pi}^{2,nap}_T = \frac{ \sum\limits_{t=0}^T v^t \left( B_t + G_t - V_0 \right) }
+% { \sum\limits_{t=0}^T v^t\ M_t } 
+% \end{equation}
+% 
+% \item Prima suficiente teórica reglamentaria, a cargo de cada una de las familias aseguradas,
+% aplicable sobre la base referencial de aportaciones del SSC, si se consideran los ingresos por 
+% contribuciones y aportes de otros sectores y las contribuciones del Estado definidas en cada 
+% escenario, se define como sigue:
+% \begin{equation}
+% \hat{\pi}^{2}_T = \frac{ \sum\limits_{t=0}^T v^t \left( B_t + G_t - A^{otr}_t - A^{est}_t - A^{sgo}_t - 
+% V_0 \right) }{ \sum\limits_{t=0}^T v^t\ M_t } 
+% \end{equation}
+
+% \item Prima media nivelada teórica, a cargo de cada una de las familias aseguradas,
+% aplicable sobre la base referencial de aportaciones del SSC, si se consideran los ingresos por 
+% contribuciones y aportes de otros sectores pero bajo el supuesto que el Estado no realiza 
+% contribuciones, se define omo sigue:
+% \begin{equation}
+% \hat{\pi}^{2,nre}_T = \frac{ \sum\limits_{t=0}^T v^t \left( B_t + G_t - A^{otr}_t - A^{est}_t 
+% + A^{est,rel}_t - A^{sgo}_t - V_0 \right) }{ \sum\limits_{t=0}^T v^t M_t } 
+% \end{equation}
+% 
+% \item Prima media nivelada considerando que la obligación la asume el SGO.
+% \begin{equation}
+% \hat{\pi}^{sgo}_T = \frac{ \sum\limits_{t=0}^T v^t \left( B_t + G_t - A^{otr}_t - A^{est}_t 
+% - A^{2}_t - V_0 \right) }{ \sum\limits_{t=0}^T v^t M^{sgo}_t } 
+% \end{equation}
+%
+%\end{enumerate}
+
+En la tabla \ref{tab:iess_prima_suficiente} se presenta los valores de las primas  medias niveladas, a cargo de cada una de las familias aseguradas, para  cada uno de los escenarios simulados.
+
+Recordamos que $\pi^2$, representa el porcentaje de aportación mensual vigente a la fecha de corte, 
+de la familia asegurada incluyendo la cotización por concepto de discapacidad, que se aplica a la 
+base referencial de aportaciones y prestaciones para obtener el monto de aporte. También,
+por notación, $\pi^{sgo}$ corresponde al porcentaje de aporte solidario sobre la masa salarial,
+de los afiliados al SGO (ver sección \ref{chp_modelo:aport_afil}).
+
+\begin{table}[H]
+\begingroup\scriptsize\centering
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\caption{Tasas, prima suficiente y resultados para cada uno de los escenarios}
+\label{tab:iess_prima_suficiente}
+{\fontsize{8}{10}\selectfont
+\begin{tabular}{L{1.5cm}!{\color{white}\vrule\vrule}
+                C{0.6cm}!{\color{white}\vrule}
+                C{0.6cm}!{\color{white}\vrule}
+                C{0.6cm}!{\color{white}\vrule}
+                C{0.6cm}!{\color{white}\vrule}
+                C{0.6cm}!{\color{black}\vrule\vrule}
+                C{2.3cm}!{\color{black}\vrule\vrule}
+                R{2.0cm}!{\color{white}\vrule}
+                R{2.3cm}!{\color{black}\vrule\vrule}
+                R{1.5cm}}
+
+\toprule \rowcolor{iess_green!60}
+& \multicolumn{5}{c!{\color{black}\vrule\vrule}}{Tasas (\%)}
+& \multicolumn{1}{c!{\color{black}\vrule\vrule}}{Prima Suficiente (\%)} 
+& \multicolumn{2}{c!{\color{black}\vrule\vrule}}{Resultado}
+& \\ 
+
+\arrayrulecolor{white}\cmidrule{2-9}\rowcolor{iess_green!60}
+\parbox{1.5cm}{\vspace{-0.3cm}Escenario }
+& $i_a$
+& $\pi^{2}$
+& $\pi^{sgo}$
+& $\alpha_{2,est}$
+& $\alpha_{1,est}$
+& \multicolumn{1}{c!{\color{black}\vrule\vrule}}{ \centering $\hat{\pi}^{2}_T$} 
+& $V_T$
+& Año previo déficit
+& \parbox{1.5cm}{\vspace{-0.2cm}Tiempo en años para reserva cero\vspace{0.1cm} }\\
+\arrayrulecolor{black}\midrule
+
+\input{tablas/iess_bal_prima_suficiente_re.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize \textbf{Elaborado}: DAIE.}
+\endgroup
+\end{table}
+
+Donde:
+
+\begin{itemize}
+\item $i_a$: tasa actuarial.
+\item $\pi^2$: tasa de aporte de los cotizantes del \Sexpr{REP_seg}.
+\item $\pi^{sgo}$: tasa de aporte de los cotizantes del SGO.
+\item $\alpha_{1,est}$: porcentaje de aporte del Estado para pensiones.
+\item $\alpha_{2,est}$: porcentaje de aporte del Estado por relación de dependencia.
+\item $\hat{\pi}^2_T$: prima suficiente para cotizantes del \Sexpr{REP_seg} en el horizonte de 
+estudio $T = \Sexpr{REP_hor}$.
+% \item $\hat{\pi}^{sgo}_T$ prima media nivela para cotizantes del SGO en el horizonte de 
+% estudio $T = \Sexpr{REP_hor}$
+\item $V_T$: balance actuarial para el horizonte de estudio $T = \Sexpr{REP_hor}$.
+\end{itemize}
+
+%---------------------------------------------------------------------------------------------------
+\section{Causas de posibles desfinanciamientos}
+\label{chp_resultados:caus_desf}
+El análisis de estas causas se presenta en la sección \ref{chp_infofinan:causasdesf} del capítulo 
+\ref{chp_infofinan}.

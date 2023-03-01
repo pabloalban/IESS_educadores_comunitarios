@@ -1,0 +1,1310 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Reglamentación del fondo o seguro}
+\label{chp_reglamentacion} 
+%--------------------------------------------------------------------------------------------------
+
+\section {Breve descripción de los reglamentos y leyes aplicables}
+
+\subsection{Normativa y administración} 
+
+Dentro del Libro II de la Ley de Seguridad Social se encuentra el sistema de pensiones, el cual contempla un régimen mixto, que debía recibir las aportaciones y contribuciones obligatorias y otorgaba las prestaciones, en forma combinada, una parte por el régimen de jubilación por solidaridad intergeneracional y otra por el régimen de jubilación por ahorro voluntario. Este régimen no fue implementado, por cuanto el Tribunal Constitucional a través de la Resolución Nro. 052-2001-RA, declaró inconstitucionales por el fondo los artículos 167, 176, 204, entre otros de la Ley de Seguridad Social. En el mismo Libro, en el Título VI se determina un régimen de transición. 
+
+La afiliación y la recaudación de las aportaciones y de la contribución financiera del Estado se encuentran a cargo del IESS; y, corresponde a la Administradora del Seguro General de Pensiones, conforme el artículo 168 de la Ley de Seguridad Social, el aseguramiento, calificación del derecho a las prestaciones y la entrega de las prestaciones de invalidez, vejez y muerte, así como la aplicación del régimen de jubilación por solidaridad intergeneracional en los términos que establece  la Ley.
+
+En el anexo \ref{chap_reglamentacion_fondo} se detalla la normativa que aplica este Seguro.
+
+
+\section{Normativa sobre la población asegurada}
+
+El numeral 1 del artículo 3 de la Constitución de la República del Ecuador determina que es deber primordial del Estado, garantizar sin discriminación alguna el efectivo goce de los derechos establecidos en la norma suprema y en los instrumentos internacionales, en particular la seguridad social. \\
+
+% La Declaración Universal de los Derechos Humanos\footnote{Declaración Universal de los Derechos Humanos, adoptada y proclamada por la Asamblea General en la Resolución 217A (III) de 10 de diciembre de 1948.}, consagra:
+% 
+% \begin{displayquote}
+% \legalcite{Art. 25.-}\
+% 
+% 
+% \begin{enumerate}
+% \item Toda persona tiene derecho a un nivel de vida adecuado que le asegure, así como a su familia, la salud y el bienestar, y en especial la alimentación, el vestido, la vivienda, la asistencia médica y los servicios sociales necesarios; tiene asimismo derecho a los seguros en caso de desempleo, enfermedad, invalidez, viudez, vejez y otros casos de pérdida de sus medios de subsistencia por circunstancias independientes de su voluntad [...].
+% \end{enumerate}
+% \end{displayquote}
+
+% El artículo 9 del \textbf{\legalcite{Pacto_DESC}} \footnote{\textbf{\legalcite{Pacto_DESC}}. Publicada en el Registro Oficial No. 101 de 24 de enero de 1969.}, establece que los Estados Partes reconocen el derecho de toda persona a la seguridad social, incluso al seguro social.
+% 
+% La \textbf{\legalcite{Conve_Intera_PDH}} \footnote{\textbf{\legalcite{Conve_Intera_PDH}}. Publicada en el Registro Oficial Edición Constitucional No. 53 de 28 de junio de 2018.}  determina:
+
+% \begin{displayquote}
+% \legalcite{Art. 17.-} Derecho a la seguridad social
+% 
+% Toda persona mayor tiene derecho a la seguridad social que la proteja para llevar una vida digna.
+% 
+% Los Estados Parte promoverán progresivamente, dentro de los recursos disponibles, que la persona mayor reciba un ingreso para una vida digna a través de los sistemas de seguridad social y otros mecanismos flexibles de protección social.
+% 
+% Los Estados Parte buscarán facilitar mediante convenios institucionales, acuerdos bilaterales u otros mecanismos hemisféricos, el reconocimiento de prestaciones, aportes realizados a la seguridad social o derechos de pensión de la persona mayor migrante.
+% 
+% Todo lo dispuesto en este artículo será de conformidad con la legislación nacional.
+% \end{displayquote}
+
+Dentro del marco constitucional, el derecho a la seguridad social, es un derecho irrenunciable\footnote{Artículo 34 de la \legalcite{ConsEcu:2008}.} de todas las personas; y, el Estado debe garantizar y hacer  efectivo el  ejercicio pleno  de este derecho. Así también el artículo 37 de la norma supra referida, establece que el Estado garantizará a las personas adultas mayores el derecho a la jubilación universal.
+
+%%REV
+%que incluye a las personas que realizan trabajo no remunerado en los hogares, actividades para el auto sustento en el campo, toda forma de trabajo autónomo y a quienes se encuentran en situación de desempleo.
+
+% ----------------- TABLA DEL WORD??-----------------------
+En la tabla \ref{tab:suj_protec_reglas} se presenta los sujetos de protección y las reglas de protección y exclusión, conforme lo determinado en los artículos 2 y 3 de la Ley de Seguridad Social. 
+ 
+{\fontsize{10}{12}\selectfont
+  \begin{longtable}[t]{p{6cm}p{8cm}}
+  \caption{Sujetos de protección y las reglas de protección y exclusión}\\
+  \label{tab:suj_protec_reglas}\\
+  \toprule
+  \multicolumn{1}{c}{\textbf{Sujetos de protección}} &  \multicolumn{1}{c}{\textbf{Reglas de protección y exclusión }} \\ \midrule
+  \endfirsthead
+
+  \toprule
+  \multicolumn{1}{c}{\textbf{Sujetos de protección}} &  \multicolumn{1}{c}{\textbf{Reglas de protección y exclusión}} \\ \midrule
+  \endhead
+
+  \hline \multicolumn{2}{r}{continúa...} \\
+  \endfoot
+  \endlastfoot
+
+   \multirow{3}{6cm}{El trabajador en relación de dependencia}	& Está protegido contra las contingencias enunciadas enfermedad, maternidad, riesgos del trabajo, vejez, muerte e invalidez que incluye discapacidad, cesantía y desempleo. \\ \midrule
+
+    \begin{enumerate}[label=\textbf{\alph*)}]
+  \item El trabajador autónomo
+  \item El profesional en libre ejercicio
+  \item El administrador o patrono de un negocio
+  \item El dueño de una empresa unipersonal
+  \item El menor trabajador independiente
+  \end{enumerate}& \multirow{8}{8cm}{Está protegido contra las contingencias de enfermedad, maternidad, riesgos del trabajo, vejez, muerte e invalidez que incluye discapacidad.  Está excluido de la cesantía y seguro de desempleo.}	\\ \midrule
+
+%  Las personas que realicen trabajo del hogar no remunerado	& Está protegido contra las contingencias de vejez, muerte e invalidez que produzca incapacidad permanente, total y absoluta. \\ \midrule
+
+  \multirow{2}{6cm}{Las demás personas obligadas a la afiliación al régimen del Seguro General en virtud de leyes o decretos especiales.}	& El jubilado recibirá prestaciones de salud en las unidades médicas del IESS, en las mismas condiciones que los afiliados activos, con cargo a la contribución financiera obligatoria del Estado. \\ \vspace{0.3cm}
+   & El beneficiario de montepío por orfandad estará protegido contra el riesgo de enfermedad hasta los 18 años de edad, con cargo a los derechos del causante. \\ \vspace{0.3cm}
+   & El beneficiario de montepío por viudez será amparado en un seguro colectivo contra contingencias de enfermedad y maternidad, con cargo a su pensión. \\ \vspace{0.3cm}
+   & La jefa del hogar estará protegida contra las contingencias de enfermedad y maternidad con cargo a la contribución del Estado. \\  \midrule
+
+   \multirow{3}{4cm}{Afiliado voluntario}	& Gozarán de los mismos beneficios y prestaciones que se otorgan a los demás afiliados, en lo referente a los Seguros de Invalidez, Vejez, Muerte, Riesgos del Trabajo y asistencia por enfermedad y maternidad.  \\ 
+   \bottomrule
+  \caption*{\scriptsize {\bf Fuente:} \legalcite{LeySS} \\{\bf Elaborado}: DAIE}
+  \end{longtable}
+}
+
+% Los artículos 2 y 3 de la \textbf{\legalcite{LeySS}} establecen los sujetos de protección y los riesgos cubiertos; a continuación se transcribe cada uno de ellos:
+% 
+% \begin{displayquote}
+% \textbf{Art. 2.- SUJETOS DE PROTECCIÓN.- }Son sujetos “obligados a solicitar la protección”\footnote{Nota: Las frases entre comillas Declaradas Inconstitucionales de Fondo por Resolución del Tribunal Constitucional No. 052-2001-RA, publicada en el Suplemento del Registro Oficial No. 525 de 16 de febrero de 2005.} del Seguro General Obligatorio, en calidad de afiliados, todas las personas que perciben ingresos por la ejecución de una obra o la prestación de un servicio físico o intelectual, con relación laboral o sin ella; en particular:
+% \begin{enumerate}[label=\textbf{\alph*)}]
+% \item El trabajador en relación de dependencia;
+% \item	El trabajador autónomo;
+% \item El profesional en libre ejercicio;
+% \item	El administrador o patrono de un negocio;
+% \item	El dueño de una empresa unipersonal;
+% \item	El menor trabajador independiente;
+% \item	Las personas que realicen trabajo del hogar no remunerado; y,
+% \item		Las demás personas obligadas a la afiliación al régimen del Seguro General Obligatorio en virtud de leyes o decretos especiales $[\ldots]$.
+% \end{enumerate}
+% 
+% \textbf{Art. 3.- RIESGOS CUBIERTOS.- }El Seguro General Obligatorio protegerá a las personas afiliadas, en las condiciones establecidas en la presente Ley y demás normativa aplicable, de acuerdo a las características de la actividad realizada, en casos de:
+% \begin{enumerate}[label=\textbf{\alph*)}]
+% \item Enfermedad;
+% \item Maternidad;
+% \item Riesgos del trabajo;
+% \item Vejez, muerte, e invalidez, que incluye discapacidad; y,
+% \item Cesantía.
+% \item Seguro de Desempleo $[\ldots]$.
+% \end{enumerate}
+% Para efectos del Seguro General Obligatorio, la protección contra la contingencia de discapacidad se cumplirá a través del seguro de invalidez.
+% \end{displayquote}
+% 
+% Por otra parte, el artículo 10 de la Ley Ibídem determina las reglas de protección y exclusión:
+% \begin{displayquote}
+% \textbf{Art. 10.- REGLAS DE PROTECCIÓN Y EXCLUSIÓN.- }En la aplicación de los programas de aseguramiento obligatorio, se observarán las siguientes reglas de protección y exclusión:
+% \begin{enumerate}[label=\textbf{\alph*)}]
+%     \item El trabajador en relación de dependencia estará protegido contra todas las contingencias enunciadas en el artículo 3 de esta Ley;
+% 
+%     \item El trabajador autónomo, el profesional en libre ejercicio, el administrador o patrono de un negocio, el dueño   de   una  empresa  unipersonal,  el  menor   independiente, que  voluntariamente se afiliaren al IESS, estarán protegidos contra todas las contingencias enunciadas en el artículo 3 de esta Ley, excepto la de cesantía Seguro de Desempleo; [...]
+% 
+%     \item El jubilado recibirá prestaciones de salud en las unidades médicas del IESS, en las mismas condiciones que los afiliados activos, con cargo a la contribución financiera obligatoria del Estado.
+% 
+%     \item El beneficiario de montepío por orfandad estará protegido contra el riesgo de enfermedad hasta los dieciocho (18) años de edad, con cargo a los derechos del causante;
+% 
+%     \item El beneficiario de montepío por viudez será amparado en un seguro colectivo contra contingencias de enfermedad y maternidad, con cargo a su pensión, en las condiciones que determinará el Reglamento General de esta Ley;
+% 
+%     \item La jefe de hogar estará protegida contra las contingencias de enfermedad y maternidad con cargo a la contribución del Estados; y,
+%     \item La persona que realiza trabajo no remunerado del hogar estará protegida contra las contingencias de vejez, muerte e invalidez que produzca incapacidad permanente, total y absoluta.
+% \end{enumerate}
+% \end{displayquote}
+% Conforme el artículo 154 de la \legalcite{Ley de Seguridad Social}, los afiliados voluntarios gozarán de los mismos beneficios y prestaciones que se otorgan a los afiliados obligados, en lo referente a los Seguros de Invalidez, Vejez, Muerte, Riesgos del Trabajo y asistencia por enfermedad y maternidad.
+
+\section{Normativa para la entrega de las prestaciones}
+A continuación se detalla las condiciones, requisitos y exigencias para alcanzar los beneficios que otorga el Seguro IVM.
+
+\subsection{Jubilación de Vejez}
+En la tabla \ref{tab:jub_or_vjz} se determina las condiciones para alcanzar la jubilación ordinaria de vejez, considerando el grupo poblacional.
+
+%\begin{landscape}
+{\fontsize{10}{12}\selectfont
+\begin{longtable}[h]{p{3cm}p{3cm}p{7cm}}
+  \caption{Condiciones para la jubilación ordinaria de vejez}\\
+  \label{tab:jub_or_vjz}\\
+  \toprule
+  \multicolumn{1}{c}{\textbf{Pensión}} & \multicolumn{1}{c}{\textbf{Grupo poblacional}}& 
+  \multicolumn{1}{c}{\textbf{Condiciones }} \\ \midrule
+  \endfirsthead
+
+  \toprule
+  \multicolumn{1}{c}{\textbf{Pensión}} & \multicolumn{1}{c}{\textbf{Grupo poblacional}}& \multicolumn{1}{c}{\textbf{Condiciones }} \\ \midrule
+  \endhead
+
+  \hline \multicolumn{2}{r}{continúa...} \\
+  \endfoot
+  \endlastfoot
+
+  \multirow{15}{3cm}{Pensión por jubilación de vejez}&	\multirow{15}{4cm}{Cuando el afiliado cumpla una de las condiciones.}&\vspace{-0.5cm} \begin{itemize}
+      \item Sesenta (60) años de edad o más y acreditare por lo menos trescientos sesenta (360) imposiciones mensuales o más;
+    \item Sesenta y cinco (65) años de edad o más, siempre que registre un mínimo de ciento ochenta (180) imposiciones mensuales o más;
+	\item Setenta (70) años de edad o más, siempre que registre un mínimo de ciento veinte (120) imposiciones mensuales o más;
+	\item Con cualquier edad y acreditare cuatrocientos ochenta (480) imposiciones mensuales o más.
+	\end{itemize}\\ 
+
+% Pensión por jubilación especial	&Trabajadores de la industria del cemento&	Una vez que hayan acreditado por lo menos trescientas imposiciones.\\ \midrule
+% 
+% Pensión por jubilación ordinaria&	Persona que realiza trabajo del hogar no remunerado&	Tendrá derecho cuando haya realizado un mínimo de doscientos cuarenta (240) aportaciones mensuales y cumplido al menos sesenta y cinco (65) años de edad\\ \midrule
+% 
+% Pensión por jubilación de vejez	&Trabajadores de telecomunicaciones&	Si tuvieren acreditadas por lo menos 300 imposiciones mensuales, cualquiera que sea su edad.\\ \midrule
+% 
+% \multirow{15}{4cm}{Pensión por jubilación por vejez}&	\multirow{15}{4cm}{Trabajadores cortadores de caña de azúcar}&
+% 
+% \vspace{2pt}\begin{tabular}[t]{
+%      C{2cm} C{2cm} C{2cm} }
+%   \toprule
+%     \multicolumn{1}{c}{\textbf{Años}} &
+%         \multicolumn{1}{c}{\textbf{Edad}} & \multicolumn{1}{c}{\textbf{Años}}\\
+%          \multicolumn{1}{c}{\textbf{cumplidos}} &
+%         \multicolumn{1}{c}{\textbf{de}} & \multicolumn{1}{c}{\textbf{Totales}}\\
+%         \multicolumn{1}{c}{\textbf{de aportes }} &
+%         \multicolumn{1}{c}{\textbf{Jubilación}} &         \multicolumn{1}{c}{\textbf{ Mínimos}}\\
+%         \multicolumn{1}{c}{\textbf{como  }} &
+%         \multicolumn{1}{c}{\textbf{}} &
+%         \multicolumn{1}{c}{\textbf{ de Aportes}}\\
+%       \multicolumn{1}{c}{\textbf{ cortadores}} &
+%       \multicolumn{1}{c}{\textbf{ }} &                \multicolumn{1}{c}{\textbf{al Seguro}}\\
+%         \multicolumn{1}{c}{\textbf{de caña}} &
+%         \multicolumn{1}{c}{\textbf{ }} &                 \multicolumn{1}{c}{\textbf{ General}}\\
+%         \multicolumn{1}{c}{\textbf{de azúcar}} &
+%         \multicolumn{1}{c}{\textbf{ }} &                 \multicolumn{1}{c}{\textbf{ Obligatorio}}\\
+%   \midrule
+%   5	&59	&30\\ \hline
+%          10 &58	&30\\ \hline
+%          15	&57	&30\\ \hline
+%          20	&56	&30\\ \hline
+%          25	&55	&30\\ \hline
+%          30 o más&54&30\\ \hline
+%   \bottomrule
+%   \end{tabular} \\[16.5ex] \\
+% \midrule
+% 
+% \multirow{10}{4cm}{Pensiones de invalidez, vejez y montepío} &\multirow{10}{4cm}{Del Seguro Adicional del Magisterio con las del Seguro General (Fusión de las pensiones en curso de pago a marzo de 2011)}&
+% \vspace{-0.6cm}\begin{enumerate}[label=\textbf{\alph*)}]
+%     \item Se sumará el valor de la renta adicional del Magisterio, previamente codificada, con la renta del seguro general que se encontrare recibiendo, sin que en ningún caso, se modifique las cuantías de las rentas fusionadas.
+%     \item La pensión consolidada se sujetará a las disposiciones que rigen para el seguro general, en lo que se refiere a la aplicación de los porcentajes de incremento anual de pensiones, al inicio de cada año.
+% \end{enumerate}\\
+\bottomrule
+   \caption*{\scriptsize {\bf Fuente:} \legalcite{LeySS},y \legalcite{ ResIESS_CD100} con sus reformas.\\{\bf Elaborado:} DAIE}
+  \end{longtable}
+}
+%\end{landscape}
+
+\subsection{Jubilación Especial de Vejez por la Ley Orgánica de Discapacidades}\label{reg:LOD}
+
+La \legalcite{LeyDis} determina:
+
+\begin{displayquote}
+\textbf{Art. 84.- Pensión por discapacidad permanente total o permanente absoluta.- }Las y los afiliados a quienes les sobrevenga una discapacidad permanente total o permanente absoluta tendrán derecho a la pensión por discapacidad sin requisito mínimo de aportaciones previas. Para el cálculo de la pensión se aplicarán los mínimos, máximos y ajustes periódicos que efectúe el Instituto Ecuatoriano de Seguridad Social para la jubilación por  invalidez.
+
+\textbf{Art. 85.- Jubilación especial por vejez.- }Las personas con discapacidad afiliadas al Instituto Ecuatoriano  de Seguridad Social que acreditaren trescientas (300) aportaciones, sin límite de edad, tendrán derecho a una pensión que será igual al sesenta y ocho punto setenta y cinco por ciento (68,75 \%) del promedio de  los  cinco (5) años de mejor remuneración básica unificada de aportación en concordancia con la determinación de mínimos, máximos y ajustes periódicos que efectúe el Instituto Ecuatoriano de Seguridad Social. En los casos de personas con discapacidad intelectual tendrán derecho a la pensión jubilar cuando acreditaren doscientas cuarenta (240) aportaciones.
+
+
+Las y los servidoras o servidores con discapacidad de las entidades y organismos públicos, que se acojan a los beneficios de la jubilación, tendrán derecho a recibir por parte de su empleador, por una sola vez, cinco salarios básicos unificados del trabajador privado por cada año de servicio en una misma empresa, contados a partir del quinto año y hasta un monto máximo de ciento cincuenta salarios básicos unificados del trabajador privado en total.
+
+La persona con discapacidad jubilada que reingrese a laborar bajo relación de dependencia tendrá derecho a una mejora en su pensión de jubilación, una vez que cese en su nuevo empleo y haya realizado como mínimo doce (12) aportaciones.
+\end{displayquote}
+
+\subsection{Jubilación por Invalidez}
+
+
+En la tabla \ref{tab:jub_inv_tot_per} se presenta las condiciones para la acreditación del derecho a la pensión de jubilación por invalidez \footnote{Se considera inválido al asegurado que, por enfermedad o por alteración física o mental, se hallare incapacitado para procurarse por medio de un trabajo acorde a su capacidad, fuerzas y formación teórica o práctica, una remuneración por lo menos equivalente a la mitad de la remuneración habitual que reciba un trabajador sano en condiciones laborales similares} total y permanente.
+
+
+\begin{table}[h]
+\centering 
+\captionsetup{justification=centering}
+  \caption{Condiciones para la jubilación por invalidez total y permanente}
+  \label{tab:jub_inv_tot_per}
+  {\fontsize{10}{12}\selectfont
+\begin{tabular}{p{6cm}p{8cm}}
+  \toprule
+  \multicolumn{1}{c}{\textbf{Detalle }} &  \multicolumn{1}{c}{\textbf{Condiciones }} \\
+  \midrule
+  \multirow{15}{8cm}{Jubilación por invalidez total y permanente}&
+  \vspace{-0.6cm}
+  \begin{enumerate}[label=\textbf{\alph*)}]
+      \item La incapacidad absoluta y permanente para todo trabajo, sobrevenida en la actividad o en período de inactividad compensada, cualquiera sea la causa que la haya originado    y siempre que se acredite no menos de sesenta (60) imposiciones mensuales, de las cuales seis (6) como mínimo deberán ser inmediatamente previas a la incapacidad (Consecutivas); y,
+      \item La incapacidad absoluta y permanente para todo trabajo, sobrevenida dentro de los dos (2) años siguientes al cese en la actividad o al vencimiento del período de inactividad compensada, cualquiera sea la causa que haya originado, siempre que el asegurado hubiere acumulado ciento veinte (120) imposiciones mensuales como mínimo y no fuere beneficiario de otra pensión jubilar.
+  \end{enumerate}\\ 
+  
+% \midrule
+% \multirow{10}{8cm}{La persona que realiza trabajo del hogar no remunerado, requiere cumplir las siguientes condiciones para la calificación de incapacidad permanente.}	&
+% \vspace{-0.6cm} \begin{itemize}
+%     \item Seis (6) aportaciones mensuales para las personas que tengan entre 15 y 25 años de edad;
+%     \item Treinta y seis (36) aportaciones mensuales para las personas que tengan entre 26 y 45 años de edad;
+%     \item Sesenta (60) aportaciones mensuales para las personas a partir de 46 años de edad.
+% \end{itemize}\\
+\bottomrule
+\end{tabular}
+  }
+\caption*{\scriptsize {\bf Fuente:} \legalcite{LeySS} y \legalcite{ResIESS_CD100} con sus reformas \\{\bf Elaborado:} DAIE}
+\end{table}
+
+%-------------------------------------------------------------------------------
+\subsection{Subsidio Transitorio por Incapacidad}
+
+Se acredita derecho a percibir el subsidio transitorio por incapacidad para el empleo u ocupación habitual, cuando la contingencia, salvo el caso de exclusiones de la jubilación por invalidez de este régimen, ha provocado el cese forzoso en la actividad principal del asegurado, siempre que cumpla las siguientes condiciones:
+
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item El asegurado que registre al menos sesenta (60) imposiciones mensuales, de las cuales las seis (6) últimas deberán ser inmediatamente anteriores a la incapacidad;
+    \item La contingencia haya afectado la actividad laboral, que prive al asegurado la obtención de la mayor parte del ingreso necesario para el sustento;
+    \item Se verifique que el asegurado cesó en dicha actividad a causa de la contingencia, entendiéndose por tal que interrumpió el desempeño de su labor o concluyó la relación laboral o contractual; y,
+    \item La incapacidad no está amparada por el Seguro General de Riesgos del Trabajo.
+\end{enumerate}
+El subsidio transitorio por incapacidad no podrá exceder de un plazo máximo de (1) año, contado desde la fecha de la incapacidad  o desde el vencimiento de la cobertura del subsidio transitorio por enfermedad que otorga el Seguro General de Salud Individual y Familiar.
+
+\subsection{Pensiones de Montepío}
+Los artículos 197 de la \legalcite{LeySS}; y, 16 de \legalcite{ ResIESS_CD100}, establecen que causará derecho a pensión de montepío el jubilado en goce de pensión de invalidez o vejez, o el asegurado activo que al momento de su fallecimiento tuviere acreditadas al menos sesenta (60) imposiciones mensuales o se encontrare en el período de protección del seguro de muerte.
+
+% El período de protección para percibir esta prestación debe ser igual a la décima parte del tiempo cubierto por imposiciones a la fecha de su cesantía\footnote{Artículo 23 de la \textbf{Resolución No. C.D. 100}. }.
+
+En la tabla No. \ref{tab:montepio} se describe las condiciones para acceder a las pensiones de montepío.
+
+{\fontsize{10}{12}\selectfont
+\begin{longtable}[t]{p{4cm}p{10cm}}
+  \caption{Condiciones para la pensión de viudez y orfandad }\\
+  \label{tab:montepio}\\
+  \toprule
+  \multicolumn{1}{c}{\textbf{Pensión }} &  \multicolumn{1}{c}{\textbf{Condiciones }} \\ \midrule
+  \endfirsthead
+
+  \toprule
+  \multicolumn{1}{c}{\textbf{Pensión }} &  \multicolumn{1}{c}{\textbf{Condiciones }} \\ \midrule
+  \endhead
+
+  \hline \multicolumn{2}{r}{continúa...} \\ 
+  \endfoot
+  \endlastfoot
+
+  \multirow{10}{*}{Pensión de viudez}	&Acreditará a la pensión de viudez:
+  \begin{enumerate}[label=\textbf{\alph*)}]
+  \item La cónyuge o conviviente del afiliado o jubilado fallecido,
+  \item El cónyuge o conviviente de la afiliada o jubilada fallecida; y,
+  \item La persona que sin hallarse casada hubiere convivido en unión libre, monogámica y  bajo el mismo techo, con el o la causante, libre también de vínculo matrimonial, por más de dos (2) años inmediatamente anteriores a la muerte de éste. Si no hubiere los dos (2) años de vida marital al menos, bastará la existencia de hijas o hijos                    comunes.
+  \end{enumerate}\\ \midrule
+
+\multirow{10}{*}{Pensión de orfandad}	&Tendrán derecho a pensión de orfandad los hijos del afiliado o jubilado fallecido, los adoptados cuando la fecha de adopción es anterior a la fecha del fallecimiento por lo menos en 12 meses y los póstumos, hasta alcanzar los 18 años de edad. También tendrán derecho a pensión de orfandad los hijos de cualquier edad incapacitados para el trabajo, solteros, viudos o divorciados y que hayan vivido a cargo del causante.
+\vspace{0.3cm}
+
+A falta de viuda o viudo conviviente con derecho o hijos, tendrán derecho a montepío la madre y/o padre del asegurado o jubilado fallecido siempre que haya vivido a cargo del causante.\\ 
+%REV
+% \midrule
+% \multirow{15}{4cm}{Pensiones de viudedad y orfandad para las personas que realizan trabajo no remunerado del hogar} &	El cónyuge o la pareja de unión de hecho legalmente reconocida de la persona que realiza trabajo del hogar no remunerado fallecida y sus hijos, tendrán derecho a la pensión por viudedad y orfandad según corresponda, cuando a la fecha del fallecimiento la persona causante cumpliese con las condiciones generales de acceso, y hubiese realizado las siguientes aportaciones:
+% \begin{itemize}
+%     \item Seis (6) aportaciones mensuales para las personas fallecidas que tengan entre 15 y 25 años de edad;
+%     \item Treinta y seis (36) aportaciones mensuales para las personas fallecidas que tengan entre 26 y 45 años de edad;
+%     \item Sesenta (60) aportaciones mensuales para las personas fallecidas a partir de 46 años de edad.
+% \end{itemize}
+% 
+% En caso de que la persona causante fuese pensionista de incapacidad permanente total o absoluta o jubilación no se aplicarán las condiciones relativas a los períodos mínimos de aportación. Si no hubiere los dos años de vida marital, al menos bastará la existencia de hijas o hijos en común.
+% \vspace{0.3cm}
+% 
+% En ausencia del cónyuge o de la pareja en unión de hecho legalmente reconocida, tendrán derecho a la pensión de viudedad los padres de la persona afiliada o pensionista fallecida, siempre que hayan vivido a cargo del causante y no reciban ninguna otra pensión del Sistema de Seguridad Social.\\
+\bottomrule
+   \caption*{\scriptsize {\bf Fuente:} \legalcite{LeySS} y \textbf{\legalcite{ResIESS_CD100}} con sus reformas \\{\bf Elaborado:} DAIE}
+  \end{longtable}
+}
+
+\subsection{Auxilio de funerales}
+
+Al auxilio para funerales se lo define como un auxilio o reembolso en dinero que se entrega al fallecimiento del pensionista de jubilación o montepío o del afiliado que tuviere acreditadas seis (6) imposiciones mensuales, por lo menos, dentro de los últimos doce (12) meses anteriores a su fallecimiento o que genere derecho a pensiones de montepío.
+
+El auxilio de funerales se otorgará a través del reembolso en dinero a los derechohabientes de montepío por viudez y orfandad que hubieren demostrado antes el IESS haber cancelado los costos del funeral del asegurado fallecido, previa la presentación de las facturas originales, debidamente canceladas. A falta de éstos, podrá reclamar el subsidio la persona que de igual manera hubiere demostrado la cancelación de dichos costos funerarios ante el IESS; o, mediante el reembolso con autorización expresa de los derechohabientes de montepío o familiares del causante fallecido para el pago a empresas de servicios funerarios completos calificadas por el IESS.
+
+El auxilio de funerales cubre los siguientes conceptos:
+\vspace{-0.6cm}
+\begin{itemize}
+    \item Cofre mortuorio;
+    \item Servicios de velación;
+	\item Traslado;
+	\item Servicio religioso;
+	\item Costos de inhumación o cremación; y,
+	\item Costos de arrendamiento o compra de nicho, columbario o cenizario.
+\end{itemize}
+
+
+%---------------------------------------------------------------------------------------------------
+\section{Disposiciones pertinentes para las proyecciones }
+\label{chp_reglamentacion:disproyec}
+
+En la normativa actual no existen disposiciones expresas para las proyecciones de las diferentes variables que se incorporan al modelo actuarial, únicamente en la \legalcite{ResIESS_CD596} se fija la tasa de interés actuarial en 6,25\% anual.
+
+%---------------------------------------------------------------------------------------------------
+\section{Normativa de los ingresos y egresos financieros }
+
+% La \textbf{Constitución de la República del Ecuador} en su artículo 371 determina:
+% 
+% \begin{displayquote}
+% \textbf{Art. 371.- }Las prestaciones de la seguridad social se financiarán con el aporte de las personas aseguradas en relación de dependencia y de sus empleadoras o empleadores; con los aportes de las personas independientes aseguradas; con los aportes voluntarios de las ecuatorianas y ecuatorianos domiciliados en el externos; y con los aportes y contribuciones del Estado $[\ldots]$.
+% \end{displayquote}
+
+Para la presente valuación actuarial se consideró que los ingresos de este fondo se componen de la siguiente forma:
+\begin{itemize}
+
+\item Ingresos por aportes de afiliados (personal y patronal) (Véase la tabla \ref{tab:apo_2021})
+
+\item Aporte del 0,10\% para financiar las prestaciones definidas en la Ley Orgánica de Discapacidades.
+
+\item Contribución del 40\% por parte del Estado para el pago de las pensiones.
+
+\item Rendimiento de las inversiones.
+
+\item El excedente de los gastos de administración de la aseguradora.
+\end{itemize}
+
+Para la presente valuación actuarial, los egresos de este fondo son: 
+
+\begin{itemize}
+  \item 	Gasto en pensiones de Invalidez, Vejez, Viudedad y  Orfandad.
+\item	Gasto en decimotercera y decimocuarta  pensión.
+\item	Gasto en auxilio de funerales.
+\item	Gasto en subsidio  transitorio por incapacidad.
+\item	Gastos administrativos.
+\end{itemize}
+
+
+% %---------------------------------------------------------------------------------------------------
+\section{Fórmula de cálculo de las aportaciones}
+\label{chp_reglamentacion:calc_aporte}
+
+
+Los porcentajes de cotización de los aportes son:\footnote{
+El artículo 11 de la \legalcite{LeySS}, determina que, para efectos del cálculo de las aportaciones al Seguro General Obligatorio, se entenderá que la materia gravada es todo ingreso susceptible de apreciación pecuniaria, percibido por la persona afiliada}.
+%, o en caso del trabajo no remunerado del hogar por su unidad económica familiar.} para el Seguro IVM, se encuentran detallados en las tablas No. \ref{tab:apo_2021}, \ref{ref:tasas_aportacion_tnrh} y \ref{ref:tasas_aportacion_otras_modalidades
+
+{\fontsize{10}{12}\selectfont
+\begin{longtable}[h]{p{4cm}p{5cm}C{1cm}C{1cm}C{1cm}}
+  \caption{Tablas de aportación del año 2021 en adelante}\\
+  \label{tab:apo_2021}\\
+  \toprule
+  \multicolumn{1}{c}{\textbf{Sector afiliado }} &  \multicolumn{1}{c}{\textbf{Concepto }}&
+  \multicolumn{1}{c}{\textbf{Aporte} }&
+  \multicolumn{1}{c}{\textbf{Aporte } }&
+  \multicolumn{1}{c}{\textbf{Total}}\\
+  \multicolumn{1}{c}{}&\multicolumn{1}{c}{}&
+  \multicolumn{1}{c}{\textbf{Personal}}&
+  \multicolumn{1}{c}{\textbf{Patronal}}&
+  \multicolumn{1}{c}{\textbf{Aporte}}\\  \midrule
+
+  \endfirsthead
+
+  \toprule
+  \multicolumn{1}{c}{\textbf{Sector afiliado }} &  \multicolumn{1}{c}{\textbf{Concepto }}&
+  \multicolumn{1}{c}{\textbf{Aporte}}&
+  \multicolumn{1}{c}{\textbf{Aporte}}&
+  \multicolumn{1}{c}{\textbf{Total}}\\
+  \multicolumn{1}{c}{}&\multicolumn{1}{c}{}&
+  \multicolumn{1}{c}{\textbf{Personal}}&
+  \multicolumn{1}{c}{\textbf{Patronal}}&
+  \multicolumn{1}{c}{\textbf{Aporte}}\\ \midrule
+
+  \endhead
+
+  \hline \multicolumn{5}{r}{continúa...} \\
+
+  \endfoot
+  \endlastfoot
+
+\multirow{4}{5cm}{De los trabajadores del sector privado bajo relación de dependencia.}&	Pensiones mensuales de Invalidez, Vejez y Muerte, XIII y XIV Pensiones, Auxilio de Funerales y Ley Orgánica de Discapacidades.&\multirow{2}{*}{6,74}&\multirow{2}{*}{4,32}& \multirow{2}{*}{11,06} \\ \midrule
+
+De los empleados bancarios, de los gobiernos autónomos descentralizados, entidades públicas descentralizadas, registradores de la propiedad y registradores mercantiles.	&\multirow{5}{5cm}{Pensiones mensuales de Invalidez, Vejez y Muerte, XIII y XIV Pensiones, Auxilio de Funerales y Ley Orgánica de Discapacidades.}&\multirow{3}{*}{8,74}&\multirow{3}{*}{4,32}&\multirow{3}{*}{13,06}\\ \midrule
+
+De los servidores públicos definidos en la Ley Orgánica del Servicio Público, incluido el magisterio y los servidores, funcionarios y empleados de la Función Judicial u otras dependencias que presten servicios públicos incluidos notarios públicos, mediante remuneración variable, en forma de aranceles o similares.&\multirow{10}{5cm}{	Pensiones mensuales de Invalidez, Vejez y Muerte, XIII y XIV Pensiones, Auxilio de Funerales y Ley Orgánica de Discapacidades.}&\multirow{10}{*}{6,74}&\multirow{10}{*}{4,32}&\multirow{10}{*}{11,06} \\ \midrule
+
+\multirow{4}{4cm}{De los funcionarios del servicio exterior en el extranjero.}&	Pensiones mensuales de Invalidez, Vejez y Muerte, XIII y XIV Pensiones, Auxilio de Funerales y Ley Orgánica de Discapacidades.&\multirow{3}{*}{6,74}&\multirow{3}{*}{4,32}&\multirow{3}{*}{11,06}\\ \midrule
+
+\multirow{4}{4cm}{De los trabajadores temporales de la industria azucarera.}&	Pensiones mensuales de Invalidez, Vejez y Muerte, XIII y XIV Pensiones, Auxilio de Funerales y Ley Orgánica de Discapacidades.	&\multirow{3}{*}{13,48}&\multirow{3}{*}{8,64}&\multirow{3}{*}{22,12}\\ \midrule
+
+De los trabajadores autónomos, sin relación de dependencia y de los afiliados voluntarios residentes en el Ecuador, pasantes, becarios, internos rotativos, afiliados voluntarios ecuatorianos residentes en el exterior, miembros del clero secular.	& \multirow{6}{5cm}{Pensiones mensuales de Invalidez, Vejez y Muerte, XIII y XIV Pensiones, Auxilio de Funerales y Ley Orgánica de Discapacidades.}	&\multirow{6}{*}{10,56}&	\multirow{6}{*}{0,00}&\multirow{6}{*}{10,56}\\
+\bottomrule
+   \caption*{\scriptsize {\bf Fuente:} \legalcite{ResIESS_CD501}, \legalcite{ResIESS_CD515} y \legalcite{ResIESS_CD609} \\{\bf Elaborado:} DAIE}
+  \end{longtable}
+}
+
+% {\fontsize{10}{12}\selectfont
+% \begin{longtable}[h]{p{4.5cm}p{4cm}C{2cm}C{2cm}C{2cm}}
+%   \caption{Tabla de aportes de las personas que realizan trabajo no remunerado del hogar}\\
+%   \label{ref:tasas_aportacion_tnrh}\\
+%   \toprule
+%   \multicolumn{1}{c}{\textbf{Nivel de ingresos de la Unidad}} &  \multicolumn{1}{c}{\textbf{Base para el aporte }}&
+%   \multicolumn{1}{c}{\textbf{Aporte} }&
+%   \multicolumn{1}{c}{\textbf{Aporte del} }&
+%   \multicolumn{1}{c}{\textbf{Total de}}\\
+%   \multicolumn{1}{c}{\textbf{Económica Familiar}}&\multicolumn{1}{c}{}&\multicolumn{1}{c}{\textbf{Personal}}&
+%   \multicolumn{1}{c}{\textbf{Gobierno}}&
+%   \multicolumn{1}{c}{\textbf{Aporte}}\\
+%   \multicolumn{1}{c}{\textbf{}}&\multicolumn{1}{c}{}&\multicolumn{1}{c}{\textbf{}}&
+%   \multicolumn{1}{c}{\textbf{(Subsidio)}}&
+%   \multicolumn{1}{c}{\textbf{}}\\
+%   \midrule
+%   \endfirsthead
+% 
+%   \toprule
+%   \multicolumn{1}{c}{\textbf{Nivel de ingresos de la Unidad}} &  \multicolumn{1}{c}{\textbf{Base para el aporte }}&
+%   \multicolumn{1}{c}{\textbf{Aporte} }&
+%   \multicolumn{1}{c}{\textbf{Aporte del} }&
+%   \multicolumn{1}{c}{\textbf{Total de}}\\
+%   \multicolumn{1}{c}{\textbf{Económica Familiar}}&\multicolumn{1}{c}{}&\multicolumn{1}{c}{\textbf{Personal}}&
+%   \multicolumn{1}{c}{\textbf{Gobierno}}&
+%   \multicolumn{1}{c}{\textbf{Aporte}}\\
+%   \multicolumn{1}{c}{\textbf{}}&\multicolumn{1}{c}{}&\multicolumn{1}{c}{\textbf{}}&
+%   \multicolumn{1}{c}{\textbf{(Subsidio)}}&
+%   \multicolumn{1}{c}{\textbf{}}\\
+%   \midrule
+%   \endhead
+% 
+%   \hline \multicolumn{2}{r}{continúa...} \\
+%   \midrule
+%   \endfoot
+%   \endlastfoot
+% Ingresos inferiores al 50\% del salario básico unificado.&	Sobre el 25\% del salario básico unificado.&\multirow{2}{*}{2,26}&	\multirow{2}{*}{10,99}&	\multirow{2}{*}{13,25} \\ \midrule
+% 
+% Ingresos iguales o superiores al 50\% e inferiores al 100\% del salario básico unificado.&	Sobre el 50\% del salario básico unificado.&	\multirow{2}{*}{5,30} &	\multirow{2}{*}{7,95}&	\multirow{2}{*}{13,25}\\ \midrule
+% Ingresos iguales o superiores al 100\% e inferiores al 150\% del salario básico unificado.&	Sobre el 75\% del salario básico unificado.&\multirow{2}{*}{	7,30}&	\multirow{2}{*}{5,95}&	\multirow{2}{*}{13,25}\\ \midrule
+% Ingresos iguales o superiores al 150\% del salario básico unificado.&	Sobre el 100\% o más del salario básico unificado.&	\multirow{2}{*}{13,25}&	\multirow{2}{*}{0,00}&\multirow{2}{*}{13,25}\\
+% \bottomrule
+%    \caption*{\scriptsize Fuente: \textbf{\legalcite{ResIESS_CD501}} \\Elaborado: DAIE}
+%   \end{longtable}
+% }
+% 
+% 
+% {\fontsize{10}{12}\selectfont
+% \begin{longtable}[h]{p{7.5cm}C{2cm}C{2cm}C{2cm}}
+%   \caption{Tablas de aportación en otras modalidades de trabajo}\\
+%   \label{ref:tasas_aportacion_otras_modalidades}\\
+%   \toprule
+%   \multicolumn{1}{c}{\textbf{Sector afiliado }} &  \multicolumn{1}{l}{\textbf{Aporte  }} & \multicolumn{1}{l}{\textbf{Aporte }}& \multicolumn{1}{l}{\textbf{Total }} \\
+%   \multicolumn{1}{c}{\textbf{  }} &  \multicolumn{1}{l}{\textbf{personal }} & \multicolumn{1}{l}{\textbf{patronal}}& \multicolumn{1}{l}{\textbf{aporte}}\\
+%   \multicolumn{1}{c}{\textbf{  }} &  \multicolumn{1}{l}{\textbf{adicional }} & \multicolumn{1}{l}{\textbf{adicional}}& \multicolumn{1}{l}{\textbf{adicional}}\\
+%   \midrule
+%   %\endfirsthead
+%   %\toprule
+%   %\multicolumn{1}{c}{\textbf{No.}} & \multicolumn{1}{c}{\textbf{Resolución}} \\
+%   %\midrule
+%   \endhead
+%   %\hline \multicolumn{2}{r}{continúa en la página siguiente...} \\
+%   %\midrule
+%   %\endfoot
+%   %\endlastfoot
+% Trabajadores gráficos con seguro adicional por actividad insalubre, privados, públicos o bancarios.&	\multirow{2}{*}{2,00}&	\multirow{2}{*}{6,00}&	\multirow{2}{*}{8,00} \\ \midrule
+% Cortadores de caña de azúcar permanentes, para el financiamiento del seguro adicional de actividades insalubres, que ingresaron al seguro general obligatorio por primera vez a partir del 1 de diciembre del 2006.&	\multirow{5}{*}{2,00}&\multirow{5}{*}{	6,00}&	\multirow{5}{*}{8,00}\\ \midrule
+% Cortadores de caña de azúcar temporales, para el financiamiento del seguro adicional de actividades insalubres, que ingresaron al seguro general obligatorio por primera vez a partir del 1 de diciembre del 2006.&\multirow{5}{*}{4,00}&\multirow{5}{*}{12,00}&\multirow{5}{*}{16,00}\\
+% \bottomrule
+%    \caption*{\scriptsize Fuente: \textbf{\legalcite{ResIESS_CD501}}  \\Elaborado: DAIE}
+%   \end{longtable}
+% }
+
+%\clearpage
+% %---------------------------------------------------------------------------------------------------
+%
+\section{Fórmula de cálculo de beneficios}
+\label{chp_reglamentacion:calc_benef}
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Cuantía de las prestaciones de Invalidez, Vejez y Subsidio Transitorio}
+\label{chp_reglamentacion:calc_benef:cuantia_iv}
+
+El artículo 13 de la \legalcite{ResIESS_CD100}, establece que la pensión mensual por invalidez o vejez y el subsidio transitorio por incapacidad será igual al resultado de la multiplicación de la base de cálculo obtenido en sujeción al procedimiento establecido en el artículo 2 de dicha Resolución, por el coeficiente anual de años cumplidos de imposiciones. De los 40 años en adelante se incrementará el 0,0125 por cada año de imposiciones adicionales.
+
+Los coeficientes de años de imposiciones se presentan en la tabla No. \ref{tab:coef_impos}.
+
+\begin{table}[H]
+\caption{Coeficientes de años de imposiciones}
+\label{tab:coef_impos}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{C{2cm}cC{2cm}cC{2cm}cC{2cm}c}
+\toprule
+\textbf{Años de imposiciones} & \textbf{Coef.} & \textbf{Años de imposiciones} & \textbf{Coef.} &
+\textbf{Años de imposiciones} & \textbf{Coef.} & \textbf{Años de imposiciones} & \textbf{Coef.} \\
+\midrule
+
+5  & 0,4375 & 14 & 0,5500 & 23 & 0,6625 & 32 & 0,7750 \\
+6  & 0,4500 & 15 & 0,5625 & 24 & 0,6750 & 33 & 0,7875 \\
+7  & 0,4625 & 16 & 0,5750 & 25 & 0,6875 & 34 & 0,8000 \\
+8  & 0,4750 & 17 & 0,5875 & 26 & 0,7000 & 35 & 0,8125 \\
+9  & 0,4875 & 18 & 0,6000 & 27 & 0,7125 & 36 & 0,8325 \\
+10 & 0,5000 & 19 & 0,6125 & 28 & 0,7250 & 37 & 0,8605 \\
+11 & 0,5125 & 20 & 0,6250 & 29 & 0,7375 & 38 & 0,8970 \\
+12 & 0,5250 & 21 & 0,6375 & 30 & 0,7500 & 39 & 0,9430 \\
+13 & 0,5375 & 22 & 0,6500 & 31 & 0,7625 & 40 & 1,0000 \\
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} \legalcite{ResIESS_CD100}\\
+{\bf Elaborado:} DAIE}
+\end{table}
+
+% Complementariamente a las prestaciones de invalidez o vejez del seguro general y a las de riesgos del trabajo, a los trabajadores cortadores de caña de azúcar de actividades insalubres que se afiliaren al IESS y aportaren al seguro adicional de actividades insalubres, tendrán una renta adicional calculada aplicando al promedio de los 5 mejores años (o menos) de aportación como cortadores de caña de azúcar, el coeficiente que consta en la tabla No. \ref{tab:coef_tccazucar}.
+% 
+% \begin{table}[H]
+% \caption{Coeficientes de los trabajadores cortadores de caña de azúcar de actividades insalubres}
+% \label{tab:coef_tccazucar}
+% {\fontsize{10}{12}\selectfont
+% \begin{tabular}{C{4cm}cC{4cm}c}
+% \toprule
+% \textbf{Años de Aportes como cortadores de caña de azúcar} & \textbf{COEFICIENTE} & \textbf{Años de Aportes como cortadores de caña de azúcar} & \textbf{COEFICIENTE}  \\
+% \midrule
+% 1	& 0,005	& 16	& 0,080\\
+% 2	& 0,010	& 17	& 0,085\\
+% 3	& 0,015	& 18	& 0,090\\
+% 4	& 0,020	& 19	& 0,095\\
+% 5	& 0,025	& 20	& 0,100\\
+% 6	& 0,030	& 21	& 0,105\\
+% 7	& 0,035	& 22	& 0,110\\
+% 8	& 0,040	& 23	& 0,115\\
+% 9	& 0,045	& 24	& 0,120\\
+% 10	& 0,050	& 25	& 0,125\\
+% 11	& 0,055	& 26	& 0,130\\
+% 12	& 0,060	& 27	& 0,135\\
+% 13	& 0,065	& 28	& 0,140\\
+% 14	& 0,070	& 29	& 0,145\\
+% 15	& 0,075	&30 o más	& 0,150\\
+% \bottomrule
+% \end{tabular}
+% }
+% \caption*{\scriptsize Fuente: Resolución C.D. 140 \\
+% Elaborado: DAIE}
+% \end{table}
+% 
+% El artículo 3 de la Resolución No. C.D. 614 determina:
+% \begin{displayquote}
+% \textbf{Art. 3.- }El procedimiento a seguir en la liquidación de las pensiones adicional del Magisterio Fiscal que incluye al de Bienestar Social, que se realicen a partir de la vigencia de la presente Resolución, será el siguiente:
+% \begin{enumerate}[label=\textbf{\alph*)}]
+% \item Se obtendrá el promedio de los cinco (5) mejores años de aportación al Seguro Adicional del Magisterio Fiscal o al Seguro Adicional del Magisterio de Bienestar Social, considerando exclusivamente hasta los correspondientes al mes de marzo de 2011.
+% \item El promedio obtenido en el literal anterior, se multiplicará por el número de años completos aportados en el Seguro Adicional del Magisterio Fiscal que incluye al de Bienestar Social y por el coeficiente que correspondiere, contenido en la siguiente tabla:
+% 
+% \begin{table}[H]
+% \centering
+% %\caption{Coeficientes de los trabajadores cortadores de caña de azúcar de actividades insalubres}
+% %\label{tab:coef_tccazucar}
+% {\fontsize{10}{12}\selectfont
+% \begin{tabular}{C{8cm}C{4cm}}
+% \toprule
+% \textbf{FECHA DEL SINIESTRO} & \textbf{COEFICIENTE} \\
+% \midrule
+% Hasta marzo de 2012& 0,00833	\\
+% De abril de 2012 a marzo de 2013&	0,00750\\
+% De abril de 2013 a marzo de 2014&	0,00666\\
+% De abril de 2014 a marzo de 2015&	0,00583\\
+% De abril de 2015 a marzo de 2016&	0,00500\\
+% A partir de abril de 2016&	0,00417 \\
+% \bottomrule
+% \end{tabular}
+% }
+% %\caption*{\scriptsize Fuente: Resolución No. C.D. 100 \\
+% %Elaborado: DAIE}
+% \end{table}
+% 
+% \item El valor así obtenido se actualizará al 4\% de interés anual (tasa actuarial vigente), multiplicándolo por la fórmula (1,0033)$\textasciicircum$(Número de meses completos entre el 31 de marzo de 2011 y la fecha de liquidación de la prestación adicional).
+% 
+% \item La pensión mínima adicional a concederse por invalidez, vejez o por montepío del grupo familiar del Magisterio Fiscal que incluye al de Bienestar Social, será del 25\% del salario básico unificado mínimo del trabajador en general, a la fecha del inicio del derecho de dicha renta (F1).
+% 
+% \item La pensión máxima adicional a concederse por invalidez, vejez o por montepío del grupo familiar del Magisterio Fiscal que incluye al de Bienestar Social, será igual al número de salarios básicos unificados del trabajador en general, vigente a la fecha de inicio de la renta adicional (F1), con sujeción a la siguiente tabla:
+% 
+% \begin{table}[H]
+% \centering
+% {\fontsize{10}{12}\selectfont
+% \begin{tabular}{C{8cm}C{4cm}}
+% \toprule
+% \textbf{FECHA DEL SINIESTRO} & \textbf{PENSIÓN MÁXIMA EN SBUM} \\
+% \midrule
+% Hasta marzo de 2012&	3,00\\
+% De abril de 2012 a marzo de 2013&	2,70\\
+% De abril de 2013 a marzo de 2014&	2,40\\
+% De abril de 2014 a marzo de 2015&	2,10\\
+% De abril de 2015 a marzo de 2016&	1,80\\
+% A partir de abril de 2016&	1,50 \\
+% \bottomrule
+% \end{tabular}
+% }
+% %\caption*{\scriptsize Fuente: Resolución No. C.D. 100 \\
+% %Elaborado: DAIE}
+% \end{table}
+% \end{enumerate}
+% \end{displayquote}
+% 
+En la tabla No. \ref{tab:cuantia_LOD} se presenta la cuantía para la pensión por discapacidad permanente total o permanente absoluta y de la jubilación especial por vejez.
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Cuantía de las pensiones otorgadas por la Ley Orgánica de Discapacidades}
+\label{tab:cuantia_LOD}
+\fontsize{10}{12}\selectfont
+\begin{tabular}{p{5cm}p{9cm}}
+\toprule
+\multicolumn{1}{c}{\textbf{Pensión}} & \multicolumn{1}{c}{\textbf{Cuantía} } \\
+\midrule
+Pensión por discapacidad permanente total o permanente absoluta &	Para el cálculo de la pensión se aplicarán los mínimos, máximos y ajustes periódicos que efectúa el IESS para la jubilación de invalidez.\\ \midrule
+
+\multirow{3}{5cm}{Pensión de jubilación especial por vejez}	&La pensión será igual al 68,75\% del promedio de los 5 años de mejor remuneración básica unificada de aportación en concordancia con la determinación de mínimos, máximos y ajustes periódicos que efectúa el IESS.\\
+\bottomrule
+\end{tabular}
+
+\caption*{\scriptsize {\bf Fuente:} \legalcite{LeyDis} \\
+{\bf Elaborado:} DAIE}
+\end{table}
+
+% En la tabla No. \ref{tab:cuantia_tnrh} se presenta la cuantía de las pensiones de las personas que realizan trabajo no remunerado del hogar.
+% 
+% {\fontsize{10}{12}\selectfont
+% \begin{longtable}[h]{p{5cm}p{8cm}}
+%   \caption{Cuantía de las pensiones de las personas que realizan trabajo no remunerado del hogar}\\
+%   \label{tab:cuantia_tnrh}\\
+%   \toprule
+%   \multicolumn{1}{c}{\textbf{Pensión de las personas que realizan trabajo}} &  \multicolumn{1}{c}{\textbf{Cuantía }} \\
+%   \multicolumn{1}{c}{\textbf{no remunerado del hogar }} &  \multicolumn{1}{c}{\textbf{ }} \\
+%   \midrule
+%   \endfirsthead
+% 
+%   \toprule
+%   \multicolumn{1}{c}{\textbf{Pensión de las personas que realizan trabajo}} &  \multicolumn{1}{c}{\textbf{Cuantía }} \\
+%   \multicolumn{1}{c}{\textbf{no remunerado del hogar }} &  \multicolumn{1}{c}{\textbf{ }} \\
+%   \midrule
+%   \endhead
+% 
+%   \hline \multicolumn{2}{r}{continúa...} \\
+%   \midrule
+%   \endfoot
+%   \endlastfoot
+% 
+% \multirow{25}{*}{Pensión por incapacidad permanente total}&	La pensión por incapacidad permanente total consistirá en una pensión mensual equivalente a:
+% \begin{enumerate}[label=\textbf{\alph*)}]
+% \item Cuando la unidad económica familiar obtenga ingresos inferiores al cincuenta por ciento (50\%) del salario básico unificado, ochenta por ciento (80\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a setenta dólares (USD 70) dólares.
+% \item Cuando la unidad económica familiar obtenga ingresos iguales o superiores al cincuenta (50\%) e inferiores al cien por ciento (100\%) del salario básico unificado, sesenta por ciento (60\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a ciento seis (USD 106) dólares.
+% \item Cuando la unidad económica familiar obtenga ingresos iguales o superiores al cien por ciento (100\%) e inferiores al ciento cincuenta por ciento (150\%) del salario básico unificado, cincuenta y cinco por ciento (55\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a ciento cuarenta y seis (USD 146) dólares.
+% \item Cuando la unidad económica familiar obtenga ingresos iguales o superiores al ciento cincuenta por ciento (150\%), cincuenta y cinco por ciento (55\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a ciento noventa y cuatro (USD 194) dólares.
+% \end{enumerate}
+% \\ \midrule
+% 
+% \multirow{25}{*}{Pensión por incapacidad permanente absoluta}&	La pensión por incapacidad permanente absoluta consistirá en una pensión mensual equivalente a:
+% \begin{enumerate}[label=\textbf{\alph*)}]
+% \item Cuando la unidad económica familiar obtenga ingresos inferiores al cincuenta por ciento (50\%) del salario básico unificado, noventa por ciento (90\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a setenta y nueve (USD 79) dólares.
+% \item Cuando la unidad económica familiar obtenga ingresos iguales o superiores al cincuenta (50\%) e inferiores al cien por ciento (100\%) del salario básico unificado, sesenta y cinco por ciento (65\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a ciento quince (USD 115) dólares.
+% \item Cuando la unidad económica familiar obtenga ingresos iguales o superiores al cien por ciento (100\%) e inferiores al ciento cincuenta por ciento (150\%) del salario básico unificado, sesenta y dos punto cinco por ciento (62,5\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a ciento sesenta y cinco (USD 165) dólares.
+% \item Cuando la unidad económica familiar obtenga ingresos iguales o superiores al ciento cincuenta por ciento (150\%), sesenta y dos punto cinco por ciento (62,5\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a doscientos veintiún (USD 221) dólares.\end{enumerate}
+% \\ \midrule
+% 
+% \multirow{35}{*}{Pensión por jubilación ordinaria }&	La pensión por jubilación ordinaria consistirá en una pensión mensual equivalente a:
+% \begin{enumerate}[label=\textbf{\alph*)}]
+% \item Cuando la unidad económica familiar obtenga ingresos inferiores al cincuenta por ciento (50\%) del salario básico unificado, noventa por ciento (90\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a setenta y nueve (USD 79) dólares.
+% \item Cuando la unidad económica familiar obtenga ingresos iguales o superiores al cincuenta (50\%) e inferiores al cien por ciento (100\%) del salario básico unificado, sesenta y cinco por ciento (65\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a ciento quince (USD 115) dólares.
+% \item Cuando la unidad económica familiar obtenga ingresos iguales o superiores al cien por ciento (100\%) e inferiores al ciento cincuenta por ciento (150\%) del salario básico unificado, sesenta y dos punto cinco por ciento (62,5\%) de la base de cálculo, que se incrementará en uno punto veinticinco (1,25\%) por ciento por cada año adicional de aportación a partir del año veinte (20) alcanzando un máximo de ochenta y cinco (85\%) por ciento de la base de cálculo. En todo caso, la pensión mínima será equivalente a ciento sesenta y cinco (USD 165) dólares.
+% \item Cuando la unidad económica familiar obtenga ingresos iguales o superiores al ciento cincuenta por ciento (150\%), sesenta y dos punto cinco por ciento (62,5\%) de la base de cálculo, que se incrementará en uno punto veinticinco (1,25\%) por ciento por cada año adicional de aportación a partir del año veinte (20) alcanzando un máximo de ochenta y cinco (85\%) por ciento de la base de cálculo. En todo caso, la pensión mínima será equivalente a doscientos veintiún (USD 221) dólares.
+% 
+% \vspace{0.3cm}
+% 
+% Cuando una persona haya aportado por más de una de las bases de aportación establecidas en los literales contenidos en el segundo artículo innumerado del Capítulo I "Bases de aportación", la fórmula de cálculo aplicable será la que determine una mejor pensión, garantizándose en todo caso el monto de la pensión mínima establecida para la base de aportación de menor cuantía.\end{enumerate} \\\midrule
+% 
+% \multirow{25}{5cm}{Pensión por muerte de la persona pensionista por jubilación o por incapacidad permanente total}&	La pensión por muerte de la persona pensionista por jubilación o por incapacidad permanente total o absoluta, se calculará a partir del monto de la última pensión percibida. La pensión por muerte de la persona afiliada se calculará a partir de los siguientes valores:
+% \begin{enumerate}[label=\textbf{\alph*)}]
+% \item Cuando la unidad económica familiar obtenga ingresos inferiores al cincuenta por ciento (50\%) del salario básico unificado, ochenta por ciento (80\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a setenta (USD 70) dólares.
+% \item Cuando la unidad económica familiar obtenga ingresos iguales o superiores al cincuenta (50\%) e inferiores al cien por ciento (100\%) del salario básico unificado, sesenta por ciento (60\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a ciento seis (USD 106) dólares.
+% \item Cuando la unidad económica familiar obtenga ingresos iguales o superiores al cien por ciento (100\%) e inferiores al ciento cincuenta por ciento (150\%) del salario básico unificado, cincuenta y cinco por ciento (55\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a ciento cuarenta y seis (USD 146) dólares.
+% \item Cuando la unidad económica familiar obtenga ingresos iguales o superiores al ciento cincuenta por ciento (150\%) del salario básico unificado, cincuenta y cinco por ciento (55\%) de la base de cálculo. En todo caso, la pensión mínima será equivalente a ciento noventa y cuatro (USD 194) dólares.\end{enumerate} \\
+% \bottomrule
+%    \caption*{\scriptsize Fuente: \textbf{\legalcite{LeySS}} con su reforma \\Elaborado: DAIE}
+%   \end{longtable}
+% }
+
+% En la tabla No. \ref{tab:cuantia_otros_grupos_afi} se presenta la cuantía de las pensiones de otros grupos de afiliados.
+% 
+% \begin{table}[H]
+% \centering*
+% \caption{Cuantía de las pensiones de otros grupos de afiliados}
+% \label{tab:cuantia_otros_grupos_afi}
+% {\fontsize{10}{12}\selectfont
+% \begin{tabular}{p{8cm}p{8cm}}
+%   \toprule
+%   \multicolumn{1}{c}{\textbf{Pensión}} & \multicolumn{1}{c}{\textbf{Cuantía}}\\
+%   \midrule
+%   Los trabajadores de la industria del cemento, tendrán  derecho a una jubilación especial a cargo del Instituto Ecuatoriano de Seguridad Social.&	Gozarán de una pensión mensual equivalente al ciento por ciento del último sueldo o salario que hubiere percibido.\\ \midrule
+% 
+% \multirow{3}{8cm}{Los trabajadores de Telecomunicaciones del país tendrán derecho a jubilación vejez.}&	La pensión mensual jubilar mínima será del 75\% del promedio de los sueldos de los cinco mejores años de imposición.\\ \midrule
+% 
+% \multirow{5}{8cm}{Los afiliados que trabajaren en actividades que en razón de los riesgos contienen, fueren calificadas como insalubres.}&	Aportan para el financiamiento de un Seguro Adicional que aumente su pensión jubilar en el 0,5\% del promedio mensual de los cinco mejores años de imposiciones, por cada año de servicio en dicha actividad.\\ \midrule
+% 
+% \multirow{5}{8cm}{Pensiones Jubilares aplicables en el régimen especial de Galápagos.}&	Las pensiones diferenciadas a las que rigen en el Ecuador Continental, para el pago de las pensiones jubilares aplicables en el régimen especial de Galápagos, se concederán con sujeción a las aportaciones realizadas al IESS, sobre las remuneraciones de dicho régimen especial.\\
+% \bottomrule
+%   \end{tabular}
+%   }
+%    \caption*{\scriptsize Fuente: \textbf{\legalcite{LeySS}}, Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento, Decreto Legislativo No. 1, Decreto Legislativo No. 0 y \textbf{Resolución No. C.D. 338} \\
+% Elaborado: DAIE}
+%   \end{table}
+
+%---------------------------------------------------------------------------------------------------
+\subsection{Cuantía de las prestaciones de Montepío}
+\label{chp_reglamentacion:calc_benef:cuantia_montep}
+
+El artículo 24 de la \legalcite{ResIESS_CD100} establece:
+\begin{displayquote}
+
+\textbf{Art. 24.- }El cálculo de la cuantía de la pensión mensual de montepío por viudez, se realizará
+tomando en consideración lo siguiente: El viudo o la viuda o el o la sobreviviente de la unión de
+hecho, legalmente declarada, cuando sea único o única beneficiaria de la pensión de viudedad,
+percibirá el 60\% de la pensión que le corresponda al causante.
+
+En caso de que exista grupo familiar se entregará a la viuda el 60\% y el 40\% por ciento
+restante se dividirá de manera proporcional para el número de hijos o hijas menores de edad
+habientes que tuvieran derecho, igual porcentaje recibirán los padres con derecho a pensión de
+montepío.
+
+En ningún caso la pensión inicial de montepío del grupo familiar será inferior a la
+pensión mínima.
+\end{displayquote}
+
+%REV
+% La pensión por viudedad y orfandad de la persona fallecida que realizan trabajo no remunerado del hogar consiste en una pensión vitalicia cuyo monto será equivalente al sesenta por ciento (60\%) de los valores establecidos en el artículo referente a la pensión por muerte de la persona pensionista por jubilación o por incapacidad permanente total o absoluta según corresponda. En caso de que existan hijos menores de 18 años o hijos con discapacidad severa, debidamente calificada por la Autoridad Sanitaria Nacional, sin límite de edad, se entregará el cuarenta por ciento (40\%) restante de manera proporcional entre estos.
+
+\subsection{Cuantía del auxilio de funerales}
+\label{chp_reglamentacion:cuant_aux_fun}
+A continuación, en la tabla \ref{tab:cuantia_aux_funerales} se presenta la cuantía del auxilio de funerales.
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Cuantía del auxilio de funerales}
+\label{tab:cuantia_aux_funerales}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{p{14cm}}
+\toprule
+\multicolumn{1}{c}{\textbf{Cuantía}}  \\
+\midrule
+
+Será hasta USD 1.357,73 y se incrementará en enero de cada año en un porcentaje equivalente a la tasa de inflación promedio anual del año anterior, considerando los servicios funerarios prestados; el valor por el subsidio de auxilio de funerales se cancelará conforme al monto vigente a la fecha de fallecimiento del causante.\\ 
+%REV
+% \midrule
+% Para el caso de las afiliadas bajo la modalidad de trabajo no remunerado del hogar, la persona que acredite haber realizado dichos gastos tendrá derecho, por una sola vez, al monto equivalente a cuatro "4" salarios básicos unificados.\\
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} \legalcite{LeySS} y Resolución No C.D. 610 \\
+{\bf Elaborado:} DAIE}
+\end{table}
+
+%---------------------------------------------------------------------------------------------------
+
+\section{Bases de cálculo}
+\label{chp_reglamentacion:base_calc}
+
+A continuación, en la tabla No. \ref{tab:base_calculo}  se presenta la base de cálculo.
+
+
+% El artículo 232 de la Ley de Seguridad Social determina que el IESS realizará periódicamente análisis
+% actuariales de solvencia y sostenibilidad del Seguro IVM y autorizará, con base en ellos, la
+% modificación de la cuantía de las pensiones en curso de pago.
+%
+% La Disposición Reformatoria Vigésima Séptima de la Resolución No. C.D. 554 de 4 de agosto de 2017,
+% que reformó el artículo 2 de la Resolución No. C.D. 100 de 21 de febrero de 2006, determina que la
+% base de cálculo de la pensión es:
+
+\begin{table}[H]
+  \centering
+  \captionsetup{justification=centering}
+  \caption{Base de cálculo}
+    \label{tab:base_calculo}
+    {\fontsize{10}{12}\selectfont
+    \begin{tabular}{p{16cm}}
+    \toprule
+     \multicolumn{1}{c}{\textbf{Base de cálculo}} \\ \midrule
+La Base de Cálculo de la pensión del régimen de transición será igual al promedio de los cinco (5) años de mejores sueldos o salarios sobre los cuales se aportó.
+\vspace{0.3cm}
+
+Para el cómputo de la base de cálculo de la pensión, se procederá a la suma de doce (12) meses de imposiciones consecutivas y ese resultado se dividirá para doce (12). Obteniendo así el promedio mensual de los sueldos o salarios de cada año de imposiciones del afiliado, se seleccionará los cinco (5) promedios mensuales de mayor cuantía y el resultado de la suma se dividirá para cinco(5).\\ 
+%REV
+% \midrule
+% La base de cálculo para las pensiones de las personas que realizan trabajo del hogar no remunerado será el promedio de todas las bases de aportación registradas desde el año 2003, actualizadas con la inflación.\\
+ \bottomrule
+    \end{tabular}
+  }
+  \caption*{\scriptsize {\bf Fuente:} \legalcite{LeySS} y \legalcite{ResIESS_CD100}\\
+{\bf Elaborado:} DAIE}
+\end{table}
+
+% \textit{``La base de cálculo de la pensión del régimen de transición, será igual al promedio de los
+% cinco (5) años de mejores sueldos o salarios sobre los cuales se aportó. Se procederá a obtener el
+% promedio de cada año de aportaciones, para lo cual se sumará doce (12) meses de imposiciones
+% consecutivas y ese resultado se dividirá para doce (12). Obtenidos los promedios, se seleccionarán
+% los cinco (5) años de mejores sueldos o salarios sobre los cuales se aportó.}
+%
+% \textit{Para el cómputo de la base de cálculo de la pensión se obtendrá la raíz sesentava del
+% producto de las sesenta (60) aportaciones de los cinco (5) años de mejores sueldos o salarios
+% previamente identificados.}
+%
+% \textit{El cálculo de los períodos de aportación de los estibadores y de otros grupos de trabajadores
+% con modalidades especiales de afiliación, se sujetará a las disposiciones emitidas por el Consejo
+% Directivo''}.
+
+% Con la expedición de la Ley Orgánica para la Justicia Laboral y Reconocimiento del Trabajo en el
+% Hogar, la cual se encuentra publicada en el Tercer Suplemento del Registro Oficial No. 483 de 20 de
+% abril de 2015, se reformó el artículo 234 de la \legalcite{Ley de Seguridad Social}, en los siguientes términos:
+
+\section{Pensiones mínimas}
+El artículo 234 de la \legalcite{LeySS} determina:
+
+\begin{displayquote}
+\textbf{Art. 234.- Mínimo de pensiones y su revalorización. - }Las pensiones del Sistema de Seguridad Social se incrementarán al inicio de cada año en la misma proporción que la inflación promedio anual del año anterior, establecida por la entidad encargada de las estadísticas nacionales, incluidas las pensiones mínimas y máximas.
+
+Las pensiones mínimas de invalidez, de vejez, de incapacidad permanente total o absoluta de riesgos del trabajo, se establecerán de acuerdo con el tiempo aportado, en proporción del salario básico unificado, de acuerdo a la siguiente tabla
+
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{cc}
+  \toprule
+  \textbf{Tiempo aportado en años} & \textbf{Pensión mínima mensual (\%)} \\
+
+  \midrule
+  Hasta 10 & 50\% \\
+  11-20 & 60\% \\
+  21-30 & 70\% \\
+  31-35 & 80\% \\
+  36-39 & 90\% \\
+  40 y más & 100\% \\
+  \bottomrule
+  \end{tabular}
+}
+\caption*{{\bf Elaborado:} DAIE}
+\end{table}
+
+La pensión mínima del grupo familiar de montepío será equivalente al 50\% del salario básico
+unificado. La pensión mínima de las pensiones permanentes parciales de riesgos del trabajo y de las pensiones parciales del seguro general, será proporcional al 50\% del salario básico unificado,
+manteniendo la proporcionalidad de la pensión inicial.
+
+La falta de transferencia de los recursos para el pago de estas pensiones, será sancionada
+con la destitución de la autoridad y de las servidoras y servidores públicos remisos de su obligación.
+
+\end{displayquote}
+
+\section{Pensiones máximas}
+
+El artículo 31 de la \legalcite{ResIESS_CD100} señala:
+\begin{displayquote}
+\textbf{Art. 31.- }Las pensiones máximas en curso de pago a diciembre del año 2009 de invalidez, de vejez, de incapacidad permanente total o absoluta de riesgos del trabajo y del grupo familiar de montepío, serán equivalentes al cuatrocientos cincuenta por ciento (450\%) del salario básico unificado mínimo del trabajador en general.
+
+Las pensiones máximas de vejez que se otorguen a partir del año 2010, se establecerán de acuerdo al tiempo aportado, en proporción del salario básico unificado mínimo del trabajador en general, de acuerdo a la siguiente tabla:
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{C{4cm}C{6cm}}
+  \toprule
+  \multicolumn{1}{c}{\textbf{Tiempo}} & \multicolumn{1}{c}{\textbf{Pensión Máxima Mensual en porcentaje} }\\
+  \multicolumn{1}{c}{\textbf{aportado} } & \multicolumn{1}{c}{\textbf{del salario básico unificado mínimo} }\\
+   \multicolumn{1}{c}{\textbf{en años}} & \multicolumn{1}{c}{\textbf{del trabajador en general} }\\
+  \midrule
+  10-14 & 250\% \\
+  15-19 & 300\% \\
+  20-24 & 350\% \\
+  25-29 & 400\% \\
+  30-34 & 450\% \\
+  35-39 & 500\% \\
+  40 y más & 550\% \\
+  \bottomrule
+  \end{tabular}
+}
+\caption*{\scriptsize {\bf Elaborado:} DAIE}
+\end{table}
+
+
+De existir variación en la cuantía de la pensión máxima unificada del Seguro General, las pensiones de vejez se ajustarán, sin que en ningún caso superen el valor de la renta de vejez inicialmente calculada.
+
+Las pensiones máximas de invalidez, de incapacidad permanente total o absoluta de riesgos del trabajo y del grupo familiar de montepío que se otorguen a partir del año 2010, serán equivalentes al cuatrocientos cincuenta por ciento (450\%) del salario básico unificado mínimo del trabajador en general.
+\end{displayquote}
+
+
+%---------------------------------------------------------------------------------------------------
+% \subsection{Pensiones mínimas}
+% Para el año 2018, las pensiones mínimas en el Seguro de IVM son presentadas en la
+% tabla \ref{tab:pmin_2018} siguiente.
+%
+% \begin{table}[H]
+% \caption{Pensiones mínimas para el año 2018}
+% \label{tab:pmin_2018}
+% {\fontsize{10}{12}\selectfont
+% \begin{tabular}{ccc}
+%   \toprule
+%   \textbf{Tiempo aportado (años)} & \textbf{Porcentaje del SBU (USD 386)} & \textbf{Valor pensión (USD)} \\
+%   \midrule
+%   Hasta 10 & 50\% & 193,00 \\
+%   11-20 & 60\% & 231,60 \\
+%   21-30 & 70\% & 270,20 \\
+%   31-35 & 80\% & 308,80 \\
+%   36-39 & 90\% & 347,40 \\
+%   40 Y MÁS & 100\% & 386,00 \\
+%   \bottomrule
+% \end{tabular}
+% }
+% \caption*{\scriptsize Fuente: L.S.S y \legalcite{ResIESS_CD338}. \\
+% Elaborado: DAIE}
+% \end{table}
+%
+% %---------------------------------------------------------------------------------------------------
+% \subsection{Pensiones máximas}
+% El artículo 5 de la Resolución No. C.D. 300 de 11 de enero de 2010 determina que las pensiones
+% máximas de vejez que se otorguen a partir del año 2010, se establecerán de acuerdo al tiempo
+% aportado, en proporción del salario básico unificado mínimo del trabajador en general, de acuerdo
+% a la tabla \ref{tab:pmax_2018} siguiente.
+%
+% \begin{table}[H]
+% \caption{Pensiones máximas para el año 2018}
+% \label{tab:pmax_2018}
+% {\fontsize{10}{12}\selectfont
+% \begin{tabular}{ccc}
+%   \toprule
+%   \textbf{Tiempo aportado (años)} & \textbf{Porcentaje del SBU (USD 386)} & \textbf{Valor pensión (USD)} \\
+%   \midrule
+%   10-14 & 250\% & 965 \\
+%   15-19 & 300\% & 1.158 \\
+%   20-24 & 350\% & 1.351 \\
+%   25-29 & 400\% & 1.544 \\
+%   30-34 & 450\% & 1.737 \\
+%   35-39 & 500\% & 1.930 \\
+%   40 Y MÁS & 550\% & 2.123 \\
+%   \bottomrule
+% \end{tabular}
+% }
+% \caption*{\scriptsize Fuente: L.S.S y \legalcite{ResIESS_CD338}. \\
+% Elaborado: DAIE}
+% \end{table}
+%
+% Las pensiones máximas de invalidez, de incapacidad permanente total o absoluta de riesgos de trabajo
+% y del grupo familiar de montepío que se otorguen a partir del año 2010, serán equivalentes al
+% cuatrocientos cincuenta por ciento (450\%) del salario básico unificado mínimo del trabajador en general.
+%
+% Ya que también significan costos para este fondo y son parte de las pensiones y beneficios que
+% ofrece el Seguro IVM, dentro de este estudio se ha consideran los siguientes aspectos:
+
+%---------------------------------------------------------------------------------------------------
+%-------------------------------------------Mejora de la pensión------------------------------------
+%---------------------------------------------------------------------------------------------------
+\section{Mejora de la pensión}
+
+El artículo 14 de la \legalcite{ResIESS_CD100} establece:
+\begin{displayquote}
+\textbf{Art. 14.- }Los pensionistas por vejez que para acogerse a la jubilación quedaron previamente cesantes y que reingresaren al Seguro General Obligatorio, al cesar de esta nueva afiliación tendrán derecho a una
+mejora de su pensión, siempre y cuando acreditaren un mínimo de doce (12) imposiciones mensuales.
+Esta mejora será igual al resultado de la aplicación del coeficiente de cero coma cero cero uno
+(0,001) multiplicado por el promedio mensual de los cinco (5) años de mejores sueldos de afiliación
+correspondientes al reingreso, y este resultado multiplicado por el número de imposiciones mensuales
+que tenga acumuladas con posterioridad a dicho reingreso y hasta la fecha del nuevo cese. Si el
+tiempo de afiliación es inferior a cinco (5) años, se obtendrá el promedio de todos los sueldos
+sobre los cuales aportó.
+\end{displayquote}
+
+%---------------------------------------------------------------------------------------------------
+%-----------------------------------Decimotercera y decimocuarta pensión ---------------------------
+%---------------------------------------------------------------------------------------------------
+\section{Decimotercera y decimocuarta pensión}
+
+El artículo 236 de la \legalcite{LeySS} dispone que además de la pensión mensual regular, calculada sobre el sueldo o salario de aportación de cada asegurado, el IESS pagará a sus jubilados y pensionistas de viudez y orfandad la decimotercera pensión conjuntamente con la pensión del mes de diciembre de cada año, en una cuantía equivalente a la doceava parte de las pensiones pagadas correspondientes al año calendario; y, la decimocuarta pensión conjuntamente con las pensiones de marzo de cada año cuya región es Costa e Insular y con la pensión de agosto de cada año cuando la región es Sierra y Oriente y a los grupos de montepío a nivel nacional, en una cuantía equivalente a un salario básico unificado de los trabajadores en general.
+
+%---------------------------------------------------------------------------------------------------
+%------------------------------Cambios recientes en el ordenamiento jurídico -----------------------
+%---------------------------------------------------------------------------------------------------
+
+\section{Cambios recientes en el ordenamiento jurídico}
+
+A continuación en la tabla \ref{tab:cambios_recientes}  se presenta los cambios más relevantes efectuados a la normativa del Seguro de Pensiones. 
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Cambios relevantes en la normativa de Seguro de Pensiones}
+\label{tab:cambios_recientes}
+\begingroup\normalsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\scalebox{0.6}{
+\begin{tabular}{p{1.0cm}|p{7cm}|p{18cm}}
+\toprule
+\arrayrulecolor{black}
+\multicolumn{1}{c|}{\textbf{Nro.}}
+ &  \multicolumn{1}{c|}{\textbf{Norma}}
+ &  \multicolumn{1}{c}{\textbf{Detalle}}\\
+\hline
+
+\multirow{2}{=}{\parbox{1.0cm}{\centering\bfseries \vspace{0.1cm}1.}}
+
+& Sentencia de Corte Constitucional No. 002-18-SIN-CC.
+& Modula los efectos del artículo 68.1 de la Ley Orgánica de Justicia Laboral y Reconocimiento del Trabajo en el Hogar y determina que declaratoria tendrá efectos hacia el futuro, y deberá ser considerada de manera obligatoria al momento en el que se proceda a la elaboración de la proforma presupuestaria correspondiente al año 2019.\\
+
+\hline
+
+\multirow{2}{=}{\parbox{1.0cm}{\centering\bfseries \vspace{0.1cm} 2. }} 
+& Sentencia de Corte Constitucional No. 16-18-IN/21
+& Declara la inconstitucionalidad del segundo inciso del artículo 2 sustituido por la Resolución No. CD. 554 CD del 4 de agosto de 2017.\\
+
+\hline
+\multirow{2}{=}{\parbox{1.0cm}{\centering\bfseries \vspace{0.1cm} 3. }} 
+& Resolución Nro. C.D. 609
+& Se añade el 0,5\% a las primas del seguro de Invalidez, Vejez y Muerte de los trabajadores en relación de dependencia, desde el inicio del período fiscal del año 2021, destinado para financiar las décimas tercera y cuarta pensiones y auxilio de funerales. \\
+\hline
+
+\multirow{2}{=}{\parbox{1.0cm}{\centering\bfseries \vspace{0.1cm} 4. }} 
+& Resolución Nro. C.D. 610
+& Reforma algunos artículos de la Resolución Nro. C.D. 100; y, establece un tarifario único de valores máximos referenciales para los rubros del auxilio de funerales que en resumen es:\begin{center}
+{\scalebox{0.80}{\centering
+\begin{tabular}{C{2cm}|C{8cm}|C{11cm}}
+\toprule
+
+\textbf{Servicio} & \textbf{Detalle} & \textbf{Valor máximo referencial} \\
+
+\hline
+
+\vspace{0.7cm}Cofre mortuorio
+& 
+\begin{itemize}
+\item De madera
+\item Metálico u otro material
+\end{itemize}
+
+& 
+\begin{itemize}
+\item Hasta USD 600
+\item Hasta USD 200
+\end{itemize}
+
+\\ \hline
+Servicio de velación
+& Sala de velación
+& Hasta USD 400
+
+\\ \hline
+\vspace{0.6 cm}
+Servicio de traslado 
+& 
+\begin{itemize}
+\item Dentro del cantón
+\item Dentro de la provincia
+\item Fuera de la provincia
+\end{itemize}
+&
+\begin{itemize}
+\item Hasta USD 150
+\item Hasta USD 200
+\item Hasta USD 500,considerando un costo referencial de hasta 1,3 USD por kilómetro recorrido. 
+\end{itemize}
+
+\\ \hline
+\vspace{0.6 cm}
+Servicio religioso
+& 
+\begin{itemize}
+\item Servicio presencial
+\item Servicio virtual
+\end{itemize}
+&
+\begin{itemize}
+\item Hasta USD 100
+\item Hasta USD 80
+\end{itemize}
+\\ \hline
+\vspace{0.35 cm}
+Servicio de cremación o inhumación
+& 
+\begin{itemize}
+\item Cremación
+\item Inhumación
+\end{itemize}
+&
+\begin{itemize}
+\item Hasta USD 600
+\item Hasta USD 1.357,73
+\end{itemize}
+\\ \hline
+\vspace{0.5 cm}
+Nicho, columbario o cenizario
+&
+\begin{itemize}
+\item Urna de restos cremados
+\item Nicho
+\item Columbario
+\end{itemize}
+&
+\begin{itemize}
+\item Hasta USD 200
+\item Hasta USD 1.357,73
+\item USD 1.357,73
+\end{itemize}
+\\ \hline
+\bottomrule
+\end{tabular}}}
+\end{center}
+\\
+\bottomrule
+\end{tabular}
+}
+\endgroup
+\caption*{\scriptsize {\bf Fuente:} \legalcite{Lexis} \\{\bf Elaborado:} DAIE.}
+\end{table}
+
+%-------------------------------------------------------------------------------
+%-----------------------------Resumen de prestaciones---------------------------
+%-------------------------------------------------------------------------------
+
+\begin{landscape}
+
+\section{Resumen de prestaciones}
+
+En la tabla \ref{tab:prest_seg_IVM} se presenta un resumen de las prestaciones, beneficiarios, condiciones y forma de cálculo del seguro de IVM.
+
+\begingroup\scriptsize
+\setlength\extrarowheight{1pt}
+\setlength\aboverulesep{-0.5pt}
+\setlength\belowrulesep{0pt}
+\setlength\LTleft{-0.3in}
+\begin{longtable}[H]{p{2.0cm}|p{9.0cm}|p{7.5cm}|p{5.8cm}}
+\caption{Prestaciones del Seguro IVM}
+\label{tab:prest_seg_IVM}\\
+\toprule
+\arrayrulecolor{black}
+\multicolumn{1}{c|}{\textbf{Prestación}}
+& \multicolumn{1}{c|}{\textbf{Beneficiario}}
+& \multicolumn{1}{c|}{\textbf{Condiciones}}
+& \multicolumn{1}{c}{\textbf{Fórmula de Cálculo}}\\
+\midrule
+\endfirsthead
+
+\toprule
+\arrayrulecolor{black}
+\multicolumn{1}{c|}{\textbf{Prestación}}
+& \multicolumn{1}{c|}{\textbf{Beneficiario}}
+& \multicolumn{1}{c|}{\textbf{Condiciones}}
+& \multicolumn{1}{c}{\textbf{Fórmula de Cálculo}}\\
+\midrule
+\endhead
+
+\multicolumn{4}{r}{continúa en la página siguiente...} \\
+\endfoot
+
+\bottomrule
+
+\caption*{\scriptsize {\bf Fuente:} \legalcite{LeySS}, \legalcite{ResIESS_CD100} y  C.D. 610 \\ {\bf Elaborado:} DAIE}
+\endlastfoot
+
+\multirow{2}{=}{\parbox{2.0cm}{\centering\bfseries \vspace{2.7cm}Jubilación por invalidez}}
+
+&\multirow{2}{=}{\parbox{9.0cm}{ \vspace{2.5cm}El asegurado que, por enfermedad o por alteración física o mental, se hallare incapacitado para procurarse por medio de un trabajo acorde a su capacidad, fuerzas y formación teórica y práctica, una remuneración por lo menos equivalente a la mitad de la remuneración habitual que reciba un trabajador sano en condiciones laborales similares.}}
+
+& Se acreditará derecho a pensión de jubilación por invalidez total y permanente en los siguientes casos:
+
+\begin{enumerate}
+\item [a)] La incapacidad absoluta y permanente para todo trabajo, sobrevenida en la actividad o en el período del subsidio transitorio por incapacidad, cualquiera sea la causa que le haya originado y siempre que se acredite al menor 60 imposiciones mensuales, de las cuales 6 como mínimo deberán ser inmediatamente previas a la incapacidad (consecutivas); y,
+\item [b)] La incapacidad absoluta y permanente para todo trabajo, sobrevenida dentro de los 24 meses posteriores al cese en la actividad o al vencimiento del período del subsidio transitorio por incapacidad, cualquiera sea la causa que la haya originado, siempre que el asegurado hubiere acumulado 120 imposiciones mensuales como mínimo, y no fuere beneficiario de otra pensión jubilar en el IESS.
+\end{enumerate}
+
+& El artículo 13 de la \legalcite{ResIESS_CD100} determina que la pensión mensual por invalidez o vejez y el subsidio transitorio por incapacidad será igual al resultado de la multiplicación de la base de cálculo.La base de cálculo será igual al promedio de los 5 mejores sueldos o salarios sobre los cuales se aportó. Se procederá a obtener el promedio de cada año de aportaciones, para lo cual se sumará 12 meses de imposiciones consecutivas y ese resultado se dividirá para 12. Obtenidos los promedios, se seleccionarán los 5 años de mejores sueldos o salarios sobre los cuales se aportó. Para el cómputo de la base de cálculo de la pensión se obtendrá la raíz  sesentava del producto de las 60 aportaciones de los 5 años de mejores sueldos o salarios previamente identificados. (Artículo 2 de la \legalcite{ResIESS_CD100})\\[0.2cm]
+
+\cmidrule{1-3}
+\multirow{2}{=}{\parbox{2.0cm}{\centering\bfseries \vspace{2.6cm}Subsidio transitorio por incapacidad}}
+
+& Se acredita derecho a percibir el subsidio transitorio por incapacidad para el empleo u ocupación habitual, cuando la contingencia, salvo el caso de exclusiones de la jubilación de invalidez, ha provocado el cese forzoso en la actividad principal del asegurado, siempre que concurra las siguientes condiciones:
+\begin{enumerate}
+\item[a)] El asegurado registre al menos 60 imposiciones mensuales, de las cuales las 6 últimas deberán ser inmediatamente anteriores a la incapacidad;
+\item[b)] La contingencia haya afectado la actividad laboral, que prive al asegurado la obtención de la mayor parte del ingreso necesario para el sustento;
+\item[c)] Se verifique que el asegurado cesó en dicha actividad a causa de la contingencia, entendiéndose por tal que interrumpió el desempeño de su labor o concluyó la relación laboral o contractual; y,
+\item[d)] La incapacidad no esté amparada por el Seguro General de Riesgos del Trabajo.
+\end{enumerate}
+& \multirow{2}{=}{\parbox{7.5cm}{ \vspace{2.8cm} El subsidio transitorio por incapacidad no podrá exceder de un plazo máximo de 1 año contado desde la fecha de la incapacidad o desde el vencimiento de la cobertura del subsidio transitorio por enfermedad que otorga el Seguro General de Salud Individual y Familiar.}}
+
+&\\
+
+\cmidrule{1-4}
+
+\multirow{2}{=}{\parbox{2.0cm}{\centering\bfseries \vspace{1.0cm}Jubilación ordinaria de vejez}}
+
+& El afiliado cuando cumpla una de las siguientes condiciones:
+\begin{enumerate}
+\item[a)] 60 o más años de edad y acredite por lo menos 360 imposiciones mensuales;\vspace{-0.3cm}
+\item[b)] 65 o más años de edad, siempre que registre un mínimo de 180 imposiciones mensuales;\vspace{-0.3cm}
+\item[c)] 70 o más años de edad, siempre que registre un mínimo de 120 imposiciones mensuales; y,\vspace{-0.3cm}
+\item[d)] Con cualquier edad y acredite 480 imposiciones mensuales o más.
+\end{enumerate}
+
+& Se otorgará la jubilación por vejez desde el mes siguiente al que el asegurado bajo relación de dependencia cesare con el o los empleos y en la prestación de servicios sin relación de dependencia, fecha desde la cual se liquidará la pensión, siempre que hubiere cumplido una de las condiciones. El afiliado voluntario deberá notificar su salida previo a requerir la jubilación. \vspace{0.2cm}
+
+Se prohíbe el reintegro al trabajo de los pensionistas de vejez, durante el año inmediatamente posterior al cese, con el empleador que certificó su cesantía para acogerse a la jubilación.
+
+& \multirow{1}{=}{\parbox{6.1cm}{ \vspace{0.5cm}Y así en adelante incrementando el 0,0125 por cada año de imposiciones adicionales.}} \\
+
+\hline
+
+\multirow{2}{=}{\parbox{2.0cm}{\centering\bfseries \vspace{3.85cm}Pensiones de montepío}}
+
+& \multirow{2}{=}{\parbox{9.0cm}{ \vspace{4.0cm} Causará derecho a pensión de montepío el jubilado en goce de pensión de invalidez o vejez, o el asegurado activo que al momento de su fallecimiento tuviere acreditadas al menos 60 imposiciones mensuales o se encontrare en el período de protección del seguro de muerte.}}
+
+& Acreditarán derecho a \underline{\textbf{pensión de viudez:}}
+
+\begin{enumerate}
+\item[a)] La cónyuge o conviviente del afiliado o jubilado fallecido; y,\vspace{-0.3cm}
+\item[b)] El cónyuge o conviviente de la afiliada o jubilada fallecida, incapacitado para el trabajo y que haya vivido a cargo del causante.
+\end{enumerate}
+
+La convivencia generará derecho a pensión de viudez a la persona que sin hallarse casada hubiere convivido en unión libre, monogámica y bajo el mismo techo, con el o la causante, libre también de vínculo matrimonial, por más de 2 años inmediatamente anteriores a la muerte de éste. Si el tiempo de vida marital comprobado fuese inferior a 2 años, bastará la existencia de hijo o hijos comunes menores a 2 años de edad.
+
+& \\
+
+\cmidrule{3-3}
+
+&
+
+& Tendrán derecho a \underline{\textbf{pensión de orfandad}} los hijos del afiliado o jubilado fallecido, los adoptados cuando la fecha de adopción es anterior a la fecha del fallecimiento por lo menos en 12 meses y los póstumos, hasta alcanzar los 18 años de edad. También tendrán derecho a pensión de orfandad los hijos de cualquier edad incapacitados para el trabajo, solteros, viudos o divorciados y que hayan vivido a cargo del causante.\vspace{0.2cm}
+
+A falta de viuda o viudo incapacitado, conviviente con derecho,  e hijos, tendrá derecho a montepío la madre del asegurado o jubilado fallecido, siempre que haya vivido a cargo del causante o el padre incapacitado que haya vivido a cargo del causante.
+
+& \multirow{2}{=}{\parbox{6.1cm}{\vspace{-4.3cm} El cálculo de la cuantía de la pensión mensual de montepío por viudez, se realizará tomando en consideración lo siguiente: El viudo o la viuda o el o la sobreviviente de la unión de hecho, legalmente declarada, cuando sea único o única beneficiaria de la pensión de viudedad, percibirá el 60 \% de la renta que le corresponde al causante. \\\\
+En caso de que exista grupo familiar se entregará a la viuda el 60 \% y el 40 \% restante se dividirá de manera proporcional para el número de hijos o hijas menores de edad habientes que tuvieren derecho, igual porcentaje recibirán los padres con derecho a pensión de montepío. \\\\
+En ningún caso la pensión inicial de montepío del grupo familiar será inferior a la pensión mínima de jubilación ni superior al 100 \% de la pensión de jubilación que recibía o le hubiere correspondido al causante, debiendo procederse a la reducción proporcional de las diversas cuotas, si fuere necesario.}} \\
+
+\hline
+
+\multirow{2}{=}{\parbox{2.0cm}{\centering\bfseries \vspace{0.55cm}Auxilio de funerales}}
+
+& \multirow{2}{=}{\parbox{9.0cm}{ \vspace{0.9cm}Es un auxilio o reembolso en dinero que se entrega al fallecimiento del pensionista de jubilación o montepío o del afiliado. }}
+
+& \multirow{2}{=}{\parbox{7.3cm}{ \vspace{0.7cm}Debe acreditarse 6 imposiciones mensuales, por lo menos, dentro de los últimos 12 meses anteriores a su fallecimiento o que genere derecho a pensiones de montepío. }}
+
+& La cuantía por auxilio de funerales será hasta USD 1.357,73 y se incrementará en enero de cada año, en un porcentaje equivalente a la tasa de inflación promedio anual del año anterior, considerando los servicios funerarios prestados; el valor por el subsidio de auxilios funerales, se cancelará conforme al monto vigente a la fecha de fallecimiento del causante. \\
+
+\end{longtable}
+\endgroup
+\end{landscape}
+
+
+
+%---------------------------------------------------------------------------------------------------
+

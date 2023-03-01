@@ -1,0 +1,798 @@
+\chapter{Anexos: Trabajo no Remunerado del Hogar (TNRH)}
+\label{anexo_tnrh}
+
+%-------------------------------------------------------------------------------
+\section{Características del fondo o seguro}
+
+El esquema de afiliación del Trabajo no Remunerado del Hogar fue creado mediante la Ley Orgánica para la Justicia Laboral y Reconocimiento del Trabajo en el Hogar, publicada en el Registro Oficial 483 de 10 de abril de 2015.
+
+El Consejo Directivo del IESS aprobó la \legalcite{ResIESS_CD492} de 18 de junio de 2015, que contiene el Reglamento para la afiliación de las personas que realizan Trabajo no Remunerado del Hogar.
+
+El esquema de TNRH es un seguro de capitalización colectiva, de beneficio definido y prima media nivelada. De conformidad a la normativa, este esquema se incorporó al fondo de Pensiones (Invalidez, Vejez y Muerte IVM) del Seguro General Obligatorio; sin embargo, debido a su estructura, porcentajes de aportación, participación del Estado en el financiamiento, bases técnicas, estructura de la población y cómputo de los beneficios, actuarialmente este esquema debe ser analizado independientemente del fondo de pensiones.
+
+La Ley que creó este esquema de afiliación, definió cuatro niveles de población diferenciados según el ingreso del grupo familiar de la trabajadora no remunerada del hogar; en rangos de medios salarios básicos unificados.
+
+De conformidad a la Ley, el aporte es de un 13,25\% sobre bases de aportación diferenciados según el nivel indicado, en el que participan el Estado y los afiliados en porcentajes diferentes dependiendo del nivel socioeconómico descrito anteriormente.
+
+La persona que realiza trabajo no remunerado del hogar está protegida contra las contingencias de vejez, muerte e invalidez que produzca incapacidad permanente total y absoluta. También están protegidas contra la contingencia de cesantía de manera voluntaria.
+
+Los primeros afiliados a este esquema fueron registrados en octubre de 2015, en un número de 67.010 personas. A septiembre del 2018, se cuenta con 197.172 afiliados al TNRH. Por otro lado, aún no existen jubilados producto de este esquema; situación que llama la atención, toda vez que la misma Ley Orgánica de Justicia Laboral reformó el artículo 15 de la Ley 2001-55 de Seguridad Social, lo que posibilitó la portabilidad de aportes en cualquiera de las modalidades de afiliación comprendidas en el Seguro General Obligatorio y en el régimen especial del Seguro Social Campesino, para el cómputo de los períodos de aporte necesarios para acceder a las prestaciones económicas del Sistema.
+
+%-------------------------------------------------------------------------------
+\section{Referencia a informes anteriores}
+
+Existen 2 estudios realizados sobre este esquema de afiliación:
+\begin{enumerate}
+\item \textit{"Valuación actuarial financiera para la protección del seguro social general obligatorio para las personas que trabajan en el hogar sin recibir remuneración alguna"}, elaborado por la Dirección Actuarial y de Investigación del IESS, de marzo de 2015, con corte a diciembre de 2014; proyectando la situación del esquema en el período 2015 - 2054.
+\item \textit{“Análisis, Revisión y Aprobación de la Valuación Financiera Actuarial para la Protección del Seguro General Obligatorio a las Personas que Realicen Trabajo en el Hogar no Remunerado”}, elaborado por VOLRISK Consultores Actuariales Cía. Ltda. y presentado el 8 de agosto de 2016.
+\end{enumerate}
+
+%-------------------------------------------------------------------------------
+\section{Horizonte de estudio}
+
+Este estudio analiza el esquema de Trabajo no Remunerado del Hogar  en los próximos 40 años.
+
+%-------------------------------------------------------------------------------
+\section{Reglamentación del fondo o seguro}
+
+La Constitución de la República en su artículo 34 señala:
+\begin{quote}
+El Derecho a la Seguridad Social es un derecho irrenunciable de todas las personas y será deber y responsabilidad primordial del Estado.
+
+La seguridad social se regirá por los principios de solidaridad, obligatoriedad, universalidad, equidad, eficiencia, subsidiaridad, suficiencia, transparencia y participación, para la atención de las necesidades individuales y colectivas.
+
+El Estado garantizará y hará efectivo el ejercicio pleno del derecho a la seguridad social, que incluye a las personas que realizan trabajo no remunerado en los hogares, actividades para el auto sustento en el campo, toda forma de trabajo autónomo y a quienes se encuentran en situación de desempleo.
+\end{quote}
+
+Por otra parte; en cuando al cuidado se refiere, el artículo 333 de la Constitución reconoce como labor productiva el trabajo doméstico no remunerado de auto sustento y cuidado humano que se realiza en los hogares, al tiempo que afirma su compromiso con impulsar la corresponsabilidad y reciprocidad de hombres y mujeres en el trabajo doméstico y en las obligaciones familiares. 
+
+El artículo 67 de la Ley Orgánica para la Justicia Laboral y Reconocimiento del Trabajo en el Hogar, posibilitó el ingreso de las Trabajadoras no Remuneradas al Hogar al sistema de Seguridad Social mediante reformas al Código de Trabajo y a la Ley de Seguridad Social.
+
+Esta Ley Orgánica dispone entre otras:
+\begin{quote}
+La persona que realiza trabajo no remunerado del hogar es aquella que desarrolla de manera exclusiva tareas de cuidado del hogar sin percibir remuneración o compensación económica alguna.
+
+La persona que realiza trabajo no remunerado del hogar estará protegida contra las contingencias de vejez, muerte e invalidez que produzca incapacidad permanente total y absoluta. La persona que realiza trabajo no remunerado del hogar podrá aportar de forma voluntaria para la cobertura de la contingencia de cesantía.
+
+Para efectos del cálculo de las aportaciones al Seguro General Obligatorio, se entenderá que la materia gravada es todo ingreso susceptible de apreciación pecuniaria, percibido por la persona afiliada, o en caso del trabajo no remunerado del hogar, por su unidad económica familiar. 
+
+El Estado determinará anualmente en el Presupuesto General del Estado el valor que destinará para subsidiar el porcentaje de aportación individual de las personas que realizan trabajo no remunerado del hogar, en función de la situación socioeconómica de la unidad económica familiar.
+\end{quote}
+
+
+%-------------------------------------------------------------------------------
+\section{Análisis de las fuentes de ingresos financieros y causas de los egresos financieros}
+
+El esquema de TNRH forma parte del Fondo de Pensiones (Invalidez, Vejez y Muerte (IVM)). Se financia con:
+\begin{itemize}
+\item Los aportes personales y del Estado (para el caso de las TNRH).
+\item Los rendimientos de las inversiones de los capitales pertenecientes a este fondo.
+\end{itemize}
+
+El Estado determinará anualmente en el Presupuesto General del Estado el monto que destinará para subsidiar el porcentaje de aportación individual de las personas que realizan trabajo no remunerado del hogar, en función de la situación socioeconómica de la unidad económica familiar, en los términos establecidos en la Ley Orgánica para la Justicia Laboral y Reconocimiento del Trabajo en el Hogar.
+
+Lamentablemente, los estados financieros de la Institución no presentan cuentas especializadas que distingan los valores de ingresos y de capitalización de este esquema de afiliación de los del fondo del IVM; a pesar de que la estructura del esquema del TNRH, los porcentajes de aportación, las bases de aportación, la participación del Estado en el aporte, y los beneficios; son diferentes.
+
+% \textcolor{red}{Si existen valores poner...Del archivo entregado por la Subdirección Nacional de Afiliación, Cobertura y Gestión de la Información , se obtuvieron los siguientes valores por concepto de planillas generadas.}
+
+%-------------------------------------------------------------------------------
+\section{Fórmula de cálculo de aportaciones}
+
+La prima de aportación al esquema del TNRH es del 13,25\% sobre un salario base de aportación diferenciado según el ingreso familiar del TNRH, como se puede observar en la tabla \ref{tab:esquema_aporte_tnrh}.
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Aportes al esquema del TNRH}
+\label{tab:esquema_aporte_tnrh}
+{\fontsize{8}{10}\selectfont
+    \begin{tabular}{p{15em}cccc}
+    \toprule
+    Nivel de ingresos del grupo familiar & Salario base de aportación (SBA) & \% de aportación & Subsidio del Estado & Aporte personal \\
+    \midrule
+    Ingresos inferiores al 50\% del SBU                                  & 25\% del SBU & 13,25\% & 10,99\% & 2,26\% \\
+    Ingresos iguales o superiores al 50\% e inferiores al 100\% del SBU  & 50\% del SBU  & 13,25\% & 7,95\%  & 5,30\% \\
+    Ingresos iguales o superiores al 100\% e inferiores al 150\% del SBU & 75\% del SBU  & 13,25\% & 5,95\%  & 7,30\% \\
+    Ingresos iguales o superiores al 150\% del SBU                       & 100\% del SBU & 13,25\% & 0\%     & 13,25\% \\
+    \bottomrule
+    \end{tabular}
+}
+\caption*{\scriptsize {\bf Elaborado:} DAIE.}
+\end{table}
+
+Se observa que la base de aportación es mayor, a medida que el ingreso familiar se incrementa. También se puede ver que el subsidio del Estado es mayor en el nivel más bajo, en términos porcentuales; llegando a eliminarse en el nivel más alto.
+
+%-------------------------------------------------------------------------------
+\section{Fórmula de cálculo de beneficios}
+
+Los beneficios pensionales se entregarán al TNRH o a sus deudos en doce (12) mensualidades, una vez cumplidos los requisitos definidos para este esquema; ya sea por vejez, invalidez o muerte.
+
+A ellos se añadirán la décimo tercera renta equivalente a una renta mensual que se paga en el mes de diciembre; y la décimo cuarta equivalente a un salario básico unificado, que se entrega en el mes de agosto en la sierra y oriente, y, en abril en la región costa.
+
+La cuantía de los beneficios se calcula de conformidad con lo expuesto en la tabla \ref{tab:esquema_beneficio_tnrh}.
+
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Aportes al esquema del TNRH}
+\label{tab:esquema_beneficio_tnrh}
+{\fontsize{9}{11}\selectfont
+    \begin{tabular}{p{15em}cccc}
+    \toprule
+    Nivel de ingresos del grupo familiar & Vejez & Viudedad y orfandad & Incapacidad total & Incapacidad absoluta \\
+    \midrule
+    Ingresos inferiores al 50\% del SBU                                  & 90\%*BC   & 80\%*BC  & 80\%*BC & 90\%*BC \\
+    Ingresos iguales o superiores al 50\% e inferiores al 100\% del SBU  & 65\%*BC   & 60\%*BC  & 60\%*BC & 65\%*BC \\
+    Ingresos iguales o superiores al 100\% e inferiores al 150\% del SBU & 62,5\%*BC & 55\%*BC  & 55\%*BC & 62,5\%*BC \\
+    Ingresos iguales o superiores al 150\% del SBU                       & 62,5\%*BC & 55\%*BC  & 55\%*BC & 62,5\%*BC \\
+    \bottomrule
+    \end{tabular}
+}
+\caption*{\scriptsize {\bf Elaborado:} DAIE.}
+\end{table}
+
+Los beneficios se determinan como porcentajes de la Base de Cálculo (BC), que se computa como el promedio de las bases de aportación actualizados hasta la fecha de jubilación con la inflación.
+
+Para acceder al beneficio de vejez, las TNRHs deben tener 65 años de edad mínimo; y 240 aportaciones al IESS o más.
+
+Tendrán derecho a pensiones de montepío (viudedad u orfandad) el cónyuge sobreviviente (viudo o viuda) e hijos menores de 18 años; los hijos con discapacidad severa tendrán derecho de forma vitalicia. Si no existen los anteriores, se entregará el beneficio a los padres que hubieren sido dependientes del fallecido.
+
+Para acceder a las prestaciones de incapacidad, viudedad u orfandad, el causante debe haber acumulado al menos seis (6) aportaciones mensuales para las personas que tengan entre 15 y 25 años de edad; treinta y seis (36) aportaciones mensuales para las personas que tengan entre 26 y 45 años de edad; y, sesenta (60) aportaciones mensuales para las personas a partir de 46 años de edad.
+
+El beneficio de Auxilio para Funerales será pagado por una sola vez al deudo en un valor de 4 Salarios Básicos Unificados.
+
+Las contingencias de enfermedad y maternidad para este colectivo estarán cubiertas por el Ministerio de Salud Pública.
+
+%-------------------------------------------------------------------------------
+\section{Estructura demográfica de la población afiliada}
+A continuación presentamos un análisis tabular y gráfico de las principales variables demográficas, salariales, aportaciones y montos de pensiones pagadas, de la población asegurada y beneficiaria.
+
+%-------------------------------------------------------------------------------
+\subsection{Afiliados}
+\label{chp_demog:afi}
+
+%---------------------------------------------------------------------------------------------------
+Para el presente estudio se considera el número de afiliados activos a diciembre de cada año; en la
+tabla \ref{tab:iess_afi_acti2_tnrh} y figura \ref{fig:afi_acti2_tnrh} se muestra a la población
+afiliada en el período 2015 - 2020, observándose un crecimiento promedio del 37.87\% anual.
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución de la población afiliada}
+\label{tab:iess_afi_acti2_tnrh}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{*{5}{r}}
+\toprule
+Año	& Afiliados   & Porcentaje de \\
+    & activos     & incremento \\
+\midrule
+\input{tablas/iess_afi_acti2_tnrh.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Portal BI. Cubo Historia Laboral Activos. \\
+{\bf Elaborado:} DAIE.}
+\end{table}
+
+A diciembre de 2020 existen 306.994 afiliados activos, que representa un crecimiento del 274,21\% en comparación al año 2015.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución de la población afiliada}
+\label{fig:afi_acti2_tnrh}
+\includegraphics[scale=0.8]{graficos/afi_acti2_tnrh.png}
+\caption*{\scriptsize {\bf Fuente:} Portal BI. Cubo Historia Laboral Activos. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+En la figura \ref{fig:iess_pir_afiliados_tnrh} se presenta la distribución por edad de población afiliada.
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Distribución por edad de la población afiliada}
+\label{fig:iess_pir_afiliados_tnrh}
+\includegraphics[scale=0.8]{graficos/iess_pir_afiliados_tnrh.png}
+\caption*{\scriptsize {\bf Fuente:} Portal BI. Cubo Historia Laboral Activos. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+El total de afiliados a diciembre de 2020 es de 306 994 mujeres. La edad
+promedio de la población es de 39,7 años
+
+% -----------------------------------------------------------------------------------------------
+\subsection{Masa salarial}
+\label{chp_masa:salarial}
+% -----------------------------------------------------------------------------------------------
+
+En la tabla \ref{tab:iess_masa_salarial_tnrh} y figura \ref{fig:iess_masa_salarial_tnrh} se presenta
+la evolución anual de la masa salarial y la correspondiente al mes de diciembre para el período 2015
+al 2020.
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Evolución de la masa salarial (Período 2015 – 2020)}
+\label{tab:iess_masa_salarial_tnrh}
+%\scalebox{0.8}{
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{*{5}{r}}
+\toprule
+Año	& Masa salarial & Masa salarial      & Crecimiento de la         & Porcentaje de\\
+    & anual (USD)   & de diciembre (USD) & masa salarial anual (USD) & crecimiento\\
+\midrule
+\input{tablas/iess_masa_salarial_tnrh.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize {\bf Fuente:} Base de datos de planillas. \\
+{\bf Elaborado:} DAIE.}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Masa salarial anual en el período 2015 – 2020 }
+\label{fig:iess_masa_salarial_tnrh}
+\includegraphics[scale=0.8]{graficos/iess_masa_salarial_tnrh.png}
+\caption*{\scriptsize {\bf Fuente:} Base de datos de planillas. \\
+{\bf Elaborado:} DAIE.}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Resultados%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Balance actuarial para el escenario 1}
+\label{chp_valuacionactu:esc_1:balactu}
+
+En la tabla \ref{tab:iess_tnrh_bal_act_vap_escenario_1}  presenta el balance actuarial \footnote{Según se recomienda en el apéndice de la Norma Internacional para la Práctica Actuarial 2 (ISAP 2) de la Asociación Internacional de Actuarios sobre el análisis financiero de los programas de seguridad social, al momento de reportar los resultados y hallazgos en un estudio actuarial, se debe reportar las proyecciones financieras mostrando los flujos de caja para años recientes y futuros, a través de los siguientes indicadores: contribuciones, ingresos por inversiones, otros ingresos, ingresos totales, gastos o beneficios, gastos administrativos, gastos totales, balance anual, déficit actuarial y el coeficiente de capitalización de la fecha de la valuación (para esquemas de pensiones de capitalización total), entre otros.
+De lo expuesto anteriormente, se concluye que el déficit actuarial se lo reporta en un informe actuarial cuando el esquema de pensiones es de capitalización completa o total. }  en términos de valor actual bajo el escenario 1, que considera una tasa actuarial $i_a =\Sexpr{REP$tasa_act_tnrh_esc_1}\%$ y contribución estatal del $0.00\%$.En este escenario, el último año de reserva positiva será el \Sexpr{REP$duracion_tnrh_esc_1}.
+
+%que se incrementará gradualmente del $\Sexpr{REP$apo_est_esc_3}\%$  al $\Sexpr{REP$apo_est_tnrh_esc_1}\%$ del monto anual de las pensiones. En este escenario, el último año de reserva positiva será el \Sexpr{REP$duracion_tnrh_esc_1}.
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Balance actuarial en el escenario 1}
+\label{tab:iess_tnrh_bal_act_vap_escenario_1}
+\caption*{Fecha de valuación: al \Sexpr{REP_fec_fin}}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{lr}
+\toprule
+Componente	& Valor (USD) \\
+\midrule
+\input{tablas/iess_tnrh_bal_act_vap_escenario_1.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize  {\bf Elaborado:} DAIE.}
+\end{table}
+
+%-------------------------------------------------------------------------------
+%--------Balance corriente y evolución de la reserva para el escenario 1--------
+%-------------------------------------------------------------------------------
+\section{Balance corriente y evolución de la reserva para el escenario 1}
+\label{chp_valuacionactu:esc_2:balcorr}
+
+La tabla \ref{tab:bal_corr_tot_tnrh_esc_1} y la figura \ref{graf:bal_cap_tnrh_esc_1} presentan la evolución
+del balance corriente y evolución de la reserva para horizontes $T \in \{0,\ldots,40\}$. El gráfico \ref{graf:apo_ben_bal_cap_esc_1} presenta la evolución de los aportes (línea azul) y la evolución de los beneficios (línea verde).
+
+
+
+\begin{figure}[H]
+\captionsetup{justification=centering}
+ \begin{center}
+ \caption{Escenario 1: evolución de la reserva }
+\caption*{Tasa actuarial $i_a = \Sexpr{REP$apo_est_esc_3}\%$, contribución estatal $0.
+00\%$} %$\Sexpr{REP$apo_est_esc_3}\%$  al $\Sexpr{REP$apo_est_tnrh_esc_1}\%$}
+ \label{graf:bal_cap_tnrh_esc_1}
+ \includegraphics[scale=0.85]{graficos/iess_tnrh_reserva_escenario_1.png}
+% %\includegraphics[scale=0.85]{graficos/iess_balance_vap_rv_escenario_8.png}
+\caption*{\scriptsize  {\bf Elaborado:} DAIE.}
+ \end{center}
+ \end{figure}
+
+% %
+
+
+
+% -------------------------------------------------------------------
+\begin{landscape}
+
+ \begin{figure}[H]
+ \captionsetup{justification=centering}
+ \begin{center}
+ \caption{Escenario 1: aportes y beneficios}
+ \caption*{Tasa actuarial $i_a = \Sexpr{REP$tasa_act_tnrh_esc_1}\%$, contribución estatal $0.
+00\%$} %$\Sexpr{REP$apo_est_esc_3}\%$  al $\Sexpr{REP$apo_est_tnrh_esc_1}\%$}
+ \label{graf:apo_ben_bal_cap_tnrh_esc_1}
+ \includegraphics[scale=0.75]{graficos/iess_tnrh_apo_ben_bal_corriente_escenario_1.png}
+ \caption*{\scriptsize Elaborado: DAIE.}
+ \end{center}
+ \end{figure}
+ 
+ \vspace{-.6cm}
+
+{\fontsize{9}{11}\selectfont\centering
+\begin{longtable}[H]{r*{9}{R{2.2cm}}}
+\captionsetup{justification=centering}
+\caption*{\small{INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL\\
+VALUACIÓN ACTUARIAL DEL SEGURO DE INVALIDEZ, VEJEZ Y MUERTE}\\
+Fecha de corte: 31 de diciembre de 2020}\\
+\caption{Escenario 1: balance corriente}\\
+\caption*{Tasa actuarial $i_a = \Sexpr{REP$tasa_act_tnrh_esc_1}\%$, contribución estatal $0.
+00\%$}\\
+\label{tab:bal_corr_tot_tnrh_esc_1} \\
+
+\toprule
+Año & Aporte afiliados & Aporte Estatal& Beneficios pensionistas por vejez & Beneficios pensionistas por invalidez & Beneficios por orfandad & Beneficios por viudedad & Beneficios por
+auxilio de funerales & Gastos Administrativos & Reserva  \\
+\midrule
+\endfirsthead
+
+\toprule
+Año & Aporte afiliados & Aporte Estatal& Beneficios pensionistas por vejez & Beneficios pensionistas por invalidez & Beneficios por orfandad & Beneficios por viudedad & Beneficios por
+auxilio de funerales & Gastos Administrativos & Reserva  \\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{10}{r}{continúa...} \\
+
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize {\bf Elaborado:} DAIE}
+
+\endlastfoot
+
+
+\input{tablas/iess_tnrh_balance_corriente_escenario_1.tex}
+
+\end{longtable}
+
+}
+\end{landscape}
+
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Resultados demográficos%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %Femenino
+\begin{landscape}
+\section{Resultados demográficos para el escenario 1}
+{\fontsize{9}{11}\selectfont\centering
+\begin{longtable}[H]{r*{8}{R{2.2cm}}}
+\captionsetup{justification=centering}
+\caption*{\small{INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL\\
+VALUACIÓN ACTUARIAL DEL SEGURO DE INVALIDEZ, VEJEZ Y MUERTE}\\
+Fecha de corte: 31 de diciembre de 2020\\
+Escenario 1: Resultados demográficos para sexo femenino}\\
+\label{tab:dem_fem_tnrh_esc_1} \\
+ \toprule
+ Año & Fuerza laboral empleada & Contribuyentes activos & Vejez & Discapacidad & Viudedad & Orfandad & Total Beneficiarios \\
+ \midrule
+ \endfirsthead
+ \toprule
+ Año & Fuerza laboral empleada & Contribuyentes activos & Vejez & Discapacidad & Viudedad & Orfandad & Total Beneficiarios \\
+ \midrule
+ \endhead
+ \bottomrule
+ \multicolumn{7}{r}{continúa...} \\
+ \endfoot
+ \bottomrule
+ \caption*{\scriptsize {\bf Elaborado} por: DAIE.}
+ \endlastfoot
+
+\input{tablas/iess_tnrh_agregado_demografico_f_escenario_1.tex}
+ \end{longtable}
+ }
+%------
+
+{\fontsize{9}{11}\selectfont\centering
+\begin{longtable}[H]{r*{8}{R{2.2cm}}}
+\captionsetup{justification=centering}
+\caption*{\small{INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL\\
+VALUACIÓN ACTUARIAL DEL SEGURO DE INVALIDEZ, VEJEZ Y MUERTE}\\
+Fecha de corte: 31 de diciembre de 2020
+\\Escenario 1: Resultados demográficos para sexo masculino}\\
+%\caption*{Tasa actuarial $i_a = \Sexpr{REP$tasa_act_esc_1}\%$ y contribución estatal $=\Sexpr{REP$apo_est_esc_1}\%$}\\
+\label{tab:dem_masc_tnrh_esc_1} \\
+
+\toprule
+Año & Fuerza laboral empleada & Contribuyentes activos & Vejez & Discapacidad & Viudedad & Orfandad&Total Beneficiarios \\
+\midrule
+\endfirsthead
+
+\toprule
+Año & Fuerza laboral empleada & Contribuyentes activos & Vejez & Discapacidad & Viudedad & Orfandad&Total Beneficiarios \\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{7}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize {\bf Elaborado:}DAIE}
+
+\endlastfoot
+
+\input{tablas/iess_tnrh_agregado_demografico_m_escenario_1.tex}
+\end{longtable}
+}
+\end{landscape}
+% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Resultados%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Balance actuarial para el escenario 2}
+\label{chp_valuacionactu:esc_1:balactu}
+
+En la tabla \ref{tab:iess_tnrh_bal_act_vap_escenario_2}  presenta el balance actuarial \footnote{Según se recomienda en el apéndice de la Norma Internacional para la Práctica Actuarial 2 (ISAP 2) de la Asociación Internacional de Actuarios sobre el análisis financiero de los programas de seguridad social, al momento de reportar los resultados y hallazgos en un estudio actuarial, se debe reportar las proyecciones financieras mostrando los flujos de caja para años recientes y futuros, a través de los siguientes indicadores: contribuciones, ingresos por inversiones, otros ingresos, ingresos totales, gastos o beneficios, gastos administrativos, gastos totales, balance anual, déficit actuarial y el coeficiente de capitalización de la fecha de la valuación (para esquemas de pensiones de capitalización total), entre otros.
+De lo expuesto anteriormente, se concluye que el déficit actuarial se lo reporta en un informe actuarial cuando el esquema de pensiones es de capitalización completa o total. }  en términos de valor actual bajo el escenario 2, que considera una tasa actuarial $i_a =\Sexpr{REP$tasa_act_tnrh_esc_1}\%$ y contribución
+estatal del $31.00\%$. En este escenario, el último año de reserva positiva será el \Sexpr{REP$duracion_tnrh_esc_2}.
+
+%que se incrementará gradualmente del $\Sexpr{REP$apo_est_esc_3}\%$  al $\Sexpr{REP$apo_est_tnrh_esc_1}\%$ del monto anual de las pensiones. En este escenario, el último año de reserva positiva será el \Sexpr{REP$duracion_tnrh_esc_2}.
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Balance actuarial en el escenario 2}
+\label{tab:iess_tnrh_bal_act_vap_escenario_2}
+\caption*{Fecha de valuación: al \Sexpr{REP_fec_fin}}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{lr}
+\toprule
+Componente	& Valor (USD) \\
+\midrule
+\input{tablas/iess_tnrh_bal_act_vap_escenario_2.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize  {\bf Elaborado:} DAIE.}
+\end{table}
+
+%-------------------------------------------------------------------------------
+%--------Balance corriente y evolución de la reserva para el escenario 1--------
+%-------------------------------------------------------------------------------
+\section{Balance corriente y evolución de la reserva para el escenario 2}
+\label{chp_valuacionactu:esc_2:balcorr}
+
+La tabla \ref{tab:bal_corr_tot_tnrh_esc_2} y la figura \ref{graf:bal_cap_tnrh_esc_2} presentan la evolución
+del balance corriente y evolución de la reserva para horizontes $T \in \{0,\ldots,40\}$. El gráfico \ref{graf:apo_ben_bal_cap_esc_2} presenta la evolución de los aportes (línea azul) y la evolución de los beneficios (línea verde).
+
+
+
+\begin{figure}[H]
+\captionsetup{justification=centering}
+ \begin{center}
+ \caption{Escenario 1: evolución de la reserva }
+\caption*{Tasa actuarial $i_a = \Sexpr{REP$apo_est_esc_3}\%$, contribución estatal $31.
+00\%$}
+ \label{graf:bal_cap_tnrh_esc_2}
+ \includegraphics[scale=0.85]{graficos/iess_tnrh_reserva_escenario_2.png}
+% %\includegraphics[scale=0.85]{graficos/iess_balance_vap_rv_escenario_8.png}
+\caption*{\scriptsize  {\bf Elaborado:} DAIE.}
+ \end{center}
+ \end{figure}
+
+% %
+
+
+
+% -------------------------------------------------------------------
+\begin{landscape}
+
+ \begin{figure}[H]
+ \captionsetup{justification=centering}
+ \begin{center}
+ \caption{Escenario 2: aportes y beneficios}
+ \caption*{Tasa actuarial $i_a = \Sexpr{REP$tasa_act_tnrh_esc_1}\%$, contribución estatal $31.
+00\%$}
+ \label{graf:apo_ben_bal_cap_tnrh_esc_2}
+ \includegraphics[scale=0.75]{graficos/iess_tnrh_apo_ben_bal_corriente_escenario_2.png}
+ \caption*{\scriptsize Elaborado: DAIE.}
+ \end{center}
+ \end{figure}
+ 
+ \vspace{-.6cm}
+
+{\fontsize{9}{11}\selectfont\centering
+\begin{longtable}[H]{r*{9}{R{2.2cm}}}
+\captionsetup{justification=centering}
+\caption*{\small{INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL\\
+VALUACIÓN ACTUARIAL DEL SEGURO DE INVALIDEZ, VEJEZ Y MUERTE}\\
+Fecha de corte: 31 de diciembre de 2020}\\
+\caption{Escenario 2: balance corriente}\\
+\caption*{Tasa actuarial $i_a = \Sexpr{REP$tasa_act_tnrh_esc_1}\%$, contribución estatal $31.00\%$}\\
+\label{tab:bal_corr_tot_tnrh_esc_2} \\
+
+\toprule
+Año & Aporte afiliados & Aporte Estatal& Beneficios pensionistas por vejez & Beneficios pensionistas por invalidez & Beneficios por orfandad & Beneficios por viudedad & Beneficios por
+auxilio de funerales & Gastos Administrativos & Reserva  \\
+\midrule
+\endfirsthead
+
+\toprule
+Año & Aporte afiliados & Aporte Estatal& Beneficios pensionistas por vejez & Beneficios pensionistas por invalidez & Beneficios por orfandad & Beneficios por viudedad & Beneficios por
+auxilio de funerales & Gastos Administrativos & Reserva  \\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{10}{r}{continúa...} \\
+
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize {\bf Elaborado:} DAIE}
+
+\endlastfoot
+
+
+\input{tablas/iess_tnrh_balance_corriente_escenario_2.tex}
+
+\end{longtable}
+
+}
+\end{landscape}
+
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Resultados demográficos%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %Femenino
+\begin{landscape}
+\section{Resultados demográficos para el escenario 2}
+{\fontsize{9}{11}\selectfont\centering
+\begin{longtable}[H]{r*{8}{R{2.2cm}}}
+\captionsetup{justification=centering}
+\caption*{\small{INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL\\
+VALUACIÓN ACTUARIAL DEL SEGURO DE INVALIDEZ, VEJEZ Y MUERTE}\\
+Fecha de corte: 31 de diciembre de 2020\\
+Escenario 1: Resultados demográficos para sexo femenino}\\
+\label{tab:dem_fem_tnrh_esc_2} \\
+ \toprule
+ Año & Fuerza laboral empleada & Contribuyentes activos & Vejez & Discapacidad & Viudedad & Orfandad & Total Beneficiarios \\
+ \midrule
+ \endfirsthead
+ \toprule
+ Año & Fuerza laboral empleada & Contribuyentes activos & Vejez & Discapacidad & Viudedad & Orfandad & Total Beneficiarios \\
+ \midrule
+ \endhead
+ \bottomrule
+ \multicolumn{7}{r}{continúa...} \\
+ \endfoot
+ \bottomrule
+ \caption*{\scriptsize {\bf Elaborado} por: DAIE.}
+ \endlastfoot
+
+\input{tablas/iess_tnrh_agregado_demografico_f_escenario_2.tex}
+ \end{longtable}
+ }
+%------
+
+{\fontsize{9}{11}\selectfont\centering
+\begin{longtable}[H]{r*{8}{R{2.2cm}}}
+\captionsetup{justification=centering}
+\caption*{\small{INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL\\
+VALUACIÓN ACTUARIAL DEL SEGURO DE INVALIDEZ, VEJEZ Y MUERTE}\\
+Fecha de corte: 31 de diciembre de 2020
+\\Escenario 1: Resultados demográficos para sexo masculino}\\
+%\caption*{Tasa actuarial $i_a = \Sexpr{REP$tasa_act_esc_1}\%$ y contribución estatal $=\Sexpr{REP$apo_est_esc_1}\%$}\\
+\label{tab:dem_masc_tnrh_esc_1} \\
+
+\toprule
+Año & Fuerza laboral empleada & Contribuyentes activos & Vejez & Discapacidad & Viudedad & Orfandad&Total Beneficiarios \\
+\midrule
+\endfirsthead
+
+\toprule
+Año & Fuerza laboral empleada & Contribuyentes activos & Vejez & Discapacidad & Viudedad & Orfandad&Total Beneficiarios \\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{7}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize {\bf Elaborado:}DAIE}
+
+\endlastfoot
+
+\input{tablas/iess_tnrh_agregado_demografico_m_escenario_2.tex}
+\end{longtable}
+}
+\end{landscape}
+% 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Resultados%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Balance actuarial para el escenario 3}
+\label{chp_valuacionactu:esc_3:balactu}
+
+En la tabla \ref{tab:iess_tnrh_bal_act_vap_escenario_1}  presenta el balance actuarial \footnote{Según se recomienda en el apéndice de la Norma Internacional para la Práctica Actuarial 2 (ISAP 2) de la Asociación Internacional de Actuarios sobre el análisis financiero de los programas de seguridad social, al momento de reportar los resultados y hallazgos en un estudio actuarial, se debe reportar las proyecciones financieras mostrando los flujos de caja para años recientes y futuros, a través de los siguientes indicadores: contribuciones, ingresos por inversiones, otros ingresos, ingresos totales, gastos o beneficios, gastos administrativos, gastos totales, balance anual, déficit actuarial y el coeficiente de capitalización de la fecha de la valuación (para esquemas de pensiones de capitalización total), entre otros.
+De lo expuesto anteriormente, se concluye que el déficit actuarial se lo reporta en un informe actuarial cuando el esquema de pensiones es de capitalización completa o total. }  en términos de valor actual bajo el escenario 3, que considera una tasa actuarial $i_a =\Sexpr{REP$tasa_act_tnrh_esc_1}\%$ y contribución
+estatal del $40.00\%$.El último año de reserva positiva será el \Sexpr{REP$duracion_tnrh_esc_3 }
+
+% que se incrementará gradualmente del $\Sexpr{REP$apo_est_tnrh_esc_1}\%$ del monto anual de las pensiones. En este escenario, el último año de reserva positiva será el \Sexpr{REP$duracion_tnrh_esc_3 }.
+
+\begin{table}[H]
+\centering
+\captionsetup{justification=centering}
+\caption{Balance actuarial en el escenario 3}
+\label{tab:iess_tnrh_bal_act_vap_escenario_3}
+\caption*{Fecha de valuación: al \Sexpr{REP_fec_fin}}
+{\fontsize{10}{12}\selectfont
+\begin{tabular}{lr}
+\toprule
+Componente	& Valor (USD) \\
+\midrule
+\input{tablas/iess_tnrh_bal_act_vap_escenario_3.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{\scriptsize  {\bf Elaborado:} DAIE.}
+\end{table}
+
+%-------------------------------------------------------------------------------
+%--------Balance corriente y evolución de la reserva para el escenario 1--------
+%-------------------------------------------------------------------------------
+\section{Balance corriente y evolución de la reserva para el escenario 3}
+\label{chp_valuacionactu:esc_2:balcorr}
+
+La tabla \ref{tab:bal_corr_tot_tnrh_esc_3} y la figura \ref{graf:bal_cap_tnrh_esc_3} presentan la evolución
+del balance corriente y evolución de la reserva para horizontes $T \in \{0,\ldots,40\}$. El gráfico \ref{graf:apo_ben_bal_cap_esc_3} presenta la evolución de los aportes (línea azul) y la evolución de los beneficios (línea verde).
+
+
+
+\begin{figure}[H]
+\captionsetup{justification=centering}
+ \begin{center}
+ \caption{Escenario 3: evolución de la reserva }
+\caption*{Tasa actuarial $i_a = \Sexpr{REP$apo_est_esc_3}\%$, contribución estatal $40.
+00\%$}
+ \label{graf:bal_cap_tnrh_esc_3}
+ \includegraphics[scale=0.85]{graficos/iess_tnrh_reserva_escenario_3.png}
+% %\includegraphics[scale=0.85]{graficos/iess_balance_vap_rv_escenario_8.png}
+\caption*{\scriptsize  {\bf Elaborado:} DAIE.}
+ \end{center}
+ \end{figure}
+
+% %
+
+
+
+% -------------------------------------------------------------------
+\begin{landscape}
+
+ \begin{figure}[H]
+ \captionsetup{justification=centering}
+ \begin{center}
+ \caption{Escenario 3: aportes y beneficios}
+ \caption*{Tasa actuarial $i_a = \Sexpr{REP$tasa_act_tnrh_esc_1}\%$, contribución estatal $40.
+00\%$}
+ \label{graf:apo_ben_bal_cap_tnrh_esc_1}
+ \includegraphics[scale=0.75]{graficos/iess_tnrh_apo_ben_bal_corriente_escenario_3.png}
+ \caption*{\scriptsize Elaborado: DAIE.}
+ \end{center}
+ \end{figure}
+ 
+ \vspace{-.6cm}
+
+{\fontsize{9}{11}\selectfont\centering
+\begin{longtable}[H]{r*{9}{R{2.2cm}}}
+\captionsetup{justification=centering}
+\caption*{\small{INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL\\
+VALUACIÓN ACTUARIAL DEL SEGURO DE INVALIDEZ, VEJEZ Y MUERTE}\\
+Fecha de corte: 31 de diciembre de 2020}\\
+\caption{Escenario 3: balance corriente}\\
+\caption*{Tasa actuarial $i_a = \Sexpr{REP$tasa_act_tnrh_esc_1}\%$, contribución estatal $40.
+00\%$}\\
+\label{tab:bal_corr_tot_tnrh_esc_3} \\
+
+\toprule
+Año & Aporte afiliados & Aporte Estatal& Beneficios pensionistas por vejez & Beneficios pensionistas por invalidez & Beneficios por orfandad & Beneficios por viudedad & Beneficios por
+auxilio de funerales & Gastos Administrativos & Reserva  \\
+\midrule
+\endfirsthead
+
+\toprule
+Año & Aporte afiliados & Aporte Estatal& Beneficios pensionistas por vejez & Beneficios pensionistas por invalidez & Beneficios por orfandad & Beneficios por viudedad & Beneficios por
+auxilio de funerales & Gastos Administrativos & Reserva  \\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{10}{r}{continúa...} \\
+
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize {\bf Elaborado:} DAIE}
+
+\endlastfoot
+
+
+\input{tablas/iess_tnrh_balance_corriente_escenario_3.tex}
+
+\end{longtable}
+
+}
+\end{landscape}
+
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Resultados demográficos%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %Femenino
+\begin{landscape}
+\section{Resultados demográficos para el escenario 3}
+{\fontsize{9}{11}\selectfont\centering
+\begin{longtable}[H]{r*{8}{R{2.2cm}}}
+\captionsetup{justification=centering}
+\caption*{\small{INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL\\
+VALUACIÓN ACTUARIAL DEL SEGURO DE INVALIDEZ, VEJEZ Y MUERTE}\\
+Fecha de corte: 31 de diciembre de 2020\\
+Escenario 3: Resultados demográficos para sexo femenino}\\
+\label{tab:dem_fem_tnrh_esc_3} \\
+ \toprule
+ Año & Fuerza laboral empleada & Contribuyentes activos & Vejez & Discapacidad & Viudedad & Orfandad & Total Beneficiarios \\
+ \midrule
+ \endfirsthead
+ \toprule
+ Año & Fuerza laboral empleada & Contribuyentes activos & Vejez & Discapacidad & Viudedad & Orfandad & Total Beneficiarios \\
+ \midrule
+ \endhead
+ \bottomrule
+ \multicolumn{7}{r}{continúa...} \\
+ \endfoot
+ \bottomrule
+ \caption*{\scriptsize {\bf Elaborado} por: DAIE.}
+ \endlastfoot
+
+\input{tablas/iess_tnrh_agregado_demografico_f_escenario_3.tex}
+ \end{longtable}
+ }
+%------
+
+{\fontsize{9}{11}\selectfont\centering
+\begin{longtable}[H]{r*{8}{R{2.2cm}}}
+\captionsetup{justification=centering}
+\caption*{\small{INSTITUTO ECUATORIANO DE SEGURIDAD SOCIAL\\
+VALUACIÓN ACTUARIAL DEL SEGURO DE INVALIDEZ, VEJEZ Y MUERTE}\\
+Fecha de corte: 31 de diciembre de 2020
+\\Escenario 3: Resultados demográficos para sexo masculino}\\
+%\caption*{Tasa actuarial $i_a = \Sexpr{REP$tasa_act_esc_1}\%$ y contribución estatal $=\Sexpr{REP$apo_est_esc_1}\%$}\\
+\label{tab:dem_masc_tnrh_esc_1} \\
+
+\toprule
+Año & Fuerza laboral empleada & Contribuyentes activos & Vejez & Discapacidad & Viudedad & Orfandad&Total Beneficiarios \\
+\midrule
+\endfirsthead
+
+\toprule
+Año & Fuerza laboral empleada & Contribuyentes activos & Vejez & Discapacidad & Viudedad & Orfandad&Total Beneficiarios \\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{7}{r}{continúa...} \\
+\endfoot
+
+\bottomrule
+\caption*{\scriptsize {\bf Elaborado:}DAIE}
+
+\endlastfoot
+
+\input{tablas/iess_tnrh_agregado_demografico_m_escenario_3.tex}
+\end{longtable}
+}
+\end{landscape}
+% 
+

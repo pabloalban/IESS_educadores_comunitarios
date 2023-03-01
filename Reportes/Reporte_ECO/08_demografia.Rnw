@@ -1,0 +1,296 @@
+%---------------------------------------------------------------------------------------------------
+\chapter[Análisis demográfico, de salarios y cotizaciones]{Análisis demográfico, de salarios y cotizaciones}
+\label{chp_demog}
+%--------------------------------------------------------------------------------------------------
+
+XXX
+
+\section{Estructura demográfica de los Educadores Comunitarios}
+\label{chp_demog:afi}
+
+
+{\fontsize{8}{9}\selectfont
+\begin{longtable}[H]{lrrrrrr}
+\caption{Educadores Comunitarios por vivos, fallecidos y por acceso a la Seguridad Social }
+\label{tab:iess_estados_edu} \\
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Estado:}}  & 
+ \multicolumn{2}{c}{Hombres} &
+ \multicolumn{2}{c}{Mujeres} &
+ \multicolumn{2}{c}{Total} \\
+\cmidrule(r){2-3} \cmidrule(r){4-5}  \cmidrule(r){6-7}
+& \multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadoras} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Distribución (\%)}\\
+\midrule
+\endfirsthead
+
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Estado:}}  & 
+ \multicolumn{2}{c}{Hombres} &
+ \multicolumn{2}{c}{Mujeres} &
+ \multicolumn{2}{c}{Total} \\
+\cmidrule(r){2-3} \cmidrule(r){4-5}  \cmidrule(r){6-7}
+& \multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadoras} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Distribución (\%)}\\
+	\midrule
+\endhead
+
+\bottomrule \multicolumn{7}{c}{continúa...} \\
+\endfoot
+%\hline
+\caption*{\scriptsize Fuente:  DNAC \\
+Elaborado: DAIE}
+\endlastfoot
+  \input{tablas/iess_estados_edu.tex}
+\end{longtable}
+}
+
+
+
+
+
+
+\begin{figure}[H]
+%\captionsetup{justification=centering}
+\centering
+\caption{Píramide poblacional de los Educadores Comunitarios, al corte}
+\label{fig:iess_pir_edu}
+\includegraphics[scale=1]{graficos/iess_pir_edu.png}
+\caption*{\scriptsize Fuente: DNAC
+\\Elaborado: DAIE}
+\end{figure}
+
+
+{\fontsize{9}{10}\selectfont
+\begin{longtable}[H]{lrrrrrr}
+\caption{Educadores Comunitarios vivos por rangos de edad y sexo, al corte}
+\label{tab:iess_rango_edad_edu} \\
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Rango de Edad:}}  & 
+ \multicolumn{2}{c}{Hombres} &
+ \multicolumn{2}{c}{Mujeres} &
+ \multicolumn{2}{c}{Total} \\
+\cmidrule(r){2-3} \cmidrule(r){4-5}  \cmidrule(r){6-7}
+& \multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadoras} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Distribución (\%)}\\
+\midrule
+\endfirsthead
+
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Rango de Edad:}}  & 
+ \multicolumn{2}{c}{Hombres} &
+ \multicolumn{2}{c}{Mujeres} &
+ \multicolumn{2}{c}{Total} \\
+\cmidrule(r){2-3} \cmidrule(r){4-5}  \cmidrule(r){6-7}
+& \multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadoras} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Distribución (\%)}\\
+	\midrule
+\endhead
+
+\bottomrule \multicolumn{7}{c}{continúa...} \\
+\hline
+\endfoot
+
+\caption*{\scriptsize Fuente:  DNAC \\
+Elaborado: DAIE}
+\endlastfoot
+  \input{tablas/iess_rango_edad_edu.tex}
+\end{longtable}
+}
+
+
+
+
+\begin{figure}[H]
+%\captionsetup{justification=centering}
+\centering
+\caption{Educadores Comunitarios vivos por provincia y sexo, al corte}
+\label{fig:iess_edu_provincia}
+\includegraphics[scale=1]{graficos/iess_edu_provincia.png}
+\caption*{\scriptsize Fuente: DNAC
+\\Elaborado: DAIE}
+\end{figure}
+
+
+
+{\fontsize{9}{10}\selectfont
+\begin{longtable}[H]{lrrrrrr}
+\caption{Educadores Comunitarios vivos por provincia y sexo, al corte}
+\label{tab:iess_provincias_edu} \\
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Provincia:}}  & 
+ \multicolumn{2}{c}{Hombres} &
+ \multicolumn{2}{c}{Mujeres} &
+ \multicolumn{2}{c}{Total} \\
+\cmidrule(r){2-3} \cmidrule(r){4-5}  \cmidrule(r){6-7}
+& \multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadoras} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Distribución (\%)}\\
+\midrule
+\endfirsthead
+
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Provincia:}}  & 
+ \multicolumn{2}{c}{Hombres} &
+ \multicolumn{2}{c}{Mujeres} &
+ \multicolumn{2}{c}{Total} \\
+\cmidrule(r){2-3} \cmidrule(r){4-5}  \cmidrule(r){6-7}
+& \multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadoras} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Distribución (\%)}\\
+	\midrule
+\endhead
+
+\bottomrule \multicolumn{7}{c}{continúa...} \\
+\endfoot
+%\hline
+\caption*{\scriptsize Fuente: DNAC \\
+Elaborado: DAIE}
+\endlastfoot
+  \input{tablas/iess_provincias_edu.tex}
+\end{longtable}
+}
+
+
+
+\section{Evolución histórica de los Educadores Comunitarios}
+\label{chp_demog:evo}
+
+
+\begin{figure}[H]
+%\captionsetup{justification=centering}
+\centering
+\caption{Evolución histórica de los Educadores Comunitarios}
+\label{fig:iess_edu_evo}
+\includegraphics[scale=1]{graficos/iess_edu_evo.png}
+\caption*{\scriptsize Fuente: DNAC
+\\Elaborado: DAIE}
+\end{figure}
+
+
+
+
+\section{Masa salarial de los Educadores Comunitarios}
+\label{chp_demog:masa}
+
+
+\begin{figure}[H]
+%\captionsetup{justification=centering}
+\centering
+\caption{Evolución histórica de la masa salarial de los Educadores Comunitarios en el MINEDU}
+\label{fig:iess_masa_salarial_edu}
+\includegraphics[scale=1]{graficos/iess_masa_salarial_edu.png}
+\caption*{\scriptsize Fuente: DNAC
+\\Elaborado: DAIE}
+\end{figure}
+
+
+
+
+\begin{figure}[H]
+%\captionsetup{justification=centering}
+\centering
+\caption{Evolución histórica de la masa salarial de los Educadores Comunitarios en el SGO, sin contar aportaciones en el MINEDU}
+\label{fig:iess_masa_salarial_sgo}
+\includegraphics[scale=1]{graficos/iess_masa_salarial_sgo.png}
+\caption*{\scriptsize Fuente: DNAC
+\\Elaborado: DAIE}
+\end{figure}
+
+
+
+{\fontsize{9}{9}\selectfont
+\begin{longtable}[H]{crrrrrrr}
+\caption{Evolución de la masa salarial de los Educadores Comunitarios, dentro y fuera del MINEDU}
+\label{tab:iess_tab_masa} \\
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Año:}}  & 
+ \multicolumn{4}{c}{Masa Salarial en el MINEDU (USD)} &
+ \multicolumn{3}{c}{Masa Salarial fuera del MINEDU (USD)} \\
+\cmidrule(r){2-5} \cmidrule(r){6-8}
+& \multicolumn{1}{c}{Hombres} & \multicolumn{1}{c}{Mujeres} & \multicolumn{1}{c}{Sin registro en RCIC} & \multicolumn{1}{c}{Total} &
+\multicolumn{1}{c}{Hombres} & \multicolumn{1}{c}{Mujeres} & \multicolumn{1}{c}{Total} \\
+\midrule
+\endfirsthead
+
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Año:}}  & 
+ \multicolumn{4}{c}{Masa Salarial en el MINEDU (USD)} &
+ \multicolumn{3}{c}{Masa Salarial fuera del MINEDU (USD)} \\
+\cmidrule(r){2-5} \cmidrule(r){6-8}
+& \multicolumn{1}{c}{Hombres} & \multicolumn{1}{c}{Mujeres} & \multicolumn{1}{c}{Sin registro en RCIC} & \multicolumn{1}{c}{Total} &
+\multicolumn{1}{c}{Hombres} & \multicolumn{1}{c}{Mujeres} & \multicolumn{1}{c}{Total} \\
+\midrule
+\endhead
+
+\bottomrule \multicolumn{8}{c}{continúa...} \\
+\endfoot
+%\hline
+\caption*{\scriptsize Fuente: DNAC \\
+Elaborado: DAIE}
+\endlastfoot
+  \input{tablas/iess_tab_masa.tex}
+\end{longtable}
+}
+
+
+
+\section{Salarios y cotizaciones de los Educadores Comunitarios}
+\label{chp_demog:sal}
+
+
+
+\begin{figure}[H]
+%\captionsetup{justification=centering}
+\centering
+\caption{Salarios promedios de los Educadores Comunitarios}
+\label{fig:iess_pir_sal}
+\includegraphics[scale=0.7]{graficos/iess_pir_sal.png}
+\caption*{\scriptsize Fuente: DNAC
+\\Elaborado: DAIE}
+\end{figure}
+
+
+
+
+{\fontsize{9}{10}\selectfont
+\begin{longtable}[H]{lrrrrrr}
+\caption{Educadores Comunitarios vivos por provincia y sexo, al corte}
+\label{tab:iess_provincias_edu} \\
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Provincia:}}  & 
+ \multicolumn{2}{c}{Hombres} &
+ \multicolumn{2}{c}{Mujeres} &
+ \multicolumn{2}{c}{Total} \\
+\cmidrule(r){2-3} \cmidrule(r){4-5}  \cmidrule(r){6-7}
+& \multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadoras} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Distribución (\%)}\\
+\midrule
+\endfirsthead
+
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Provincia:}}  & 
+ \multicolumn{2}{c}{Hombres} &
+ \multicolumn{2}{c}{Mujeres} &
+ \multicolumn{2}{c}{Total} \\
+\cmidrule(r){2-3} \cmidrule(r){4-5}  \cmidrule(r){6-7}
+& \multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadoras} & \multicolumn{1}{c}{Porcentaje (\%)} &
+\multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Distribución (\%)}\\
+	\midrule
+\endhead
+
+\bottomrule \multicolumn{7}{c}{continúa...} \\
+\endfoot
+%\hline
+\caption*{\scriptsize Fuente: DNAC \\
+Elaborado: DAIE}
+\endlastfoot
+  \input{tablas/iess_provincias_edu.tex}
+\end{longtable}
+}

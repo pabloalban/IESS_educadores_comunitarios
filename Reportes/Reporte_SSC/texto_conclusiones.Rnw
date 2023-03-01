@@ -1,0 +1,35 @@
+%---------------------------------------------------------------------------------------------------
+\begin{enumerate}
+
+\item Bajo el \textbf{escenario base}, donde el Estado cumple parcialmente con sus obligaciones legales para este seguro, se  determina un \Sexpr{REP$opcion_esc_1} actuarial de USD \Sexpr{REP$bal_act_esc_1}; siendo su tasa suficiente de aporte para obtener el equilibrio, el \Sexpr{REP$pri_med_niv_est_otr_esc_1}\% de la base referencial sobre el SBU, para las familias aseguradas. El último año con reserva positiva se presenta en el año \Sexpr{REP$duracion_esc_1}.
+
+  \item En el \textbf{escenario pesimista}, donde se asume que el Estado no contribuirá para el pago de las pensiones, ni tampoco participará con las demás contribuciones determinadas en la Ley de Seguridad Social, el fondo presenta un \Sexpr{REP$opcion_esc_2} actuarial de USD \Sexpr{REP$bal_act_esc_2} con tasa suficiente del \Sexpr{REP$pri_med_niv_est_otr_esc_2}\% para las familias aseguradas. Por lo tanto, del 2,60\% que actualmente aportan las familias, se tendría que cobrar el \Sexpr{REP$pri_med_niv_est_otr_esc_2}\% de la base referencial sobre el SBU para garantizar el equilibrio de este fondo. El último año con reserva positiva es el \Sexpr{REP$duracion_esc_2}.
+
+  \item  En el \textbf{escenario legal}, donde se considera que el Estado deposita todos sus compromisos legales y se considera además el pago de las prestaciones de montepío (viudedad y orfandad); el fondo del SSC presenta un \Sexpr{REP$opcion_esc_3} actuarial de USD \Sexpr{REP$bal_act_esc_3}, en donde el aporte actual de las familias aseguradas es suficiente. Bajo este criterio se tiene un equilibrio actuarial y el último año con reserva positiva posterior al año \Sexpr{REP$duracion_esc_3}.
+
+  \item Se determina que en el escenario base, el factor que determina el déficit actuarial es que el Estado contribuye sólo con un porcentaje de sus contribuciones para el pago de pensiones y de la materia gravada por los afiliados en relación de dependencia; y, no contribuye por las atenciones médicas de jubilados, enfermedades catastróficas y el valor fijo.
+
+   % \item El indicador patrimonio/gasto revela la cantidad de dólares que se tiene en el año de análisis; es así que, al 31 de diciembre de 2020 se observa que existen USD 10,55 disponibles por cada dólar de obligación.
+
+  \item Al igual que los Seguros de IVM y Riesgos del Trabajo, el fondo del SSC se vio afectado durante el periodo 2015 al 2018 por la ausencia de la contribución del 40\% del Estado.
+  
+  \item Dentro de los estados financieros del SSC no se refleja las deudas pendientes por atenciones médicas con el Seguro General de Salud Individual y Familiar, es así que mediante memorando Nro. IESS-DAIE-2021-0568-M de fecha 20 de julio de 2021 se realizó la consulta oficial a la DSSC. Con memorando Nro. IESS-DSSC-2021-1534-M de fechas 29  de julio de 2021 el Director del Seguro Social Campesino señala \textit{“(…) al cierre del mes de diciembre 2020 no existe un saldo a pagar desde el Seguro Social Campesino al Seguro de Salud (…)”}. 
+Sin embargo, revisando el Balance del Seguro de Salud al 31 de diciembre de 2020, se evidencia una cuenta por cobrar al SSC, la misma que registra el código 715909022 y se denomina “CxC. Atención Médica SSC” por un valor de USD 101.241.195,76; por lo que, se concluye que no existe un cruce de cuentas óptimo entre las dos direcciones, lo que podría afectar la calidad de información y análisis generados con la misma.
+
+
+  % \item Dentro de los estados financieros del SSC se observa que no existe un cruce de cuentas actualizado entre las instituciones que conforman la Red Pública de Salud, particularmente con el Ministerio de Salud Pública, ni con los seguros administrados por la institución; esto es, el Seguro General de Salud Individual y Familiar.
+
+  \item La información médica se encuentra en tres bases de datos (AS400, SOAM y REDACA) las mismas que no son complementarias entre sí, tienen formatos diferentes lo que dificulta su manejo y presentan múltiples errores e incongruencias en los registros.
+
+  \item El incremento de la renta a USD 100 mensuales elevó el gasto en las prestaciones de pensiones
+respecto al año 2017, causando un impacto en las reservas de este seguro, mismo que podría
+tener problemas de sostenibilidad si se continúa aumentando las prestaciones sin el debido
+financiamiento basado en un estudio actuarial elaborado técnicamente.
+
+\item Del análisis de sensibilidad se observa  que, variaciones  en la tasa de descuento actuarial implican cambios sustanciales en el valor del déficit actuarial (bajo el escenario base), comportamiento que hace que cambie el tiempo en años para una reserva igual a cero, así como el año previo al déficit. El menor año previo al déficit sería el \Sexpr{REP$min_ultimo}, correspondiente a una tasa de descuento igual a \Sexpr{REP$tasa_ultimo}\%. De manera similar, para el caso de modificaciones en la inflación médica tenemos que si este parámetro toma el valor de \Sexpr{REP$infl_med}\%, el déficit actuarial cambia a USD  \Sexpr{REP$balance_med}, que es \Sexpr{REP$inf_med_opc} al déficit base inicial (USD \Sexpr{REP$bal_act_esc_1}) del estudio.
+
+\item Al considerar como reserva inicial el valor del saldo nominal en el portafolio de inversiones del año 2020 (\Sexpr{REP$cap_ini_biess}); y, considerando las condiciones del escenario base, tenemos que el último año con reserva positiva  del fondo es el año \Sexpr{REP$duracion_esc_4} y se genera un déficit actuarial de USD \Sexpr{REP$bal_act_esc_4}.
+
+\item Bajo el supuesto del escenario alternativo segundo,  se evidencia una situación crítica, dando como resultado que el último año con reserva positiva es \Sexpr{REP$duracion_esc_5} con un déficit actuarial de USD \Sexpr{REP$bal_act_esc_5}.
+
+\end{enumerate}

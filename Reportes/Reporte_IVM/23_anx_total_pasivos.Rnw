@@ -1,0 +1,130 @@
+% Total de Pasivos ----------------------------------------------------------------------------
+\begin{landscape}
+
+\chapter{Anexos: Total pasivos contables }
+\label{chap_pasivos_contables}
+
+% % Componentes de los pasivos ---------------------------------------------------------------------
+
+Se presenta en la tabla \ref{tab:iess_comp_pasivo_ivm}, los componentes del pasivo del Fondo de IVM, para el período comprendido entre el 2010 y 2020.
+
+\vspace*{\fill}
+\begin{table}[H]
+\captionsetup{justification=centering}
+\caption{Componentes del pasivo del Fondo de IVM al 31 de diciembre de cada año. (En millones de dólares)}
+\label{tab:iess_comp_pasivo_ivm}
+{\fontsize{7.5}{9.5}\selectfont
+\begin{tabular}{rrrrrrrrrrrr} %r right
+\toprule
+Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+de las cuentas  &      &      &      &      &      &      &      &      &      &      &      \\
+\midrule
+ \input{tablas/iess_comp_pasivo_ivm.tex}
+\bottomrule
+\end{tabular}
+ }
+\caption*{ \scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+{\bf Elaborado:} DAIE.}
+\end{table}
+
+{\fontsize{9}{10}\selectfont
+\begin{quotation}
+\textbf{Nota:} Los balances del IESS en el período 2010-2020 sufrieron cambios en los códigos de cuentas: creación de cuentas, representación del pasivo con signo negativo, entre otros; es así que el Plan de Cuentas del pasivo en el tiempo sufrió las siguientes modificaciones:
+
+\begin{itemize}
+
+\item Hasta el año 2012 el pasivo contaba con las cuentas “Prestaciones y Beneficios”, “Cuentas por Pagar” y “Pasivo Diferido” representadas por los códigos: 7210, 7215 y 7225 respectivamente.
+
+\item En los años 2013 y 2014 se eliminan los códigos 7210, 7215, 7225 y se sintetizan en una sola cuenta denominada “Cuentas por Pagar” establecida dentro de Plan de Cuentas con el código 21.
+
+\item A partir del año 2015 al 2020 la partida con el código 21 es optimizada en dos cuentas “Pasivos corrientes (721)” y “Pasivos no corrientes (722)”.
+
+\end{itemize}
+\end{quotation}
+}
+\vspace*{\fill}
+\end{landscape}
+
+ % En los años 2010, 2011 y 2012 se observa un descenso precipitado en los pasivos, debido que se liquidó la cuenta “Obligaciones Prestacionales (2101)” en la que se encontraba inmersa “CxP Ben. Magisterio – Estado”.Posteriormente, el mayor crecimiento del pasivo se dio en el 2019; misma que se elimina en el 2020.
+
+% %---------------------------------------------------------------------------------------------------
+\begin{landscape}
+
+\subsection{Análisis horizontal y vertical del pasivo}
+\label{chp_infofinan:ana_horiz_vert}
+En las siguientes tablas \ref{tab:iess_pasivo_horiz_ivm} y \ref{tab:iess_pasivo_vert_ivm} siguientes, se presentan los análisis horizontal y vertical de los componentes del pasivo del Fondo de IVM para el período 2010 al 2020.
+
+% Analisis horizontal de los pasivos ----------------------------------------------------------------
+
+\begin{table}[H]
+\begin{center} 
+\captionsetup{justification=centering}
+\caption{Análisis horizontal del pasivo del Fondo de IVM al 31 de diciembre de cada año con
+respecto al año anterior (Valores en \%)}
+\label{tab:iess_pasivo_horiz_ivm}
+{\fontsize{9}{11}\selectfont
+\begin{tabular}{rrrrrrrrrrr} %r right
+\toprule
+Descripción & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020  \\
+de las cuentas  &       &         &      &      &      &      &      &      &      &   \\
+\midrule
+\input{tablas/iess_pasivo_horiz_ivm.tex}
+\bottomrule
+\end{tabular}
+ }
+\caption*{ \scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+  {\bf Elaborado:} DAIE.}
+\end{center}
+\end{table}
+
+Desde el año 2010 al 2014 se observan tasas de decrecimientos debido de las subcuentas  “Prestaciones y Beneficios” y “Cuentas por Pagar”. A partir del 2015 considerando el cambio del plan de cuentas, las subcuentas se consolidaron en dos estas fueron denominadas en “Pasivos Corrientes” y “Pasivos No Corrientes”.
+
+Los pasivos corrientes presentan la mayor tasa de crecimientos en el año 2017 y 2019, con variaciones del 1467,24\% y 6851,88\% respectivamente; debido que en el 2017 la subcuenta “Proveedores” aumento en 1562,7\%, es decir en del USD. 50,04 millones respecto al año anterior; mientras que en el 2019 se crea una subcuenta denominada “Proveedores Públicos Por Pagar” por un valor de USD. 297.423.623,49. 
+
+Finalmente en el 2020 dicha cuenta desaparece ocasionado una disminución del pasivo en -57,77\%, lo que representa una diferencia de USD. 641.902.460,45 respecto al año anterior.
+
+\end{landscape}
+
+% Análisis vertical de los pasivos ------------------------------------------------------------------
+\begin{landscape}
+
+\begin{table}[H]
+\begin{center}
+\captionsetup{justification=centering}
+\caption{Análisis vertical del Pasivo del Fondo de IVM al 31 de diciembre de cada año (Valores en \%)}
+\label{tab:iess_pasivo_vert_ivm}
+{\fontsize{9}{11}\selectfont
+\begin{tabular}{rrrrrrrrrrrr}
+\toprule
+Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+ de las cuentas  &      &      &      &      &      &      &      &      &      &      &     \\
+\midrule
+\input{tablas/iess_pasivo_vert_ivm.tex}
+\bottomrule
+\end{tabular}
+}
+\caption*{ \scriptsize {\bf Fuente:} Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+ {\bf Elaborado:} DAIE.}
+\end{center}
+\end{table}
+
+Entre el año 2010 al 2014 se observa que la cuenta con mayor representatividad del total del pasivo fue “Cuentas por pagar”; sin embargo a partir del 2015 al 2020 la cuenta “Pasivos No Corrientes” pasó a ocupar el primer lugar, manteniendo una representatividad del 89,20\% en promedio del periodo analizado.
+
+Dentro de los pasivos no corrientes el año con mayor representatividad se evidencia en el 2020 con el 98,56\%, mientras que el porcentaje más bajo del período se da en el 2019 con el 72,72\%. En los pasivos corrientes el año 2019 representa el porcentaje más alto con el 27,28\%, caso contrario ocurre en el 2020 en el 1,44\%. Cabe mencionar que los pasivos corrientes engloban las subcuentas proveedores, retención en calidad de agente ret. y otras cuentas por pagar; dentro de los pasivos no corrientes se encuentran los depósitos no identificados.
+
+\end{landscape}
+% FIGURA DE BARRAS 5.5
+
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Porcentaje promedio de representatividad de los componentes del Pasivo correspondiente al período 2010 – 2020}
+% \label{fig:iess_porcent_prom_comp_pasivos_ivm}
+% \includegraphics[scale=1]{graficos/iess_porcent_prom_comp_pasivos_ivm.png}
+% \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+
+%---------------------------------------------------------------------------------------------------
+
+
