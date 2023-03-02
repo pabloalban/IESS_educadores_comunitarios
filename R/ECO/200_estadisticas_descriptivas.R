@@ -9,14 +9,14 @@ load( paste0( parametros$RData_seg, 'IESS_ECO_aportes.RData' ) )
 edu_estado <- edu_comunitarios %>%
   mutate( estado = ifelse( is.na( vej_fec_der ),
                            NA,
-                           'Jubilado del SGO') ) %>%
+                           'Jubilados del SGO') ) %>%
   
   mutate( estado = ifelse( !is.na( vej_fec_der ) & is.na( imposiciones_sgo  ),
-                           'Jubilado de viudez sin cotzaciones al SGO',
+                           'Jubilados de viudez sin cotzaciones al SGO',
                            estado) ) %>%
   
   mutate( estado = ifelse( is.na( estado ) & fecha_sal > as.Date("01/01/2022","%d/%m/%Y"),
-                           'Afiliado Activo',
+                           'Afiliados Activos',
                            estado ) ) %>%
   mutate( estado = ifelse( !is.na( fecha_defuncion ) & (imposiciones_sgo > 0),
                            'Fallecidos con cotzaciones al SGO',
@@ -27,11 +27,11 @@ edu_estado <- edu_comunitarios %>%
                            estado) ) %>%
   
   mutate( estado = ifelse( !is.na( vej_fec_der ) & !is.na(fecha_defuncion),
-                           'Fallecido Jubilado del SGO',
+                           'Fallecidos Jubilados del SGO',
                            estado) ) %>%
   
   mutate( estado = ifelse( !is.na( vej_fec_der ) & !is.na(fecha_defuncion) & is.na( imposiciones_sgo ),
-                           'Fallecido Jubilado de viudez sin cotzaciones al SGO',
+                           'Fallecidos Jubilados de viudez sin cotzaciones al SGO',
                            estado) ) %>%
   
   mutate( estado = ifelse( is.na( estado ) & fecha_sal <= as.Date("01/01/2022","%d/%m/%Y") & is.na(imposiciones_sgo),
@@ -43,7 +43,7 @@ edu_estado <- edu_comunitarios %>%
                            estado ) ) %>%
   
   mutate( estado = ifelse( is.na( fecha_nacimiento ),
-                           'No existe registros',
+                           'No existe registro en el DGRCIC',
                            estado ) )
   
 aux_1 <- edu_estado %>%

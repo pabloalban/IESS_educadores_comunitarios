@@ -1,0 +1,69 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Valuación actuarial del \Sexpr{REP_seg}}
+\label{chp_valuacionactu}
+
+Tomando en cuenta el modelo actuarial presentado en el capítulo \ref{chp_modelo} y las hipótesis
+actuariales definidas en el capítulo \ref{chp_hipotesis}, en esta sección se presentan los
+resultados que reflejan la situación actuarial y financiera del \Sexpr{REP_seg}
+
+Para el análisis se han definido cuatro escenarios: 
+
+\textbf{Escenario Base:} Constituye el escenario más verosímil, aplicando parámetros
+financieros conservadores y realistas, en base a valores proyectados promedio. En este escenario 
+se supone: tasa actuarial \Sexpr{REP$res_int}\%, tasa de crecimiento salarial de 2,1540\%
+y tasa de crecimiento de pensiones igual a 1,8261\%. Además, supone que el aporte estatal
+promedio para los próximos años es igual a 28\% (porcentaje recibido en los primeros meses del 
+2019) y toma en cuenta el cese del aporte del 2,76\% de los pensionistas.
+
+
+{\fontsize{9}{10}\selectfont
+\begin{longtable}[H]{ccrrrrrr}
+\caption{Lucro cesante por la falta de intereses por aportes extemporaneos de los Educadores Comunitarios}
+\label{tab:iess_intereses} \\
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Año:}}  & 
+ \multicolumn{1}{c}{Educadores} &
+ \multicolumn{1}{c}{Masa} &
+ \multicolumn{3}{c}{Aportes al Seguro de IVM} &
+ \multicolumn{1}{c}{Tasa} &
+ \multicolumn{1}{c}{Lucro} \\
+\cmidrule(r){4-6}
+&
+\multicolumn{1}{c}{Comunitarios} &
+\multicolumn{1}{c}{Salarial (USD)} &
+\multicolumn{1}{c}{Personal (USD)} & 
+\multicolumn{1}{c}{Patronal (USD)} & 
+\multicolumn{1}{c}{Total (USD)} & 
+\multicolumn{1}{c}{Actuarial (\%)} &
+\multicolumn{1}{c}{Cesante (USD)}\\
+\midrule
+\endfirsthead
+
+\toprule
+  \multicolumn{1}{c}{\multirow{2}[2]{*}{Año:}}  & 
+ \multicolumn{1}{c}{Educadores} &
+ \multicolumn{1}{c}{Masa} &
+ \multicolumn{3}{c}{Aportes al Seguro de IVM} &
+ \multicolumn{1}{c}{Tasa} &
+ \multicolumn{1}{c}{Lucro} \\
+\cmidrule(r){4-6}
+&
+\multicolumn{1}{c}{Comunitarios} &
+\multicolumn{1}{c}{Salarial (USD)} &
+\multicolumn{1}{c}{Personal (USD)} & 
+\multicolumn{1}{c}{Patronal (USD)} & 
+\multicolumn{1}{c}{Total (USD)} & 
+\multicolumn{1}{c}{Actuarial (\%)} &
+\multicolumn{1}{c}{Cesante (USD)}\\
+	\midrule
+\endhead
+
+\bottomrule \multicolumn{8}{c}{continúa...} \\
+\endfoot
+%\hline
+\caption*{\scriptsize Elaborado: DAIE}
+\endlastfoot
+  \input{tablas/iess_intereses.tex}
+\end{longtable}
+}
+

@@ -113,7 +113,7 @@ A manera de resumen, se describen las principales hipótesis de este estudio:
 \bottomrule
 \endlastfoot
 
-\input{tablas/iess_hipotesis_macro.tex}
+\input{tablas/iess_resumen_estado.tex}
 
 \end{longtable}
 }
@@ -146,7 +146,7 @@ Del estudio actuarial se concluyen los siguientes resultados:
 \toprule
 \multirow{1}{*}{Parámetro o componente:} &  \multicolumn{1}{c}{\textbf{Escenario 1}} \\
 \midrule
-\input{tablas/iess_resultados.tex}
+\input{tablas/iess_resumen_resultados}
 \bottomrule
 \end{tabular}
 }

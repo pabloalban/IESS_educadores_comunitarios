@@ -17,8 +17,8 @@ load( file = paste0( parametros$RData_seg, 'IESS_ECO_tablas_estadisticas.RData' 
 message( '\tGraficando masa salarial de ECO' )
 
 tab_masa <- tab_masa %>%
-  mutate( anio = as.integer( anio ) ) %>%
-  filter( anio > 0)
+  filter( anio != 'Total' ) %>%
+  mutate( anio = as.integer( anio ) )
 
 
 unidad<-1e6
@@ -309,4 +309,3 @@ ggsave( plot = iess_edu_evo,
 message( paste( rep('-', 100 ), collapse = '' ) )
 rm( list = ls()[ !( ls() %in% c( 'parametros' ) ) ] )
 gc()
-
