@@ -50,11 +50,11 @@
 <<cap03, child='03_resumen_ejecutivo.Rnw'>>=
 @
  
-%<<cap04, child='04_antecedentes.Rnw'>>=
-%@
+<<cap04, child='04_antecedentes.Rnw'>>=
+@
 
-%<<cap05, child='05_base_legal.Rnw'>>=
-%@
+<<cap05, child='05_base_legal.Rnw'>>=
+@
  
 <<cap06, child='06_demografia.Rnw'>>=
 @
@@ -62,8 +62,8 @@
 <<cap07, child='07_resultados.Rnw'>>=
 @
  
-%<<cap08, child='08_conclusion.Rnw'>>=
-%@
+<<cap08, child='08_conclusion.Rnw'>>=
+@
   
 %---------------------------------------------------------------------------------------------------
 % Apéndices
