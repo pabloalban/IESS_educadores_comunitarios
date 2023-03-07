@@ -13,7 +13,8 @@ message( '\tTabla resultados de intereses' )
 
 aux <- intereses %>%
   mutate( ta = ta * 100,
-          anio = as.integer( anio ) ) %>%
+          anio = as.integer( anio ),
+          educadores = as.integer( educadores ) ) %>%
   dplyr::select( -ta1,
                  -ta_lead,
                  -i ) %>%
@@ -24,7 +25,9 @@ aux <- intereses %>%
                as.character(colSums(.[,8],  na.rm =TRUE ) ) ) ) %>%
   distinct( anio, .keep_all = TRUE)
 
-aux[2:ncol(aux)] <- lapply(aux[2:ncol(aux)], function(x) as.numeric(x))
+aux[3:ncol(aux)] <- lapply(aux[3:ncol(aux)], function(x) as.numeric(x))
+
+aux$educadores <- as.integer( aux$educadores )
 
 aux_xtab <- xtable( aux, digits = c(0,0,0,2,2,2,2,0,2) )
 

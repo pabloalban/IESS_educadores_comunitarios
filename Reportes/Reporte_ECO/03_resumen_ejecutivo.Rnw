@@ -2,194 +2,62 @@
 \chapter{Resumen ejecutivo}
 \label{chp_res_ejec}
 
-%---------------------------------------------------------------------------------------------------
-\section{Definición clara del objeto del estudio}
-\label{chp_res_ejec:objeto}
-El presente estudio actuarial abarca al Seguro General de Riesgos del Trabajo con fecha de corte 31
-de diciembre de 2020, un horizonte de 40 años, cuyo objetivo es evaluar la capacidad del Fondo para
-que cumpla con las obligaciones futuras causadas por las contingencias de accidentes de trabajo y 
-enfermedades profesionales u ocupacionales en los escenarios económicos, financieros y demográficos 
-que se esperan a mediano y largo plazo, para que se adopten las resoluciones necesarias que permitan
-garantizar el pago de las prestaciones a los asegurados.
+En la presente estudio, se calcula el Impacto en la Seguro IVM, por el no cobro de interés en las obligaciones patronales vencidas en los educadores comunitarios, el cual genero un claro lucro cesante, debido a que estos valores no estuvieron depositados en las cuentas del Fondo de IVM y, por lo tanto, no generaron rendimientos de estos valores, lo cuales fueron depositados en el mes de octubre de 2021, en aplicación a la Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural, la cual obviamente no toma en cuenta que los intereses generados por los aportes de los afiliados al IESS son una fuente importante del financiamiento necesario para pagar las prestaciones y que durante el año 2022, el BIESS generó USD 1.694.144.131 de utilidad bruta por inversiones.
 
-%---------------------------------------------------------------------------------------------------
-\section{Descripción concisa de las características regulatorias del fondo o seguro}
-\label{chp_res_ejec:descripcion}
-El Seguro General de Riesgos del Trabajo es un fondo de capitalización colectiva, con beneficio 
-definido y prima media nivelada. La prima es aplicada mensualmente a la materia gravada, que es 
-depositada en el IESS con la finalidad de formar capitales de inversión y junto con sus rendimientos 
-y demás contribuciones conformar las reservas que garantizarán el pago de los beneficios a los 
-actuales y futuros aportantes; y, a los beneficiarios de pensiones en curso de pago y futuro.
+\section{Principales conclusiones y recomendaciones.}
+\label{chp_res_ejec:conclusiones}
+Entre las principales conclusiones, se tiene:
 
-La Ley 2001-55 de Seguridad Social en su disposición transitoria ``DECIMOSEXTA.- TASAS DE APORTACION 
-Y CONTRIBUCIONES OBLIGATORIAS'' establece que, para efectos de la recaudación de los aportes y 
-contribuciones al Seguro General de Riesgos del Trabajo, en el numeral 1 literal g el aporte de los 
-afiliados voluntarios y sin relación dependencia; esto es: ``(…) g. Del cero punto cinco por ciento 
-(0.5\%) de la materia gravada de los afiliados obligados sin relación de dependencia y de los 
-afiliados voluntarios, para el Seguro General de Riesgos del Trabajo;''
+\begin{enumerate}[itemsep=0mm, topsep=0pt]
+\item En cumplimiento de la Disposición Transitoria Primera de la LOEI, se registran 5.025 educares comunitarios durante el período 1947 a 2008 con una masa salarial igual USD 39.982.726,08, de los cuales 15 no existe registro de la cédula de ciudadanía en la en la Dirección General de Registro Civil, Identificación y Cedulación, e Instituto Ecuatoriano de Seguridad Social.
+\item De los 5.010 educadores comunitarios registrados en la DGRCIC, 323 se encuentran fallecidos a la fecha de emisión de este estudio; es decir, a la fecha de corte solo se registran 4.687 educadores comunitarios con vida.
 
-En cuanto a los afiliados en relación dependencia, en el numeral 2 de la citada disposición 
-transitoria, establece:``(…) b. Del cero punto cinco por ciento (0.5\%) de la materia gravada de los 
-empleados y obreros, servidores públicos y demás afiliados obligados con relación de dependencia,
-para el Seguro General de Riesgos del Trabajo;''
+\item La mayoría de los educadores comunitarios en el listado (2.810 educadores, 56,09 \%) se encuentran como afiliados activos en el IESS (que cotizaron al menos una vez en el 2022). También existen 1.478 educadores comunitarios cesantes, de los cuales 482 (9,62 \%) solo trabajaron toda su vida en el MINEDU como educadores comunitarios. Además, 399 educadores comunitarios reciben los beneficios de una jubilación en el IESS, de los cuales solo 3 recibe una pensión por viudez y el resto es por vejez.
 
-La resolución No. C.D.261 de 26 de mayo de 2009, fija los aportes en 0,55\% como contribución del 
-patrono para el financiamiento de los beneficios que ofrece el Seguro General de Riesgos del Trabajo, 
-a los trabajadores del sector privado bajo relación de dependencia, así como de los miembros del 
-clero secular, empleados bancarios, municipales y de entidades públicas descentralizadas; notarios, 
-registradores de la propiedad y registradores mercantiles, servidores públicos, incluido el 
-magisterio y los funcionarios y empleados de la Función Judicial o de otras dependencias que prestan 
-servicios públicos, mediante remuneración variable, en forma de aranceles o similares, funcionarios
-del servicio exterior residentes en el extranjero, trabajadores autónomos y sin relación de 
-dependencia y de los afiliados voluntarios.
+\item Se puede concluir que 571 educadores comunitarios durante su vida solo laboraron en el MINEDU, de los cuales 86 se encuentra fallecidos, 482 están cesantes (sin requisitos suficientes para alcanzar una jubilación del IESS) y tres (3) reciben una jubilación de montepío por viudez en el IESS.
 
-Los patronos de trabajadores temporales de la industria azucarera aportan el 1,01\% referido a la 
-remuneración mensual de los trabajadores.
+\item El perjuicio por la Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural al Seguro de IVM por recibir los aportes extemporáneos de 5.025 educadores comunitarios entre el período 1947 a 2008 asciende a USD 7.860.801,23.
 
-El 13 de noviembre de 2015, se emite la Resolución No. C.D. 501 que, en forma ilegal, modifica los 
-porcentajes de aportación, de 0,5\% constantes en la Ley 2001-55 de Seguridad Social y la Resolución 
-C.D.261 (0.55\%), pasa a 0,20\% de aportación patronal, a partir del mes de noviembre de 2015, 
-extendiéndose este aporte hasta el 31 de diciembre del año 2020. El porcentaje de aportación 
-personal para el Seguro General de Riesgos del Trabajo es 0,00\%; a excepción de los afiliados por 
-inter ciclos (industria azucarera) que cancelan el 0,40\% es decir de forma doble por la zafra e 
-inter zafra; y, de los trabajadores autónomos, sin relación de dependencia, voluntarios residentes
-en el Ecuador y en el exterior, pasantes becarios, internos rotativos que por su modalidad de 
-trabajo su aporte del 0,20\% proviene del mismo afiliado.
+\item La Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural contraviene el artículo 100 de la Ley de Seguridad Social, sobre la prohibición de exoneración de intereses y multas; y atenta a la sostenibilidad del sistema pensional ecuatoriano.
 
-La referida norma es reformada por la Resolución N° C.D. 515 de 30 de marzo de 2016 que establece 
-que a partir del año 2021 en adelante el aporte personal es 0,00\% y el aporte patronal cambia al 
-0,38\%, a excepción de los afiliados por inter ciclos (industria azucarera) que cancelan el 0,76\% 
+\end{enumerate}
 
-Los trabajadores autónomos, sin relación de dependencia, los afiliados voluntarios residentes en el 
-Ecuador, pasantes, becarios, internos rotativos y afiliados voluntarios ecuatorianos residentes en 
-el exterior contribuyen con el aporte personal (0,20\% del sueldo a salario).
+% --------------------------------------------------------------------------------------------------
+Las principales recomendaciones de esta Dirección son:
 
-%---------------------------------------------------------------------------------------------------
-\section{Resumen de prestaciones}
-\label{chp_res_ejec:res_pres}
-Conforme la Constitución de la República del Ecuador y la Ley de Seguridad Social, el Seguro General 
-de Riesgos del Trabajo protege al afiliado y al empleador, mediante programas de protección de los 
-riesgos derivados del trabajo, acciones de reparación de los daños derivados de accidente del 
-trabajo y enfermedades profesionales u ocupacionales, incluida la rehabilitación física, mental y la 
-reinserción laboral, concediendo las siguientes prestaciones básicas: 
+\begin{enumerate}[itemsep=0mm, topsep=0pt]
+\item Se recomienda que la Procuraduría General del IESS interponga los oficios correspondientes que demuestren la inconstitucionalidad de la Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural, por ir claramente en contra de los estipulado en el artículo 100 de la Ley de Seguridad Social y atentar a la sostenibilidad del sistema pensional ecuatoriano.
+\end{enumerate}
 
-\begin{itemize}[itemsep=1mm, topsep=0pt]
-\item Servicios de prevención de riesgos laborales;
-\item Servicios médico asistenciales, incluidos los servicios de prótesis y ortopedia a través del 
-Seguro General de Salud Individual y Familiar;
-\item Subsidio por incapacidad, cuando el riesgo ocasione impedimento temporal para trabajar; 
-\item Indemnización por pérdida de capacidad profesional o laboral, según la importancia de la 
-lesión cuando el riesgo ocasione incapacidad permanente parcial que no justifique el otorgamiento de
-una pensión de incapacidad laboral;
-\item Pensión de incapacidad laboral; y,
-\item Pensión de montepío, cuando el riesgo hubiese ocasionado el fallecimiento del afiliado.
-\end{itemize}
 
-%---------------------------------------------------------------------------------------------------
-\section{Hipótesis y supuestos claves del estudio}
-\label{chp_res_ejec:hipotesis}
-A manera de resumen, se describen las principales hipótesis de este estudio: 
+\section{Principales resultados}
+\label{chp_res_ejec:resultados}
 
-\begin{center}
-{\fontsize{11}{12}\selectfont
-%\begin{longtable}[H]{r*{5}{R{2.5cm}}}
-\begin{longtable}[H]{lc}
-\caption{Tasas utilizadas en el estudio (período 2019-2058)}
-\label{tab:iess_hip_macro_re} \\
+En la siguiente tabla se resumen los principales resultados del presente estudio.
+
+{\fontsize{9}{10}\selectfont
+\begin{longtable}[H]{lr}
+\caption{Principales resultados}
+\label{tab:iess_resumen_resultados} \\
 \toprule
-Ítem: & \multicolumn{1}{c}{Tasa}\\
+\multicolumn{1}{c}{Concepto:} &
+\multicolumn{1}{c}{Valor (USD)} \\
 \midrule
 \endfirsthead
 
 \toprule
-Ítem: & \multicolumn{1}{c}{Tasa}\\
-\midrule
+\multicolumn{1}{c}{Concepto:} &
+\multicolumn{1}{c}{Valor (USD)} \\
+	\midrule
 \endhead
 
-\bottomrule
-\multicolumn{2}{r}{continúa...} \\
+\bottomrule \multicolumn{2}{c}{continúa...} \\
 \endfoot
-
-\bottomrule
+%\hline
+\caption*{\scriptsize Elaborado: DAIE}
 \endlastfoot
-
-\input{tablas/iess_resumen_estado.tex}
-
+  \input{tablas/iess_resumen_resultados.tex}
 \end{longtable}
 }
-\end{center}
-
-%---------------------------------------------------------------------------------------------------
-\section{Escenarios del estudio}
-\label{chp_res_ejec:escenarios}
-Se enumeran los cuatro (4) diferentes escenarios abordados en este estudio:
-
-\begin{enumerate}[itemsep=1mm, topsep=0pt]
-\item \textbf{Escenario Base:} Constituye el escenario más verosímil, aplicando parámetros
-financieros conservadores y realistas, en base a valores proyectados promedio. En este escenario 
-se supone: tasa actuarial \Sexpr{REP$tasa_act_esc_1}\% y sin considerar el aporte de los pensionistas del 2,76\% para financiar el auxilio de 
-funerales y decimos. De esta manera, se puede calcular el impacto del cese de este aporte en 
-términos actuariales para los próximos 40 años.
-
-\end{enumerate}
-
-%---------------------------------------------------------------------------------------------------
-\section{Principales resultados de las proyecciones actuariales}
-\label{chp_res_ejec:resultados}
-Del estudio actuarial se concluyen los siguientes resultados:
-\begin{table}[H]
-\centering
-\caption{Resultado de los escenarios de la valuación actuarial (2019 a 2058)}
-\label{tab:iess_resultados_resumen_ejec}
-{\fontsize{9}{11}\selectfont
-\begin{tabular}{lr}
-\toprule
-\multirow{1}{*}{Parámetro o componente:} &  \multicolumn{1}{c}{\textbf{Escenario 1}} \\
-\midrule
-\input{tablas/iess_resumen_resultados}
-\bottomrule
-\end{tabular}
-}
-\end{table}
-% --------------------------------------------------------------------------------------------------
-\section{Principales conclusiones y recomendaciones.}
-\label{chp_res_ejec:conclusiones}
-Entre las principales conclusiones, se tiene:
-\begin{enumerate}[itemsep=1mm, topsep=0pt]
-
-\item Bajo el escenario base, el superávit actuarial alcanza USD \Sexpr{REP$bal_act_esc_1}, su prima 
-suficiente que mantiene el equilibrio financiero en el tiempo es \Sexpr{REP$pri_med_niv_esc_1}\%, 
-resultado que se obtiene con una tasa de actualización de \Sexpr{REP$tasa_act_esc_1}\%.
-
-\item La ausencia del aporte de 2,76\% de los pensionistas de este seguro no ha afectado a la sostenibilidad del SGRT a largo plazo.
 
 
-\end{enumerate}
-% --------------------------------------------------------------------------------------------------
-Las principales recomendaciones de esta Dirección son:
-\begin{enumerate}
-
-
-
-\item  La Dirección General de Salud Individual y Familiar debe mantener un registro adecuado de los
-costos y atenciones médicas de enfermedades profesionales y accidentes 
-de trabajo, con el fin de establecer la prima suficiente.
-
-% \item Otorgar pensiones en función del esfuerzo contributivo realizado por los afiliados, es decir 
-% utilizar como base de cálculo de la renta, el promedio actualizado de todos sus aportes con un período 
-% máximo de los 15 mejores años.
-
-\item Detallar en los estados financieros la transferencia al Seguro de Invalidez, Vejez y Muerte el 
-descuento del 1\% de las pensiones de Riesgos del Trabajo, que financian el auxilio de funerales, en 
-razón de que este beneficio entrega el IVM.
-
-\item Analizar y planificar técnicamente la liquidez de los recursos para pagar obligaciones, con el
-fin de evitar desinversiones aparentemente innecesarias del fondo. 
-
-\item Exigir que el Estado transfiera en forma oportuna las obligaciones por concepto del 40\% de 
-las pensiones, evitando la generación de cuentas por cobrar.
-
-\item Disponer al BIESS que todas las inversiones que realice, recuperen al menos la tasa de interés
-actuarial definida en este estudio.
-
-\end{enumerate}

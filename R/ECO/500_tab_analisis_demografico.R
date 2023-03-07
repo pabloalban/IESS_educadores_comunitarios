@@ -118,7 +118,7 @@ message( '\tTabla imposiciones en educadores comunitarios hombre' )
 
 aux <- tab_imp_edu_h
 
-aux[2:ncol(aux)] <- lapply(aux[2:ncol(aux)], function(x) as.numeric(x))
+aux[2:ncol(aux)] <- lapply(aux[2:ncol(aux)], function(x) as.integer(x))
 
 aux_xtab <- xtable( aux, digits = c(0, rep(0, 6) ) )
 
@@ -141,7 +141,7 @@ message( '\tTabla imposiciones en educadores comunitarios mujer' )
 
 aux <- tab_imp_edu_m
 
-aux[2:ncol(aux)] <- lapply(aux[2:ncol(aux)], function(x) as.numeric(x))
+aux[2:ncol(aux)] <- lapply(aux[2:ncol(aux)], function(x) as.integer(x))
 
 aux_xtab <- xtable( aux, digits = c(0, rep(0, 6) ) )
 
@@ -204,6 +204,26 @@ print( aux_xtab,
        hline.after =  nrow(aux) - 1,
        sanitize.text.function = identity )
 
+# Tabla de educadores sin registro en la DGRCIC-----------------------------------------------------
+
+message( '\tTabla de educadores sin registro en la DGRCIC' )
+
+aux <- tab_sin_registro %>%
+  mutate( fecha_sal_edu = as.character( fecha_sal_edu ) )
+
+aux_xtab <- xtable( aux, digits = c( 0, rep(0, 4) ) )
+
+aux_xtab <- tildes_a_latex( aux_xtab )
+
+print( aux_xtab,
+       file = paste0( parametros$resultado_tablas, 'tab_sin_registro', '.tex' ),
+       type = 'latex',
+       include.colnames = FALSE,
+       include.rownames = FALSE,
+       format.args = list( decimal.mark = ',', big.mark = '.' ),
+       only.contents = TRUE,
+       hline.after =  nrow(aux),
+       sanitize.text.function = identity )
 
 
 #Liberar memoria RAM--------------------------------------------------------------------------------

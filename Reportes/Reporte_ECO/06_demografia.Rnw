@@ -3,13 +3,51 @@
 \label{chp_demog}
 %--------------------------------------------------------------------------------------------------
 
-XXX
+En el presente capítulo, se abordará un análisis demográfico de los Educadores Comunitarios beneficiarios de la Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural, publicada en Registro Oficial el 19 de Abril del 2021. Para el análisis del presente estudio, se utilizó la información entregada por la Dirección Nacional de Afiliación y Cobertura en los memorandos números: IESS-DNAC-2022-1727-M, IESS-DNAC-2022-1787-M y IESS-DNAC-2022-1852-M suscritos por la Mgs. Alexandra Berenice Valdospinos Castro.
 
 \section{Estructura demográfica de los Educadores Comunitarios}
 \label{chp_demog:afi}
 
+%\Sexpr{REP$est_afiliado}
+De acuerdo con la información entregada de los suscritos por la Mgs. Alexandra Berenice Valdospinos Castro en sus memorandos IESS-DNAC-2022-1727-M, IESS-DNAC-2022-1787-M y IESS-DNAC-2022-1852-M, en cumplimiento de la Disposición Transitoria Primera de la LOEI, registran 5.025 educares comunitarios, de los cuales 15 no existe registro de la cédula de ciudadanía en la en la Dirección General de Registro Civil, Identificación y Cedulación, e Instituto Ecuatoriano de Seguridad Social (ver listado de números de cédula de ciudadanía inexistentes en la tabla \ref{tab:tab_sin_registro}). Por consiguiente, en el presente capitulo se hará referencia a 5.010 educadores comunitarios.
 
-{\fontsize{8}{9}\selectfont
+{\setlength{\tabcolsep}{3pt}
+{\fontsize{10}{11}\selectfont
+\begin{longtable}[H]{lrrr}
+\caption{Educadores Comunitarios sin resgistro en la Dirección General de Registro Civil, Identificación y Cedulación, e Instituto Ecuatoriano de Seguridad Social}
+\label{tab:tab_sin_registro} \\
+\toprule
+ \multicolumn{1}{c}{Cédula Ciudadnía} &
+ \multicolumn{1}{c}{Provincia} &
+ \multicolumn{1}{c}{Aportes} &
+  \multicolumn{1}{c}{Fecha de salida del MINEDU}\\
+\midrule
+\endfirsthead
+
+\toprule
+  \multicolumn{1}{c}{Cédula Ciudadnía} &
+ \multicolumn{1}{c}{Provincia} &
+ \multicolumn{1}{c}{Aportes} &
+  \multicolumn{1}{c}{Fecha de salida del MINEDU}\\
+	\midrule
+\endhead
+
+\bottomrule \multicolumn{4}{c}{continúa...} \\
+\endfoot
+%\hline
+\caption*{\scriptsize Fuente:  DNAC \\
+Elaborado: DAIE}
+\endlastfoot
+  \input{tablas/tab_sin_registro.tex}
+\end{longtable}
+}
+}
+
+Una vez excluidos los Educadores Comunitarios sin registro en la Dirección General de Registro Civil, Identificación y Cedulación, e Instituto Ecuatoriano de Seguridad Social, se registran 5.010 educadores comunitarios, de los cuales 323 se encuentran fallecidos a la fecha de emisión de este estudio. Entre los educadores comunitarios fallecidos se puede separar en los siguientes grupos: 206 educadores fallecidos que aportaron al IESS (fuera del MINEDU que no alcanzaron requisitos para obtener beneficios del Seguro de IVM); cuatro (4) educadores fallecidos que eran beneficiarios de la pensión de viudez del Seguro General Obligatorio del IESS (SGO); 31 educadores fallecidos que eran jubilados por vejez en el IESS; y, además, 82 educadores fallecidos que durante su vida solo poseían los aportes como educadores comunitarios laborando en el MINEDU. A la fecha de corte solo se registran 4.687 educadores comunitarios con vida.
+
+
+{\setlength{\tabcolsep}{0.5pt}
+{\fontsize{8.5}{9}\selectfont
 \begin{longtable}[H]{lrrrrrr}
 \caption{Educadores Comunitarios por vivos, fallecidos y por acceso a la Seguridad Social }
 \label{tab:iess_estados_edu} \\
@@ -19,9 +57,16 @@ XXX
  \multicolumn{2}{c}{Mujeres} &
  \multicolumn{2}{c}{Total} \\
 \cmidrule(r){2-3} \cmidrule(r){4-5}  \cmidrule(r){6-7}
-& \multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Porcentaje (\%)} &
-\multicolumn{1}{c}{Educadoras} & \multicolumn{1}{c}{Porcentaje (\%)} &
-\multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Distribución (\%)}\\
+& \multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Porcentaje} &
+\multicolumn{1}{c}{Educadoras} & \multicolumn{1}{c}{Porcentaje} &
+\multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Distribución}\\
+&
+&
+\multicolumn{1}{c}{(\%)} &
+&
+\multicolumn{1}{c}{(\%)} &
+&
+\multicolumn{1}{c}{(\%)}\\
 \midrule
 \endfirsthead
 
@@ -46,22 +91,13 @@ Elaborado: DAIE}
   \input{tablas/iess_estados_edu.tex}
 \end{longtable}
 }
+}
 
+Por otro lado, la mayoría de los educadores comunitarios en el listado (2.810 educadores, 56,09\%) se encuentran como afiliados activos en el IESS (que cotizaron al menos una vez en el 2022). También existen 1.478 educadores comunitarios cesantes, de los cuales 482 (9,62\%) solo trabajaron toda su vida en el MINEDU como educadores comunitarios. Además, 399 educadores comunitarios reciben los beneficios de una jubilación en el IESS, de los cuales solo 3 recibe una pensión por viudez y el resto es por vejez.
 
+Ante el análisis antes presentado, se puede concluir que 571 educadores comunitarios durante su vida solo laboraron en el MINEDU, de los cuales 86 se encuentra fallecidos, 482 están cesantes (sin requisitos suficientes para alcanzar una jubilación del IESS) y tres (3) reciben una jubilación de montepío por viudez en el IESS. En la tabla \ref{tab:iess_estados_edu}, se muestra con detalle el número de educadores comunitarios vivos, fallecidos y por acceso a la Seguridad Social.
 
-
-
-
-\begin{figure}[H]
-%\captionsetup{justification=centering}
-\centering
-\caption{Píramide poblacional de los Educadores Comunitarios, al corte}
-\label{fig:iess_pir_edu}
-\includegraphics[scale=1]{graficos/iess_pir_edu.png}
-\caption*{\scriptsize Fuente: DNAC
-\\Elaborado: DAIE}
-\end{figure}
-
+Considerando solamente los educadores comentarios con vida (4.687), existen 1.371 (29.25\%) hombres y 3.316 (70,75\%) mujeres. La edad promedio de los hombres es 52,23 años y en las mujeres la edad promedio es 56,51 años (Ver tabla \ref{tab:iess_rango_edad_edu} para más detalles sobre la distribución de los educadores comunitarios por rangos de edad). El educador comunitario más joven tiene 20 años, de la provincia de Chimborazo y registra una sola imposición en diciembre de 2007 en el MINEDU, lo cual es un claro error en los registros del DNAC, ya que la persona con CC: 0940553100 habría fungido como educador comunitario a los 4 años de edad. En cambio, el educador comunitario con mayor edad es de Cañar con 96 años y registro 68 aportes como educador comunitario, y laboró solo en el MINEDU hasta septiembre de 1998.
 
 {\fontsize{9}{10}\selectfont
 \begin{longtable}[H]{lrrrrrr}
@@ -102,8 +138,19 @@ Elaborado: DAIE}
 \end{longtable}
 }
 
+Analizando la pirámide poblacional de los 4.687 educadores comunitarios con vida, se tiene un tipo de pirámide desequilibrada, con población femenina mayoritaria (70,75\%), con un rango de edad de 33 a los 96 años, con la base más estrecha en las edades menores a 40 años. Por otro lado, la parte más ancha de la pirámide está entre 44 y 48 años en los hombres y; en cambio, 48 y 60 años en las mujeres (ver pirámide poblacional en la figura \ref{fig:iess_pir_edu}).
 
+\begin{figure}[H]
+%\captionsetup{justification=centering}
+\centering
+\caption{Píramide poblacional de los Educadores Comunitarios, al corte}
+\label{fig:iess_pir_edu}
+\includegraphics[scale=1]{graficos/iess_pir_edu.png}
+\caption*{\scriptsize Fuente: DNAC
+\\Elaborado: DAIE}
+\end{figure}
 
+Los 4.687 educadores comunitarios con vida se reparten en 10 provincias del Ecuador. La provincia con mayor número de educadores comunitarios es Guayas con 1.017, lo cual representa el 22,46\% del total; en segundo lugar, se encuentra Morona Santiago con 535 (11,10\%), seguida de Sucumbíos con 526; en cuarto lugar Tungurahua con 474 (9,96\%), en quinto Cañar con 453 (9,32\%), seguido por Esmeraldas con 451 educadores, en séptimo lugar, Pichincha con 379 educadores; y, por último, las provincias: Carchi, Chimborazo y Cotopaxi que registran 294 (6,31\%), 281 (6,07\%) y 277 (5,75\%) educadores comunitarios, respectivamente.
 
 \begin{figure}[H]
 %\captionsetup{justification=centering}
@@ -115,7 +162,7 @@ Elaborado: DAIE}
 \\Elaborado: DAIE}
 \end{figure}
 
-
+La provincia de Morona Santiago es la única con mayor número de hombres (425) respecto a las mujeres (110); en cambio, en la provincia de Chimborazo la mayoría de educadores comunitarios es mujer (248 de 281). Para mayor detalle sobre la distribución de los educadores comunitarios por provincia y sexo, observar la tabla \ref{tab:iess_provincias_edu} y la figura \ref{fig:iess_edu_provincia}.
 
 {\fontsize{9}{10}\selectfont
 \begin{longtable}[H]{lrrrrrr}
@@ -160,6 +207,8 @@ Elaborado: DAIE}
 \section{Evolución histórica de los Educadores Comunitarios}
 \label{chp_demog:evo}
 
+Los educadores comunitarios registran una evolución histórica que data del año 1947 y cesan en el año 2008. En el período 1947 a 1972 solo se registra un (1) solo educador comunitario laborando en el MINEDU; después en el período 1973 a 1979, se incrementa su número de 3 a 11 educadores. Para el año 1980 existen 97 educadores comunitarios que se incrementaron a 842 en 1993. A continuación, se siguió el período de mayor incremento de educadores entre 1994, donde trabajaban 1.384 educadores, y el año 1997, con 2.078. En el período 1998 a 2006, se registro un crecimiento lineal de 2.000 a 3.203 educadores, respectivamente, siendo el 2006, el año con mayor número de educadores comunitarios laborando en el MINEDU. Por último, para el año 2007, se registró 3.188 educadores y en el año 2008 se redujo a solo 602 educadores comunitarios, siendo este el último año donde existe registros de los educadores comunitarios en el MINEDU.
+
 
 \begin{figure}[H]
 %\captionsetup{justification=centering}
@@ -178,6 +227,8 @@ Elaborado: DAIE}
 \label{chp_demog:masa}
 
 
+De igual manera que la evolución histórica de los educadores comunitarios, la masa salarial de los educadores comunitarios en el MINEDU data del año 1947 y cesa en el año 2008. En el período 1947 a 1972 solo se registra un (1) solo educador comunitario laborando en el MINEDU, con una masa salarial anual igual a USD 509,85 y creció a USD 679.80, respectivamente; después en el período 1973 a 1979, se incrementa su número de USD 1.529,55 a USD 6.289,11. Para el año 1980 se registró una masa salarial igual a USD 44.982,02 que se incrementaron a USD 521.682,07 en 1993. A continuación, se siguió el período de mayor incremento de educadores entre 1994, donde la masa salarial fue igual a USD 823.861,38, y el año 1997, con 1.163.056,11. En el período 1998 a 2006, se registró un crecimiento lineal de USD 1130693,15 a USD 5.461.959,66 en la masa salarial de los educadores, respectivamente. El 2007 se registró como el año con mayor masa salarial en los educadores comunitarios con USD 5.655.615,76. Por último, para el año 2008, se registró USD 462.800,00 de masa salarial anual en el MINEDU. En la figura \ref{fig:iess_masa_salarial_edu} y tabla \ref{tab:iess_tab_masa}, se presenta la masa salarial anual de los educadores comunitarios en el MINEDU y fuera de él.
+
 \begin{figure}[H]
 %\captionsetup{justification=centering}
 \centering
@@ -187,9 +238,6 @@ Elaborado: DAIE}
 \caption*{\scriptsize Fuente: DNAC
 \\Elaborado: DAIE}
 \end{figure}
-
-
-
 
 \begin{figure}[H]
 %\captionsetup{justification=centering}
@@ -201,9 +249,10 @@ Elaborado: DAIE}
 \\Elaborado: DAIE}
 \end{figure}
 
+Los educadores comunitarios también registraron relación laboral fuera del MINEDU, en el año 2000, la masa salarial fuera del MINEDU fue igual a USD 375.401,00 y en 2022 fue igual a USD 21.448.293,20, siendo su mayor año de registro el 2018 con una masa salarial igual a USD 27.724.668,60. En la figura \ref{fig:iess_masa_salarial_sgo}, se presenta la evolución histórica anual de la masa salarial fuera del MINEDU.
 
-
-{\fontsize{9}{9}\selectfont
+{\setlength{\tabcolsep}{3pt}
+{\fontsize{8.5}{9}\selectfont
 \begin{longtable}[H]{crrrrrrr}
 \caption{Evolución de la masa salarial de los Educadores Comunitarios, dentro y fuera del MINEDU}
 \label{tab:iess_tab_masa} \\
@@ -212,7 +261,7 @@ Elaborado: DAIE}
  \multicolumn{4}{c}{Masa Salarial en el MINEDU (USD)} &
  \multicolumn{3}{c}{Masa Salarial fuera del MINEDU (USD)} \\
 \cmidrule(r){2-5} \cmidrule(r){6-8}
-& \multicolumn{1}{c}{Hombres} & \multicolumn{1}{c}{Mujeres} & \multicolumn{1}{c}{Sin registro en RCIC} & \multicolumn{1}{c}{Total} &
+& \multicolumn{1}{c}{Hombres} & \multicolumn{1}{c}{Mujeres} & \multicolumn{1}{c}{Sin registro en DGRCIC} & \multicolumn{1}{c}{Total} &
 \multicolumn{1}{c}{Hombres} & \multicolumn{1}{c}{Mujeres} & \multicolumn{1}{c}{Total} \\
 \midrule
 \endfirsthead
@@ -222,7 +271,7 @@ Elaborado: DAIE}
  \multicolumn{4}{c}{Masa Salarial en el MINEDU (USD)} &
  \multicolumn{3}{c}{Masa Salarial fuera del MINEDU (USD)} \\
 \cmidrule(r){2-5} \cmidrule(r){6-8}
-& \multicolumn{1}{c}{Hombres} & \multicolumn{1}{c}{Mujeres} & \multicolumn{1}{c}{Sin registro en RCIC} & \multicolumn{1}{c}{Total} &
+& \multicolumn{1}{c}{Hombres} & \multicolumn{1}{c}{Mujeres} & \multicolumn{1}{c}{Sin registro en DGRCIC} & \multicolumn{1}{c}{Total} &
 \multicolumn{1}{c}{Hombres} & \multicolumn{1}{c}{Mujeres} & \multicolumn{1}{c}{Total} \\
 \midrule
 \endhead
@@ -236,6 +285,7 @@ Elaborado: DAIE}
   \input{tablas/iess_tab_masa.tex}
 \end{longtable}
 }
+}
 
 
 
@@ -243,6 +293,7 @@ Elaborado: DAIE}
 \label{chp_demog:sal}
 
 
+Los educadores comunitarios hombres registraron su último sueldo promedio en el MINEDU igual a USD 153,07 y las mujeres un último sueldo promedio igual a USD 138,44; en cambio, afuera del MINEDU los educadores comunitarios hombres recibieron en promedio su último sueldo igual a USD 697,54 y las mujeres recibieron USD 658,69. En la figura \ref{fig:iess_pir_sal}, se presenta el salario promedio de los educadores comunitarios por sexo, dentro y fuera del MINEDU.
 
 \begin{figure}[H]
 %\captionsetup{justification=centering}
@@ -255,42 +306,85 @@ Elaborado: DAIE}
 \end{figure}
 
 
-
+Se registró que de los 4.687 educadores comunitarios con vida, 2.296 (48,99\%) registran menos de 5 años de imposiciones en el MINEDU. Por otro lado, de los 2.799 educadores comunitarios entre 50 a 60 años, 408 educadores registran entre 0 a 5 años de aportes en el MINEDU; 1.364 educadores comunitarios registran de 6 a 10 años de aportes y 1.024 educadores comunitarios entre 11 a 15 años aportes y solo 3 entre 16 a 20 años de aportes. En la tablas \ref{tab:tab_imp_edu_h} y \ref{tab:tab_imp_edu_m}, se presentan a detalle el número de educadores comunitarios por rangos de edad e imposiciones en el MINEDU.
 
 {\fontsize{9}{10}\selectfont
 \begin{longtable}[H]{lrrrrrr}
-\caption{Educadores Comunitarios vivos por provincia y sexo, al corte}
-\label{tab:iess_provincias_edu} \\
+\caption{Educadores Comunitarios hombres vivos por rango de edad e imposiciones en el MINEDU}
+\label{tab:tab_imp_edu_h} \\
 \toprule
- \multicolumn{1}{c}{\multirow{2}[2]{*}{Provincia:}}  & 
- \multicolumn{2}{c}{Hombres} &
- \multicolumn{2}{c}{Mujeres} &
- \multicolumn{2}{c}{Total} \\
-\cmidrule(r){2-3} \cmidrule(r){4-5}  \cmidrule(r){6-7}
-& \multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Porcentaje (\%)} &
-\multicolumn{1}{c}{Educadoras} & \multicolumn{1}{c}{Porcentaje (\%)} &
-\multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Distribución (\%)}\\
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Rango de edad:}}  & 
+ \multicolumn{5}{c}{Años de imposiciones en el MINEDU, para los educadores comunitarios hombres} \\
+\cmidrule(r){2-6}
+&
+\multicolumn{1}{c}{ [0 a 5 años ]} &
+\multicolumn{1}{c}{ [6 a 10 años ]} &
+\multicolumn{1}{c}{ [11 a 15 años ]} &
+\multicolumn{1}{c}{ [16 a 20 años ]} &
+\multicolumn{1}{c}{Total} \\
 \midrule
 \endfirsthead
 
 \toprule
- \multicolumn{1}{c}{\multirow{2}[2]{*}{Provincia:}}  & 
- \multicolumn{2}{c}{Hombres} &
- \multicolumn{2}{c}{Mujeres} &
- \multicolumn{2}{c}{Total} \\
-\cmidrule(r){2-3} \cmidrule(r){4-5}  \cmidrule(r){6-7}
-& \multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Porcentaje (\%)} &
-\multicolumn{1}{c}{Educadoras} & \multicolumn{1}{c}{Porcentaje (\%)} &
-\multicolumn{1}{c}{Educadores} & \multicolumn{1}{c}{Distribución (\%)}\\
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Rango de edad:}}  & 
+ \multicolumn{5}{c}{Años de imposiciones en el MINEDU, para los educadores comunitarios hombres} \\
+\cmidrule(r){2-6}
+&
+\multicolumn{1}{c}{ [0 a 5 años ]} &
+\multicolumn{1}{c}{ [6 a 10 años ]} &
+\multicolumn{1}{c}{ [11 a 15 años ]} &
+\multicolumn{1}{c}{ [16 a 20 años ]} &
+\multicolumn{1}{c}{Total} \\
 	\midrule
 \endhead
 
-\bottomrule \multicolumn{7}{c}{continúa...} \\
+\bottomrule \multicolumn{6}{c}{continúa...} \\
 \endfoot
 %\hline
 \caption*{\scriptsize Fuente: DNAC \\
 Elaborado: DAIE}
 \endlastfoot
-  \input{tablas/iess_provincias_edu.tex}
+  \input{tablas/tab_imp_edu_h.tex}
+\end{longtable}
+}
+
+
+{\fontsize{9}{10}\selectfont
+\begin{longtable}[H]{lrrrrrr}
+\caption{Educadoras Comunitarias mujeress vivas por rango de edad e imposiciones en el MINEDU}
+\label{tab:tab_imp_edu_m} \\
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Rango de edad:}}  & 
+ \multicolumn{5}{c}{Años de imposiciones en el MINEDU, para los educadoras comunitarias mujeres} \\
+\cmidrule(r){2-6}
+&
+\multicolumn{1}{c}{ [0 a 5 años ]} &
+\multicolumn{1}{c}{ [6 a 10 años ]} &
+\multicolumn{1}{c}{ [11 a 15 años ]} &
+\multicolumn{1}{c}{ [16 a 20 años ]} &
+\multicolumn{1}{c}{Total} \\
+\midrule
+\endfirsthead
+
+\toprule
+ \multicolumn{1}{c}{\multirow{2}[2]{*}{Rango de edad:}}  & 
+ \multicolumn{5}{c}{Años de imposiciones en el MINEDU, para los educadores comunitarios hombres} \\
+\cmidrule(r){2-6}
+&
+\multicolumn{1}{c}{ [0 a 5 años ]} &
+\multicolumn{1}{c}{ [6 a 10 años ]} &
+\multicolumn{1}{c}{ [11 a 15 años ]} &
+\multicolumn{1}{c}{ [16 a 20 años ]} &
+\multicolumn{1}{c}{Total} \\
+	\midrule
+\endhead
+
+\bottomrule \multicolumn{6}{c}{continúa...} \\
+\endfoot
+%\hline
+\caption*{\scriptsize Fuente: DNAC \\
+Elaborado: DAIE}
+\endlastfoot
+  \input{tablas/tab_imp_edu_m.tex}
 \end{longtable}
 }

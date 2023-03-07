@@ -12,7 +12,7 @@ edu_estado <- edu_comunitarios %>%
                            'Jubilados del SGO') ) %>%
   
   mutate( estado = ifelse( !is.na( vej_fec_der ) & is.na( imposiciones_sgo  ),
-                           'Jubilados de viudez sin cotzaciones al SGO',
+                           'Jubilados de viudez sin cotizar al SGO',
                            estado) ) %>%
   
   mutate( estado = ifelse( is.na( estado ) & fecha_sal > as.Date("01/01/2022","%d/%m/%Y"),
@@ -23,7 +23,7 @@ edu_estado <- edu_comunitarios %>%
                            estado ) ) %>%
   
   mutate( estado = ifelse( !is.na( fecha_defuncion ) & is.na(imposiciones_sgo),
-                           'Fallecidos sin cotzaciones al SGO',
+                           'Fallecidos sin cotizar al SGO',
                            estado) ) %>%
   
   mutate( estado = ifelse( !is.na( vej_fec_der ) & !is.na(fecha_defuncion),
@@ -31,15 +31,15 @@ edu_estado <- edu_comunitarios %>%
                            estado) ) %>%
   
   mutate( estado = ifelse( !is.na( vej_fec_der ) & !is.na(fecha_defuncion) & is.na( imposiciones_sgo ),
-                           'Fallecidos Jubilados de viudez sin cotzaciones al SGO',
+                           'Fallecidos Jubilados de viudez sin cotizar al SGO',
                            estado) ) %>%
   
   mutate( estado = ifelse( is.na( estado ) & fecha_sal <= as.Date("01/01/2022","%d/%m/%Y") & is.na(imposiciones_sgo),
-                           'Cesantes sin cotzaciones al SGO',
+                           'Cesantes sin cotizar al SGO',
                            estado ) ) %>%
   
   mutate( estado = ifelse( is.na( estado ) & fecha_sal <= as.Date("01/01/2022","%d/%m/%Y") & (imposiciones_sgo > 0),
-                           'Cesantes con cotzaciones al SGO',
+                           'Cesantes con cotizar al SGO',
                            estado ) ) %>%
   
   mutate( estado = ifelse( is.na( fecha_nacimiento ),
@@ -617,7 +617,25 @@ tab_edu_anio <- planillas_edu %>%
   dplyr::select( anio, edu ) %>%
   arrange( anio )
 
+# Tabla de educadores sin registro en la DGRCIC-----------------------------------------------------
 
+tab_sin_registro <- edu_comunitarios %>%
+  filter(is.na( fecha_nacimiento ) ) %>%
+  mutate( fecha_sal_edu = format( fecha_sal_edu, "%B-%Y" )) %>%
+  dplyr::select( cedula,
+                 provincia,
+                 imposiciones_edu,
+                 fecha_sal_edu )
+
+# Cálculos de estadísticas--------------------------------------------------------------------------
+aux <- edu_comunitarios %>% 
+  filter( !is.na( fecha_nacimiento ),
+          is.na(fecha_defuncion ) ) %>%
+  group_by( sexo ) %>%
+  mutate( edad_promedio = mean( edad ) ) %>%
+  mutate( sueldo_promedio_edu = mean( sueldo, na.rm=TRUE ) ) %>%
+  mutate( sueldo_promedio_sgo = mean( sueldo_sgo, na.rm=TRUE ) ) %>%
+  ungroup( )
 
 #Guardar en un Rdata--------------------------------------------------------------------------------
 
@@ -638,6 +656,7 @@ save( edu_comunitarios,
       tab_sal_edu_edad_sexo,
       tab_masa,
       tab_edu_anio,
+      tab_sin_registro,
       file = paste0( parametros$RData_seg, 'IESS_ECO_tablas_estadisticas.RData' ) )
 
 #Borrar elementos restantes------------------------------------------------------------------------

@@ -17,11 +17,11 @@ REP$est_afiliado <- format( filter(tab_estados,estado == 'Afiliados Activos')$to
                              digits = 0, nsmall = 0, big.mark = '.', 
                              decimal.mark = ',', format = 'f' )
 
-REP$est_ces_sgo <- format( filter(tab_estados,estado == 'Cesantes con cotzaciones al SGO')$total, 
+REP$est_ces_sgo <- format( filter(tab_estados,estado == 'Cesantes con cotizar al SGO')$total, 
                             digits = 0, nsmall = 0, big.mark = '.', 
                             decimal.mark = ',', format = 'f' )
 
-REP$est_ces_edu <- format( filter(tab_estados,estado == 'Cesantes sin cotzaciones al SGO')$total, 
+REP$est_ces_edu <- format( filter(tab_estados,estado == 'Cesantes sin cotizar al SGO')$total, 
                            digits = 0, nsmall = 0, big.mark = '.', 
                            decimal.mark = ',', format = 'f' )
 
@@ -29,7 +29,7 @@ REP$est_fal_sgo <- format( filter(tab_estados,estado == 'Fallecidos con cotzacio
                            digits = 0, nsmall = 0, big.mark = '.', 
                            decimal.mark = ',', format = 'f' )
 
-REP$est_fal_viu <- format( filter(tab_estados,estado == 'Fallecidos Jubilados de viudez sin cotzaciones al SGO')$total, 
+REP$est_fal_viu <- format( filter(tab_estados,estado == 'Fallecidos Jubilados de viudez sin cotizar al SGO')$total, 
                            digits = 0, nsmall = 0, big.mark = '.', 
                            decimal.mark = ',', format = 'f' )
 
@@ -37,11 +37,11 @@ REP$est_fal_jub <- format( filter(tab_estados,estado == 'Fallecidos Jubilados de
                            digits = 0, nsmall = 0, big.mark = '.', 
                            decimal.mark = ',', format = 'f' )
 
-REP$est_fal_edu <- format( filter(tab_estados,estado == 'Fallecidos sin cotzaciones al SGO')$total, 
+REP$est_fal_edu <- format( filter(tab_estados,estado == 'Fallecidos sin cotizar al SGO')$total, 
                            digits = 0, nsmall = 0, big.mark = '.', 
                            decimal.mark = ',', format = 'f' )
 
-REP$est_jub_edu <- format( filter(tab_estados,estado == 'Jubilados de viudez sin cotzaciones al SGO')$total, 
+REP$est_jub_edu <- format( filter(tab_estados,estado == 'Jubilados de viudez sin cotizar al SGO')$total, 
                            digits = 0, nsmall = 0, big.mark = '.', 
                            decimal.mark = ',', format = 'f' )
 

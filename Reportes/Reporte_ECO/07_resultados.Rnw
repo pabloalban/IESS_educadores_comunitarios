@@ -1,30 +1,23 @@
 %---------------------------------------------------------------------------------------------------
-\chapter{Valuación actuarial del \Sexpr{REP_seg}}
-\label{chp_valuacionactu}
+\chapter{Cálculo del Impacto en la Seguro IVM, por el no cobro de interés en las obligaciones patronales vencidas en los educadores comunitarios}
+\label{chp_calulo}
 
-Tomando en cuenta el modelo actuarial presentado en el capítulo \ref{chp_modelo} y las hipótesis
-actuariales definidas en el capítulo \ref{chp_hipotesis}, en esta sección se presentan los
-resultados que reflejan la situación actuarial y financiera del \Sexpr{REP_seg}
+En la presente sección de este informe se calcula el Impacto en la Seguro IVM, por el no cobro de interés en las obligaciones patronales vencidas en los educadores comunitarios, el cual genero un claro lucro cesante, debido a que estos valores no estuvieron depositados en las cuentas del Fondo de IVM y, por lo tanto, no generaron rendimientos de estos valores, lo cuales fueron depositados en el mes de octubre de 2021, en aplicación a la Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural, la cual obviamente no toma en cuenta que los intereses generados por los aportes de los afiliados al IESS son una fuente importante del financiamiento necesario para pagar las prestaciones y que durante el año 2022, el BIESS generó USD 1.694.144.131 de utilidad bruta por inversiones.
 
-Para el análisis se han definido cuatro escenarios: 
-
-\textbf{Escenario Base:} Constituye el escenario más verosímil, aplicando parámetros
-financieros conservadores y realistas, en base a valores proyectados promedio. En este escenario 
-se supone: tasa actuarial \Sexpr{REP$res_int}\%, tasa de crecimiento salarial de 2,1540\%
-y tasa de crecimiento de pensiones igual a 1,8261\%. Además, supone que el aporte estatal
-promedio para los próximos años es igual a 28\% (porcentaje recibido en los primeros meses del 
-2019) y toma en cuenta el cese del aporte del 2,76\% de los pensionistas.
+Para el cálculo del lucro cesante, de los intereses por aportes extemporáneos de los educadores comunitarios por el período comprendido entre 1947 a 2008. Para el calcular el impacto en el Seguro de IVM, se utiliza la fórmula del interés compuesto, la cual se expresa en la siguiente fórmula:
+\[ LC = \sum^{2021}_{t=1947} A_t^{ivm} \cdot \left(1 + i_t \right) \cdots \left(1 + i_{2021} \right) \]
+donde: el lucro cesante, $LC$, se calcula con una tasa de interés, $i$, igual a la tasa actuarial vigente a la fecha ( la tasa actuarial igual a 4\% vigente entre 1947 a 2019 y actualizada en 2020 al 6,25, según la Resolución No. C.D. 596), sumando los aportes anuales destinados al Seguro de IVM, $A_t^{ivm}$, el cual es el capital (ver tabla \ref{tab:iess_intereses} para los resultados del cálculo del impacto del no cobro de intereses por aportes extemporáneos).
 
 
 {\fontsize{9}{10}\selectfont
-\begin{longtable}[H]{ccrrrrrr}
+\begin{longtable}[H]{crrrrrrr}
 \caption{Lucro cesante por la falta de intereses por aportes extemporaneos de los Educadores Comunitarios}
 \label{tab:iess_intereses} \\
 \toprule
  \multicolumn{1}{c}{\multirow{2}[2]{*}{Año:}}  & 
  \multicolumn{1}{c}{Educadores} &
  \multicolumn{1}{c}{Masa} &
- \multicolumn{3}{c}{Aportes al Seguro de IVM} &
+ \multicolumn{3}{c}{Aportes al Seguro de IVM ($A_t^{ivm}$)} &
  \multicolumn{1}{c}{Tasa} &
  \multicolumn{1}{c}{Lucro} \\
 \cmidrule(r){4-6}
@@ -43,7 +36,7 @@ promedio para los próximos años es igual a 28\% (porcentaje recibido en los pr
   \multicolumn{1}{c}{\multirow{2}[2]{*}{Año:}}  & 
  \multicolumn{1}{c}{Educadores} &
  \multicolumn{1}{c}{Masa} &
- \multicolumn{3}{c}{Aportes al Seguro de IVM} &
+ \multicolumn{3}{c}{Aportes al Seguro de IVM ($A_t^{ivm}$)} &
  \multicolumn{1}{c}{Tasa} &
  \multicolumn{1}{c}{Lucro} \\
 \cmidrule(r){4-6}
@@ -66,4 +59,6 @@ promedio para los próximos años es igual a 28\% (porcentaje recibido en los pr
   \input{tablas/iess_intereses.tex}
 \end{longtable}
 }
+
+Aplicando la metodología antes expuesta, se estima que el perjuicio por la Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural al Seguro de IVM por recibir los aportes extemporáneos de 5.025 educadores comunitarios entre el período 1947 a 2008 es igual a USD 7.860.801,23.
 

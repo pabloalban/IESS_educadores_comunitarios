@@ -29,13 +29,13 @@ REP_bib_lib <- 'bibliografia_libros.bib'
 REP_bib_art <- 'bibliografia_articulos.bib'
 REP_bib_ley <- 'bibliografia_leyes.bib'
 
-REP_tit <- 'Estudio Actuarial del impacto de la entrega de seguridad social a los Educadores Comunicadores en el Seguro de IVM'
+REP_tit <- 'Informe Técnico del Impacto en la Sostenibilidad del Seguro IVM, por el no cobro de interés en las obligaciones patronales vencidas en los educadores comunitarios'
 REP_nom_seg <- 'Educadores Comunitarios'
 REP_seg <- 'Educadores Comunicadores'
   
 paste( 'Seguro', parametros$seguro )
 REP_fec_fin <- format( parametros$fec_fin, '%Y-%m-%d' )
-REP_fec_val <- format( ymd( '2022-03-04' ), '%Y-%m-%d' )
+REP_fec_val <- format( ymd( '2022-03-07' ), '%Y-%m-%d' )
 REP_watermark <- paste0( 'Borrador ', parametros$fec_eje, ' ', format( Sys.time(), '%H:%M:%S' ) )
 REP_version <- digest( paste0( 'IESSDAIE', format( Sys.time(), '%Y%m%d%H' ) ), algo = 'sha256', file = FALSE )
 
