@@ -32,7 +32,7 @@ Instituto Ecuatoriano de Seguridad Social}}}}}
 
 {\fontsize{24}{28}{\bfseries{\selectfont{\textcolor{iess_blue}{\Sexpr{REP_tit}}}}}}\\
 \vspace{1cm}
-{\fontsize{15}{18}{\bfseries{\selectfont{\textcolor{iess_blue}{Fecha de valuación: \Sexpr{REP_fec_fin}}}}}}\\
+%{\fontsize{15}{18}{\bfseries{\selectfont{\textcolor{iess_blue}{Fecha de valuación: \Sexpr{REP_fec_fin}}}}}}\\
 
 \end{flushleft}
 

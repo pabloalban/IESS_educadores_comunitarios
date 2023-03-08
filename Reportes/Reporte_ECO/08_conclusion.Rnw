@@ -12,7 +12,7 @@ Del presente estudio, se desprenden las siguientes conclusiones:
 
 \item Se puede concluir que 571 educadores comunitarios durante su vida solo laboraron en el MINEDU, de los cuales 86 se encuentra fallecidos, 482 están cesantes (sin requisitos suficientes para alcanzar una jubilación del IESS) y tres (3) reciben una jubilación de montepío por viudez en el IESS.
 
-\item El perjuicio por la Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural al Seguro de IVM por recibir los aportes extemporáneos de 5.025 educadores comunitarios entre el período 1947 a 2008 asciende a USD 7.860.801,23.
+\item El perjuicio de la Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural al Seguro de IVM por recibir los aportes extemporáneos de 5.025 educadores comunitarios (período 1947 a 2008), sin generar interés alguno a favor al IESS, asciende a USD \Sexpr{REP$res_int}.
 
 \item La Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural contraviene el artículo 100 de la Ley de Seguridad Social, sobre la prohibición de exoneración de intereses y multas; y atenta a la sostenibilidad del sistema pensional ecuatoriano.
 
@@ -22,7 +22,7 @@ Del presente estudio, se desprenden las siguientes conclusiones:
 
 Del presente estudio, se desprenden las siguientes recomendaciones:
 \begin{enumerate}[itemsep=0mm, topsep=0pt]
-\item Se recomienda que la Procuraduría General del IESS interponga los oficios correspondientes que demuestren la inconstitucionalidad de la Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural, por ir claramente en contra de los estipulado en el artículo 100 de la Ley de Seguridad Social y atentar a la sostenibilidad del sistema pensional ecuatoriano.
+\item Se recomienda que la Procuraduría General del IESS interponga los oficios correspondientes que demuestren la inconstitucionalidad de la Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural, por ir claramente en contra de los estipulado en el artículo 100 de la Ley de Seguridad Social y atentar a la sostenibilidad del sistema pensional ecuatoriano al entregar un beneficio sin debido financiamiento contraviniendo el artículo 369 de la Constitución y 233 de la Ley de Seguridad Social.
 \end{enumerate}
 
 \vspace{2cm}
