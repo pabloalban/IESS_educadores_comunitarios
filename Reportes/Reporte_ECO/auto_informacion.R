@@ -25,7 +25,7 @@ REP$est_ces_edu <- format( filter(tab_estados,estado == 'Cesantes sin cotizar al
                            digits = 0, nsmall = 0, big.mark = '.', 
                            decimal.mark = ',', format = 'f' )
 
-REP$est_fal_sgo <- format( filter(tab_estados,estado == 'Fallecidos con cotzaciones al SGO')$total, 
+REP$est_fal_sgo <- format( filter(tab_estados,estado == 'Fallecidos con cotizaciones al SGO')$total, 
                            digits = 0, nsmall = 0, big.mark = '.', 
                            decimal.mark = ',', format = 'f' )
 

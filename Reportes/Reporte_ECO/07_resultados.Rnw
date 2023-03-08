@@ -2,7 +2,7 @@
 \chapter{Cálculo del Impacto en la Seguro IVM, por el no cobro de interés en las obligaciones patronales vencidas en los educadores comunitarios}
 \label{chp_calulo}
 
-En la presente sección de este informe se calcula el Impacto en la Seguro IVM, por el no cobro de interés en las obligaciones patronales vencidas en los educadores comunitarios, el cual genero un claro lucro cesante, debido a que estos valores no estuvieron depositados en las cuentas del Fondo de IVM y, por lo tanto, no generaron rendimientos de estos valores, lo cuales fueron depositados en el mes de octubre de 2021, en aplicación a la Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural, la cual obviamente no toma en cuenta que los intereses generados por los aportes de los afiliados al IESS son una fuente importante del financiamiento necesario para pagar las prestaciones y que durante el año 2022, el BIESS generó USD 1.694.144.131 de utilidad bruta por inversiones.
+En el presente estudio, se calcula el Impacto en el Seguro IVM, por el no cobro de interés en las obligaciones patronales vencidas en los educadores comunitarios, el cual generó un claro lucro cesante, debido a que estos valores no estuvieron depositados en las cuentas del Fondo de IVM y, por lo tanto, no generaron rendimientos de estos valores, lo cuales fueron depositados en el mes de octubre de 2021, en aplicación a la Disposición Transitoria Primera de la Ley Orgánica reformatoria de la Ley Orgánica de Educación Intercultural, la cual obviamente no toma en cuenta que los intereses generados por los aportes de los afiliados al IESS son una fuente importante del financiamiento necesario para pagar las prestaciones y que durante el año 2022, el BIESS generó USD 1.694.144.131 de utilidad bruta por inversiones.
 
 Para el cálculo del lucro cesante, de los intereses por aportes extemporáneos de los educadores comunitarios por el período comprendido entre 1947 a 2008. Para el calcular el impacto en el Seguro de IVM, se utiliza la fórmula del interés compuesto, la cual se expresa en la siguiente fórmula:
 \[ LC = \sum^{2021}_{t=1947} A_t^{ivm} \cdot \left(1 + i_t \right) \cdots \left(1 + i_{2021} \right) \]
@@ -11,7 +11,7 @@ donde: el lucro cesante, $LC$, se calcula con una tasa de interés, $i$, igual a
 
 {\fontsize{9}{10}\selectfont
 \begin{longtable}[H]{crrrrrrr}
-\caption{Lucro cesante por la falta de intereses por aportes extemporaneos de los Educadores Comunitarios}
+\caption{Lucro cesante por la falta de intereses por aportes extemporáneos de los Educadores Comunitarios}
 \label{tab:iess_intereses} \\
 \toprule
  \multicolumn{1}{c}{\multirow{2}[2]{*}{Año:}}  & 

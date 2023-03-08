@@ -14,10 +14,10 @@ De acuerdo con la información entregada de los suscritos por la Mgs. Alexandra 
 {\setlength{\tabcolsep}{3pt}
 {\fontsize{10}{11}\selectfont
 \begin{longtable}[H]{lrrr}
-\caption{Educadores Comunitarios sin resgistro en la Dirección General de Registro Civil, Identificación y Cedulación, e Instituto Ecuatoriano de Seguridad Social}
+\caption{Educadores Comunitarios sin registro en la Dirección General de Registro Civil, Identificación y Cedulación, e Instituto Ecuatoriano de Seguridad Social}
 \label{tab:tab_sin_registro} \\
 \toprule
- \multicolumn{1}{c}{Cédula Ciudadnía} &
+ \multicolumn{1}{c}{Cédula Ciudadanía} &
  \multicolumn{1}{c}{Provincia} &
  \multicolumn{1}{c}{Aportes} &
   \multicolumn{1}{c}{Fecha de salida del MINEDU}\\
@@ -25,7 +25,7 @@ De acuerdo con la información entregada de los suscritos por la Mgs. Alexandra 
 \endfirsthead
 
 \toprule
-  \multicolumn{1}{c}{Cédula Ciudadnía} &
+  \multicolumn{1}{c}{Cédula Ciudadanía} &
  \multicolumn{1}{c}{Provincia} &
  \multicolumn{1}{c}{Aportes} &
   \multicolumn{1}{c}{Fecha de salida del MINEDU}\\
@@ -143,7 +143,7 @@ Analizando la pirámide poblacional de los 4.687 educadores comunitarios con vid
 \begin{figure}[H]
 %\captionsetup{justification=centering}
 \centering
-\caption{Píramide poblacional de los Educadores Comunitarios, al corte}
+\caption{Pirámide poblacional de los Educadores Comunitarios, al corte}
 \label{fig:iess_pir_edu}
 \includegraphics[scale=1]{graficos/iess_pir_edu.png}
 \caption*{\scriptsize Fuente: DNAC
@@ -162,7 +162,7 @@ Los 4.687 educadores comunitarios con vida se reparten en 10 provincias del Ecua
 \\Elaborado: DAIE}
 \end{figure}
 
-La provincia de Morona Santiago es la única con mayor número de hombres (425) respecto a las mujeres (110); en cambio, en la provincia de Chimborazo la mayoría de educadores comunitarios es mujer (248 de 281). Para mayor detalle sobre la distribución de los educadores comunitarios por provincia y sexo, observar la tabla \ref{tab:iess_provincias_edu} y la figura \ref{fig:iess_edu_provincia}.
+La provincia de Morona Santiago es la única con mayor número de hombres (425) respecto a las mujeres (110); en cambio, en la provincia de Chimborazo la mayoría de los educadores comunitarios es mujer (248 de 281). Para mayor detalle sobre la distribución de los educadores comunitarios por provincia y sexo, observar la tabla \ref{tab:iess_provincias_edu} y la figura \ref{fig:iess_edu_provincia}.
 
 {\fontsize{9}{10}\selectfont
 \begin{longtable}[H]{lrrrrrr}
@@ -207,7 +207,7 @@ Elaborado: DAIE}
 \section{Evolución histórica de los Educadores Comunitarios}
 \label{chp_demog:evo}
 
-Los educadores comunitarios registran una evolución histórica que data del año 1947 y cesan en el año 2008. En el período 1947 a 1972 solo se registra un (1) solo educador comunitario laborando en el MINEDU; después en el período 1973 a 1979, se incrementa su número de 3 a 11 educadores. Para el año 1980 existen 97 educadores comunitarios que se incrementaron a 842 en 1993. A continuación, se siguió el período de mayor incremento de educadores entre 1994, donde trabajaban 1.384 educadores, y el año 1997, con 2.078. En el período 1998 a 2006, se registro un crecimiento lineal de 2.000 a 3.203 educadores, respectivamente, siendo el 2006, el año con mayor número de educadores comunitarios laborando en el MINEDU. Por último, para el año 2007, se registró 3.188 educadores y en el año 2008 se redujo a solo 602 educadores comunitarios, siendo este el último año donde existe registros de los educadores comunitarios en el MINEDU.
+Los educadores comunitarios registran una evolución histórica que data del año 1947 y cesan en el año 2008. En el período 1947 a 1972 solo se registra un (1) solo educador comunitario laborando en el MINEDU; después en el período 1973 a 1979, se incrementa su número de 3 a 11 educadores. Para el año 1980 existen 97 educadores comunitarios que se incrementaron a 842 en 1993. A continuación, se siguió el período de mayor incremento de educadores entre 1994, donde trabajaban 1.384 educadores, y el año 1997, con 2.078. En el período 1998 a 2006, se registró un crecimiento lineal de 2.000 a 3.203 educadores, respectivamente, siendo el 2006, el año con mayor número de educadores comunitarios laborando en el MINEDU. Por último, para el año 2007, se registró 3.188 educadores y en el año 2008 se redujo a solo 602 educadores comunitarios, siendo este el último año donde existe registros de los educadores comunitarios en el MINEDU.
 
 
 \begin{figure}[H]
@@ -351,11 +351,11 @@ Elaborado: DAIE}
 
 {\fontsize{9}{10}\selectfont
 \begin{longtable}[H]{lrrrrrr}
-\caption{Educadoras Comunitarias mujeress vivas por rango de edad e imposiciones en el MINEDU}
+\caption{Educadoras Comunitarias mujeres vivas por rango de edad e imposiciones en el MINEDU}
 \label{tab:tab_imp_edu_m} \\
 \toprule
  \multicolumn{1}{c}{\multirow{2}[2]{*}{Rango de edad:}}  & 
- \multicolumn{5}{c}{Años de imposiciones en el MINEDU, para los educadoras comunitarias mujeres} \\
+ \multicolumn{5}{c}{Años de imposiciones en el MINEDU, para las educadoras comunitarias mujeres} \\
 \cmidrule(r){2-6}
 &
 \multicolumn{1}{c}{ [0 a 5 años ]} &

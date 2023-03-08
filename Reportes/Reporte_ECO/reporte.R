@@ -35,7 +35,7 @@ REP_seg <- 'Educadores Comunicadores'
   
 paste( 'Seguro', parametros$seguro )
 REP_fec_fin <- format( parametros$fec_fin, '%Y-%m-%d' )
-REP_fec_val <- format( ymd( '2022-03-07' ), '%Y-%m-%d' )
+REP_fec_val <- format( ymd( '2022-03-08' ), '%Y-%m-%d' )
 REP_watermark <- paste0( 'Borrador ', parametros$fec_eje, ' ', format( Sys.time(), '%H:%M:%S' ) )
 REP_version <- digest( paste0( 'IESSDAIE', format( Sys.time(), '%Y%m%d%H' ) ), algo = 'sha256', file = FALSE )
 
