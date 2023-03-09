@@ -116,7 +116,7 @@ iess_pir_edu <- ggplot(aux, aes(x = edad, y = dist, fill=sexo)) +
                       guides(fill = guide_legend(title = NULL,label.position = "right",
                                                  label.hjust = 0, label.vjust = 0.5))+
                       theme(legend.position="bottom")+   #legend.position = c(0.8, 0.2)
-                      scale_fill_manual(values = c(parametros$iess_blue, parametros$iess_green),
+                      scale_fill_manual(values = c(parametros$male, parametros$female),
                                         labels = c("Hombres", "Mujeres"))
 
 ggsave( plot = iess_pir_edu, 
@@ -142,7 +142,7 @@ lbls_x <- paste0(as.character(brks_x))
 iess_pir_sal_edu <- ggplot(aux, aes(x = edad, y = salario, fill=sexo)) +
                     xlab( 'Edad' ) +
                     ylab( '' ) +
-                    ggtitle("Salarios promedios de los Educadores Comunitarios en MINEDUC") +
+                    ggtitle("Salarios promedios de los Educadores Comunitarios en el MINEDUC") +
                       geom_bar( data = filter( aux, sexo == 'M' ),
                               stat = 'identity',
                               colour="white",  
@@ -159,8 +159,8 @@ iess_pir_sal_edu <- ggplot(aux, aes(x = edad, y = salario, fill=sexo)) +
                     guides(fill = guide_legend(title = NULL,label.position = "right", 
                                                label.hjust = 0)) +
                     theme(legend.position="bottom")+
-                    scale_fill_manual(values = c(parametros$iess_blue, parametros$iess_green),
-                                      labels = c("Hombres", "Mujeres"))
+  scale_fill_manual(values = c(parametros$male, parametros$female),
+                    labels = c("Hombres", "Mujeres"))
 
 ggsave( plot = iess_pir_sal_edu, 
         filename = paste0( parametros$resultado_graficos, 'iess_pir_sal_edu', parametros$graf_ext ),
@@ -203,7 +203,7 @@ iess_pir_sal_sgo <- ggplot(aux, aes(x = edad, y = salario, fill=sexo)) +
   guides(fill = guide_legend(title = NULL,label.position = "right", 
                              label.hjust = 0)) +
   theme(legend.position="bottom")+
-  scale_fill_manual(values = c(parametros$iess_blue, parametros$iess_green),
+  scale_fill_manual(values = c(parametros$male, parametros$female),
                     labels = c("Hombres", "Mujeres"))
 
 ggsave( plot = iess_pir_sal_edu, 
@@ -250,7 +250,7 @@ iess_edu_provincia <- ggplot(data = aux, aes(x = reorder(provincia, -value), y =
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   scale_y_continuous(name = 'Educadores Comunitarios', 
                      labels = y_lbl, breaks = y_brk ) + 
-  scale_fill_manual(values = c(parametros$iess_blue, parametros$iess_green),
+  scale_fill_manual(values = c(parametros$male, parametros$female),
                     labels = c("Hombres", "Mujeres")) + 
   theme_bw() +
   plt_theme+

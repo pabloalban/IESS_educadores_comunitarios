@@ -29,7 +29,7 @@ REP$est_fal_sgo <- format( filter(tab_estados,estado == 'Fallecidos con cotizaci
                            digits = 0, nsmall = 0, big.mark = '.', 
                            decimal.mark = ',', format = 'f' )
 
-REP$est_fal_viu <- format( filter(tab_estados,estado == 'Fallecidos Jubilados de viudez sin cotizar al SGO')$total, 
+REP$est_fal_viu <- format( filter(tab_estados,estado == 'Fallecidos pensionistas de viudez sin cotizar al SGO')$total, 
                            digits = 0, nsmall = 0, big.mark = '.', 
                            decimal.mark = ',', format = 'f' )
 
@@ -41,7 +41,7 @@ REP$est_fal_edu <- format( filter(tab_estados,estado == 'Fallecidos sin cotizar 
                            digits = 0, nsmall = 0, big.mark = '.', 
                            decimal.mark = ',', format = 'f' )
 
-REP$est_jub_edu <- format( filter(tab_estados,estado == 'Jubilados de viudez sin cotizar al SGO')$total, 
+REP$est_jub_edu <- format( filter(tab_estados,estado == 'Pensionistas de viudez sin cotizar al SGO')$total, 
                            digits = 0, nsmall = 0, big.mark = '.', 
                            decimal.mark = ',', format = 'f' )
 

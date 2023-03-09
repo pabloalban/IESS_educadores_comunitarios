@@ -31,7 +31,7 @@ edu_estado <- edu_comunitarios %>%
                            estado) ) %>%
   
   mutate( estado = ifelse( !is.na( vej_fec_der ) & !is.na(fecha_defuncion) & is.na( imposiciones_sgo ),
-                           'Fallecidos Jubilados de viudez sin cotizar al SGO',
+                           'Fallecidos pensionistas de viudez sin cotizar al SGO',
                            estado) ) %>%
   
   mutate( estado = ifelse( is.na( estado ) & fecha_sal <= as.Date("01/01/2022","%d/%m/%Y") & is.na(imposiciones_sgo),
