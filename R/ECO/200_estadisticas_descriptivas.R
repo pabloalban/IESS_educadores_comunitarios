@@ -209,7 +209,7 @@ aux[2:ncol(aux)] <- lapply(aux[2:ncol(aux)], function(x) as.numeric(x))
 tab_rango_edad <- aux
 
 
-#Tabla Rangos de imposiciones tottales por rango de edad--------------------------------------------
+#Tabla Rangos de imposiciones totales por rango de edad--------------------------------------------
 
 cortes_edad<-c(19,seq(30,90,10),97)
 etiquetas_edad<-c(paste0("(",formatC( c(20,seq(30,90,10)), 
